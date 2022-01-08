@@ -1,0 +1,3342 @@
+{
+    "info": {
+        "added": 1640383610.190033, 
+        "started": 1640396876.260704, 
+        "duration": 2218, 
+        "ended": 1640399095.231158, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2548390, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x647", 
+            "label": "Ubuntu1904x647", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 02:19:59", 
+            "shutdown_on": "2021-12-25 02:24:54"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "95d9e9c50cee79f4c6fc2300a98dc7bc56edce60", 
+            "name": "file-gif-load", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=83505814d38a387f62fdb0259fee0a7f99628798, stripped", 
+            "sha256": "b921e6aa2660f43a0a81d4f6c5f20515cf34a9ef242672594489441ccc7942b1", 
+            "urls": [], 
+            "crc32": "0BCE178D", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/b921e6aa2660f43a0a81d4f6c5f20515cf34a9ef242672594489441ccc7942b1", 
+            "ssdeep": "384:/uNxoVaDdXI3oDhAEn03xcwLJDSIo4Gqt5roV2xFDn7KtyM0HvVKh6dr4Bo4IGmv:aFDdXMoDhJn03xcwLJDbo4GqboV2xFDn", 
+            "size": 22920, 
+            "sha512": "917a20d4dff963a4719993617d28786bacf208329b9f4a3c20ea6e9ec5fae87a366040c9d63915ebf3c4754364bae7a187f5276f17d32634b8535561f91caa99", 
+            "md5": "72c17e026aa5aa2424438b0cf5afe08e"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "56f24cd1-42a8-4b02-b0a9-11fccd6c0e4f", 
+        "parent_file_sha256": null, 
+        "name": "b921e6aa2660f43a0a81d4f6c5f20515cf34a9ef242672594489441ccc7942b1", 
+        "probes_total": 16, 
+        "scan_date": 1640391896, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "95d9e9c50cee79f4c6fc2300a98dc7bc56edce60", 
+            "tags": [], 
+            "timestamp_first_scan": 1640387756.11, 
+            "timestamp_last_scan": 1640391905.11, 
+            "sha256": "b921e6aa2660f43a0a81d4f6c5f20515cf34a9ef242672594489441ccc7942b1", 
+            "md5": "72c17e026aa5aa2424438b0cf5afe08e", 
+            "size": 22920
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.5, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.11, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.63, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-15 12:09:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.27, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.17, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.02, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.83, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.98, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.66, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.49, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.12, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.03, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "b0ef3f09-482c-43c9-92f6-21e13e5d72f0", 
+        "file_sha256": "b921e6aa2660f43a0a81d4f6c5f20515cf34a9ef242672594489441ccc7942b1"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "file-gif-load", 
+                "pid": 2076, 
+                "summary": {}, 
+                "first_seen": 1640383621.566822, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "file-gif-load", 
+                "pid": 2077, 
+                "summary": {}, 
+                "first_seen": 1640383621.588289, 
+                "ppid": 2076
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.566822 file-gif-load@7f23b82fbc27[2076] execve(\"/tmp/file-gif-load\", [\"/tmp/file-gif-load\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/file-gif-load\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpnev5WB\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fbc27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/file-gif-load", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpnev5WB"
+                            ], 
+                            "p0": "/tmp/file-gif-load", 
+                            "p1": [
+                                "/tmp/file-gif-load"
+                            ]
+                        }, 
+                        "time": 1640383621.566822
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.570094 file-gif-load@7f23b82fbc27[2076] brk(0x0) = 94274085408768\n", 
+                        "api": "brk", 
+                        "return_value": "94274085408768", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fbc27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383621.570094
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.571237 file-gif-load@7f23b82fc9d7[2076] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383621.571237
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572146 file-gif-load@7f23b82fcb0d[2076] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383621.572146
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572187 file-gif-load@7f23b82fc943[2076] fstat(4, 0x7ffee583ecb0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffee583ecb0"
+                        }, 
+                        "time": 1640383621.572187
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572230 file-gif-load@7f23b82fcd03[2076] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f23b82ca000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b82ca000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.57223
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572268 file-gif-load@7f23b82fc9f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383621.572268
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572316 file-gif-load@7f23b82fcb0d[2076] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383621.572316
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572353 file-gif-load@7f23b82fcbd4[2076] read(4, 0x7ffee583ee68, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffee583ee68"
+                        }, 
+                        "time": 1640383621.572353
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572386 file-gif-load@7f23b82fc943[2076] fstat(4, 0x7ffee583ed00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffee583ed00"
+                        }, 
+                        "time": 1640383621.572386
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572417 file-gif-load@7f23b82fcd03[2076] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f23b82c8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b82c8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.572417
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572454 file-gif-load@7f23b82fcd03[2076] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f23b82c2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b82c2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.572454
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572490 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b82c3000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f23b82c3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b82c3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b82c3000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383621.57249
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572531 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b82c5000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f23b82c5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b82c5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b82c5000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383621.572531
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572570 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b82c6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f23b82c6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b82c6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b82c6000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383621.57257
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572612 file-gif-load@7f23b82fc9f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383621.572612
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572652 file-gif-load@7f23b82fcb0d[2076] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383621.572652
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572686 file-gif-load@7f23b82fcbd4[2076] read(4, 0x7ffee583ee48, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffee583ee48"
+                        }, 
+                        "time": 1640383621.572686
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572717 file-gif-load@7f23b82fc943[2076] fstat(4, 0x7ffee583ece0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffee583ece0"
+                        }, 
+                        "time": 1640383621.572717
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572748 file-gif-load@7f23b82fcd03[2076] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f23b81a1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b81a1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.572748
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572783 file-gif-load@7f23b82fcdb7[2076] mprotect(0x7f23b81bc000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f23b81bc000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383621.572783
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572822 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b81bc000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f23b81bc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b81bc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b81bc000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383621.572822
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572858 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b823c000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f23b823c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b823c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b823c000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383621.572858
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572893 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b82bf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f23b82bf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b82bf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b82bf000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383621.572893
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572934 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b82c1000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f23b82c1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b82c1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f23b82c1000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.572934
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.572972 file-gif-load@7f23b82fc9f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383621.572972
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573018 file-gif-load@7f23b82fcb0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383621.573018
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573052 file-gif-load@7f23b82fcbd4[2076] read(4, 0x7ffee583ee28, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffee583ee28"
+                        }, 
+                        "time": 1640383621.573052
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573083 file-gif-load@7f23b82fc943[2076] fstat(4, 0x7ffee583ecc0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffee583ecc0"
+                        }, 
+                        "time": 1640383621.573083
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573113 file-gif-load@7f23b82fcd03[2076] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f23b8196000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b8196000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.573113
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573148 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b8199000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f23b8199000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b8199000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b8199000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383621.573148
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573189 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b819d000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f23b819d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b819d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b819d000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383621.573189
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573226 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b819f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f23b819f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b819f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b819f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383621.573226
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573269 file-gif-load@7f23b82fc9f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383621.573269
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573309 file-gif-load@7f23b82fcb0d[2076] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383621.573309
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573343 file-gif-load@7f23b82fcbd4[2076] read(4, 0x7ffee583ee08, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffee583ee08"
+                        }, 
+                        "time": 1640383621.573343
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573374 file-gif-load@7f23b82fc943[2076] fstat(4, 0x7ffee583eca0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffee583eca0"
+                        }, 
+                        "time": 1640383621.573374
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573406 file-gif-load@7f23b82fcd03[2076] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f23b7fb4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7fb4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.573406
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573440 file-gif-load@7f23b82fcdb7[2076] mprotect(0x7f23b8049000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f23b8049000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383621.57344
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573477 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b8049000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7f23b8049000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b8049000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b8049000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383621.573477
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573512 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b813b000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7f23b813b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b813b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b813b000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383621.573512
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573545 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b8185000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7f23b8185000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b8185000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b8185000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383621.573545
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573585 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b8193000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f23b8193000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b8193000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f23b8193000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.573585
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573623 file-gif-load@7f23b82fc9f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383621.573623
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573667 file-gif-load@7f23b82fcb0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383621.573667
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573701 file-gif-load@7f23b82fcbd4[2076] read(4, 0x7ffee583ede8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffee583ede8"
+                        }, 
+                        "time": 1640383621.573701
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573731 file-gif-load@7f23b82fc943[2076] fstat(4, 0x7ffee583ec80) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffee583ec80"
+                        }, 
+                        "time": 1640383621.573731
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573761 file-gif-load@7f23b82fcd03[2076] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f23b7e66000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7e66000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.573761
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573796 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b7e75000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f23b7e75000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7e75000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b7e75000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383621.573796
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573833 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b7f1b000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f23b7f1b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7f1b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b7f1b000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383621.573833
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573868 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b7fb2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f23b7fb2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7fb2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b7fb2000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383621.573868
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573911 file-gif-load@7f23b82fc9f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383621.573911
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573950 file-gif-load@7f23b82fcb0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383621.57395
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.573983 file-gif-load@7f23b82fcbd4[2076] read(4, 0x7ffee583edc8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffee583edc8"
+                        }, 
+                        "time": 1640383621.573983
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574013 file-gif-load@7f23b82fc943[2076] fstat(4, 0x7ffee583ec60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffee583ec60"
+                        }, 
+                        "time": 1640383621.574013
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574043 file-gif-load@7f23b82fcd03[2076] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f23b7e4c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7e4c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.574043
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574076 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b7e4f000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f23b7e4f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7e4f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b7e4f000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383621.574076
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574112 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b7e60000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f23b7e60000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7e60000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b7e60000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383621.574112
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574146 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b7e64000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f23b7e64000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7e64000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b7e64000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383621.574146
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574189 file-gif-load@7f23b82fc9f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383621.574189
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574226 file-gif-load@7f23b82fcb0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383621.574226
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574260 file-gif-load@7f23b82fcbd4[2076] read(4, 0x7ffee583eda8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffee583eda8"
+                        }, 
+                        "time": 1640383621.57426
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574291 file-gif-load@7f23b82fc943[2076] fstat(4, 0x7ffee583ec40) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffee583ec40"
+                        }, 
+                        "time": 1640383621.574291
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574320 file-gif-load@7f23b82fcd03[2076] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f23b7e4a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7e4a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.57432
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574362 file-gif-load@7f23b82fcd03[2076] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f23b7e29000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7e29000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.574362
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574396 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b7e30000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f23b7e30000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7e30000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b7e30000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383621.574396
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574434 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b7e3f000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f23b7e3f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7e3f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b7e3f000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383621.574434
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574469 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b7e44000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f23b7e44000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7e44000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b7e44000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383621.574469
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574509 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b7e46000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f23b7e46000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7e46000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f23b7e46000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.574509
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574547 file-gif-load@7f23b82fc9f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383621.574547
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574585 file-gif-load@7f23b82fcb0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383621.574585
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574618 file-gif-load@7f23b82fcbd4[2076] read(4, 0x7ffee583ed88, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffee583ed88"
+                        }, 
+                        "time": 1640383621.574618
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574648 file-gif-load@7f23b82fc943[2076] fstat(4, 0x7ffee583ec20) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffee583ec20"
+                        }, 
+                        "time": 1640383621.574648
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574678 file-gif-load@7f23b82fcd03[2076] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f23b7c3e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7c3e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.574678
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574711 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b7c63000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f23b7c63000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7c63000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b7c63000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383621.574711
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574747 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b7dd6000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f23b7dd6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7dd6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b7dd6000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383621.574747
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574781 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b7e1f000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f23b7e1f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7e1f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b7e1f000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383621.574781
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574820 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b7e25000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f23b7e25000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7e25000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f23b7e25000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.57482
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.574857 file-gif-load@7f23b82fc9f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383621.574857
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.575139 file-gif-load@7f23b82fcb0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383621.575139
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.575176 file-gif-load@7f23b82fcbd4[2076] read(4, 0x7ffee583ed68, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffee583ed68"
+                        }, 
+                        "time": 1640383621.575176
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.575208 file-gif-load@7f23b82fc943[2076] fstat(4, 0x7ffee583ec00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffee583ec00"
+                        }, 
+                        "time": 1640383621.575208
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.575239 file-gif-load@7f23b82fcd03[2076] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f23b7c38000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7c38000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.575239
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.575277 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b7c39000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f23b7c39000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7c39000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b7c39000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383621.575277
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.575320 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b7c3b000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f23b7c3b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7c3b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b7c3b000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383621.57532
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.575354 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b7c3c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f23b7c3c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7c3c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b7c3c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383621.575354
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.575397 file-gif-load@7f23b82fc9f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383621.575397
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.575438 file-gif-load@7f23b82fcb0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383621.575438
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.575472 file-gif-load@7f23b82fcbd4[2076] read(4, 0x7ffee583ed48, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffee583ed48"
+                        }, 
+                        "time": 1640383621.575472
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.575503 file-gif-load@7f23b82fc943[2076] fstat(4, 0x7ffee583ebe0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffee583ebe0"
+                        }, 
+                        "time": 1640383621.575503
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.575536 file-gif-load@7f23b82fcd03[2076] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f23b7bc4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7bc4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.575536
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.575570 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b7bc6000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f23b7bc6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7bc6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b7bc6000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383621.57557
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.575614 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b7c18000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f23b7c18000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7c18000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b7c18000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383621.575614
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.575651 file-gif-load@7f23b82fcd03[2076] mmap2(0x7f23b7c36000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f23b7c36000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7c36000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f23b7c36000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383621.575651
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.575696 file-gif-load@7f23b82fc9f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383621.575696
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.576594 file-gif-load@7f23b82fcd03[2076] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f23b7bc2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7bc2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.576594
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.576651 file-gif-load@7f23b82fcd03[2076] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f23b7bbf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b7bbf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.576651
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.576690 file-gif-load@7f23b82e1f30[2076] arch_prctl(ARCH_SET_FS, 139791383132096) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82e1f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "139791383132096"
+                        }, 
+                        "time": 1640383621.57669
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.577520 file-gif-load@7f23b82fcdb7[2076] mprotect(0x7f23b7e1f000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f23b7e1f000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383621.57752
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.577588 file-gif-load@7f23b82fcdb7[2076] mprotect(0x7f23b7e44000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f23b7e44000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383621.577588
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.577671 file-gif-load@7f23b82fcdb7[2076] mprotect(0x7f23b7c36000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f23b7c36000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383621.577671
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.577714 file-gif-load@7f23b82fcdb7[2076] mprotect(0x7f23b7c3c000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f23b7c3c000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383621.577714
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.577750 file-gif-load@7f23b82fcdb7[2076] mprotect(0x7f23b7e64000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f23b7e64000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383621.57775
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.577804 file-gif-load@7f23b82fcdb7[2076] mprotect(0x7f23b7fb2000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f23b7fb2000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383621.577804
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.578555 file-gif-load@7f23b82fcdb7[2076] mprotect(0x7f23b8185000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f23b8185000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383621.578555
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.578599 file-gif-load@7f23b82fcdb7[2076] mprotect(0x7f23b819f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f23b819f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383621.578599
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.578761 file-gif-load@7f23b82fcdb7[2076] mprotect(0x7f23b82bf000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f23b82bf000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383621.578761
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.578811 file-gif-load@7f23b82fcdb7[2076] mprotect(0x7f23b82c6000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f23b82c6000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383621.578811
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.583775 file-gif-load@7f23b82fcdb7[2076] mprotect(0x55bde1b26000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55bde1b26000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383621.583775
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.583847 file-gif-load@7f23b82fcdb7[2076] mprotect(0x7f23b830a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f23b830a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383621.583847
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.583904 file-gif-load@7f23b82fcd97[2076] munmap(0x7f23b82ca000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b82fcd97", 
+                        "arguments": {
+                            "p0": "0x7f23b82ca000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383621.583904
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.584084 file-gif-load@7f23b7e308df[2076] set_tid_address(0x7f23b7bbfa90) = 2076\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2076", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7e308df", 
+                        "arguments": {
+                            "p0": "0x7f23b7bbfa90"
+                        }, 
+                        "time": 1640383621.584084
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.584146 file-gif-load@7f23b7e3094a[2076] set_robust_list(0x7f23b7bbfaa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7e3094a", 
+                        "arguments": {
+                            "p0": "0x7f23b7bbfaa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383621.584146
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.584203 file-gif-load@7f23b7e3d010[2076] rt_sigaction(0x20, {0x7f23b7e306c0, SA_SIGINFO|SA_RESTORER, 0x7f23b7e3cf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7e3d010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f23b7e306c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f23b7e3cf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383621.584203
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.584252 file-gif-load@7f23b7e3d010[2076] rt_sigaction(0x21, {0x7f23b7e30760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f23b7e3cf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7e3d010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f23b7e30760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f23b7e3cf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383621.584252
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.584300 file-gif-load@7f23b7e30a19[2076] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7e30a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383621.5843
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.584362 file-gif-load@7f23b7d50df0[2076] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffee583fa40) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d50df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffee583fa40", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383621.584362
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.584585 file-gif-load@7f23b7d512f7[2076] brk(0x0) = 94274085408768\n", 
+                        "api": "brk", 
+                        "return_value": "94274085408768", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d512f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383621.584585
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.584630 file-gif-load@7f23b7d512f7[2076] brk(0x55bde5616000) = 94274085543936\n", 
+                        "api": "brk", 
+                        "return_value": "94274085543936", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d512f7", 
+                        "arguments": {
+                            "p0": "0x55bde5616000"
+                        }, 
+                        "time": 1640383621.58463
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.586845 file-gif-load@7f23b7e39b86[2076] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffee583f990, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7e39b86", 
+                        "arguments": {
+                            "p2": "0x7ffee583f990", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383621.586845
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.587859 file-gif-load@7f23b7d554c3[2076] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f23b73be000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b73be000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d554c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.587859
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.587919 file-gif-load@7f23b7d55597[2076] mprotect(0x7f23b73bf000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d55597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f23b73bf000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383621.587919
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.588004 file-gif-load@7f23b7d5bb11[2076] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f23b7bbdf30, 0x7f23b7bbe9d0, 0x7f23b7bbe9d0) = 2077\n", 
+                        "api": "clone", 
+                        "return_value": "2077", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d5bb11", 
+                        "arguments": {
+                            "p2": "0x7f23b7bbe9d0", 
+                            "p3": "0x7f23b7bbe9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f23b7bbdf30"
+                        }, 
+                        "time": 1640383621.588004
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.588144 file-gif-load@7f23b7e39b86[2076] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7e39b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383621.588144
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.592087 file-gif-load@7f23b7d50df0[2076] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffee583f4f0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d50df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffee583f4f0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383621.592087
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.592145 file-gif-load@7f23b7d505c1[2076] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d505c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383621.592145
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.593168 file-gif-load@7f23b7d1f247[2076] uname(0x7ffee583f160) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d1f247", 
+                        "arguments": {
+                            "p0": "0x7ffee583f160"
+                        }, 
+                        "time": 1640383621.593168
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.593211 file-gif-load@7f23b7e3c337[2076] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7e3c337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383621.593211
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.593244 file-gif-load@7f23b7e3bd94[2076] read(3, 0x7ffee583f450, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7e3bd94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffee583f450"
+                        }, 
+                        "time": 1640383621.593244
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.593277 file-gif-load@7f23b7e3c337[2076] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7e3c337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383621.593277
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.594321 file-gif-load@7f23b7d512f7[2076] brk(0x55bde5637000) = 94274085679104\n", 
+                        "api": "brk", 
+                        "return_value": "94274085679104", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d512f7", 
+                        "arguments": {
+                            "p0": "0x55bde5637000"
+                        }, 
+                        "time": 1640383621.594321
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.594460 file-gif-load@7f23b7d554c3[2076] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f23b733d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23b733d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d554c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.59446
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.594778 file-gif-load@7f23b7d55597[2076] mprotect(0x55bde1ba9000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d55597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55bde1ba9000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383621.594778
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.594837 file-gif-load@7f23b7d55667[2076] madvise(0x55bde1ba9000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d55667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55bde1ba9000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383621.594837
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.595735 file-gif-load@7f23b7d554c3[2076] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f2330000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2330000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d554c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.595735
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.595782 file-gif-load@7f23b7d4ad59[2076] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d4ad59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383621.595782
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.595830 file-gif-load@7f23b7d4a613[2076] fstat(4, 0x7ffee583eb60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d4a613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffee583eb60"
+                        }, 
+                        "time": 1640383621.59583
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.595861 file-gif-load@7f23b7d4afb4[2076] read(4, 0x55bde56144e0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d4afb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x55bde56144e0"
+                        }, 
+                        "time": 1640383621.595861
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.595900 file-gif-load@7f23b7d503f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d503f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383621.5959
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.595944 file-gif-load@7f23b7d552e9[2076] gettid() = 2076\n", 
+                        "api": "gettid", 
+                        "return_value": "2076", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d552e9", 
+                        "arguments": {}, 
+                        "time": 1640383621.595944
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.595975 file-gif-load@7f23b7d4a613[2076] fstat(3, 0x7ffee583f3d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d4a613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffee583f3d0"
+                        }, 
+                        "time": 1640383621.595975
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.596005 file-gif-load@7f23b7d20717[2076] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d20717", 
+                        "arguments": {}, 
+                        "time": 1640383621.596005
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.596035 file-gif-load@7f23b7d20737[2076] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d20737", 
+                        "arguments": {}, 
+                        "time": 1640383621.596035
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.596093 file-gif-load@7f23b7e3bd94[2076] read(3, 0x7ffee583f630, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7e3bd94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffee583f630"
+                        }, 
+                        "time": 1640383621.596093
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.596141 file-gif-load@7f23b7d554c3[2076] mmap2(0x7f23affda000, 155648, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f23affda000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23affda000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d554c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7f23affda000", 
+                            "p1": "155648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.596141
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.596204 file-gif-load@7f23b7d554c3[2076] mmap2(0x7f23affda000, 20480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f23affda000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23affda000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d554c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f23affda000", 
+                            "p1": "20480", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.596204
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.596240 file-gif-load@7f23b7d554c3[2076] mmap2(0x7f23affee000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 16384) = 0x7f23affee000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23affee000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d554c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f23affee000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "16384"
+                        }, 
+                        "time": 1640383621.59624
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.596309 file-gif-load@7f23b7d554c3[2076] mmap2(0x7f23afff0000, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f23afff0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23afff0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d554c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f23afff0000", 
+                            "p1": "65536", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.596309
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.596363 file-gif-load@7f23b7e3be27[2076] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7e3be27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383621.596363
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.596411 file-gif-load@7f23b7d554c3[2076] mmap2(0x7f23af7d9000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f23af7d9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23af7d9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d554c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f23af7d9000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.596411
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.596482 file-gif-load@7f23b7d512f7[2076] brk(0x55bde5658000) = 94274085814272\n", 
+                        "api": "brk", 
+                        "return_value": "94274085814272", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d512f7", 
+                        "arguments": {
+                            "p0": "0x55bde5658000"
+                        }, 
+                        "time": 1640383621.596482
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.596554 file-gif-load@7f23b7d55597[2076] mprotect(0x7f23af7d9000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d55597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f23af7d9000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383621.596554
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.596598 file-gif-load@7f23b7e3c55e[2076] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7e3c55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383621.596598
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.596660 file-gif-load@7f23b7d4b057[2076] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d4b057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383621.59666
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.596728 file-gif-load@7f23b7d1f926[2076] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d1f926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383621.596728
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:01 2021.596765 file-gif-load@7f23b7d1f926[2076] futex(0x7f23b7bbfa90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d1f926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f23b7bbfa90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383621.596765
+                    }
+                ], 
+                "pid": 2076, 
+                "process_name": "file-gif-load", 
+                "command_line": "/tmp/file-gif-load", 
+                "first_seen": 1640383621.566822, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:01 2021.588289 file-gif-load@7f23b7e32117[2077] set_robust_list(0x7f23b7bbe9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7e32117", 
+                        "arguments": {
+                            "p0": "0x7f23b7bbe9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383621.588289
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:01 2021.588369 file-gif-load@7f23b7d554c3[2077] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f23af3be000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f23af3be000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d554c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383621.588369
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:01 2021.588442 file-gif-load@7f23b7d55567[2077] munmap(0x7f23af3be000, 12853248) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d55567", 
+                        "arguments": {
+                            "p0": "0x7f23af3be000", 
+                            "p1": "12853248"
+                        }, 
+                        "time": 1640383621.588442
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:01 2021.588510 file-gif-load@7f23b7d55567[2077] munmap(0x7f23b4000000, 54255616) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d55567", 
+                        "arguments": {
+                            "p0": "0x7f23b4000000", 
+                            "p1": "54255616"
+                        }, 
+                        "time": 1640383621.58851
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:01 2021.588575 file-gif-load@7f23b7d55597[2077] mprotect(0x7f23b0000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7d55597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f23b0000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383621.588575
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-gif-load", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:01 2021.588663 file-gif-load@7f23b7e3c440[2077] nanosleep([0.010000000], 0x7f23b7bbdd80) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f23b7e3c440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f23b7bbdd80"
+                        }, 
+                        "time": 1640383621.588663
+                    }
+                ], 
+                "pid": 2077, 
+                "process_name": "file-gif-load", 
+                "command_line": "", 
+                "first_seen": 1640383621.588289, 
+                "ppid": 2076, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2076, 
+                "process_name": "file-gif-load", 
+                "command_line": "/tmp/file-gif-load", 
+                "first_seen": 1640383621.566822, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2077, 
+                        "process_name": "file-gif-load", 
+                        "command_line": "", 
+                        "first_seen": 1640383621.588289, 
+                        "ppid": 2076, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:06:50,006 [root] DEBUG: Starting analyzer from: /tmp/tmpnev5WB\n", 
+            "2021-12-24 22:06:50,006 [root] DEBUG: Storing results at: /tmp/wvIgQyhGu\n", 
+            "2021-12-24 22:06:51,757 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:06:51,760 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:06:52,262 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:07:01,564 [lib.core.packages] INFO: Process startup took 9.30 seconds\n", 
+            "2021-12-24 22:07:01,568 [root] INFO: Added new process to list with pid: 2065\n", 
+            "2021-12-24 22:07:10,580 [root] INFO: Process with pid 2065 has terminated\n", 
+            "2021-12-24 22:07:10,582 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:13,585 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:13,587 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 01:47:56,557 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:48:26,599 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:48:56,645 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:49:26,692 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:49:56,733 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:50:26,786 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:50:56,884 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:51:26,929 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:51:56,994 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:52:27,040 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:52:57,085 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:53:27,127 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:53:57,171 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:54:27,245 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:54:57,295 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:55:27,343 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:55:57,388 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:56:27,432 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:56:57,475 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:57:27,516 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:57:57,548 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:58:27,593 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:58:57,637 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:59:27,687 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 01:59:57,735 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:00:27,780 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:00:57,804 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:01:27,847 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:01:57,891 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:02:27,933 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:02:57,977 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:03:28,025 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:03:58,070 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:04:28,113 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:04:58,156 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:05:28,202 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:05:58,246 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:06:28,290 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:06:58,337 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:07:28,382 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:07:58,424 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:08:28,470 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:08:58,514 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:09:28,559 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:09:58,603 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:10:28,646 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:10:58,697 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:11:28,724 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:11:58,774 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:12:28,821 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:12:58,866 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:13:28,922 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:13:58,967 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:14:29,008 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:14:59,054 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:15:29,098 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:15:59,139 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:16:29,183 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:16:59,227 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:17:29,266 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:17:59,295 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:18:29,339 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:18:59,382 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:19:29,429 [cuckoo.core.scheduler] DEBUG: Task #2548390: no machine available yet\n", 
+            "2021-12-25 02:19:59,458 [cuckoo.core.scheduler] INFO: Task #2548390: acquired machine Ubuntu1904x647 (label=Ubuntu1904x647)\n", 
+            "2021-12-25 02:19:59,458 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.107 for task #2548390\n", 
+            "2021-12-25 02:19:59,595 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3092877 (interface=vboxnet0, host=192.168.168.107)\n", 
+            "2021-12-25 02:19:59,712 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x647\n", 
+            "2021-12-25 02:20:00,136 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x647 to Snapshot\n", 
+            "2021-12-25 02:20:08,948 [cuckoo.core.guest] INFO: Starting analysis #2548390 on guest (id=Ubuntu1904x647, ip=192.168.168.107)\n", 
+            "2021-12-25 02:20:09,952 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: not ready yet\n", 
+            "2021-12-25 02:20:14,968 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x647, ip=192.168.168.107)\n", 
+            "2021-12-25 02:20:14,985 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x647, ip=192.168.168.107, monitor=latest, size=72028)\n", 
+            "2021-12-25 02:20:15,110 [cuckoo.core.resultserver] DEBUG: Task #2548390: live log analysis.log initialized.\n", 
+            "2021-12-25 02:20:20,750 [cuckoo.core.resultserver] DEBUG: Task #2548390: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 02:20:20,806 [cuckoo.core.resultserver] DEBUG: Task #2548390 uploaded file length: 171563\n", 
+            "2021-12-25 02:20:30,107 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548390 still processing\n", 
+            "2021-12-25 02:20:38,706 [cuckoo.core.resultserver] DEBUG: Task #2548390: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 02:20:38,709 [cuckoo.core.resultserver] DEBUG: Task #2548390 uploaded file length: 21682\n", 
+            "2021-12-25 02:20:45,172 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548390 still processing\n", 
+            "2021-12-25 02:21:00,232 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548390 still processing\n", 
+            "2021-12-25 02:21:15,293 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548390 still processing\n", 
+            "2021-12-25 02:21:30,354 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548390 still processing\n", 
+            "2021-12-25 02:21:45,436 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548390 still processing\n", 
+            "2021-12-25 02:22:00,501 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548390 still processing\n", 
+            "2021-12-25 02:22:15,574 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548390 still processing\n", 
+            "2021-12-25 02:22:30,633 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548390 still processing\n", 
+            "2021-12-25 02:22:45,693 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548390 still processing\n", 
+            "2021-12-25 02:23:00,757 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548390 still processing\n", 
+            "2021-12-25 02:23:15,811 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548390 still processing\n", 
+            "2021-12-25 02:23:30,895 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548390 still processing\n", 
+            "2021-12-25 02:23:45,971 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548390 still processing\n", 
+            "2021-12-25 02:24:01,153 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548390 still processing\n", 
+            "2021-12-25 02:24:16,224 [cuckoo.core.guest] INFO: Ubuntu1904x647: end of analysis reached!\n", 
+            "2021-12-25 02:24:16,230 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 02:24:16,285 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 02:24:29,288 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x647 to path /srv/cuckoo/cwd/storage/analyses/2548390/memory.dmp\n", 
+            "2021-12-25 02:24:29,290 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x647\n", 
+            "2021-12-25 02:24:54,865 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.107 for task #2548390\n", 
+            "2021-12-25 02:24:54,865 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2548390\n", 
+            "2021-12-25 02:24:54,993 [cuckoo.core.scheduler] DEBUG: Released database task #2548390\n", 
+            "2021-12-25 02:24:55,103 [cuckoo.core.scheduler] INFO: Task #2548390: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "__stack_chk_guard", 
+        "__stack_chk_fail", 
+        "gimp_install_procedure", 
+        "gimp_register_file_handler_mime", 
+        "gimp_register_magic_load_handler", 
+        "gimp_register_thumbnail_loader", 
+        "g_print", 
+        "gimp_quit", 
+        "dcgettext", 
+        "gimp_filename_to_utf8", 
+        "gimp_progress_set_text_printf", 
+        "gimp_progress_pulse", 
+        "gimp_image_convert_rgb", 
+        "g_strdup_printf", 
+        "gimp_image_new", 
+        "gimp_image_set_filename", 
+        "gimp_image_set_colormap", 
+        "gimp_layer_new", 
+        "g_free", 
+        "gimp_image_insert_layer", 
+        "gimp_layer_translate", 
+        "gimp_drawable_get", 
+        "g_malloc", 
+        "gimp_progress_update", 
+        "gimp_pixel_rgn_init", 
+        "gimp_pixel_rgn_set_rect", 
+        "gimp_drawable_flush", 
+        "gimp_drawable_detach", 
+        "g_strconcat", 
+        "g_strdup", 
+        "fopen64", 
+        "gimp_progress_init_printf", 
+        "strncmp", 
+        "strncpy", 
+        "g_printerr", 
+        "gimp_image_attach_parasite", 
+        "gimp_parasite_free", 
+        "g_utf8_validate", 
+        "strlen", 
+        "gimp_parasite_new", 
+        "__sprintf_chk", 
+        "g_file_error_quark", 
+        "g_set_error", 
+        "__errno_location", 
+        "g_file_error_from_errno", 
+        "g_strerror", 
+        "gimp_locale_directory", 
+        "bindtextdomain", 
+        "bind_textdomain_codeset", 
+        "strcmp", 
+        "gimp_image_width", 
+        "gimp_image_height", 
+        "gimp_main", 
+        "PLUG_IN_INFO", 
+        "libgimp-2.0.so.0", 
+        "libgimpmath-2.0.so.0", 
+        "libm.so.6", 
+        "libgimpconfig-2.0.so.0", 
+        "libgimpcolor-2.0.so.0", 
+        "libgimpbase-2.0.so.0", 
+        "libcairo.so.2", 
+        "libgdk_pixbuf-2.0.so.0", 
+        "libgobject-2.0.so.0", 
+        "libglib-2.0.so.0", 
+        "libpthread.so.0", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "ld.so.1", 
+        "_ftext", 
+        "_fdata", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.4", 
+        "GLIBC_2.3.4", 
+        "GLIBC_2.2", 
+        "GLIBC_2.0", 
+        "$$=D&8", 
+        "Zc$!8G", 
+        "R1&%( ", 
+        "Error in getting DataBlock size", 
+        "Error in reading DataBlock", 
+        "Spencer Kimball, Peter Mattis, Adam Moss, David Koblas", 
+        "FIXME: write help for gif_load", 
+        "Loads files of Compuserve GIF file format", 
+        "file-gif-load", 
+        "GIF image", 
+        "1995-2006", 
+        "image/gif", 
+        "0,string,GIF8", 
+        "Sven Neumann", 
+        "Loads only the first frame of a GIF image, to be used as a thumbnail", 
+        "file-gif-load-thumb", 
+        "Ran off the end of my bits", 
+        "Value out of range for code size (corrupted file?)", 
+        "GIF: missing EOD in data stream (common occurence)", 
+        "Circular table entry.  Corrupt file.", 
+        "EOF / read error on image data", 
+        "Error while reading", 
+        "Background", 
+        "Background (%d%s)", 
+        "Opening '%s' (frame %d)", 
+        "Frame %d", 
+        "Frame %d (%d%s)", 
+        " (combine)", 
+        " (replace)", 
+        " (combine) (!)", 
+        " (unknown disposal)", 
+        "GIF: Undocumented GIF composite type %d is not handled.  Animation might not play or re-save perfectly.", 
+        "Disposal word got corrupted.  Bug.", 
+        "'%s' has a larger image size than GIMP can handle.", 
+        "Ouch!  Can't handle non-alpha RGB frames.", 
+        "Please file a bug report in GIMP's bugzilla.", 
+        "GIF: too much input data, ignoring extra...", 
+        "Could not open '%s' for reading: %s", 
+        "Opening '%s'", 
+        "Error reading magic number", 
+        "This is not a GIF file", 
+        "Bad version number, not '87a' or '89a'", 
+        "Failed to read screen descriptor", 
+        "Error reading global colormap", 
+        "Non-square pixels.  Image might look squashed.", 
+        "EOF / read error on extension function code", 
+        "gimp-comment", 
+        "UNKNOWN (0x%02x)", 
+        "GIF: bogus character 0x%02x, ignoring.", 
+        "Couldn't read left/top/width/height", 
+        "Error reading local colormap", 
+        "Bogus frame dimensions", 
+        "gimp20-std-plug-ins", 
+        "Output image", 
+        "image-width", 
+        "Width of full-sized image", 
+        "image-height", 
+        "Height of full-sized image", 
+        "The name of the file to load", 
+        "thumb-size", 
+        "Preferred thumbnail size", 
+        "run-mode", 
+        "The run mode { RUN-INTERACTIVE (0), RUN-NONINTERACTIVE (1) }", 
+        "raw-filename", 
+        "The name entered", 
+        "505814d38a387f62fdb0259fee0a7f99628798.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".data.rel.ro", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
