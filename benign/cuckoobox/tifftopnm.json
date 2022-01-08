@@ -1,0 +1,3360 @@
+{
+    "info": {
+        "added": 1640383635.560935, 
+        "started": 1640425408.554469, 
+        "duration": 3033, 
+        "ended": 1640428442.368376, 
+        "owner": null, 
+        "score": 0.1, 
+        "id": 2549072, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x641", 
+            "label": "Ubuntu1904x641", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 10:29:29", 
+            "shutdown_on": "2021-12-25 10:34:02"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [
+        {
+            "families": [], 
+            "description": "Yara rule detected for file", 
+            "severity": 1, 
+            "ttp": {}, 
+            "markcount": 1, 
+            "references": [], 
+            "marks": [
+                {
+                    "type": "generic", 
+                    "description": "Contains an embedded PE32 file", 
+                    "rule": "embedded_pe"
+                }
+            ], 
+            "name": "file_yara"
+        }
+    ], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [
+                {
+                    "meta": {
+                        "description": "Contains an embedded PE32 file", 
+                        "author": "nex"
+                    }, 
+                    "name": "embedded_pe", 
+                    "offsets": {
+                        "b": [
+                            [
+                                9712, 
+                                0
+                            ], 
+                            [
+                                10096, 
+                                0
+                            ], 
+                            [
+                                10232, 
+                                0
+                            ], 
+                            [
+                                11820, 
+                                0
+                            ]
+                        ]
+                    }, 
+                    "strings": [
+                        "VGhpcyBwcm9ncmFt"
+                    ]
+                }
+            ], 
+            "sha1": "a66ae4bc6f3111952f727f4748baedc3bee28ac9", 
+            "name": "tifftopnm", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=f2b355a49ad3927331bdb2056f644b771dfc76fa, stripped", 
+            "sha256": "486ef47ec1f7fb9928bc19a1ac3355ebb98edd5c33ae55d88e27e91f13b58d89", 
+            "urls": [], 
+            "crc32": "867D67BE", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/486ef47ec1f7fb9928bc19a1ac3355ebb98edd5c33ae55d88e27e91f13b58d89", 
+            "ssdeep": "384:mB/474DLo2e4+LLb0QnUSvT6X6Y6P8bRxD6TRXpNL45yaruqZduncJAs89UUj1LQ:mBpvo2e4YbRnUSvT6XX6P8bRxD6TRXpO", 
+            "size": 14200, 
+            "sha512": "2f6dc225a5a942d0d4b42396eb84f05a5af95f5b83676bfa6b2185c953af5dd71bd5120e36a518c0cb5ccc458c5fbbeac557611f0c3a92058bbf4d32a1ee72dd", 
+            "md5": "eecd84e85e3100cdb38c717e0864e4e8"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "a7b024cb-2e23-4f85-af06-e92725176c61", 
+        "parent_file_sha256": null, 
+        "name": "486ef47ec1f7fb9928bc19a1ac3355ebb98edd5c33ae55d88e27e91f13b58d89", 
+        "probes_total": 16, 
+        "scan_date": 1640421243, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "a66ae4bc6f3111952f727f4748baedc3bee28ac9", 
+            "tags": [], 
+            "timestamp_first_scan": 1640421242.98, 
+            "timestamp_last_scan": 1640421252.04, 
+            "sha256": "486ef47ec1f7fb9928bc19a1ac3355ebb98edd5c33ae55d88e27e91f13b58d89", 
+            "md5": "eecd84e85e3100cdb38c717e0864e4e8", 
+            "size": 14200
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.67, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.07, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.67, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-15 12:09:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.28, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.17, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.05, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.66, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.96, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.71, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.3, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.12, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.11, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.23, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "98537e21-3f1a-4b03-98d4-ad4c82c0ff24", 
+        "file_sha256": "486ef47ec1f7fb9928bc19a1ac3355ebb98edd5c33ae55d88e27e91f13b58d89"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.101", 
+                "version": "TLS 1.2", 
+                "src_port": 39732, 
+                "dst_port": 443, 
+                "timestamp": "2021-12-25T10:30:02.088805+0200", 
+                "dst_ip": "91.189.92.41", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "afc26c94192ebcdf3037d853026ecd2e32e0a741dba3dcded8398a8cc5004cff", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "36b87b7f7799c453399c33401debcec5231bd959d0fdb9d6c8de6548c59664ff", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "tifftopnm", 
+                "pid": 2072, 
+                "summary": {}, 
+                "first_seen": 1640383644.12918, 
+                "ppid": 2070
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "tifftopnm", 
+                "pid": 2070, 
+                "summary": {}, 
+                "first_seen": 1640383644.102988, 
+                "ppid": -1
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.102988 tifftopnm@7f99ff8aec27[2070] execve(\"/tmp/tifftopnm\", [\"/tmp/tifftopnm\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/tifftopnm\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpd5L1im\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8aec27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/tifftopnm", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpd5L1im"
+                            ], 
+                            "p0": "/tmp/tifftopnm", 
+                            "p1": [
+                                "/tmp/tifftopnm"
+                            ]
+                        }, 
+                        "time": 1640383644.102988
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.106407 tifftopnm@7f99ff8aec27[2070] brk(0x0) = 94674170089472\n", 
+                        "api": "brk", 
+                        "return_value": "94674170089472", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8aec27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383644.106407
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.107748 tifftopnm@7f99ff8af9d7[2070] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383644.107748
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.108890 tifftopnm@7f99ff8afb0d[2070] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383644.10889
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.108961 tifftopnm@7f99ff8af943[2070] fstat(4, 0x7ffe04ceb6c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb6c0"
+                        }, 
+                        "time": 1640383644.108961
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.109017 tifftopnm@7f99ff8afd03[2070] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f99ff87d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff87d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.109017
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.109075 tifftopnm@7f99ff8af9f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.109075
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.109154 tifftopnm@7f99ff8afb0d[2070] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383644.109154
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.109214 tifftopnm@7f99ff8afbd4[2070] read(4, 0x7ffe04ceb878, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb878"
+                        }, 
+                        "time": 1640383644.109214
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.109268 tifftopnm@7f99ff8af943[2070] fstat(4, 0x7ffe04ceb710) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb710"
+                        }, 
+                        "time": 1640383644.109268
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.109317 tifftopnm@7f99ff8afd03[2070] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f99ff87b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff87b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.109317
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.109377 tifftopnm@7f99ff8afd03[2070] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f99ff875000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff875000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.109377
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.109431 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff876000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f99ff876000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff876000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff876000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383644.109431
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.109496 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff878000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f99ff878000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff878000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff878000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383644.109496
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.109552 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff879000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f99ff879000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff879000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff879000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383644.109552
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.109623 tifftopnm@7f99ff8af9f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.109623
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.109690 tifftopnm@7f99ff8afb0d[2070] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383644.10969
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.109743 tifftopnm@7f99ff8afbd4[2070] read(4, 0x7ffe04ceb858, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb858"
+                        }, 
+                        "time": 1640383644.109743
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.109791 tifftopnm@7f99ff8af943[2070] fstat(4, 0x7ffe04ceb6f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb6f0"
+                        }, 
+                        "time": 1640383644.109791
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.109840 tifftopnm@7f99ff8afd03[2070] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f99ff754000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff754000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.10984
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.109896 tifftopnm@7f99ff8afdb7[2070] mprotect(0x7f99ff76f000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f99ff76f000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383644.109896
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.109956 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff76f000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f99ff76f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff76f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff76f000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383644.109956
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.110011 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff7ef000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f99ff7ef000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff7ef000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff7ef000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383644.110011
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.110065 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff872000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f99ff872000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff872000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff872000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383644.110065
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.110127 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff874000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f99ff874000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff874000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f99ff874000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.110127
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.110185 tifftopnm@7f99ff8af9f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.110185
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.110255 tifftopnm@7f99ff8afb0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383644.110255
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.110308 tifftopnm@7f99ff8afbd4[2070] read(4, 0x7ffe04ceb838, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb838"
+                        }, 
+                        "time": 1640383644.110308
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.110355 tifftopnm@7f99ff8af943[2070] fstat(4, 0x7ffe04ceb6d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb6d0"
+                        }, 
+                        "time": 1640383644.110355
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.110404 tifftopnm@7f99ff8afd03[2070] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f99ff749000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff749000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.110404
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.110460 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff74c000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f99ff74c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff74c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff74c000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383644.11046
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.110518 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff750000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f99ff750000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff750000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff750000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383644.110518
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.110574 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff752000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f99ff752000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff752000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff752000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383644.110574
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.110640 tifftopnm@7f99ff8af9f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.11064
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.110706 tifftopnm@7f99ff8afb0d[2070] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383644.110706
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.110760 tifftopnm@7f99ff8afbd4[2070] read(4, 0x7ffe04ceb818, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb818"
+                        }, 
+                        "time": 1640383644.11076
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.110807 tifftopnm@7f99ff8af943[2070] fstat(4, 0x7ffe04ceb6b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb6b0"
+                        }, 
+                        "time": 1640383644.110807
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.110859 tifftopnm@7f99ff8afd03[2070] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f99ff567000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff567000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.110859
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.110910 tifftopnm@7f99ff8afdb7[2070] mprotect(0x7f99ff5fc000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f99ff5fc000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383644.11091
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.110967 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff5fc000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7f99ff5fc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff5fc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff5fc000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383644.110967
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.111022 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff6ee000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7f99ff6ee000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff6ee000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff6ee000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383644.111022
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.111075 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff738000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7f99ff738000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff738000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff738000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383644.111075
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.111135 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff746000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f99ff746000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff746000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f99ff746000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.111135
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.111197 tifftopnm@7f99ff8af9f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.111197
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.111265 tifftopnm@7f99ff8afb0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383644.111265
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.111319 tifftopnm@7f99ff8afbd4[2070] read(4, 0x7ffe04ceb7f8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb7f8"
+                        }, 
+                        "time": 1640383644.111319
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.111366 tifftopnm@7f99ff8af943[2070] fstat(4, 0x7ffe04ceb690) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb690"
+                        }, 
+                        "time": 1640383644.111366
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.111414 tifftopnm@7f99ff8afd03[2070] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f99ff419000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff419000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.111414
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.111603 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff428000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f99ff428000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff428000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff428000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383644.111603
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.111669 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff4ce000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f99ff4ce000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff4ce000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff4ce000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383644.111669
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.111741 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff565000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f99ff565000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff565000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff565000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383644.111741
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.111809 tifftopnm@7f99ff8af9f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.111809
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.111873 tifftopnm@7f99ff8afb0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383644.111873
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.111927 tifftopnm@7f99ff8afbd4[2070] read(4, 0x7ffe04ceb7d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb7d8"
+                        }, 
+                        "time": 1640383644.111927
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.111975 tifftopnm@7f99ff8af943[2070] fstat(4, 0x7ffe04ceb670) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb670"
+                        }, 
+                        "time": 1640383644.111975
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112025 tifftopnm@7f99ff8afd03[2070] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f99ff3ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff3ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.112025
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112077 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff402000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f99ff402000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff402000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff402000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383644.112077
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112135 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff413000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f99ff413000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff413000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff413000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383644.112135
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112189 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff417000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f99ff417000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff417000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff417000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383644.112189
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112331 tifftopnm@7f99ff8af9f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.112331
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112333 tifftopnm@7f99ff8afb0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383644.112333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112333 tifftopnm@7f99ff8afbd4[2070] read(4, 0x7ffe04ceb7b8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb7b8"
+                        }, 
+                        "time": 1640383644.112333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112333 tifftopnm@7f99ff8af943[2070] fstat(4, 0x7ffe04ceb650) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb650"
+                        }, 
+                        "time": 1640383644.112333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112333 tifftopnm@7f99ff8afd03[2070] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f99ff3fd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff3fd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.112333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112333 tifftopnm@7f99ff8afd03[2070] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f99ff3dc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff3dc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.112333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112333 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff3e3000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f99ff3e3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff3e3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff3e3000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383644.112333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112333 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff3f2000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f99ff3f2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff3f2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff3f2000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383644.112333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112333 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff3f7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f99ff3f7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff3f7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff3f7000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383644.112333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112333 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff3f9000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f99ff3f9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff3f9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f99ff3f9000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.112333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112333 tifftopnm@7f99ff8af9f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.112333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112333 tifftopnm@7f99ff8afb0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383644.112333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112333 tifftopnm@7f99ff8afbd4[2070] read(4, 0x7ffe04ceb798, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb798"
+                        }, 
+                        "time": 1640383644.112333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112333 tifftopnm@7f99ff8af943[2070] fstat(4, 0x7ffe04ceb630) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb630"
+                        }, 
+                        "time": 1640383644.112333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112333 tifftopnm@7f99ff8afd03[2070] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f99ff1f1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff1f1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.112333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112333 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff216000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f99ff216000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff216000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff216000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383644.112333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112334 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff389000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f99ff389000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff389000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff389000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383644.112334
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112334 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff3d2000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f99ff3d2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff3d2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff3d2000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383644.112334
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112334 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff3d8000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f99ff3d8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff3d8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f99ff3d8000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.112334
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112334 tifftopnm@7f99ff8af9f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.112334
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112334 tifftopnm@7f99ff8afb0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383644.112334
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.112334 tifftopnm@7f99ff8afbd4[2070] read(4, 0x7ffe04ceb778, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb778"
+                        }, 
+                        "time": 1640383644.112334
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.116776 tifftopnm@7f99ff8af943[2070] fstat(4, 0x7ffe04ceb610) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb610"
+                        }, 
+                        "time": 1640383644.116776
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.116827 tifftopnm@7f99ff8afd03[2070] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f99ff1eb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff1eb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.116827
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.116903 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff1ec000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f99ff1ec000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff1ec000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff1ec000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383644.116903
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.116948 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff1ee000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f99ff1ee000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff1ee000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff1ee000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383644.116948
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.116986 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff1ef000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f99ff1ef000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff1ef000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff1ef000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383644.116986
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.117032 tifftopnm@7f99ff8af9f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.117032
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.117077 tifftopnm@7f99ff8afb0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383644.117077
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.117114 tifftopnm@7f99ff8afbd4[2070] read(4, 0x7ffe04ceb758, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb758"
+                        }, 
+                        "time": 1640383644.117114
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.117145 tifftopnm@7f99ff8af943[2070] fstat(4, 0x7ffe04ceb5f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb5f0"
+                        }, 
+                        "time": 1640383644.117145
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.117179 tifftopnm@7f99ff8afd03[2070] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f99ff177000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff177000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.117179
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.117215 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff179000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f99ff179000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff179000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff179000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383644.117215
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.117255 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff1cb000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f99ff1cb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff1cb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff1cb000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383644.117255
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.117290 tifftopnm@7f99ff8afd03[2070] mmap2(0x7f99ff1e9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f99ff1e9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff1e9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f99ff1e9000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383644.11729
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.117332 tifftopnm@7f99ff8af9f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8af9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.117332
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.118500 tifftopnm@7f99ff8afd03[2070] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f99ff175000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff175000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.1185
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.118551 tifftopnm@7f99ff8afd03[2070] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f99ff172000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99ff172000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.118551
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.118589 tifftopnm@7f99ff894f30[2070] arch_prctl(ARCH_SET_FS, 140299386431424) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff894f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140299386431424"
+                        }, 
+                        "time": 1640383644.118589
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.119573 tifftopnm@7f99ff8afdb7[2070] mprotect(0x7f99ff3d2000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f99ff3d2000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383644.119573
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.119635 tifftopnm@7f99ff8afdb7[2070] mprotect(0x7f99ff3f7000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f99ff3f7000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.119635
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.119697 tifftopnm@7f99ff8afdb7[2070] mprotect(0x7f99ff1e9000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f99ff1e9000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.119697
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.119743 tifftopnm@7f99ff8afdb7[2070] mprotect(0x7f99ff1ef000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f99ff1ef000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.119743
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.119782 tifftopnm@7f99ff8afdb7[2070] mprotect(0x7f99ff417000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f99ff417000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.119782
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.119843 tifftopnm@7f99ff8afdb7[2070] mprotect(0x7f99ff565000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f99ff565000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.119843
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.120636 tifftopnm@7f99ff8afdb7[2070] mprotect(0x7f99ff738000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f99ff738000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383644.120636
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.120709 tifftopnm@7f99ff8afdb7[2070] mprotect(0x7f99ff752000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f99ff752000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.120709
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.120877 tifftopnm@7f99ff8afdb7[2070] mprotect(0x7f99ff872000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f99ff872000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.120877
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.120960 tifftopnm@7f99ff8afdb7[2070] mprotect(0x7f99ff879000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f99ff879000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.12096
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.126321 tifftopnm@7f99ff8afdb7[2070] mprotect(0x561b09917000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x561b09917000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383644.126321
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.126376 tifftopnm@7f99ff8afdb7[2070] mprotect(0x7f99ff8bd000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f99ff8bd000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.126376
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.126419 tifftopnm@7f99ff8afd97[2070] munmap(0x7f99ff87d000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff8afd97", 
+                        "arguments": {
+                            "p0": "0x7f99ff87d000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383644.126419
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.126481 tifftopnm@7f99ff3e38df[2070] set_tid_address(0x7f99ff172a90) = 2070\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2070", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3e38df", 
+                        "arguments": {
+                            "p0": "0x7f99ff172a90"
+                        }, 
+                        "time": 1640383644.126481
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.126513 tifftopnm@7f99ff3e394a[2070] set_robust_list(0x7f99ff172aa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3e394a", 
+                        "arguments": {
+                            "p0": "0x7f99ff172aa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383644.126513
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.126569 tifftopnm@7f99ff3f0010[2070] rt_sigaction(0x20, {0x7f99ff3e36c0, SA_SIGINFO|SA_RESTORER, 0x7f99ff3eff40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3f0010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f99ff3e36c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f99ff3eff40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383644.126569
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.126606 tifftopnm@7f99ff3f0010[2070] rt_sigaction(0x21, {0x7f99ff3e3760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f99ff3eff40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3f0010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f99ff3e3760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f99ff3eff40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383644.126606
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.126676 tifftopnm@7f99ff3e3a19[2070] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3e3a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383644.126676
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.126729 tifftopnm@7f99ff303df0[2070] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe04cec450) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff303df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe04cec450", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383644.126729
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.126918 tifftopnm@7f99ff3042f7[2070] brk(0x0) = 94674170089472\n", 
+                        "api": "brk", 
+                        "return_value": "94674170089472", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3042f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383644.126918
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.126957 tifftopnm@7f99ff3042f7[2070] brk(0x561b0c492000) = 94674170224640\n", 
+                        "api": "brk", 
+                        "return_value": "94674170224640", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3042f7", 
+                        "arguments": {
+                            "p0": "0x561b0c492000"
+                        }, 
+                        "time": 1640383644.126957
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.127971 tifftopnm@7f99ff3ecb86[2070] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffe04cec3a0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3ecb86", 
+                        "arguments": {
+                            "p2": "0x7ffe04cec3a0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383644.127971
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.128908 tifftopnm@7f99ff3084c3[2070] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f99fe971000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99fe971000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3084c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.128908
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.128951 tifftopnm@7f99ff308597[2070] mprotect(0x7f99fe972000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff308597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f99fe972000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383644.128951
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.129008 tifftopnm@7f99ff30eb11[2070] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f99ff170f30, 0x7f99ff1719d0, 0x7f99ff1719d0) = 2072\n", 
+                        "api": "clone", 
+                        "return_value": "2072", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff30eb11", 
+                        "arguments": {
+                            "p2": "0x7f99ff1719d0", 
+                            "p3": "0x7f99ff1719d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f99ff170f30"
+                        }, 
+                        "time": 1640383644.129008
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.129103 tifftopnm@7f99ff3ecb86[2070] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3ecb86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383644.129103
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.132680 tifftopnm@7f99ff303df0[2070] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe04cebf00) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff303df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe04cebf00", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383644.13268
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.132756 tifftopnm@7f99ff3035c1[2070] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3035c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383644.132756
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.133659 tifftopnm@7f99ff2d2247[2070] uname(0x7ffe04cebb70) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff2d2247", 
+                        "arguments": {
+                            "p0": "0x7ffe04cebb70"
+                        }, 
+                        "time": 1640383644.133659
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.133733 tifftopnm@7f99ff3ef337[2070] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3ef337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383644.133733
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.133801 tifftopnm@7f99ff3eed94[2070] read(3, 0x7ffe04cebe60, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3eed94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffe04cebe60"
+                        }, 
+                        "time": 1640383644.133801
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.133870 tifftopnm@7f99ff3ef337[2070] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3ef337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383644.13387
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.135165 tifftopnm@7f99ff3042f7[2070] brk(0x561b0c4b3000) = 94674170359808\n", 
+                        "api": "brk", 
+                        "return_value": "94674170359808", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3042f7", 
+                        "arguments": {
+                            "p0": "0x561b0c4b3000"
+                        }, 
+                        "time": 1640383644.135165
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.135383 tifftopnm@7f99ff3084c3[2070] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f99fe8f0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99fe8f0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3084c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.135383
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.135956 tifftopnm@7f99ff308597[2070] mprotect(0x561b0999a000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff308597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x561b0999a000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383644.135956
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.136005 tifftopnm@7f99ff308667[2070] madvise(0x561b0999a000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff308667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x561b0999a000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383644.136005
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.136893 tifftopnm@7f99ff3084c3[2070] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f9978000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9978000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3084c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.136893
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.136955 tifftopnm@7f99ff2fdd59[2070] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff2fdd59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383644.136955
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.137009 tifftopnm@7f99ff2fd613[2070] fstat(4, 0x7ffe04ceb570) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff2fd613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe04ceb570"
+                        }, 
+                        "time": 1640383644.137009
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.137048 tifftopnm@7f99ff2fdfb4[2070] read(4, 0x561b0c4904e0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff2fdfb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x561b0c4904e0"
+                        }, 
+                        "time": 1640383644.137048
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.137115 tifftopnm@7f99ff3033f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3033f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.137115
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.137171 tifftopnm@7f99ff3082e9[2070] gettid() = 2070\n", 
+                        "api": "gettid", 
+                        "return_value": "2070", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3082e9", 
+                        "arguments": {}, 
+                        "time": 1640383644.137171
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.137209 tifftopnm@7f99ff2fd613[2070] fstat(3, 0x7ffe04cebde0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff2fd613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffe04cebde0"
+                        }, 
+                        "time": 1640383644.137209
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.137259 tifftopnm@7f99ff2d3717[2070] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff2d3717", 
+                        "arguments": {}, 
+                        "time": 1640383644.137259
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.137315 tifftopnm@7f99ff2d3737[2070] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff2d3737", 
+                        "arguments": {}, 
+                        "time": 1640383644.137315
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.137351 tifftopnm@7f99ff3eed94[2070] read(3, 0x7ffe04cec040, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3eed94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffe04cec040"
+                        }, 
+                        "time": 1640383644.137351
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.137405 tifftopnm@7f99ff3084c3[2070] mmap2(0x7f99f7fec000, 81920, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f99f7fec000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99f7fec000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3084c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7f99f7fec000", 
+                            "p1": "81920", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.137405
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.137468 tifftopnm@7f99ff3084c3[2070] mmap2(0x7f99f7fec000, 12288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f99f7fec000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99f7fec000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3084c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f99f7fec000", 
+                            "p1": "12288", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.137468
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.137509 tifftopnm@7f99ff3084c3[2070] mmap2(0x7f99f7ffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 8192) = 0x7f99f7ffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99f7ffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3084c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f99f7ffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383644.137509
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.137562 tifftopnm@7f99ff3eee27[2070] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3eee27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383644.137562
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.137616 tifftopnm@7f99ff3084c3[2070] mmap2(0x7f99f77eb000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f99f77eb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99f77eb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3084c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f99f77eb000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.137616
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.137669 tifftopnm@7f99ff3042f7[2070] brk(0x561b0c4d4000) = 94674170494976\n", 
+                        "api": "brk", 
+                        "return_value": "94674170494976", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3042f7", 
+                        "arguments": {
+                            "p0": "0x561b0c4d4000"
+                        }, 
+                        "time": 1640383644.137669
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.137750 tifftopnm@7f99ff308597[2070] mprotect(0x7f99f77eb000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff308597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f99f77eb000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.13775
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.137802 tifftopnm@7f99ff3ef55e[2070] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3ef55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383644.137802
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.137878 tifftopnm@7f99ff2fe057[2070] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff2fe057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383644.137878
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.137968 tifftopnm@7f99ff2d2926[2070] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff2d2926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383644.137968
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2070, 
+                        "raw": "Fri Dec 24 22:07:24 2021.138012 tifftopnm@7f99ff2d2926[2070] futex(0x7f99ff172a90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff2d2926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f99ff172a90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383644.138012
+                    }
+                ], 
+                "pid": 2070, 
+                "process_name": "tifftopnm", 
+                "command_line": "/tmp/tifftopnm", 
+                "first_seen": 1640383644.102988, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.129180 tifftopnm@7f99ff3e5117[2072] set_robust_list(0x7f99ff1719e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3e5117", 
+                        "arguments": {
+                            "p0": "0x7f99ff1719e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383644.12918
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.129235 tifftopnm@7f99ff3084c3[2072] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f99f6971000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f99f6971000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3084c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.129235
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.129279 tifftopnm@7f99ff308567[2072] munmap(0x7f99f6971000, 23654400) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff308567", 
+                        "arguments": {
+                            "p0": "0x7f99f6971000", 
+                            "p1": "23654400"
+                        }, 
+                        "time": 1640383644.129279
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.129324 tifftopnm@7f99ff308567[2072] munmap(0x7f99fc000000, 43454464) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff308567", 
+                        "arguments": {
+                            "p0": "0x7f99fc000000", 
+                            "p1": "43454464"
+                        }, 
+                        "time": 1640383644.129324
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.129363 tifftopnm@7f99ff308597[2072] mprotect(0x7f99f8000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff308597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f99f8000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383644.129363
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tifftopnm", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.129421 tifftopnm@7f99ff3ef440[2072] nanosleep([0.010000000], 0x7f99ff170d80) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f99ff3ef440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f99ff170d80"
+                        }, 
+                        "time": 1640383644.129421
+                    }
+                ], 
+                "pid": 2072, 
+                "process_name": "tifftopnm", 
+                "command_line": "", 
+                "first_seen": 1640383644.12918, 
+                "ppid": 2070, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2070, 
+                "process_name": "tifftopnm", 
+                "command_line": "/tmp/tifftopnm", 
+                "first_seen": 1640383644.102988, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2072, 
+                        "process_name": "tifftopnm", 
+                        "command_line": "", 
+                        "first_seen": 1640383644.12918, 
+                        "ppid": 2070, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:07:15,015 [root] DEBUG: Starting analyzer from: /tmp/tmpd5L1im\n", 
+            "2021-12-24 22:07:15,015 [root] DEBUG: Storing results at: /tmp/syVWOUOG\n", 
+            "2021-12-24 22:07:17,275 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:07:17,776 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:07:18,277 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:07:24,094 [lib.core.packages] INFO: Process startup took 5.81 seconds\n", 
+            "2021-12-24 22:07:24,101 [root] INFO: Added new process to list with pid: 2060\n", 
+            "2021-12-24 22:07:30,108 [root] INFO: Process with pid 2060 has terminated\n", 
+            "2021-12-24 22:07:30,110 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:33,111 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:33,113 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 09:43:54,064 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:44:24,109 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:44:54,161 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:45:24,202 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:45:54,258 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:46:24,307 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:46:54,349 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:47:24,394 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:47:54,435 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:48:24,462 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:48:54,478 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:49:24,497 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:49:54,539 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:50:24,581 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:50:54,601 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:51:24,645 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:51:54,671 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:52:24,715 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:52:54,754 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:53:24,798 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:53:54,845 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:54:24,903 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:54:54,958 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:55:25,004 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:55:55,053 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:56:25,098 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:56:55,144 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:57:25,195 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:57:55,238 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:58:25,284 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:58:55,331 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:59:25,376 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 09:59:55,421 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:00:25,466 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:00:55,512 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:01:25,557 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:01:55,596 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:02:25,639 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:02:55,680 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:03:25,721 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:03:55,770 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:04:25,819 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:04:55,862 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:05:25,911 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:05:55,953 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:06:26,010 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:06:56,065 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:07:26,113 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:07:56,167 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:08:26,216 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:08:56,268 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:09:26,327 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:09:56,383 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:10:26,429 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:10:56,473 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:11:26,575 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:11:56,599 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:12:26,652 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:12:56,733 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:13:26,906 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:13:56,952 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:14:26,997 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:14:57,048 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:15:27,092 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:15:57,138 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:16:27,186 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:16:57,231 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:17:27,276 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:17:57,331 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:18:27,382 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:18:57,426 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:19:27,452 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:19:57,594 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:20:27,639 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:20:57,684 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:21:27,724 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:21:57,771 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:22:27,816 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:22:57,858 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:23:27,903 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:23:57,948 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:24:27,993 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:24:58,039 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:25:28,091 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:25:58,255 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:26:28,317 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:26:58,361 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:27:28,401 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:27:58,500 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:28:28,545 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:28:58,596 [cuckoo.core.scheduler] DEBUG: Task #2549072: no machine available yet\n", 
+            "2021-12-25 10:29:28,644 [cuckoo.core.scheduler] INFO: Task #2549072: acquired machine Ubuntu1904x641 (label=Ubuntu1904x641)\n", 
+            "2021-12-25 10:29:28,645 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.101 for task #2549072\n", 
+            "2021-12-25 10:29:28,822 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3555140 (interface=vboxnet0, host=192.168.168.101)\n", 
+            "2021-12-25 10:29:29,038 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x641\n", 
+            "2021-12-25 10:29:29,480 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x641 to Snapshot\n", 
+            "2021-12-25 10:29:38,860 [cuckoo.core.guest] INFO: Starting analysis #2549072 on guest (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2021-12-25 10:29:39,865 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: not ready yet\n", 
+            "2021-12-25 10:29:44,909 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2021-12-25 10:29:44,926 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x641, ip=192.168.168.101, monitor=latest, size=72028)\n", 
+            "2021-12-25 10:29:46,095 [cuckoo.core.resultserver] DEBUG: Task #2549072: live log analysis.log initialized.\n", 
+            "2021-12-25 10:29:51,715 [cuckoo.core.resultserver] DEBUG: Task #2549072: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 10:29:51,744 [cuckoo.core.resultserver] DEBUG: Task #2549072 uploaded file length: 171578\n", 
+            "2021-12-25 10:30:00,052 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549072 still processing\n", 
+            "2021-12-25 10:30:04,207 [cuckoo.core.resultserver] DEBUG: Task #2549072: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 10:30:04,210 [cuckoo.core.resultserver] DEBUG: Task #2549072 uploaded file length: 20847\n", 
+            "2021-12-25 10:30:15,117 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549072 still processing\n", 
+            "2021-12-25 10:30:30,197 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549072 still processing\n", 
+            "2021-12-25 10:30:45,292 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549072 still processing\n", 
+            "2021-12-25 10:31:00,398 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549072 still processing\n", 
+            "2021-12-25 10:31:15,513 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549072 still processing\n", 
+            "2021-12-25 10:31:30,581 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549072 still processing\n", 
+            "2021-12-25 10:31:45,654 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549072 still processing\n", 
+            "2021-12-25 10:32:00,711 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549072 still processing\n", 
+            "2021-12-25 10:32:15,775 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549072 still processing\n", 
+            "2021-12-25 10:32:30,838 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549072 still processing\n", 
+            "2021-12-25 10:32:45,897 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549072 still processing\n", 
+            "2021-12-25 10:33:01,000 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549072 still processing\n", 
+            "2021-12-25 10:33:16,084 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549072 still processing\n", 
+            "2021-12-25 10:33:31,170 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549072 still processing\n", 
+            "2021-12-25 10:33:46,252 [cuckoo.core.guest] INFO: Ubuntu1904x641: end of analysis reached!\n", 
+            "2021-12-25 10:33:46,266 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 10:33:46,325 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 10:33:57,871 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x641 to path /srv/cuckoo/cwd/storage/analyses/2549072/memory.dmp\n", 
+            "2021-12-25 10:33:57,873 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x641\n", 
+            "2021-12-25 10:34:02,020 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.101 for task #2549072\n", 
+            "2021-12-25 10:34:02,021 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2549072\n", 
+            "2021-12-25 10:34:02,145 [cuckoo.core.scheduler] DEBUG: Released database task #2549072\n", 
+            "2021-12-25 10:34:02,248 [cuckoo.core.scheduler] INFO: Task #2549072: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "TIFFReadScanline", 
+        "pm_error", 
+        "memcpy", 
+        "__stack_chk_guard", 
+        "pnm_init", 
+        "cmdline", 
+        "malloc", 
+        "pm_optParseOptions3", 
+        "TIFFOpen", 
+        "stdout", 
+        "stderr", 
+        "TIFFGetField", 
+        "TIFFGetFieldDefaulted", 
+        "pm_message", 
+        "pm_openw", 
+        "pnm_writepnminit", 
+        "pgm_writepgminit", 
+        "TIFFScanlineSize", 
+        "malloc3", 
+        "pm_allocrow", 
+        "memset", 
+        "pnm_writepnmrow", 
+        "pgm_writepgmrow", 
+        "pm_freerow", 
+        "pm_close", 
+        "TIFFPrintDirectory", 
+        "__strdup", 
+        "TIFFFdOpen", 
+        "__stack_chk_fail", 
+        "libnetpbm.so.10", 
+        "libtiff.so.5", 
+        "libz.so.1", 
+        "libjpeg.so.62", 
+        "libm.so.6", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "ld.so.1", 
+        "_ftext", 
+        "_fdata", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.4", 
+        "GLIBC_2.0", 
+        "GLIBC_2.2", 
+        "LIBTIFF_4.0", 
+        "Unable to read row %d, plane %d of input Tiff image.  TIFFReadScanline() failed.", 
+        "Internal error: invalid bits per sample passed to readscanline()", 
+        "respectfillorder", 
+        "headerdump", 
+        "alphaout", 
+        "Too many arguments.  The only argument accepted", 
+        "is the input file specificaton", 
+        "error opening TIFF file %s", 
+        "Standard Input", 
+        "error opening standard input as TIFF file", 
+        "This program can process Tiff images with only 1-8 or 16 bits per sample.  The input Tiff image has %d bits per sample.", 
+        "PHOTOMETRIC tag is not in Tiff file.  TIFFGetField() of it failed.", 
+        "This means the input is not valid Tiff.", 
+        "PLANARCONFIG tag is not in Tiff file, though it has more than one sample per pixel.  TIFFGetField() of it failed.  This means the input is not valid Tiff.", 
+        "This program can only handle 1-channel gray scale or 1- or 3-channel color.  The input Tiff file has %d channels (samples per pixel)", 
+        "This program can handle separate planes only with RGB (PHOTOMETRIC tag = %d) or SEPARATED (PHOTOMETRIC tag = %d) data.  The input Tiff file has PHOTOMETRIC tag = %d.", 
+        "Unrecognized PLANARCONFIG tag value in Tiff input: %d.", 
+        "Input Tiff file is invalid.  It has no IMAGEWIDTH tag.", 
+        "Input Tiff file is invalid.  It has no IMAGELENGTH tag.", 
+        "%dx%dx%d image", 
+        "%d bits/sample, %d samples/pixel", 
+        "Invalid value in Tiff input for the FILLORDER tag: %u.  Valid values are %u and %u.  Try omitting the -respectfillorder option.", 
+        "Warning: overriding FILLORDER tag in the tiff input and assuming msb-to-lsb.  Consider the -respectfillorder option.", 
+        "monochrome", 
+        "%d graylevels (min=black)", 
+        "%d graylevels (min=white)", 
+        "colormapped", 
+        "error getting colormaps", 
+        "too many colors", 
+        "color separation", 
+        "This color separation file uses an inkset (%d) we can't handle.  We handle only CMYK.", 
+        "This CMYK color separation file is %d samples per pixel.  We need 4 samples, though: C, M, Y, and K.  ", 
+        "RGB truecolor", 
+        "don't know how to handle PHOTOMETRIC_MASK", 
+        "don't know how to handle PHOTOMETRIC_DEPTH", 
+        "don't know how to handle PHOTOMETRIC_YCBCR", 
+        "don't know how to handle PHOTOMETRIC_CIELAB", 
+        "don't know how to handle PHOTOMETRIC_LOGL", 
+        "don't know how to handle PHOTOMETRIC_LOGLUV", 
+        "unknown photometric: %d", 
+        "bits/sample (%d) in the input image is too large.", 
+        "writing PBM file", 
+        "writing PGM file", 
+        "writing PPM file", 
+        "can't allocate memory for scanline buffer", 
+        "can't allocate memory for row buffer", 
+        "internal error:  unknown photometric in the picking routine: %d", 
+        "This is a multiple-plane file, but is not an RGB file.  This program does not know how to handle that.", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "36b87b7f7799c453399c33401debcec5231bd959d0fdb9d6c8de6548c59664ff", 
+                "dirname": ""
+            }
+        }
+    }
+}
