@@ -1,0 +1,545 @@
+{
+    "info": {
+        "added": 1640383619.923041, 
+        "started": 1640404875.930092, 
+        "duration": 572, 
+        "ended": 1640405448.80818, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2548589, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x647", 
+            "label": "Ubuntu1904x647", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 04:06:07", 
+            "shutdown_on": "2021-12-25 04:10:48"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-object", 
+            "yara": [], 
+            "sha1": "992e09bb5d999014f4c1a208d3598e00a33cfda9", 
+            "name": "ip6t_MASQUERADE.ko", 
+            "type": "ELF 32-bit LSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), BuildID[sha1]=8dae4b70a7675757e15d9ba451489ae1dac349be, not stripped", 
+            "sha256": "100b44fcc0b15c6b9cf26ba30e6d4ae3d966159679104c75a57046aaa426995d", 
+            "urls": [], 
+            "crc32": "5FC95803", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/100b44fcc0b15c6b9cf26ba30e6d4ae3d966159679104c75a57046aaa426995d", 
+            "ssdeep": "96:xR2qYvopveK3rRgv0Aj1UKUr8vglvqDeHFc:xR2qYvs2K3rRgMy1UKUr8Yl", 
+            "size": 4756, 
+            "sha512": "98208b9ce1e1f559eda7766e58d9869b09714d31c347d536788f34be7f15d3d68dd8668ea5849a60bcf2f54520316679ad6592dc59a91f9ce32ab4aeedbfd91d", 
+            "md5": "ec21d470c6550a564be0ca919c12dab1"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "b77a0b88-1aa0-4158-930c-809993db6e38", 
+        "parent_file_sha256": null, 
+        "name": "100b44fcc0b15c6b9cf26ba30e6d4ae3d966159679104c75a57046aaa426995d", 
+        "probes_total": 16, 
+        "scan_date": 1640398250, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "992e09bb5d999014f4c1a208d3598e00a33cfda9", 
+            "tags": [], 
+            "timestamp_first_scan": 1640398249.61, 
+            "timestamp_last_scan": 1640398258.45, 
+            "sha256": "100b44fcc0b15c6b9cf26ba30e6d4ae3d966159679104c75a57046aaa426995d", 
+            "md5": "ec21d470c6550a564be0ca919c12dab1", 
+            "size": 4756
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.1, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.63, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-15 12:09:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.26, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.04, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.72, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.78, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.6, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.48, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.11, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.98, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.23, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "69f83d56-6e04-4799-b1d4-770e224329c3", 
+        "file_sha256": "100b44fcc0b15c6b9cf26ba30e6d4ae3d966159679104c75a57046aaa426995d"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "sh", 
+                "pid": 2085, 
+                "summary": {}, 
+                "first_seen": 1640383631.749455, 
+                "ppid": -1
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "ENOEXEC", 
+                        "process_name": "sh", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:11 2021.749455 sh@7f5bdc770957[2085] execve(\"/tmp/ip6t_MASQUERADE.ko\", [\"/tmp/ip6t_MASQUERADE.ko\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/ip6t_MASQUERADE.ko\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tm) = -8 (ENOEXEC)\n", 
+                        "api": "execve", 
+                        "return_value": "-8", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5bdc770957", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/ip6t_MASQUERADE.ko", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "\"PWD=/tm"
+                            ], 
+                            "p0": "/tmp/ip6t_MASQUERADE.ko", 
+                            "p1": [
+                                "/tmp/ip6t_MASQUERADE.ko"
+                            ]
+                        }, 
+                        "time": 1640383631.749455
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:11 2021.761819 sh@7f5bdc79bcce[2085] openat(AT_FDCWD, \"/tmp/ip6t_MASQUERADE.ko\", O_RDONLY|O_NOCTTY) = 3\n", 
+                        "api": "openat", 
+                        "return_value": "3", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5bdc79bcce", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NOCTTY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/tmp/ip6t_MASQUERADE.ko"
+                        }, 
+                        "time": 1640383631.761819
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:11 2021.761885 sh@7f5bdc79bf81[2085] read(3, 0x7ffccb904bf0, 128) = 128\n", 
+                        "api": "read", 
+                        "return_value": "128", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5bdc79bf81", 
+                        "arguments": {
+                            "p2": "128", 
+                            "p0": "3", 
+                            "p1": "0x7ffccb904bf0"
+                        }, 
+                        "time": 1640383631.761885
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:11 2021.761932 sh@7f5bdc79c674[2085] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5bdc79c674", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383631.761932
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:11 2021.762037 sh@7f5bdc79c024[2085] write(2, \"sh: 1: \", 7) = 7\n", 
+                        "api": "write", 
+                        "return_value": "7", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5bdc79c024", 
+                        "arguments": {
+                            "p2": "7", 
+                            "p0": "2", 
+                            "p1": "sh: 1: "
+                        }, 
+                        "time": 1640383631.762037
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:11 2021.762107 sh@7f5bdc79c024[2085] write(2, \"/tmp/ip6t_MASQUERADE.ko: Exec format error\", 42) = 42\n", 
+                        "api": "write", 
+                        "return_value": "42", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5bdc79c024", 
+                        "arguments": {
+                            "p2": "42", 
+                            "p0": "2", 
+                            "p1": "/tmp/ip6t_MASQUERADE.ko: Exec format error"
+                        }, 
+                        "time": 1640383631.762107
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:11 2021.762150 sh@7f5bdc79c024[2085] write(2, \"\\n\", 1) = 1\n", 
+                        "api": "write", 
+                        "return_value": "1", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5bdc79c024", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "2", 
+                            "p1": "\n"
+                        }, 
+                        "time": 1640383631.76215
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:11 2021.762206 sh@7f5bdc770926[2085] exit_group(2)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5bdc770926", 
+                        "arguments": {
+                            "p0": "2"
+                        }, 
+                        "time": 1640383631.762206
+                    }
+                ], 
+                "pid": 2085, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1640383631.749455, 
+                "ppid": -1, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2085, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1640383631.749455, 
+                "ppid": -1, 
+                "children": []
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:06:59,001 [root] DEBUG: Starting analyzer from: /tmp/tmpOhzOyo\n", 
+            "2021-12-24 22:06:59,001 [root] DEBUG: Storing results at: /tmp/MJIqjPuryk\n", 
+            "2021-12-24 22:07:01,035 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:07:01,037 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:07:01,040 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:07:11,742 [lib.core.packages] INFO: Process startup took 10.70 seconds\n", 
+            "2021-12-24 22:07:11,754 [root] INFO: Added new process to list with pid: 2073\n", 
+            "2021-12-24 22:07:23,771 [root] INFO: Process with pid 2073 has terminated\n", 
+            "2021-12-24 22:07:23,772 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:26,779 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:26,781 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 04:01:36,291 [cuckoo.core.scheduler] DEBUG: Task #2548589: no machine available yet\n", 
+            "2021-12-25 04:02:06,337 [cuckoo.core.scheduler] DEBUG: Task #2548589: no machine available yet\n", 
+            "2021-12-25 04:02:36,385 [cuckoo.core.scheduler] DEBUG: Task #2548589: no machine available yet\n", 
+            "2021-12-25 04:03:06,434 [cuckoo.core.scheduler] DEBUG: Task #2548589: no machine available yet\n", 
+            "2021-12-25 04:03:36,477 [cuckoo.core.scheduler] DEBUG: Task #2548589: no machine available yet\n", 
+            "2021-12-25 04:04:06,521 [cuckoo.core.scheduler] DEBUG: Task #2548589: no machine available yet\n", 
+            "2021-12-25 04:04:36,622 [cuckoo.core.scheduler] DEBUG: Task #2548589: no machine available yet\n", 
+            "2021-12-25 04:05:06,665 [cuckoo.core.scheduler] DEBUG: Task #2548589: no machine available yet\n", 
+            "2021-12-25 04:05:36,744 [cuckoo.core.scheduler] DEBUG: Task #2548589: no machine available yet\n", 
+            "2021-12-25 04:06:06,798 [cuckoo.core.scheduler] INFO: Task #2548589: acquired machine Ubuntu1904x647 (label=Ubuntu1904x647)\n", 
+            "2021-12-25 04:06:06,799 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.107 for task #2548589\n", 
+            "2021-12-25 04:06:06,995 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3198439 (interface=vboxnet0, host=192.168.168.107)\n", 
+            "2021-12-25 04:06:07,140 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x647\n", 
+            "2021-12-25 04:06:07,530 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x647 to Snapshot\n", 
+            "2021-12-25 04:06:24,131 [cuckoo.core.guest] INFO: Starting analysis #2548589 on guest (id=Ubuntu1904x647, ip=192.168.168.107)\n", 
+            "2021-12-25 04:06:25,136 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: not ready yet\n", 
+            "2021-12-25 04:06:30,152 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x647, ip=192.168.168.107)\n", 
+            "2021-12-25 04:06:30,165 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x647, ip=192.168.168.107, monitor=latest, size=72028)\n", 
+            "2021-12-25 04:06:31,322 [cuckoo.core.resultserver] DEBUG: Task #2548589: live log analysis.log initialized.\n", 
+            "2021-12-25 04:06:37,227 [cuckoo.core.resultserver] DEBUG: Task #2548589: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 04:06:37,315 [cuckoo.core.resultserver] DEBUG: Task #2548589 uploaded file length: 171578\n", 
+            "2021-12-25 04:06:45,296 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548589 still processing\n", 
+            "2021-12-25 04:06:59,118 [cuckoo.core.resultserver] DEBUG: Task #2548589: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 04:06:59,120 [cuckoo.core.resultserver] DEBUG: Task #2548589 uploaded file length: 1209\n", 
+            "2021-12-25 04:07:00,378 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548589 still processing\n", 
+            "2021-12-25 04:07:15,492 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548589 still processing\n", 
+            "2021-12-25 04:07:30,550 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548589 still processing\n", 
+            "2021-12-25 04:07:45,608 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548589 still processing\n", 
+            "2021-12-25 04:08:00,693 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548589 still processing\n", 
+            "2021-12-25 04:08:15,764 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548589 still processing\n", 
+            "2021-12-25 04:08:30,825 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548589 still processing\n", 
+            "2021-12-25 04:08:45,885 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548589 still processing\n", 
+            "2021-12-25 04:09:00,940 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548589 still processing\n", 
+            "2021-12-25 04:09:16,048 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548589 still processing\n", 
+            "2021-12-25 04:09:31,107 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548589 still processing\n", 
+            "2021-12-25 04:09:46,179 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548589 still processing\n", 
+            "2021-12-25 04:10:01,249 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548589 still processing\n", 
+            "2021-12-25 04:10:16,326 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548589 still processing\n", 
+            "2021-12-25 04:10:31,376 [cuckoo.core.guest] INFO: Ubuntu1904x647: end of analysis reached!\n", 
+            "2021-12-25 04:10:31,385 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 04:10:31,445 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 04:10:44,517 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x647 to path /srv/cuckoo/cwd/storage/analyses/2548589/memory.dmp\n", 
+            "2021-12-25 04:10:44,518 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x647\n", 
+            "2021-12-25 04:10:48,470 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.107 for task #2548589\n", 
+            "2021-12-25 04:10:48,470 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2548589\n", 
+            "2021-12-25 04:10:48,608 [cuckoo.core.scheduler] DEBUG: Released database task #2548589\n", 
+            "2021-12-25 04:10:48,694 [cuckoo.core.scheduler] INFO: Task #2548589: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "description=Xtables: automatic address SNAT", 
+        "author=Patrick McHardy <kaber@trash.net>", 
+        "license=GPL", 
+        "depends=x_tables,nf_nat_masquerade_ipv6", 
+        "intree=Y", 
+        "vermagic=4.9.0-13-4kc-malta mod_unload modversions MIPS32_R2 32BIT ", 
+        "4Fmodule_layout", 
+        "xt_unregister_target", 
+        "\"nf_nat_masquerade_ipv6_unregister_notifier", 
+        "8nf_nat_masquerade_ipv6_register_notifier", 
+        "xt_register_target", 
+        "nf_nat_masquerade_ipv6", 
+        "_mcount", 
+        "MASQUERADE", 
+        "ip6t_MASQUERADE", 
+        "GCC: (Debian 6.3.0-18+deb9u1) 6.3.0 20170516", 
+        "GCC: (Debian 6.3.0-18+deb9u1) 6.3.0 20170516", 
+        "ip6t_MASQUERADE.ko", 
+        "masquerade_tg6_checkentry", 
+        "masquerade_tg6", 
+        "masquerade_tg6_init", 
+        "masquerade_tg6_reg", 
+        "masquerade_tg6_exit", 
+        "__UNIQUE_ID_description160", 
+        "__UNIQUE_ID_author159", 
+        "__UNIQUE_ID_license158", 
+        "__module_depends", 
+        "____versions", 
+        "__UNIQUE_ID_intree53", 
+        "__UNIQUE_ID_vermagic52", 
+        "__this_module", 
+        "cleanup_module", 
+        "nf_nat_masquerade_ipv6_unregister_notifier", 
+        "init_module", 
+        "nf_nat_masquerade_ipv6_register_notifier", 
+        "xt_register_target", 
+        "nf_nat_masquerade_ipv6", 
+        "_mcount", 
+        "xt_unregister_target", 
+        ".symtab", 
+        ".strtab", 
+        ".shstrtab", 
+        ".note.gnu.build-id", 
+        ".rel.text", 
+        ".rel.init.text", 
+        ".rel.exit.text", 
+        ".reginfo", 
+        ".MIPS.abiflags", 
+        ".modinfo", 
+        ".rodata.str1.4", 
+        ".rel__mcount_loc", 
+        "__versions", 
+        ".rel.data..read_mostly", 
+        ".rel.gnu.linkonce.this_module", 
+        ".rel.pdr", 
+        ".mdebug.abi32", 
+        ".comment", 
+        ".gnu.attributes", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
