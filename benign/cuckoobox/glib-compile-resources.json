@@ -1,0 +1,3518 @@
+{
+    "info": {
+        "added": 1640383611.469913, 
+        "started": 1640398645.014733, 
+        "duration": 1611, 
+        "ended": 1640400256.086398, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2548443, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x641", 
+            "label": "Ubuntu1904x641", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 02:39:43", 
+            "shutdown_on": "2021-12-25 02:44:15"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "d57d60e3e779f882219e5f2f5677537deb4342e5", 
+            "name": "glib-compile-resources", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=91787971c635c7df3e6fa66068d985b560caece9, stripped", 
+            "sha256": "c14bf28aca78ef60e49a4265fb580083a1dd7ebbc69a7c2bce5def49e79ec5c1", 
+            "urls": [
+                "http://opensource.apple.com/source/OpenSSL098/OpenSSL098-35/src/fips/fips_premain.c"
+            ], 
+            "crc32": "6F3CF211", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/c14bf28aca78ef60e49a4265fb580083a1dd7ebbc69a7c2bce5def49e79ec5c1", 
+            "ssdeep": "768:5WlmknMvbszKcuxhrYG+YnLz6Yn6Ffp7JPhPUM10cRDulSYI4cAArYJiruREGaOI:ORMvbszKcuxhrYG+Ynn6Yqfp7JPhMM1L", 
+            "size": 39828, 
+            "sha512": "21da38db605843749e20ab29295f4da31c801f8e4f10a42c6e12eca56f48cfa9c7bf28ee28f0de2e776a15ae664f3615bea56c40a3d93ca72b05a242cf8db1e8", 
+            "md5": "7dd981b0bb02c0e9370f8568f1d60f26"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "ce21e58c-6486-4429-a573-3f62d854412c", 
+        "parent_file_sha256": null, 
+        "name": "c14bf28aca78ef60e49a4265fb580083a1dd7ebbc69a7c2bce5def49e79ec5c1", 
+        "probes_total": 16, 
+        "scan_date": 1640393057, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "d57d60e3e779f882219e5f2f5677537deb4342e5", 
+            "tags": [], 
+            "timestamp_first_scan": 1640393056.53, 
+            "timestamp_last_scan": 1640393073.34, 
+            "sha256": "c14bf28aca78ef60e49a4265fb580083a1dd7ebbc69a7c2bce5def49e79ec5c1", 
+            "md5": "7dd981b0bb02c0e9370f8568f1d60f26", 
+            "size": 39828
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.95, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": -1, 
+                    "version": null, 
+                    "error": "job error"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.27, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.64, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-16 07:23:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.31, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.17, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.98, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": -1, 
+                    "version": null, 
+                    "error": "job error"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.7, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.64, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": -1, 
+                    "version": null, 
+                    "error": "job error"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.24, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "91086b0b-df07-4adf-b5ac-c3b9710c6aac", 
+        "file_sha256": "c14bf28aca78ef60e49a4265fb580083a1dd7ebbc69a7c2bce5def49e79ec5c1"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.101", 
+                "version": "TLS 1.2", 
+                "src_port": 51436, 
+                "dst_port": 443, 
+                "timestamp": "2021-12-25T02:40:15.916665+0200", 
+                "dst_ip": "91.189.92.40", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "6ad6dd8e1b38f8c5ab8a7ad64e30552418bf0a4bcb104b9629603dc7568b4672", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "9db8c280bf252e98d452ef854893bb71af3038cf8ef654e6de4fc3d1219afe7f", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "glib-compile-resources", 
+                "pid": 2073, 
+                "summary": {}, 
+                "first_seen": 1640383618.496834, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "glib-compile-re", 
+                "pid": 2074, 
+                "summary": {}, 
+                "first_seen": 1640383618.517947, 
+                "ppid": 2073
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.496834 glib-compile-re@7f9ded6f2c27[2073] execve(\"/tmp/glib-compile-resources\", [\"/tmp/glib-compile-resources\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/glib-compile-resources\", \"SHELL=/bin/bash\", \"SUDO_USER=roo)\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f2c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/glib-compile-resources", 
+                                "SHELL=/bin/bash", 
+                                "\"SUDO_USER=roo"
+                            ], 
+                            "p0": "/tmp/glib-compile-resources", 
+                            "p1": [
+                                "/tmp/glib-compile-resources"
+                            ]
+                        }, 
+                        "time": 1640383618.496834
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.499984 glib-compile-re@7f9ded6f2c27[2073] brk(0x0) = 94577552224256\n", 
+                        "api": "brk", 
+                        "return_value": "94577552224256", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f2c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383618.499984
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.500937 glib-compile-re@7f9ded6f39d7[2073] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f39d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383618.500937
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.501909 glib-compile-re@7f9ded6f3b0d[2073] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383618.501909
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.501970 glib-compile-re@7f9ded6f3943[2073] fstat(4, 0x7ffc90c4a9c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4a9c0"
+                        }, 
+                        "time": 1640383618.50197
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.502023 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f9ded6c1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded6c1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.502023
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.502078 glib-compile-re@7f9ded6f39f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f39f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383618.502078
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.502148 glib-compile-re@7f9ded6f3b0d[2073] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383618.502148
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.502205 glib-compile-re@7f9ded6f3bd4[2073] read(4, 0x7ffc90c4ab78, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4ab78"
+                        }, 
+                        "time": 1640383618.502205
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.502256 glib-compile-re@7f9ded6f3943[2073] fstat(4, 0x7ffc90c4aa10) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4aa10"
+                        }, 
+                        "time": 1640383618.502256
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.502306 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9ded6bf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded6bf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.502306
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.502390 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9ded6b9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded6b9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.50239
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.502448 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded6ba000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f9ded6ba000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded6ba000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded6ba000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383618.502448
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.502512 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded6bc000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9ded6bc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded6bc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded6bc000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383618.502512
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.502571 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded6bd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9ded6bd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded6bd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded6bd000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383618.502571
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.502643 glib-compile-re@7f9ded6f39f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f39f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383618.502643
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.502708 glib-compile-re@7f9ded6f3b0d[2073] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383618.502708
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.502765 glib-compile-re@7f9ded6f3bd4[2073] read(4, 0x7ffc90c4ab58, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4ab58"
+                        }, 
+                        "time": 1640383618.502765
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.502814 glib-compile-re@7f9ded6f3943[2073] fstat(4, 0x7ffc90c4a9f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4a9f0"
+                        }, 
+                        "time": 1640383618.502814
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.502864 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9ded598000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded598000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.502864
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.502922 glib-compile-re@7f9ded6f3db7[2073] mprotect(0x7f9ded5b3000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f9ded5b3000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383618.502922
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.502983 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded5b3000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f9ded5b3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded5b3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded5b3000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383618.502983
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.503039 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded633000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f9ded633000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded633000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded633000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383618.503039
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.503094 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded6b6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f9ded6b6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded6b6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded6b6000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383618.503094
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.503185 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded6b8000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9ded6b8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded6b8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f9ded6b8000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.503185
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.503252 glib-compile-re@7f9ded6f39f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f39f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383618.503252
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.503328 glib-compile-re@7f9ded6f3b0d[2073] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383618.503328
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.503385 glib-compile-re@7f9ded6f3bd4[2073] read(4, 0x7ffc90c4ab38, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4ab38"
+                        }, 
+                        "time": 1640383618.503385
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.503434 glib-compile-re@7f9ded6f3943[2073] fstat(4, 0x7ffc90c4a9d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4a9d0"
+                        }, 
+                        "time": 1640383618.503434
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.503483 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9ded58d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded58d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.503483
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.503540 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded590000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9ded590000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded590000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded590000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383618.50354
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.503632 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded594000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f9ded594000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded594000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded594000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383618.503632
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.503692 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded596000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f9ded596000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded596000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded596000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383618.503692
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.503765 glib-compile-re@7f9ded6f39f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f39f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383618.503765
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.503830 glib-compile-re@7f9ded6f3b0d[2073] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383618.50383
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.503888 glib-compile-re@7f9ded6f3bd4[2073] read(4, 0x7ffc90c4ab18, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4ab18"
+                        }, 
+                        "time": 1640383618.503888
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.503960 glib-compile-re@7f9ded6f3943[2073] fstat(4, 0x7ffc90c4a9b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4a9b0"
+                        }, 
+                        "time": 1640383618.50396
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.504020 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9ded3ab000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded3ab000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.50402
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.504082 glib-compile-re@7f9ded6f3db7[2073] mprotect(0x7f9ded440000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f9ded440000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383618.504082
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.504139 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded440000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7f9ded440000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded440000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded440000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383618.504139
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.504196 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded532000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7f9ded532000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded532000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded532000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383618.504196
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.504248 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded57c000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7f9ded57c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded57c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded57c000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383618.504248
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.504310 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded58a000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9ded58a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded58a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f9ded58a000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.50431
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.504526 glib-compile-re@7f9ded6f39f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f39f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383618.504526
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.504624 glib-compile-re@7f9ded6f3b0d[2073] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383618.504624
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.504688 glib-compile-re@7f9ded6f3bd4[2073] read(4, 0x7ffc90c4aaf8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4aaf8"
+                        }, 
+                        "time": 1640383618.504688
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.504746 glib-compile-re@7f9ded6f3943[2073] fstat(4, 0x7ffc90c4a990) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4a990"
+                        }, 
+                        "time": 1640383618.504746
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.504815 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9ded25d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded25d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.504815
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.504877 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded26c000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f9ded26c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded26c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded26c000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383618.504877
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.504939 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded312000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f9ded312000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded312000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded312000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383618.504939
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.504995 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded3a9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f9ded3a9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded3a9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded3a9000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383618.504995
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.505068 glib-compile-re@7f9ded6f39f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f39f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383618.505068
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.505135 glib-compile-re@7f9ded6f3b0d[2073] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383618.505135
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.505213 glib-compile-re@7f9ded6f3bd4[2073] read(4, 0x7ffc90c4aad8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4aad8"
+                        }, 
+                        "time": 1640383618.505213
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.505266 glib-compile-re@7f9ded6f3943[2073] fstat(4, 0x7ffc90c4a970) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4a970"
+                        }, 
+                        "time": 1640383618.505266
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.505315 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9ded243000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded243000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.505315
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.505370 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded246000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9ded246000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded246000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded246000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383618.50537
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.505429 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded257000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f9ded257000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded257000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded257000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383618.505429
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.505483 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded25b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f9ded25b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded25b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded25b000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383618.505483
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.505554 glib-compile-re@7f9ded6f39f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f39f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383618.505554
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.505639 glib-compile-re@7f9ded6f3b0d[2073] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383618.505639
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.505701 glib-compile-re@7f9ded6f3bd4[2073] read(4, 0x7ffc90c4aab8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4aab8"
+                        }, 
+                        "time": 1640383618.505701
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.505751 glib-compile-re@7f9ded6f3943[2073] fstat(4, 0x7ffc90c4a950) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4a950"
+                        }, 
+                        "time": 1640383618.505751
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.505808 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9ded241000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded241000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.505808
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.505881 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9ded220000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded220000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.505881
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.505936 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded227000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f9ded227000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded227000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded227000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383618.505936
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.506004 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded236000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f9ded236000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded236000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded236000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383618.506004
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.506082 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded23b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f9ded23b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded23b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded23b000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383618.506082
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.506159 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded23d000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9ded23d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded23d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f9ded23d000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.506159
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.506246 glib-compile-re@7f9ded6f39f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f39f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383618.506246
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.506313 glib-compile-re@7f9ded6f3b0d[2073] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383618.506313
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.506370 glib-compile-re@7f9ded6f3bd4[2073] read(4, 0x7ffc90c4aa98, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4aa98"
+                        }, 
+                        "time": 1640383618.50637
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.506419 glib-compile-re@7f9ded6f3943[2073] fstat(4, 0x7ffc90c4a930) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4a930"
+                        }, 
+                        "time": 1640383618.506419
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.506470 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9ded035000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded035000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.50647
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.506525 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded05a000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f9ded05a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded05a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded05a000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383618.506525
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.506586 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded1cd000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f9ded1cd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded1cd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded1cd000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383618.506586
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.506643 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded216000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f9ded216000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded216000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded216000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383618.506643
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.506705 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded21c000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9ded21c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded21c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f9ded21c000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.506705
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.506789 glib-compile-re@7f9ded6f39f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f39f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383618.506789
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.506880 glib-compile-re@7f9ded6f3b0d[2073] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383618.50688
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.506937 glib-compile-re@7f9ded6f3bd4[2073] read(4, 0x7ffc90c4aa78, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4aa78"
+                        }, 
+                        "time": 1640383618.506937
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.506985 glib-compile-re@7f9ded6f3943[2073] fstat(4, 0x7ffc90c4a910) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4a910"
+                        }, 
+                        "time": 1640383618.506985
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.507034 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9ded02f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded02f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.507034
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.507091 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded030000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f9ded030000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded030000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded030000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383618.507091
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.507153 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded032000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9ded032000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded032000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded032000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383618.507153
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.507208 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded033000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9ded033000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded033000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded033000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383618.507208
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.507278 glib-compile-re@7f9ded6f39f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f39f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383618.507278
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.507343 glib-compile-re@7f9ded6f3b0d[2073] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383618.507343
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.507398 glib-compile-re@7f9ded6f3bd4[2073] read(4, 0x7ffc90c4aa58, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4aa58"
+                        }, 
+                        "time": 1640383618.507398
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.507461 glib-compile-re@7f9ded6f3943[2073] fstat(4, 0x7ffc90c4a8f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4a8f0"
+                        }, 
+                        "time": 1640383618.507461
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.507530 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9decfbb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9decfbb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.50753
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.507587 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9decfbd000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f9decfbd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9decfbd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9decfbd000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383618.507587
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.507648 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded00f000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f9ded00f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded00f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded00f000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383618.507648
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.507703 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x7f9ded02d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f9ded02d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ded02d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9ded02d000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383618.507703
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.507775 glib-compile-re@7f9ded6f39f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f39f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383618.507775
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.508800 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9decfb9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9decfb9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.5088
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.508854 glib-compile-re@7f9ded6f3d03[2073] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9decfb6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9decfb6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.508854
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.508907 glib-compile-re@7f9ded6d8f30[2073] arch_prctl(ARCH_SET_FS, 140316262492096) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6d8f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140316262492096"
+                        }, 
+                        "time": 1640383618.508907
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.509661 glib-compile-re@7f9ded6f3db7[2073] mprotect(0x7f9ded216000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9ded216000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383618.509661
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.509714 glib-compile-re@7f9ded6f3db7[2073] mprotect(0x7f9ded23b000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9ded23b000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383618.509714
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.509778 glib-compile-re@7f9ded6f3db7[2073] mprotect(0x7f9ded02d000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9ded02d000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383618.509778
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.509821 glib-compile-re@7f9ded6f3db7[2073] mprotect(0x7f9ded033000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9ded033000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383618.509821
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.509860 glib-compile-re@7f9ded6f3db7[2073] mprotect(0x7f9ded25b000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9ded25b000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383618.50986
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.509914 glib-compile-re@7f9ded6f3db7[2073] mprotect(0x7f9ded3a9000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9ded3a9000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383618.509914
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.510728 glib-compile-re@7f9ded6f3db7[2073] mprotect(0x7f9ded57c000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9ded57c000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383618.510728
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.510777 glib-compile-re@7f9ded6f3db7[2073] mprotect(0x7f9ded596000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9ded596000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383618.510777
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.510970 glib-compile-re@7f9ded6f3db7[2073] mprotect(0x7f9ded6b6000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9ded6b6000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383618.51097
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.511027 glib-compile-re@7f9ded6f3db7[2073] mprotect(0x7f9ded6bd000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9ded6bd000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383618.511027
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.515243 glib-compile-re@7f9ded6f3db7[2073] mprotect(0x56048b174000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x56048b174000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383618.515243
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.515301 glib-compile-re@7f9ded6f3db7[2073] mprotect(0x7f9ded701000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9ded701000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383618.515301
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.515350 glib-compile-re@7f9ded6f3d97[2073] munmap(0x7f9ded6c1000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded6f3d97", 
+                        "arguments": {
+                            "p0": "0x7f9ded6c1000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383618.51535
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.515420 glib-compile-re@7f9ded2278df[2073] set_tid_address(0x7f9decfb6a90) = 2073\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2073", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded2278df", 
+                        "arguments": {
+                            "p0": "0x7f9decfb6a90"
+                        }, 
+                        "time": 1640383618.51542
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.515454 glib-compile-re@7f9ded22794a[2073] set_robust_list(0x7f9decfb6aa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded22794a", 
+                        "arguments": {
+                            "p0": "0x7f9decfb6aa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383618.515454
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.515497 glib-compile-re@7f9ded234010[2073] rt_sigaction(0x20, {0x7f9ded2276c0, SA_SIGINFO|SA_RESTORER, 0x7f9ded233f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded234010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f9ded2276c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f9ded233f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383618.515497
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.515534 glib-compile-re@7f9ded234010[2073] rt_sigaction(0x21, {0x7f9ded227760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f9ded233f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded234010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f9ded227760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f9ded233f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383618.515534
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.515568 glib-compile-re@7f9ded227a19[2073] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded227a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383618.515568
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.515613 glib-compile-re@7f9ded147df0[2073] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc90c4b750) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded147df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc90c4b750", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383618.515613
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.515852 glib-compile-re@7f9ded1482f7[2073] brk(0x0) = 94577552224256\n", 
+                        "api": "brk", 
+                        "return_value": "94577552224256", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded1482f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383618.515852
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.515885 glib-compile-re@7f9ded1482f7[2073] brk(0x56048d698000) = 94577552359424\n", 
+                        "api": "brk", 
+                        "return_value": "94577552359424", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded1482f7", 
+                        "arguments": {
+                            "p0": "0x56048d698000"
+                        }, 
+                        "time": 1640383618.515885
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.516888 glib-compile-re@7f9ded230b86[2073] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc90c4b6a0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded230b86", 
+                        "arguments": {
+                            "p2": "0x7ffc90c4b6a0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383618.516888
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.517620 glib-compile-re@7f9ded14c4c3[2073] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f9dec7b5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9dec7b5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded14c4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.51762
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.517665 glib-compile-re@7f9ded14c597[2073] mprotect(0x7f9dec7b6000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded14c597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f9dec7b6000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383618.517665
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.517722 glib-compile-re@7f9ded152b11[2073] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f9decfb4f30, 0x7f9decfb59d0, 0x7f9decfb59d0) = 2074\n", 
+                        "api": "clone", 
+                        "return_value": "2074", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded152b11", 
+                        "arguments": {
+                            "p2": "0x7f9decfb59d0", 
+                            "p3": "0x7f9decfb59d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f9decfb4f30"
+                        }, 
+                        "time": 1640383618.517722
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.517846 glib-compile-re@7f9ded230b86[2073] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded230b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383618.517846
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.521306 glib-compile-re@7f9ded147df0[2073] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc90c4b200) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded147df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc90c4b200", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383618.521306
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.521366 glib-compile-re@7f9ded1475c1[2073] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded1475c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383618.521366
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.522203 glib-compile-re@7f9ded116247[2073] uname(0x7ffc90c4ae70) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded116247", 
+                        "arguments": {
+                            "p0": "0x7ffc90c4ae70"
+                        }, 
+                        "time": 1640383618.522203
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.522246 glib-compile-re@7f9ded233337[2073] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded233337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383618.522246
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.522281 glib-compile-re@7f9ded232d94[2073] read(3, 0x7ffc90c4b160, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded232d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffc90c4b160"
+                        }, 
+                        "time": 1640383618.522281
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.522319 glib-compile-re@7f9ded233337[2073] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded233337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383618.522319
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.523378 glib-compile-re@7f9ded1482f7[2073] brk(0x56048d6b9000) = 94577552494592\n", 
+                        "api": "brk", 
+                        "return_value": "94577552494592", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded1482f7", 
+                        "arguments": {
+                            "p0": "0x56048d6b9000"
+                        }, 
+                        "time": 1640383618.523378
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.523559 glib-compile-re@7f9ded14c4c3[2073] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9dec734000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9dec734000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded14c4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.523559
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.524080 glib-compile-re@7f9ded14c597[2073] mprotect(0x56048b1f7000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded14c597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x56048b1f7000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383618.52408
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.524125 glib-compile-re@7f9ded14c667[2073] madvise(0x56048b1f7000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded14c667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x56048b1f7000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383618.524125
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.524957 glib-compile-re@7f9ded14c4c3[2073] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f9d68000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9d68000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded14c4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.524957
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.525019 glib-compile-re@7f9ded141d59[2073] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded141d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383618.525019
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.525088 glib-compile-re@7f9ded141613[2073] fstat(4, 0x7ffc90c4a870) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded141613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc90c4a870"
+                        }, 
+                        "time": 1640383618.525088
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.525133 glib-compile-re@7f9ded141fb4[2073] read(4, 0x56048d6964c0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded141fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x56048d6964c0"
+                        }, 
+                        "time": 1640383618.525133
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.525193 glib-compile-re@7f9ded1473f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded1473f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383618.525193
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.525274 glib-compile-re@7f9ded14c2e9[2073] gettid() = 2073\n", 
+                        "api": "gettid", 
+                        "return_value": "2073", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded14c2e9", 
+                        "arguments": {}, 
+                        "time": 1640383618.525274
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.525312 glib-compile-re@7f9ded141613[2073] fstat(3, 0x7ffc90c4b0e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded141613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffc90c4b0e0"
+                        }, 
+                        "time": 1640383618.525312
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.525350 glib-compile-re@7f9ded117717[2073] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded117717", 
+                        "arguments": {}, 
+                        "time": 1640383618.52535
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.525387 glib-compile-re@7f9ded117737[2073] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded117737", 
+                        "arguments": {}, 
+                        "time": 1640383618.525387
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.525426 glib-compile-re@7f9ded232d94[2073] read(3, 0x7ffc90c4b340, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded232d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffc90c4b340"
+                        }, 
+                        "time": 1640383618.525426
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.525488 glib-compile-re@7f9ded14c4c3[2073] mmap2(0x7f9de7fe6000, 106496, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f9de7fe6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9de7fe6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded14c4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7f9de7fe6000", 
+                            "p1": "106496", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.525488
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.525564 glib-compile-re@7f9ded14c4c3[2073] mmap2(0x7f9de7fe6000, 36864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f9de7fe6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9de7fe6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded14c4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f9de7fe6000", 
+                            "p1": "36864", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.525564
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.525612 glib-compile-re@7f9ded14c4c3[2073] mmap2(0x7f9de7ffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 32768) = 0x7f9de7ffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9de7ffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded14c4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f9de7ffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383618.525612
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.525670 glib-compile-re@7f9ded232e27[2073] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded232e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383618.52567
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.525740 glib-compile-re@7f9ded14c4c3[2073] mmap2(0x7f9de77e5000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9de77e5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9de77e5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded14c4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f9de77e5000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.52574
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.525810 glib-compile-re@7f9ded1482f7[2073] brk(0x56048d6da000) = 94577552629760\n", 
+                        "api": "brk", 
+                        "return_value": "94577552629760", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded1482f7", 
+                        "arguments": {
+                            "p0": "0x56048d6da000"
+                        }, 
+                        "time": 1640383618.52581
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.525903 glib-compile-re@7f9ded14c597[2073] mprotect(0x7f9de77e5000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded14c597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f9de77e5000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383618.525903
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.525957 glib-compile-re@7f9ded23355e[2073] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded23355e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383618.525957
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.526040 glib-compile-re@7f9ded142057[2073] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded142057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383618.52604
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.526143 glib-compile-re@7f9ded116926[2073] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded116926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383618.526143
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:06:58 2021.526186 glib-compile-re@7f9ded116926[2073] futex(0x7f9decfb6a90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded116926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f9decfb6a90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383618.526186
+                    }
+                ], 
+                "pid": 2073, 
+                "process_name": "glib-compile-resources", 
+                "command_line": "/tmp/glib-compile-resources", 
+                "first_seen": 1640383618.496834, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:06:58 2021.517947 glib-compile-re@7f9ded229117[2074] set_robust_list(0x7f9decfb59e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded229117", 
+                        "arguments": {
+                            "p0": "0x7f9decfb59e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383618.517947
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:06:58 2021.518047 glib-compile-re@7f9ded14c4c3[2074] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f9de47b5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9de47b5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded14c4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383618.518047
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:06:58 2021.518120 glib-compile-re@7f9ded14c567[2074] munmap(0x7f9de47b5000, 59027456) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded14c567", 
+                        "arguments": {
+                            "p0": "0x7f9de47b5000", 
+                            "p1": "59027456"
+                        }, 
+                        "time": 1640383618.51812
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:06:58 2021.518189 glib-compile-re@7f9ded14c567[2074] munmap(0x7f9dec000000, 8081408) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded14c567", 
+                        "arguments": {
+                            "p0": "0x7f9dec000000", 
+                            "p1": "8081408"
+                        }, 
+                        "time": 1640383618.518189
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:06:58 2021.518251 glib-compile-re@7f9ded14c597[2074] mprotect(0x7f9de8000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded14c597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f9de8000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383618.518251
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "glib-compile-re", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:06:58 2021.518343 glib-compile-re@7f9ded233440[2074] nanosleep([0.010000000], 0x7f9decfb4d80) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9ded233440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f9decfb4d80"
+                        }, 
+                        "time": 1640383618.518343
+                    }
+                ], 
+                "pid": 2074, 
+                "process_name": "glib-compile-re", 
+                "command_line": "", 
+                "first_seen": 1640383618.517947, 
+                "ppid": 2073, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2073, 
+                "process_name": "glib-compile-resources", 
+                "command_line": "/tmp/glib-compile-resources", 
+                "first_seen": 1640383618.496834, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2074, 
+                        "process_name": "glib-compile-re", 
+                        "command_line": "", 
+                        "first_seen": 1640383618.517947, 
+                        "ppid": 2073, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:06:51,003 [root] DEBUG: Starting analyzer from: /tmp/tmp5VU2aK\n", 
+            "2021-12-24 22:06:51,004 [root] DEBUG: Storing results at: /tmp/GtrFkM\n", 
+            "2021-12-24 22:06:53,087 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:06:53,588 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:06:53,590 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:06:58,495 [lib.core.packages] INFO: Process startup took 4.90 seconds\n", 
+            "2021-12-24 22:06:58,497 [root] INFO: Added new process to list with pid: 2064\n", 
+            "2021-12-24 22:07:04,505 [root] INFO: Process with pid 2064 has terminated\n", 
+            "2021-12-24 22:07:04,506 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:07,510 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:07,511 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 02:18:10,431 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:18:40,453 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:19:10,495 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:19:40,543 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:20:10,588 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:20:40,632 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:21:10,675 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:21:40,737 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:22:10,783 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:22:40,807 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:23:10,847 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:23:40,892 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:24:10,938 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:24:40,985 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:25:11,033 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:25:41,337 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:26:11,390 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:26:41,435 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:27:11,497 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:27:41,551 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:28:11,620 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:28:41,665 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:29:11,722 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:29:41,761 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:30:11,803 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:30:41,847 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:31:11,890 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:31:41,954 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:32:12,002 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:32:42,063 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:33:12,153 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:33:42,222 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:34:12,317 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:34:42,382 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:35:12,445 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:35:42,507 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:36:12,642 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:36:42,703 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:37:12,743 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:37:42,790 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:38:12,849 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:38:42,937 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:39:12,963 [cuckoo.core.scheduler] DEBUG: Task #2548443: no machine available yet\n", 
+            "2021-12-25 02:39:43,017 [cuckoo.core.scheduler] INFO: Task #2548443: acquired machine Ubuntu1904x641 (label=Ubuntu1904x641)\n", 
+            "2021-12-25 02:39:43,018 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.101 for task #2548443\n", 
+            "2021-12-25 02:39:43,164 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3110195 (interface=vboxnet0, host=192.168.168.101)\n", 
+            "2021-12-25 02:39:43,324 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x641\n", 
+            "2021-12-25 02:39:43,750 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x641 to Snapshot\n", 
+            "2021-12-25 02:39:52,656 [cuckoo.core.guest] INFO: Starting analysis #2548443 on guest (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2021-12-25 02:39:53,660 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: not ready yet\n", 
+            "2021-12-25 02:39:58,689 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2021-12-25 02:39:58,703 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x641, ip=192.168.168.101, monitor=latest, size=72028)\n", 
+            "2021-12-25 02:39:59,870 [cuckoo.core.resultserver] DEBUG: Task #2548443: live log analysis.log initialized.\n", 
+            "2021-12-25 02:40:05,332 [cuckoo.core.resultserver] DEBUG: Task #2548443: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 02:40:05,446 [cuckoo.core.resultserver] DEBUG: Task #2548443 uploaded file length: 171563\n", 
+            "2021-12-25 02:40:13,826 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548443 still processing\n", 
+            "2021-12-25 02:40:16,394 [cuckoo.core.resultserver] DEBUG: Task #2548443: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 02:40:16,396 [cuckoo.core.resultserver] DEBUG: Task #2548443 uploaded file length: 21828\n", 
+            "2021-12-25 02:40:28,887 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548443 still processing\n", 
+            "2021-12-25 02:40:43,963 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548443 still processing\n", 
+            "2021-12-25 02:40:59,018 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548443 still processing\n", 
+            "2021-12-25 02:41:14,076 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548443 still processing\n", 
+            "2021-12-25 02:41:29,128 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548443 still processing\n", 
+            "2021-12-25 02:41:44,190 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548443 still processing\n", 
+            "2021-12-25 02:41:59,255 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548443 still processing\n", 
+            "2021-12-25 02:42:14,312 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548443 still processing\n", 
+            "2021-12-25 02:42:29,369 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548443 still processing\n", 
+            "2021-12-25 02:42:44,427 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548443 still processing\n", 
+            "2021-12-25 02:42:59,510 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548443 still processing\n", 
+            "2021-12-25 02:43:14,578 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548443 still processing\n", 
+            "2021-12-25 02:43:29,679 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548443 still processing\n", 
+            "2021-12-25 02:43:44,770 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548443 still processing\n", 
+            "2021-12-25 02:43:59,846 [cuckoo.core.guest] INFO: Ubuntu1904x641: end of analysis reached!\n", 
+            "2021-12-25 02:43:59,866 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 02:43:59,933 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 02:44:11,782 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x641 to path /srv/cuckoo/cwd/storage/analyses/2548443/memory.dmp\n", 
+            "2021-12-25 02:44:11,783 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x641\n", 
+            "2021-12-25 02:44:15,722 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.101 for task #2548443\n", 
+            "2021-12-25 02:44:15,722 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2548443\n", 
+            "2021-12-25 02:44:15,841 [cuckoo.core.scheduler] DEBUG: Released database task #2548443\n", 
+            "2021-12-25 02:44:15,924 [cuckoo.core.scheduler] INFO: Task #2548443: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "g_variant_unref", 
+        "g_hash_table_unref", 
+        "g_slice_free1", 
+        "g_slice_alloc", 
+        "g_malloc", 
+        "g_queue_push_tail", 
+        "__stack_chk_guard", 
+        "g_hash_table_size", 
+        "g_malloc0_n", 
+        "g_hash_table_foreach", 
+        "g_assertion_message_expr", 
+        "strlen", 
+        "memcpy", 
+        "g_variant_new_variant", 
+        "g_variant_get_normal_form", 
+        "g_variant_get_size", 
+        "g_variant_store", 
+        "g_variant_byteswap", 
+        "__stack_chk_fail", 
+        "g_slice_alloc0", 
+        "g_strdup", 
+        "g_hash_table_insert", 
+        "g_return_if_fail_warning", 
+        "g_variant_ref_sink", 
+        "g_variant_new_string", 
+        "g_hash_table_ref", 
+        "g_hash_table_new_full", 
+        "g_str_equal", 
+        "g_str_hash", 
+        "g_str_has_prefix", 
+        "strcmp", 
+        "g_queue_new", 
+        "g_string_new", 
+        "g_string_append_len", 
+        "g_queue_is_empty", 
+        "g_queue_pop_head", 
+        "g_queue_free", 
+        "g_file_set_contents", 
+        "g_string_free", 
+        "strrchr", 
+        "g_ascii_strcasecmp", 
+        "g_hash_table_lookup", 
+        "g_build_path", 
+        "g_markup_error_quark", 
+        "dcgettext", 
+        "g_set_error", 
+        "g_path_is_absolute", 
+        "g_file_test", 
+        "g_malloc0", 
+        "g_strsplit", 
+        "g_strfreev", 
+        "g_mkstemp", 
+        "g_subprocess_new", 
+        "g_subprocess_wait_check", 
+        "g_object_unref", 
+        "g_io_error_quark", 
+        "g_file_get_contents", 
+        "g_realloc", 
+        "g_memory_output_stream_new", 
+        "g_zlib_compressor_new", 
+        "g_converter_output_stream_new", 
+        "g_output_stream_write_all", 
+        "g_output_stream_close", 
+        "g_clear_error", 
+        "__errno_location", 
+        "g_io_error_from_errno", 
+        "g_strerror", 
+        "g_set_error_literal", 
+        "g_memory_output_stream_get_size", 
+        "g_memory_output_stream_steal_data", 
+        "g_markup_parse_context_get_element_stack", 
+        "g_markup_collect_attributes", 
+        "g_string_insert_c", 
+        "g_ascii_table", 
+        "g_markup_parse_context_get_element", 
+        "memset", 
+        "setlocale", 
+        "bindtextdomain", 
+        "bind_textdomain_codeset", 
+        "g_option_context_new", 
+        "g_option_context_set_translation_domain", 
+        "g_option_context_set_summary", 
+        "g_option_context_add_main_entries", 
+        "g_option_context_parse", 
+        "g_option_context_free", 
+        "g_getenv", 
+        "g_markup_parse_context_new", 
+        "g_markup_parse_context_parse", 
+        "g_markup_parse_context_end_parse", 
+        "g_printerr", 
+        "g_markup_parse_context_free", 
+        "g_print", 
+        "g_hash_table_iter_init", 
+        "g_variant_type_checked_", 
+        "g_variant_builder_init", 
+        "g_variant_builder_add", 
+        "g_variant_new_from_data", 
+        "g_variant_builder_add_value", 
+        "g_variant_builder_end", 
+        "g_hash_table_iter_next", 
+        "g_string_printf", 
+        "g_string_append", 
+        "g_file_open_tmp", 
+        "g_path_get_basename", 
+        "g_hash_table_destroy", 
+        "g_string_append_printf", 
+        "g_error_free", 
+        "fopen64", 
+        "__fprintf_chk", 
+        "fwrite", 
+        "fclose", 
+        "g_unlink", 
+        "g_find_program_in_path", 
+        "g_path_get_dirname", 
+        "g_str_has_suffix", 
+        "g_strconcat", 
+        "g_build_filename", 
+        "strchr", 
+        "gconstructor_code", 
+        "libgio-2.0.so.0", 
+        "libgobject-2.0.so.0", 
+        "libgmodule-2.0.so.0", 
+        "libglib-2.0.so.0", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "ld.so.1", 
+        "_ftext", 
+        "_fdata", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.4", 
+        "GLIBC_2.2", 
+        "GLIBC_2.3.4", 
+        "GLIBC_2.0", 
+        " dB$hd1&4", 
+        "tkR&|ks&+", 
+        "|hE&%0", 
+        "<raB$,", 
+        "<tnB$0", 
+        "<GVB$,", 
+        "/build/glib2.0-BXEN8b/glib2.0-2.50.3/./gio/gvdb/gvdb-builder.c", 
+        "GLib-GIO", 
+        "size == 0", 
+        "index == guint32_from_le (item->assigned_index)", 
+        "item->child == NULL && item->table == NULL", 
+        "item->table == NULL", 
+        "children == i", 
+        "!item->value && !item->table && !item->child", 
+        "g_str_has_prefix (item->key, parent->key)", 
+        "!parent->value && !parent->table", 
+        "!item->parent && !item->sibling", 
+        "chunk->offset > result->len", 
+        "chunk->offset - result->len < 8", 
+        "result->len == chunk->offset", 
+        "file_builder_serialise", 
+        "file_builder_allocate_for_hash", 
+        "file_builder_add_hash", 
+        "gvdb_item_set_parent", 
+        "gvdb_item_set_hash_table", 
+        "gvdb_item_set_value", 
+        "gresource", 
+        "File %s appears multiple times in the resource", 
+        "Failed to locate '%s' in any source directory", 
+        "Failed to locate '%s' in current directory", 
+        "xml-stripblanks", 
+        "to-pixdata", 
+        "Unknown processing option \"%s\"", 
+        "resource-XXXXXXXX", 
+        "Failed to create temp file: %s", 
+        "--nonet", 
+        "--output", 
+        "--noblanks", 
+        "to-pixbuf preprocessing requested but GDK_PIXBUF_PIXDATA not set and gdk-pixbuf-pixdata not found in path", 
+        "Error reading file %s: %s", 
+        "Error compressing file %s", 
+        "gresources", 
+        "prefix", 
+        "preprocess", 
+        "compressed", 
+        "Element <%s> not allowed inside <%s>", 
+        "Element <%s> not allowed at toplevel", 
+        "text may not appear inside <%s>", 
+        "extern", 
+        "G_GNUC_INTERNAL", 
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_", 
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_", 
+        "version", 
+        "Show program version and exit", 
+        "target", 
+        "name of the output file", 
+        "sourcedir", 
+        "The directories where files are to be read from (default to current directory)", 
+        "DIRECTORY", 
+        "generate", 
+        "Generate output in the format selected for by the target filename extension", 
+        "generate-header", 
+        "Generate source header", 
+        "generate-source", 
+        "Generate sourcecode used to link in the resource file into your code", 
+        "generate-dependencies", 
+        "Generate dependency list", 
+        "dependency-file", 
+        "name of the dependency file to generate", 
+        "manual-register", 
+        "Don't automatically create and register resource", 
+        "internal", 
+        "Don't export functions; declare them G_GNUC_INTERNAL", 
+        "c-name", 
+        "C identifier name used for the generated source code", 
+        "glib20", 
+        "/usr/share/locale", 
+        "Compile a resource specification into a resource file.", 
+        "Resource specification files have the extension .gresource.xml,", 
+        "and the resource file have the extension called .gresource.", 
+        "2.50.3", 
+        "You should give exactly one file name", 
+        "XMLLINT", 
+        "xmllint", 
+        "XMLLINT not set and xmllint not found in path; skipping xml preprocessing.", 
+        "GDK_PIXBUF_PIXDATA", 
+        "gdk-pixbuf-pixdata", 
+        ".gresource", 
+        "%s: %s.", 
+        "(uuay)", 
+        "Error writing dependency file: %s", 
+        "Can't open temp file", 
+        "can't write to file %s", 
+        "#ifndef __RESOURCE_%s_H__", 
+        "#define __RESOURCE_%s_H__", 
+        "#include <gio/gio.h>", 
+        "%s GResource *%s_get_resource (void);", 
+        "%s void %s_register_resource (void);", 
+        "%s void %s_unregister_resource (void);", 
+        "#endif", 
+        "can't read back temporary file", 
+        "#include <gio/gio.h>", 
+        "#if defined (__ELF__) && ( __GNUC__ > 2 || (__GNUC__ == 2 && __GNUC_MINOR__ >= 6))", 
+        "# define SECTION __attribute__ ((section (\".gresource.%s\"), aligned (8)))", 
+        "# define SECTION", 
+        "#endif", 
+        "static const SECTION union { const guint8 data[%u]; const double alignment; void * const ptr;}  %s_resource_data = { {", 
+        "0x%2.2x", 
+        "static GStaticResource static_resource = { %s_resource_data.data, sizeof (%s_resource_data.data), NULL, NULL, NULL };", 
+        "%s GResource *%s_get_resource (void);", 
+        "GResource *%s_get_resource (void)", 
+        "  return g_static_resource_get_resource (&static_resource);", 
+        "%s void %s_unregister_resource (void);", 
+        "void %s_unregister_resource (void)", 
+        "  g_static_resource_fini (&static_resource);", 
+        "%s void %s_register_resource (void);", 
+        "void %s_register_resource (void)", 
+        "  g_static_resource_init (&static_resource);", 
+        "#ifdef G_HAS_CONSTRUCTORS", 
+        "#ifdef G_DEFINE_CONSTRUCTOR_NEEDS_PRAGMA", 
+        "#pragma G_DEFINE_CONSTRUCTOR_PRAGMA_ARGS(resource_constructor)", 
+        "#endif", 
+        "G_DEFINE_CONSTRUCTOR(resource_constructor)", 
+        "#ifdef G_DEFINE_DESTRUCTOR_NEEDS_PRAGMA", 
+        "#pragma G_DEFINE_DESTRUCTOR_PRAGMA_ARGS(resource_destructor)", 
+        "#endif", 
+        "G_DEFINE_DESTRUCTOR(resource_destructor)", 
+        "#warning \"Constructor not supported on this compiler, linking in resources will not work\"", 
+        "#endif", 
+        "static void resource_constructor (void)", 
+        "  g_static_resource_init (&static_resource);", 
+        "static void resource_destructor (void)", 
+        "  g_static_resource_fini (&static_resource);", 
+        "  If G_HAS_CONSTRUCTORS is true then the compiler support *both* constructors and", 
+        "  destructors, in a sane way, including e.g. on library unload. If not you're on", 
+        "  your own.", 
+        "  Some compilers need #pragma to handle this, which does not work with macros,", 
+        "  so the way you need to use this is (for constructors):", 
+        "  #ifdef G_DEFINE_CONSTRUCTOR_NEEDS_PRAGMA", 
+        "  #pragma G_DEFINE_CONSTRUCTOR_PRAGMA_ARGS(my_constructor)", 
+        "  #endif", 
+        "  G_DEFINE_CONSTRUCTOR(my_constructor)", 
+        "  static void my_constructor(void) {", 
+        "   ...", 
+        "#ifndef __GTK_DOC_IGNORE__", 
+        "#if  __GNUC__ > 2 || (__GNUC__ == 2 && __GNUC_MINOR__ >= 7)", 
+        "#define G_HAS_CONSTRUCTORS 1", 
+        "#define G_DEFINE_CONSTRUCTOR(_func) static void __attribute__((constructor)) _func (void);", 
+        "#define G_DEFINE_DESTRUCTOR(_func) static void __attribute__((destructor)) _func (void);", 
+        "#elif defined (_MSC_VER) && (_MSC_VER >= 1500)", 
+        "/* Visual studio 2008 and later has _Pragma */", 
+        "#define G_HAS_CONSTRUCTORS 1", 
+        "/* We do some weird things to avoid the constructors being optimized", 
+        " * away on VS2015 if WholeProgramOptimization is enabled. First we", 
+        " * make a reference to the array from the wrapper to make sure its", 
+        " * references. Then we use a pragma to make sure the wrapper function", 
+        " * symbol is always included at the link stage. Also, the symbols", 
+        " * need to be extern (but not dllexport), even though they are not", 
+        " * really used from another object file.", 
+        "/* We need to account for differences between the mangling of symbols", 
+        " * for Win32 (x86) and x64 programs, as symbols on Win32 are prefixed", 
+        " * with an underscore but symbols on x64 are not.", 
+        "#ifdef _WIN64", 
+        "#define G_MSVC_SYMBOL_PREFIX \"\"", 
+        "#define G_MSVC_SYMBOL_PREFIX \"_\"", 
+        "#endif", 
+        "#define G_DEFINE_CONSTRUCTOR(_func) G_MSVC_CTOR (_func, G_MSVC_SYMBOL_PREFIX)", 
+        "#define G_DEFINE_DESTRUCTOR(_func) G_MSVC_DTOR (_func, G_MSVC_SYMBOL_PREFIX)", 
+        "#define G_MSVC_CTOR(_func,_sym_prefix) \\", 
+        "  static void _func(void); \\", 
+        "  extern int (* _array ## _func)(void);              \\", 
+        "  int _func ## _wrapper(void) { _func(); g_slist_find (NULL,  _array ## _func); return 0; } \\", 
+        "  __pragma(comment(linker,\"/include:\" _sym_prefix # _func \"_wrapper\")) \\", 
+        "  __pragma(section(\".CRT$XCU\",read)) \\", 
+        "  __declspec(allocate(\".CRT$XCU\")) int (* _array ## _func)(void) = _func ## _wrapper;", 
+        "#define G_MSVC_DTOR(_func,_sym_prefix) \\", 
+        "  static void _func(void); \\", 
+        "  extern int (* _array ## _func)(void);              \\", 
+        "  int _func ## _constructor(void) { atexit (_func); g_slist_find (NULL,  _array ## _func); return 0; } \\", 
+        "   __pragma(comment(linker,\"/include:\" _sym_prefix # _func \"_constructor\")) \\", 
+        "  __pragma(section(\".CRT$XCU\",read)) \\", 
+        "  __declspec(allocate(\".CRT$XCU\")) int (* _array ## _func)(void) = _func ## _constructor;", 
+        "#elif defined (_MSC_VER)", 
+        "#define G_HAS_CONSTRUCTORS 1", 
+        "/* Pre Visual studio 2008 must use #pragma section */", 
+        "#define G_DEFINE_CONSTRUCTOR_NEEDS_PRAGMA 1", 
+        "#define G_DEFINE_DESTRUCTOR_NEEDS_PRAGMA 1", 
+        "#define G_DEFINE_CONSTRUCTOR_PRAGMA_ARGS(_func) \\", 
+        "  section(\".CRT$XCU\",read)", 
+        "#define G_DEFINE_CONSTRUCTOR(_func) \\", 
+        "  static void _func(void); \\", 
+        "  static int _func ## _wrapper(void) { _func(); return 0; } \\", 
+        "  __declspec(allocate(\".CRT$XCU\")) static int (*p)(void) = _func ## _wrapper;", 
+        "#define G_DEFINE_DESTRUCTOR_PRAGMA_ARGS(_func) \\", 
+        "  section(\".CRT$XCU\",read)", 
+        "#define G_DEFINE_DESTRUCTOR(_func) \\", 
+        "  static void _func(void); \\", 
+        "  static int _func ## _constructor(void) { atexit (_func); return 0; } \\", 
+        "  __declspec(allocate(\".CRT$XCU\")) static int (* _array ## _func)(void) = _func ## _constructor;", 
+        "#elif defined(__SUNPRO_C)", 
+        "/* This is not tested, but i believe it should work, based on:", 
+        " * http://opensource.apple.com/source/OpenSSL098/OpenSSL098-35/src/fips/fips_premain.c", 
+        "#define G_HAS_CONSTRUCTORS 1", 
+        "#define G_DEFINE_CONSTRUCTOR_NEEDS_PRAGMA 1", 
+        "#define G_DEFINE_DESTRUCTOR_NEEDS_PRAGMA 1", 
+        "#define G_DEFINE_CONSTRUCTOR_PRAGMA_ARGS(_func) \\", 
+        "  init(_func)", 
+        "#define G_DEFINE_CONSTRUCTOR(_func) \\", 
+        "  static void _func(void);", 
+        "#define G_DEFINE_DESTRUCTOR_PRAGMA_ARGS(_func) \\", 
+        "  fini(_func)", 
+        "#define G_DEFINE_DESTRUCTOR(_func) \\", 
+        "  static void _func(void);", 
+        "/* constructors not supported for this compiler */", 
+        "#endif", 
+        "#endif /* __GTK_DOC_IGNORE__ */", 
+        "787971c635c7df3e6fa66068d985b560caece9.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "9db8c280bf252e98d452ef854893bb71af3038cf8ef654e6de4fc3d1219afe7f", 
+                "dirname": ""
+            }
+        }
+    }
+}
