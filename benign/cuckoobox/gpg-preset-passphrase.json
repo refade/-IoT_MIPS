@@ -1,0 +1,3728 @@
+{
+    "info": {
+        "added": 1640383611.619412, 
+        "started": 1640399069.513768, 
+        "duration": 6344, 
+        "ended": 1640405413.959098, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2548450, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x646", 
+            "label": "Ubuntu1904x646", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 04:05:40", 
+            "shutdown_on": "2021-12-25 04:10:13"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "fd2341aa18355ad881a3626bb945541e92a28790", 
+            "name": "gpg-preset-passphrase", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=b3a147ce8970a3d149f4efc308a0102acd26337c, stripped", 
+            "sha256": "981f96a4337c82de9cf462aab41a6405d55baf52b56a8d6050ea6225087907af", 
+            "urls": [
+                "https://gnu.org/licenses/", 
+                "https://gnu.org/licenses/gpl.html", 
+                "https://bugs.gnupg.org"
+            ], 
+            "crc32": "9B78A60F", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/981f96a4337c82de9cf462aab41a6405d55baf52b56a8d6050ea6225087907af", 
+            "ssdeep": "1536:e0Bu9aSzJTWDi4sExa+a3Vy61r7gkG8Kzta17L:e0Bu9SDtxkU8Kz8", 
+            "size": 87060, 
+            "sha512": "68e4e6c04f940f3d51db63229bc1127874255129eff0f4d4fc9a677ef86addee3cda23ce28d496a868e256c7fd3244399c724589121d5fcda66ff9c4a704db99", 
+            "md5": "13680b3d45b476ed4100872deb72de68"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "764fe56b-2b3c-4c61-a98c-8c6befbe2e5f", 
+        "parent_file_sha256": null, 
+        "name": "981f96a4337c82de9cf462aab41a6405d55baf52b56a8d6050ea6225087907af", 
+        "probes_total": 16, 
+        "scan_date": 1640398215, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "fd2341aa18355ad881a3626bb945541e92a28790", 
+            "tags": [], 
+            "timestamp_first_scan": 1640398214.46, 
+            "timestamp_last_scan": 1640398223.24, 
+            "sha256": "981f96a4337c82de9cf462aab41a6405d55baf52b56a8d6050ea6225087907af", 
+            "md5": "13680b3d45b476ed4100872deb72de68", 
+            "size": 87060
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.38, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.07, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.64, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-15 12:09:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.27, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.18, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.02, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.69, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.85, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.66, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.22, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.11, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.01, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "7dc101cb-9478-4f82-839b-621a735f3b12", 
+        "file_sha256": "981f96a4337c82de9cf462aab41a6405d55baf52b56a8d6050ea6225087907af"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "gpg-preset-passphrase", 
+                "pid": 2077, 
+                "summary": {}, 
+                "first_seen": 1640383619.15875, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "gpg-preset-pass", 
+                "pid": 2079, 
+                "summary": {}, 
+                "first_seen": 1640383620.29136, 
+                "ppid": 2077
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:06:59 2021.158750 gpg-preset-pass@7fcad19f7c27[2077] execve(\"/tmp/gpg-preset-passphrase\", [\"/tmp/gpg-preset-passphrase\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/gpg-preset-passphrase\", \"SHELL=/bin/bash\", \"SUDO_USER=root\",)\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f7c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/gpg-preset-passphrase", 
+                                "SHELL=/bin/bash", 
+                                "\"SUDO_USER=root\","
+                            ], 
+                            "p0": "/tmp/gpg-preset-passphrase", 
+                            "p1": [
+                                "/tmp/gpg-preset-passphrase"
+                            ]
+                        }, 
+                        "time": 1640383619.15875
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.203189 gpg-preset-pass@7fcad19f7c27[2077] brk(0x0) = 94748441235456\n", 
+                        "api": "brk", 
+                        "return_value": "94748441235456", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f7c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383620.203189
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.205793 gpg-preset-pass@7fcad19f89d7[2077] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f89d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383620.205793
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.213857 gpg-preset-pass@7fcad19f8b0d[2077] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383620.213857
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.213947 gpg-preset-pass@7fcad19f8943[2077] fstat(4, 0x7ffc67d0a7b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a7b0"
+                        }, 
+                        "time": 1640383620.213947
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.214052 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7fcad19c6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad19c6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.214052
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.214145 gpg-preset-pass@7fcad19f89f7[2077] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383620.214145
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.214236 gpg-preset-pass@7fcad19f8b0d[2077] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383620.214236
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.214338 gpg-preset-pass@7fcad19f8bd4[2077] read(4, 0x7ffc67d0a968, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a968"
+                        }, 
+                        "time": 1640383620.214338
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.214457 gpg-preset-pass@7fcad19f8943[2077] fstat(4, 0x7ffc67d0a800) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a800"
+                        }, 
+                        "time": 1640383620.214457
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.214530 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcad19c4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad19c4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.21453
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.214615 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcad19be000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad19be000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.214615
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.214697 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad19bf000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fcad19bf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad19bf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad19bf000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383620.214697
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.214804 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad19c1000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fcad19c1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad19c1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad19c1000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383620.214804
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.214907 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad19c2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fcad19c2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad19c2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad19c2000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383620.214907
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.215023 gpg-preset-pass@7fcad19f89f7[2077] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383620.215023
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.215112 gpg-preset-pass@7fcad19f8b0d[2077] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383620.215112
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.215194 gpg-preset-pass@7fcad19f8bd4[2077] read(4, 0x7ffc67d0a948, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a948"
+                        }, 
+                        "time": 1640383620.215194
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.215281 gpg-preset-pass@7fcad19f8943[2077] fstat(4, 0x7ffc67d0a7e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a7e0"
+                        }, 
+                        "time": 1640383620.215281
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.215359 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcad189d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad189d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.215359
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.215457 gpg-preset-pass@7fcad19f8db7[2077] mprotect(0x7fcad18b8000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fcad18b8000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383620.215457
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.215571 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad18b8000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7fcad18b8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad18b8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad18b8000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383620.215571
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.215665 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad1938000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7fcad1938000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1938000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad1938000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383620.215665
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.215776 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad19bb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7fcad19bb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad19bb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad19bb000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383620.215776
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.215891 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad19bd000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fcad19bd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad19bd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fcad19bd000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.215891
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.215984 gpg-preset-pass@7fcad19f89f7[2077] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383620.215984
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.216076 gpg-preset-pass@7fcad19f8b0d[2077] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383620.216076
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.216185 gpg-preset-pass@7fcad19f8bd4[2077] read(4, 0x7ffc67d0a928, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a928"
+                        }, 
+                        "time": 1640383620.216185
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.216291 gpg-preset-pass@7fcad19f8943[2077] fstat(4, 0x7ffc67d0a7c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a7c0"
+                        }, 
+                        "time": 1640383620.216291
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.216355 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcad1892000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1892000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.216355
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.216447 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad1895000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fcad1895000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1895000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad1895000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383620.216447
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.216560 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad1899000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fcad1899000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1899000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad1899000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383620.21656
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.216664 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad189b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7fcad189b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad189b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad189b000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383620.216664
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.216794 gpg-preset-pass@7fcad19f89f7[2077] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383620.216794
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.216898 gpg-preset-pass@7fcad19f8b0d[2077] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383620.216898
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.216992 gpg-preset-pass@7fcad19f8bd4[2077] read(4, 0x7ffc67d0a908, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a908"
+                        }, 
+                        "time": 1640383620.216992
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.217084 gpg-preset-pass@7fcad19f8943[2077] fstat(4, 0x7ffc67d0a7a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a7a0"
+                        }, 
+                        "time": 1640383620.217084
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.217172 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcad16b0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad16b0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.217172
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.217254 gpg-preset-pass@7fcad19f8db7[2077] mprotect(0x7fcad1745000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fcad1745000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383620.217254
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.217325 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad1745000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7fcad1745000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1745000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad1745000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383620.217325
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.217422 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad1837000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7fcad1837000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1837000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad1837000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383620.217422
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.217657 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad1881000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7fcad1881000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1881000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad1881000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383620.217657
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.217794 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad188f000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fcad188f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad188f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fcad188f000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.217794
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.217918 gpg-preset-pass@7fcad19f89f7[2077] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383620.217918
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.218050 gpg-preset-pass@7fcad19f8b0d[2077] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383620.21805
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.218141 gpg-preset-pass@7fcad19f8bd4[2077] read(4, 0x7ffc67d0a8e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a8e8"
+                        }, 
+                        "time": 1640383620.218141
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.218230 gpg-preset-pass@7fcad19f8943[2077] fstat(4, 0x7ffc67d0a780) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a780"
+                        }, 
+                        "time": 1640383620.21823
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.218305 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcad1562000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1562000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.218305
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.218408 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad1571000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7fcad1571000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1571000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad1571000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383620.218408
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.218504 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad1617000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7fcad1617000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1617000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad1617000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383620.218504
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.218587 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad16ae000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7fcad16ae000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad16ae000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad16ae000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383620.218587
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.218693 gpg-preset-pass@7fcad19f89f7[2077] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383620.218693
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.218814 gpg-preset-pass@7fcad19f8b0d[2077] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383620.218814
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.218931 gpg-preset-pass@7fcad19f8bd4[2077] read(4, 0x7ffc67d0a8c8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a8c8"
+                        }, 
+                        "time": 1640383620.218931
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.219025 gpg-preset-pass@7fcad19f8943[2077] fstat(4, 0x7ffc67d0a760) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a760"
+                        }, 
+                        "time": 1640383620.219025
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.219101 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcad1548000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1548000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.219101
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.219198 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad154b000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fcad154b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad154b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad154b000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383620.219198
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.219305 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad155c000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7fcad155c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad155c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad155c000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383620.219305
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.219400 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad1560000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7fcad1560000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1560000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad1560000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383620.2194
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.219493 gpg-preset-pass@7fcad19f89f7[2077] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383620.219493
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.219620 gpg-preset-pass@7fcad19f8b0d[2077] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383620.21962
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.219782 gpg-preset-pass@7fcad19f8bd4[2077] read(4, 0x7ffc67d0a8a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a8a8"
+                        }, 
+                        "time": 1640383620.219782
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.219877 gpg-preset-pass@7fcad19f8943[2077] fstat(4, 0x7ffc67d0a740) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a740"
+                        }, 
+                        "time": 1640383620.219877
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.219979 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcad1546000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1546000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.219979
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.220037 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcad1525000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1525000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.220037
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.220085 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad152c000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fcad152c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad152c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad152c000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383620.220085
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.220146 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad153b000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7fcad153b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad153b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad153b000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383620.220146
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.220215 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad1540000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7fcad1540000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1540000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad1540000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383620.220215
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.220298 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad1542000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fcad1542000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1542000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fcad1542000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.220298
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.220367 gpg-preset-pass@7fcad19f89f7[2077] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383620.220367
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.220434 gpg-preset-pass@7fcad19f8b0d[2077] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383620.220434
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.220484 gpg-preset-pass@7fcad19f8bd4[2077] read(4, 0x7ffc67d0a888, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a888"
+                        }, 
+                        "time": 1640383620.220484
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.220574 gpg-preset-pass@7fcad19f8943[2077] fstat(4, 0x7ffc67d0a720) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a720"
+                        }, 
+                        "time": 1640383620.220574
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.220630 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcad133a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad133a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.22063
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.220703 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad135f000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7fcad135f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad135f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad135f000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383620.220703
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.220753 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad14d2000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7fcad14d2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad14d2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad14d2000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383620.220753
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.220823 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad151b000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7fcad151b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad151b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad151b000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383620.220823
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.220871 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad1521000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fcad1521000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1521000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fcad1521000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.220871
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.220949 gpg-preset-pass@7fcad19f89f7[2077] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383620.220949
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.221047 gpg-preset-pass@7fcad19f8b0d[2077] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383620.221047
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.221128 gpg-preset-pass@7fcad19f8bd4[2077] read(4, 0x7ffc67d0a868, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a868"
+                        }, 
+                        "time": 1640383620.221128
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.221212 gpg-preset-pass@7fcad19f8943[2077] fstat(4, 0x7ffc67d0a700) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a700"
+                        }, 
+                        "time": 1640383620.221212
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.221288 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcad1334000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1334000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.221288
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.221359 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad1335000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fcad1335000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1335000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad1335000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383620.221359
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.221439 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad1337000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fcad1337000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1337000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad1337000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383620.221439
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.221512 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad1338000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fcad1338000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1338000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad1338000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383620.221512
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.221668 gpg-preset-pass@7fcad19f89f7[2077] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383620.221668
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.221722 gpg-preset-pass@7fcad19f8b0d[2077] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383620.221722
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.221930 gpg-preset-pass@7fcad19f8bd4[2077] read(4, 0x7ffc67d0a848, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a848"
+                        }, 
+                        "time": 1640383620.22193
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.221988 gpg-preset-pass@7fcad19f8943[2077] fstat(4, 0x7ffc67d0a6e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a6e0"
+                        }, 
+                        "time": 1640383620.221988
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.222061 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcad12c0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad12c0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.222061
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.222159 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad12c2000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7fcad12c2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad12c2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad12c2000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383620.222159
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.222237 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad1314000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7fcad1314000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1314000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad1314000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383620.222237
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.222326 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x7fcad1332000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7fcad1332000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad1332000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcad1332000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383620.222326
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.222419 gpg-preset-pass@7fcad19f89f7[2077] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383620.222419
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.226145 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcad12be000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad12be000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.226145
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.226224 gpg-preset-pass@7fcad19f8d03[2077] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcad12bb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad12bb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.226224
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.226288 gpg-preset-pass@7fcad19ddf30[2077] arch_prctl(ARCH_SET_FS, 140509069424576) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19ddf30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140509069424576"
+                        }, 
+                        "time": 1640383620.226288
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.235891 gpg-preset-pass@7fcad19f8db7[2077] mprotect(0x7fcad151b000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcad151b000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383620.235891
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.236007 gpg-preset-pass@7fcad19f8db7[2077] mprotect(0x7fcad1540000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcad1540000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383620.236007
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.236122 gpg-preset-pass@7fcad19f8db7[2077] mprotect(0x7fcad1332000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcad1332000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383620.236122
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.236178 gpg-preset-pass@7fcad19f8db7[2077] mprotect(0x7fcad1338000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcad1338000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383620.236178
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.236232 gpg-preset-pass@7fcad19f8db7[2077] mprotect(0x7fcad1560000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcad1560000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383620.236232
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.236339 gpg-preset-pass@7fcad19f8db7[2077] mprotect(0x7fcad16ae000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcad16ae000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383620.236339
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.237286 gpg-preset-pass@7fcad19f8db7[2077] mprotect(0x7fcad1881000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcad1881000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383620.237286
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.237367 gpg-preset-pass@7fcad19f8db7[2077] mprotect(0x7fcad189b000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcad189b000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383620.237367
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.237734 gpg-preset-pass@7fcad19f8db7[2077] mprotect(0x7fcad19bb000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcad19bb000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383620.237734
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.237802 gpg-preset-pass@7fcad19f8db7[2077] mprotect(0x7fcad19c2000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcad19c2000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383620.237802
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.276222 gpg-preset-pass@7fcad19f8db7[2077] mprotect(0x562c53b52000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x562c53b52000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383620.276222
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.276312 gpg-preset-pass@7fcad19f8db7[2077] mprotect(0x7fcad1a06000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcad1a06000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383620.276312
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.276392 gpg-preset-pass@7fcad19f8d97[2077] munmap(0x7fcad19c6000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad19f8d97", 
+                        "arguments": {
+                            "p0": "0x7fcad19c6000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383620.276392
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.276505 gpg-preset-pass@7fcad152c8df[2077] set_tid_address(0x7fcad12bba90) = 2077\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2077", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad152c8df", 
+                        "arguments": {
+                            "p0": "0x7fcad12bba90"
+                        }, 
+                        "time": 1640383620.276505
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.276559 gpg-preset-pass@7fcad152c94a[2077] set_robust_list(0x7fcad12bbaa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad152c94a", 
+                        "arguments": {
+                            "p0": "0x7fcad12bbaa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383620.276559
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.276630 gpg-preset-pass@7fcad1539010[2077] rt_sigaction(0x20, {0x7fcad152c6c0, SA_SIGINFO|SA_RESTORER, 0x7fcad1538f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1539010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7fcad152c6c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7fcad1538f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383620.27663
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.276679 gpg-preset-pass@7fcad1539010[2077] rt_sigaction(0x21, {0x7fcad152c760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7fcad1538f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1539010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7fcad152c760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7fcad1538f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383620.276679
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.276717 gpg-preset-pass@7fcad152ca19[2077] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad152ca19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383620.276717
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.276768 gpg-preset-pass@7fcad144cdf0[2077] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc67d0b540) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad144cdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc67d0b540", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383620.276768
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.277027 gpg-preset-pass@7fcad144d2f7[2077] brk(0x0) = 94748441235456\n", 
+                        "api": "brk", 
+                        "return_value": "94748441235456", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad144d2f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383620.277027
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.277083 gpg-preset-pass@7fcad144d2f7[2077] brk(0x562c5730e000) = 94748441370624\n", 
+                        "api": "brk", 
+                        "return_value": "94748441370624", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad144d2f7", 
+                        "arguments": {
+                            "p0": "0x562c5730e000"
+                        }, 
+                        "time": 1640383620.277083
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.282008 gpg-preset-pass@7fcad1535b86[2077] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc67d0b490, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1535b86", 
+                        "arguments": {
+                            "p2": "0x7ffc67d0b490", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383620.282008
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.290995 gpg-preset-pass@7fcad14514c3[2077] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fcad0aba000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad0aba000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad14514c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.290995
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.291039 gpg-preset-pass@7fcad1451597[2077] mprotect(0x7fcad0abb000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1451597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fcad0abb000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383620.291039
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.291096 gpg-preset-pass@7fcad1457b11[2077] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7fcad12b9f30, 0x7fcad12ba9d0, 0x7fcad12ba9d0) = 2079\n", 
+                        "api": "clone", 
+                        "return_value": "2079", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1457b11", 
+                        "arguments": {
+                            "p2": "0x7fcad12ba9d0", 
+                            "p3": "0x7fcad12ba9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7fcad12b9f30"
+                        }, 
+                        "time": 1640383620.291096
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.291204 gpg-preset-pass@7fcad1535b86[2077] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1535b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383620.291204
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.374289 gpg-preset-pass@7fcad144cdf0[2077] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc67d0aff0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad144cdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc67d0aff0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383620.374289
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.374404 gpg-preset-pass@7fcad144c5c1[2077] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad144c5c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383620.374404
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.399834 gpg-preset-pass@7fcad141b247[2077] uname(0x7ffc67d0ac60) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad141b247", 
+                        "arguments": {
+                            "p0": "0x7ffc67d0ac60"
+                        }, 
+                        "time": 1640383620.399834
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.399898 gpg-preset-pass@7fcad1538337[2077] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1538337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383620.399898
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.399944 gpg-preset-pass@7fcad1537d94[2077] read(3, 0x7ffc67d0af50, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1537d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffc67d0af50"
+                        }, 
+                        "time": 1640383620.399944
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.400002 gpg-preset-pass@7fcad1538337[2077] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1538337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383620.400002
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.403194 gpg-preset-pass@7fcad144d2f7[2077] brk(0x562c5732f000) = 94748441505792\n", 
+                        "api": "brk", 
+                        "return_value": "94748441505792", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad144d2f7", 
+                        "arguments": {
+                            "p0": "0x562c5732f000"
+                        }, 
+                        "time": 1640383620.403194
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.403360 gpg-preset-pass@7fcad14514c3[2077] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcad0a39000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcad0a39000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad14514c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.40336
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.403782 gpg-preset-pass@7fcad1451597[2077] mprotect(0x562c53bd5000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1451597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x562c53bd5000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383620.403782
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.403831 gpg-preset-pass@7fcad1451667[2077] madvise(0x562c53bd5000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1451667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x562c53bd5000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383620.403831
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.468507 gpg-preset-pass@7fcad14514c3[2077] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fca4c000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fca4c000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad14514c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.468507
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.468587 gpg-preset-pass@7fcad1446d59[2077] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1446d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383620.468587
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.468664 gpg-preset-pass@7fcad1446613[2077] fstat(4, 0x7ffc67d0a660) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1446613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc67d0a660"
+                        }, 
+                        "time": 1640383620.468664
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.468712 gpg-preset-pass@7fcad1446fb4[2077] read(4, 0x562c5730c4c0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1446fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x562c5730c4c0"
+                        }, 
+                        "time": 1640383620.468712
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.468807 gpg-preset-pass@7fcad144c3f7[2077] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad144c3f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383620.468807
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.468874 gpg-preset-pass@7fcad14512e9[2077] gettid() = 2077\n", 
+                        "api": "gettid", 
+                        "return_value": "2077", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad14512e9", 
+                        "arguments": {}, 
+                        "time": 1640383620.468874
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.468914 gpg-preset-pass@7fcad1446613[2077] fstat(3, 0x7ffc67d0aed0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1446613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffc67d0aed0"
+                        }, 
+                        "time": 1640383620.468914
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.468957 gpg-preset-pass@7fcad141c717[2077] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad141c717", 
+                        "arguments": {}, 
+                        "time": 1640383620.468957
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.468998 gpg-preset-pass@7fcad141c737[2077] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad141c737", 
+                        "arguments": {}, 
+                        "time": 1640383620.468998
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.469037 gpg-preset-pass@7fcad1537d94[2077] read(3, 0x7ffc67d0b130, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1537d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffc67d0b130"
+                        }, 
+                        "time": 1640383620.469037
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.469105 gpg-preset-pass@7fcad14514c3[2077] mmap2(0x7fcacbfdc000, 147456, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fcacbfdc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcacbfdc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad14514c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7fcacbfdc000", 
+                            "p1": "147456", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.469105
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.469186 gpg-preset-pass@7fcad14514c3[2077] mmap2(0x7fcacbfdc000, 77824, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7fcacbfdc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcacbfdc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad14514c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fcacbfdc000", 
+                            "p1": "77824", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.469186
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.469238 gpg-preset-pass@7fcad14514c3[2077] mmap2(0x7fcacbffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 73728) = 0x7fcacbffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcacbffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad14514c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fcacbffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "73728"
+                        }, 
+                        "time": 1640383620.469238
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.469296 gpg-preset-pass@7fcad1537e27[2077] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1537e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383620.469296
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.469353 gpg-preset-pass@7fcad14514c3[2077] mmap2(0x7fcacb7db000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fcacb7db000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcacb7db000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad14514c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fcacb7db000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.469353
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.469413 gpg-preset-pass@7fcad144d2f7[2077] brk(0x562c57350000) = 94748441640960\n", 
+                        "api": "brk", 
+                        "return_value": "94748441640960", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad144d2f7", 
+                        "arguments": {
+                            "p0": "0x562c57350000"
+                        }, 
+                        "time": 1640383620.469413
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.469503 gpg-preset-pass@7fcad1451597[2077] mprotect(0x7fcacb7db000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1451597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fcacb7db000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383620.469503
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.469651 gpg-preset-pass@7fcad153855e[2077] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad153855e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383620.469651
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.469750 gpg-preset-pass@7fcad1447057[2077] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1447057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383620.46975
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.469857 gpg-preset-pass@7fcad141b926[2077] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad141b926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383620.469857
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:07:00 2021.469899 gpg-preset-pass@7fcad141b926[2077] futex(0x7fcad12bba90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad141b926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7fcad12bba90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383620.469899
+                    }
+                ], 
+                "pid": 2077, 
+                "process_name": "gpg-preset-passphrase", 
+                "command_line": "/tmp/gpg-preset-passphrase", 
+                "first_seen": 1640383619.15875, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:00 2021.291360 gpg-preset-pass@7fcad152e117[2079] set_robust_list(0x7fcad12ba9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad152e117", 
+                        "arguments": {
+                            "p0": "0x7fcad12ba9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383620.29136
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:00 2021.291458 gpg-preset-pass@7fcad14514c3[2079] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fcac8aba000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcac8aba000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad14514c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383620.291458
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:00 2021.291547 gpg-preset-pass@7fcad1451567[2079] munmap(0x7fcac8aba000, 55861248) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1451567", 
+                        "arguments": {
+                            "p0": "0x7fcac8aba000", 
+                            "p1": "55861248"
+                        }, 
+                        "time": 1640383620.291547
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:00 2021.291620 gpg-preset-pass@7fcad1451567[2079] munmap(0x7fcad0000000, 11247616) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1451567", 
+                        "arguments": {
+                            "p0": "0x7fcad0000000", 
+                            "p1": "11247616"
+                        }, 
+                        "time": 1640383620.29162
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:00 2021.291694 gpg-preset-pass@7fcad1451597[2079] mprotect(0x7fcacc000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1451597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fcacc000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383620.291694
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:00 2021.291792 gpg-preset-pass@7fcad1538440[2079] nanosleep([0.010000000], 0x7fcad12b9d80) = 0\n", 
+                        "api": "nanosleep", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad1538440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7fcad12b9d80"
+                        }, 
+                        "time": 1640383620.291792
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpg-preset-pass", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:00 2021.301918 gpg-preset-pass@7fcad14512e9[2079] futex(0x562c55be8a48, FUTEX_WAIT, -1, NULL) = -512\n", 
+                        "api": "futex", 
+                        "return_value": "-512", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcad14512e9", 
+                        "arguments": {
+                            "p2": "-1", 
+                            "p3": "NULL", 
+                            "p0": "0x562c55be8a48", 
+                            "p1": "FUTEX_WAIT"
+                        }, 
+                        "time": 1640383620.301918
+                    }
+                ], 
+                "pid": 2079, 
+                "process_name": "gpg-preset-pass", 
+                "command_line": "", 
+                "first_seen": 1640383620.29136, 
+                "ppid": 2077, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2077, 
+                "process_name": "gpg-preset-passphrase", 
+                "command_line": "/tmp/gpg-preset-passphrase", 
+                "first_seen": 1640383619.15875, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2079, 
+                        "process_name": "gpg-preset-pass", 
+                        "command_line": "", 
+                        "first_seen": 1640383620.29136, 
+                        "ppid": 2077, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:06:51,002 [root] DEBUG: Starting analyzer from: /tmp/tmpHxkdcf\n", 
+            "2021-12-24 22:06:51,002 [root] DEBUG: Storing results at: /tmp/qHcFZPnndp\n", 
+            "2021-12-24 22:06:52,939 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:06:52,942 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:06:52,945 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:06:59,153 [lib.core.packages] INFO: Process startup took 6.20 seconds\n", 
+            "2021-12-24 22:06:59,154 [root] INFO: Added new process to list with pid: 2066\n", 
+            "2021-12-24 22:07:08,166 [root] INFO: Process with pid 2066 has terminated\n", 
+            "2021-12-24 22:07:08,167 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:11,170 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:11,172 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 02:24:29,862 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:24:59,907 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:25:29,956 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:26:00,000 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:26:30,040 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:27:00,082 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:27:30,126 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:28:00,168 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:28:30,256 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:29:00,299 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:29:30,341 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:30:00,379 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:30:30,421 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:31:00,467 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:31:30,515 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:32:00,558 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:32:30,606 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:33:00,653 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:33:30,696 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:34:00,747 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:34:30,767 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:35:00,811 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:35:30,857 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:36:00,910 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:36:30,962 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:37:01,019 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:37:31,072 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:38:01,166 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:38:31,225 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:39:01,343 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:39:31,401 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:40:01,439 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:40:31,495 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:41:01,541 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:41:31,589 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:42:01,684 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:42:31,725 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:43:01,740 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:43:31,777 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:44:01,818 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:44:31,861 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:45:01,902 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:45:31,948 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:46:01,993 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:46:32,035 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:47:02,077 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:47:32,130 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:48:02,176 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:48:32,222 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:49:02,274 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:49:32,323 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:50:02,372 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:50:32,416 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:51:02,462 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:51:32,507 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:52:02,550 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:52:32,669 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:53:02,716 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:53:32,763 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:54:02,813 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:54:32,865 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:55:02,910 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:55:32,962 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:56:03,007 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:56:33,053 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:57:03,094 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:57:33,139 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:58:03,180 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:58:33,225 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:59:03,271 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 02:59:33,311 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:00:03,355 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:00:33,396 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:01:03,436 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:01:33,478 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:02:03,521 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:02:33,601 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:03:03,645 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:03:33,688 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:04:03,729 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:04:33,779 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:05:03,824 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:05:33,970 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:06:04,022 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:06:34,042 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:07:04,082 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:07:34,128 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:08:04,176 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:08:34,216 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:09:04,262 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:09:34,313 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:10:04,357 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:10:34,407 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:11:04,480 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:11:34,547 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:12:04,604 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:12:34,684 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:13:04,784 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:13:34,886 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:14:04,970 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:14:35,061 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:15:05,157 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:15:35,280 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:16:05,328 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:16:35,369 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:17:05,411 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:17:35,455 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:18:05,494 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:18:35,539 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:19:05,580 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:19:35,620 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:20:05,660 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:20:35,704 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:21:05,744 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:21:35,787 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:22:05,831 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:22:35,886 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:23:05,906 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:23:35,952 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:24:05,995 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:24:36,040 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:25:06,056 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:25:36,112 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:26:06,158 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:26:36,212 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:27:06,272 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:27:36,326 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:28:06,379 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:28:36,435 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:29:06,490 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:29:36,507 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:30:06,552 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:30:36,590 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:31:06,638 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:31:36,676 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:32:06,715 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:32:36,755 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:33:06,799 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:33:36,842 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:34:06,884 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:34:36,926 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:35:06,975 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:35:37,031 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:36:07,133 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:36:37,176 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:37:07,218 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:37:37,264 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:38:07,290 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:38:37,334 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:39:07,383 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:39:37,427 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:40:07,473 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:40:37,512 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:41:07,535 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:41:37,579 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:42:07,612 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:42:37,654 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:43:07,699 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:43:37,742 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:44:07,788 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:44:37,830 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:45:07,859 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:45:37,900 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:46:07,941 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:46:37,981 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:47:08,025 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:47:38,075 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:48:08,122 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:48:38,165 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:49:08,206 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:49:38,252 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:50:08,294 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:50:38,341 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:51:08,389 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:51:38,429 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:52:08,476 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:52:38,519 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:53:08,564 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:53:38,606 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:54:08,656 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:54:38,714 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:55:08,791 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:55:38,849 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:56:08,910 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:56:38,957 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:57:09,008 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:57:39,062 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:58:09,109 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:58:39,161 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:59:09,231 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 03:59:39,284 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 04:00:09,344 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 04:00:39,370 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 04:01:09,474 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 04:01:39,519 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 04:02:09,587 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 04:02:39,632 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 04:03:09,673 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 04:03:39,721 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 04:04:09,809 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 04:04:39,864 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 04:05:09,915 [cuckoo.core.scheduler] DEBUG: Task #2548450: no machine available yet\n", 
+            "2021-12-25 04:05:39,974 [cuckoo.core.scheduler] INFO: Task #2548450: acquired machine Ubuntu1904x646 (label=Ubuntu1904x646)\n", 
+            "2021-12-25 04:05:39,974 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.106 for task #2548450\n", 
+            "2021-12-25 04:05:40,114 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3197696 (interface=vboxnet0, host=192.168.168.106)\n", 
+            "2021-12-25 04:05:40,302 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x646\n", 
+            "2021-12-25 04:05:40,715 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x646 to Snapshot\n", 
+            "2021-12-25 04:05:50,467 [cuckoo.core.guest] INFO: Starting analysis #2548450 on guest (id=Ubuntu1904x646, ip=192.168.168.106)\n", 
+            "2021-12-25 04:05:51,471 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: not ready yet\n", 
+            "2021-12-25 04:05:56,488 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x646, ip=192.168.168.106)\n", 
+            "2021-12-25 04:05:56,502 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x646, ip=192.168.168.106, monitor=latest, size=72028)\n", 
+            "2021-12-25 04:05:57,684 [cuckoo.core.resultserver] DEBUG: Task #2548450: live log analysis.log initialized.\n", 
+            "2021-12-25 04:06:02,527 [cuckoo.core.resultserver] DEBUG: Task #2548450: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 04:06:02,565 [cuckoo.core.resultserver] DEBUG: Task #2548450 uploaded file length: 171563\n", 
+            "2021-12-25 04:06:11,657 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548450 still processing\n", 
+            "2021-12-25 04:06:17,867 [cuckoo.core.resultserver] DEBUG: Task #2548450: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 04:06:17,869 [cuckoo.core.resultserver] DEBUG: Task #2548450 uploaded file length: 21944\n", 
+            "2021-12-25 04:06:26,733 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548450 still processing\n", 
+            "2021-12-25 04:06:41,790 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548450 still processing\n", 
+            "2021-12-25 04:06:56,851 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548450 still processing\n", 
+            "2021-12-25 04:07:11,993 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548450 still processing\n", 
+            "2021-12-25 04:07:27,056 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548450 still processing\n", 
+            "2021-12-25 04:07:42,110 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548450 still processing\n", 
+            "2021-12-25 04:07:57,394 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548450 still processing\n", 
+            "2021-12-25 04:08:12,489 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548450 still processing\n", 
+            "2021-12-25 04:08:27,581 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548450 still processing\n", 
+            "2021-12-25 04:08:42,668 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548450 still processing\n", 
+            "2021-12-25 04:08:57,737 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548450 still processing\n", 
+            "2021-12-25 04:09:12,815 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548450 still processing\n", 
+            "2021-12-25 04:09:27,885 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548450 still processing\n", 
+            "2021-12-25 04:09:42,958 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548450 still processing\n", 
+            "2021-12-25 04:09:58,008 [cuckoo.core.guest] INFO: Ubuntu1904x646: end of analysis reached!\n", 
+            "2021-12-25 04:09:58,022 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 04:09:58,081 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 04:10:09,637 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x646 to path /srv/cuckoo/cwd/storage/analyses/2548450/memory.dmp\n", 
+            "2021-12-25 04:10:09,638 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x646\n", 
+            "2021-12-25 04:10:13,603 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.106 for task #2548450\n", 
+            "2021-12-25 04:10:13,603 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2548450\n", 
+            "2021-12-25 04:10:13,727 [cuckoo.core.scheduler] DEBUG: Released database task #2548450\n", 
+            "2021-12-25 04:10:13,812 [cuckoo.core.scheduler] INFO: Task #2548450: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "dcgettext", 
+        "log_get_errorcount", 
+        "__stack_chk_guard", 
+        "early_system_init", 
+        "set_strusage", 
+        "log_set_prefix", 
+        "i18n_init", 
+        "_init_common_subsystems", 
+        "arg_parse", 
+        "gnupg_socketdir", 
+        "make_filename", 
+        "simple_pw_set_socket", 
+        "gcry_free", 
+        "log_error", 
+        "agent_exit", 
+        "gnupg_set_homedir", 
+        "gpgrt_asprintf", 
+        "simple_query", 
+        "strlen", 
+        "bin2hex", 
+        "gpg_strerror", 
+        "gpg_err_code_from_syserror", 
+        "strchr", 
+        "gcry_malloc", 
+        "stpcpy", 
+        "assuan_transact", 
+        "gpg_err_code_from_errno", 
+        "assuan_new", 
+        "assuan_socket_connect", 
+        "getenv", 
+        "ttyname", 
+        "setlocale", 
+        "strcpy", 
+        "assuan_release", 
+        "__sprintf_chk", 
+        "strncmp", 
+        "strtoul", 
+        "log_debug", 
+        "gnupg_allow_set_foregound_window", 
+        "init_membuf_secure", 
+        "put_membuf_cb", 
+        "put_membuf", 
+        "get_membuf", 
+        "__stack_chk_fail", 
+        "bindtextdomain", 
+        "bind_textdomain_codeset", 
+        "gcry_xstrdup", 
+        "nl_langinfo", 
+        "i18n_switchto_utf8", 
+        "i18n_switchback", 
+        "strcmp", 
+        "gcry_strdup", 
+        "gcry_xmalloc", 
+        "getpwnam", 
+        "getuid", 
+        "getpwuid", 
+        "gpg_err_set_errno", 
+        "gnupg_getcwd", 
+        "stderr", 
+        "__errno_location", 
+        "__fprintf_chk", 
+        "bug_at", 
+        "__ctype_toupper_loc", 
+        "__ctype_b_loc", 
+        "trim_trailing_chars", 
+        "length_sans_trailing_chars", 
+        "strrchr", 
+        "strncpy", 
+        "ascii_memcasecmp", 
+        "__ctype_tolower_loc", 
+        "fwrite", 
+        "gcry_calloc", 
+        "strpbrk", 
+        "__assert_fail", 
+        "strcspn", 
+        "memmove", 
+        "log_bug", 
+        "strtol", 
+        "stdout", 
+        "map_static_macro_string", 
+        "is_native_utf8", 
+        "_IO_getc", 
+        "ferror", 
+        "trim_spaces", 
+        "gcry_realloc", 
+        "memcpy", 
+        "gpgrt_fclose", 
+        "_gpgrt_get_std_stream", 
+        "gpgrt_fileno", 
+        "gpgrt_fopencookie", 
+        "gpgrt_setvbuf", 
+        "open64", 
+        "gpgrt_fputs_unlocked", 
+        "getpid", 
+        "gpgrt_fprintf_unlocked", 
+        "_gpgrt_putc_overflow", 
+        "localtime", 
+        "gpgrt_flockfile", 
+        "gpgrt_funlockfile", 
+        "gpgrt_vfprintf_unlocked", 
+        "isatty", 
+        "gpgrt_fprintf", 
+        "inet_pton", 
+        "__strcat_chk", 
+        "gnupg_fd_valid", 
+        "log_fatal", 
+        "log_printf", 
+        "log_log", 
+        "gpgrt_fputs", 
+        "gpgrt_fflush", 
+        "default_errsource", 
+        "set_native_charset", 
+        "gcry_check_version", 
+        "gpg_err_init", 
+        "gpgrt_set_alloc_func", 
+        "argparse_register_outfnc", 
+        "log_set_socket_dir_cb", 
+        "getrlimit64", 
+        "setrlimit64", 
+        "gcry_create_nonce", 
+        "nanosleep", 
+        "tmpfile64", 
+        "__fxstat64", 
+        "log_info", 
+        "remove", 
+        "rename", 
+        "gnupg_unblock_all_signals", 
+        "gnupg_block_all_signals", 
+        "gnupg_mkdir", 
+        "unsetenv", 
+        "inotify_init", 
+        "inotify_add_watch", 
+        "getsockname", 
+        "make_absfilename", 
+        "compare_filenames", 
+        "gnupg_bindir", 
+        "xstrconcat", 
+        "access", 
+        "default_homedir", 
+        "gnupg_homedir", 
+        "gpgrt_snprintf", 
+        "__xstat64", 
+        "gcry_md_hash_buffer", 
+        "zb32_encode", 
+        "_gnupg_socketdir_internal", 
+        "_log_assert", 
+        "hex2str", 
+        "gcry_malloc_secure", 
+        "gpgrt_vasprintf", 
+        "sigaction", 
+        "sigemptyset", 
+        "log_get_prefix", 
+        "sys_siglist", 
+        "sigfillset", 
+        "sigprocmask", 
+        "memcmp", 
+        "find_macro", 
+        "init_membuf", 
+        "put_membuf_str", 
+        "get_membuf_shrink", 
+        "iconv_open", 
+        "iconv_close", 
+        "ascii_strcasecmp", 
+        "native_to_utf8", 
+        "libassuan.so.0", 
+        "libgpg-error.so.0", 
+        "libgcrypt.so.20", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "__cxa_atexit", 
+        "ld.so.1", 
+        "LIBASSUAN_1.0", 
+        "GLIBC_2.4", 
+        "GPG_ERROR_1.0", 
+        "GLIBC_2.3.3", 
+        "GLIBC_2.19", 
+        "GLIBC_2.2", 
+        "GLIBC_2.3.4", 
+        "GLIBC_2.0", 
+        "GLIBC_2.3", 
+        "GCRYPT_1.6", 
+        "$@n9'?", 
+        "s&@n9'", 
+        "s&@n9'", 
+        "gpg-preset-passphrase (@GNUPG@)", 
+        "2.1.18", 
+        "GNU/Linux", 
+        "Please report bugs to <@EMAIL@>.", 
+        "Usage: gpg-preset-passphrase [options] KEYGRIP (-h for help)", 
+        "Syntax: gpg-preset-passphrase [options] KEYGRIP", 
+        "Password cache maintenance", 
+        "gpg-preset-passphrase", 
+        "S.gpg-agent", 
+        "reading passphrase failed: %s", 
+        "can not escape string: %s", 
+        "PRESET_PASSPHRASE %s -1 %s", 
+        "caching passphrase failed: %s", 
+        "CLEAR_PASSPHRASE %s", 
+        "clearing passphrase failed: %s", 
+        "one of the options --preset or --forget must be given", 
+        "@Options:", 
+        "verbose", 
+        "passphrase", 
+        "|STRING|use passphrase STRING", 
+        "preset", 
+        "preset passphrase", 
+        "forget", 
+        "forget passphrase", 
+        "homedir", 
+        "OPTION ", 
+        "no gpg-agent running in this session", 
+        "can't connect to '%s': %s", 
+        "DISPLAY", 
+        "GPG_TTY", 
+        "display", 
+        "ttyname", 
+        "ttytype", 
+        "XAUTHORITY", 
+        "xauthority", 
+        "PINENTRY_USER_DATA", 
+        "pinentry-user-data", 
+        "OPTION allow-pinentry-notify", 
+        "problem setting the gpg-agent options", 
+        "lc-ctype", 
+        "lc-messages", 
+        "%%%02X", 
+        "PINENTRY_LAUNCHED", 
+        "ignoring gpg-agent inquiry '%s'", 
+        "GET_PASSPHRASE ", 
+        "--check ", 
+        "CLEAR_PASSPHRASE ", 
+        "/usr/share/locale", 
+        "gnupg2", 
+        "../../common/stringhelp.c", 
+        "fatal: getcwd failed: %s", 
+        "fatal: too many args for xstrconcat", 
+        "fatal: out of memory", 
+        "(char*)(result + n + 1) == buffer", 
+        "strtokenize", 
+        "do_make_filename", 
+        "invalid argument for arg_parse", 
+        "argument not expected", 
+        "read error", 
+        "keyword too long", 
+        "missing argument", 
+        "invalid argument", 
+        "invalid command", 
+        "invalid alias definition", 
+        "out of core", 
+        "invalid option", 
+        "%s:%u: %s", 
+        "missing argument for option \"%.50s\"", 
+        "invalid argument for option \"%.50s\"", 
+        "option \"%.50s\" does not expect an argument", 
+        "invalid command \"%.50s\"", 
+        "option \"%.50s\" is ambiguous", 
+        "command \"%.50s\" is ambiguous", 
+        "out of core", 
+        "invalid option \"%.50s\"", 
+        "License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>", 
+        "This is free software; you can redistribute it and/or modify", 
+        "it under the terms of the GNU General Public License as published by", 
+        "the Free Software Foundation; either version 3 of the License, or", 
+        "(at your option) any later version.", 
+        "It is distributed in the hope that it will be useful,", 
+        "but WITHOUT ANY WARRANTY; without even the implied warranty of", 
+        "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the", 
+        "GNU General Public License for more details.", 
+        "You should have received a copy of the GNU General Public License", 
+        "along with this software.  If not, see <https://gnu.org/licenses/>.", 
+        "This is free software: you are free to change and redistribute it.", 
+        "There is NO WARRANTY, to the extent permitted by law.", 
+        "Copyright (C) 2017 Free Software Foundation, Inc.", 
+        "Options:", 
+        "(A single dash may be used instead of the double ones)", 
+        "version", 
+        "warranty", 
+        "dump-options", 
+        "--dump-options", 
+        "--help", 
+        "--version", 
+        "--warranty", 
+        "ignore-invalid-option", 
+        "socket://", 
+        "tcp://", 
+        "[%u.%lu]", 
+        "[%u.%lx]", 
+        "%04d-%02d-%02d %02d:%02d:%02d ", 
+        "Fatal: ", 
+        "Ohhhh jeeee: ", 
+        "[Unknown log level %d]: ", 
+        "../../common/logging.c", 
+        "logstream", 
+        "%*s%.*s", 
+        "/S.log", 
+        "failed to create socket for logging: %s", 
+        "can't connect to '%s%s': %s", 
+        "error writing to '%s': %s", 
+        "error writing to file descriptor %d: %s", 
+        "logger-fd is invalid: %s", 
+        "[not enabled in the source] %s", 
+        "... this is a bug (%s:%d:%s)", 
+        "Assertion \"%s\" in %s failed (%s:%d)", 
+        "do_logv", 
+        "log_get_stream", 
+        "%s is too old (need %s, have %s)", 
+        "libgcrypt", 
+        "can't disable core dumps: %s", 
+        "/dev/null", 
+        "%s: WARNING: standard input reopened", 
+        "%s: WARNING: standard output reopened", 
+        "%s: WARNING: standard error reopened", 
+        "%s: fatal: unable to reopen standard input, output, or error", 
+        "gnupg_allow_set_foregound_window", 
+        "%s called with invalid pid %lu", 
+        "renaming '%s' to '%s' failed: %s", 
+        "XXXXXX", 
+        "could not getsockname(%d): %s", 
+        "file descriptor %d is not a unix-domain socket", 
+        "socket name not present for file descriptor %d", 
+        "socket name for file descriptor %d was truncated (passed %zu bytes, wanted %u)", 
+        "failed to allocate memory for name of fd %d: %s", 
+        "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789", 
+        "/usr/bin", 
+        "~/.gnupg", 
+        "/pinentry", 
+        "/pinentry-basic", 
+        "GNUPGHOME", 
+        "%s/user/%u", 
+        "/etc/gnupg", 
+        "/usr/lib/gnupg", 
+        "/usr/lib/mipsel-linux-gnu/gnupg", 
+        "/usr/share/gnupg", 
+        "/var/cache/gnupg", 
+        "S.dirmngr", 
+        "../../common/homedir.c", 
+        "! gnupg_module_name_called", 
+        "! gnupg_build_directory", 
+        "/agent/gpg-agent", 
+        "/gpg-agent", 
+        "/scd/scdaemon", 
+        "/dirmngr/dirmngr", 
+        "/agent/gpg-protect-tool", 
+        "/gpg-protect-tool", 
+        "/dirmngr/dirmngr_ldap", 
+        "/tools/gpg-check-pattern", 
+        "/gpg-check-pattern", 
+        "/sm/gpgsm", 
+        "/gpgsm", 
+        "/g10/gpg", 
+        "/g10/gpgv", 
+        "/tools/gpg-connect-agent", 
+        "/gpg-connect-agent", 
+        "/tools/gpgconf", 
+        "/gpgconf", 
+        "/var/run", 
+        "gnupg_module_name", 
+        "gnupg_set_builddir", 
+        "ybndrfg8ejkmcpqxot1uwisza345h769../../common/convert.c", 
+        "hex2str_alloc", 
+        ": signal ", 
+        "0123456789", 
+        " caught ... exiting", 
+        "../../common/signal.c", 
+        "signals are already blocked", 
+        "signals are not blocked", 
+        "gnupg_init_signals", 
+        "map_static_macro_string failed: %s", 
+        "https://bugs.gnupg.org", 
+        "GPG_AGENT", 
+        "gpg-agent", 
+        "SCDAEMON", 
+        "scdaemon", 
+        "DIRMNGR", 
+        "dirmngr", 
+        "GPGCONF", 
+        "gpgconf", 
+        "GPGTAR", 
+        "gpgtar", 
+        "conversion from '%s' to '%s' not available", 
+        "iconv_open failed: %s", 
+        "\\x%02x", 
+        "../../common/utf8conv.c", 
+        "conversion from '%s' to '%s' failed: %s", 
+        "iso-8859-1", 
+        "ANSI_X3.4-1968", 
+        "do_utf8_to_native", 
+        "a147ce8970a3d149f4efc308a0102acd26337c.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame_hdr", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".data.rel.ro", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
