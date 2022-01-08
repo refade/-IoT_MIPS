@@ -1,0 +1,3259 @@
+{
+    "info": {
+        "added": 1640383647.125354, 
+        "started": 1640433670.715655, 
+        "duration": 761, 
+        "ended": 1640434432.347384, 
+        "owner": null, 
+        "score": 0.1, 
+        "id": 2549280, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x645", 
+            "label": "Ubuntu1904x645", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 12:09:12", 
+            "shutdown_on": "2021-12-25 12:13:52"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [
+        {
+            "families": [], 
+            "description": "Yara rule detected for file", 
+            "severity": 1, 
+            "ttp": {}, 
+            "markcount": 1, 
+            "references": [], 
+            "marks": [
+                {
+                    "type": "generic", 
+                    "description": "Contains an embedded PE32 file", 
+                    "rule": "embedded_pe"
+                }
+            ], 
+            "name": "file_yara"
+        }
+    ], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [
+                {
+                    "meta": {
+                        "description": "Contains an embedded PE32 file", 
+                        "author": "nex"
+                    }, 
+                    "name": "embedded_pe", 
+                    "offsets": {
+                        "b": [
+                            [
+                                16185, 
+                                0
+                            ]
+                        ]
+                    }, 
+                    "strings": [
+                        "VGhpcyBwcm9ncmFt"
+                    ]
+                }
+            ], 
+            "sha1": "5d26d659fb017e4669c580b05f79dbe7cdbaa9e6", 
+            "name": "pnmnlfilt", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=2a1c32fd8457f85a38ade7b732782d85a31cbfea, stripped", 
+            "sha256": "d88f0f4b2d5ec710516e00ba72dc8630004053a54873986d5c06128e41895a7e", 
+            "urls": [], 
+            "crc32": "1C3024F3", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/d88f0f4b2d5ec710516e00ba72dc8630004053a54873986d5c06128e41895a7e", 
+            "ssdeep": "384:ajae1F0rPrH30SWiVo8qv4EIxTLUkAbAMxK4Dm2+WjJ4hNF:aXF0rPrHlg4EIxTLUkAbAMxK4D1jJ4", 
+            "size": 22740, 
+            "sha512": "472cdfd106e4f95fa7c81cf0eab02e13295e6cbb8290511754f1defc8d83ee08ce8783efe830f14abe93bd14c66b2530a2b1838c955c5dd6b657c757f33c3337", 
+            "md5": "b5fbbf97a1bfd90b90d374327d89e190"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "aa9ae24e-0539-4bd1-9467-26a40ced8eae", 
+        "parent_file_sha256": null, 
+        "name": "d88f0f4b2d5ec710516e00ba72dc8630004053a54873986d5c06128e41895a7e", 
+        "probes_total": 16, 
+        "scan_date": 1640427233, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "5d26d659fb017e4669c580b05f79dbe7cdbaa9e6", 
+            "tags": [], 
+            "timestamp_first_scan": 1640427233.06, 
+            "timestamp_last_scan": 1640427241.86, 
+            "sha256": "d88f0f4b2d5ec710516e00ba72dc8630004053a54873986d5c06128e41895a7e", 
+            "md5": "b5fbbf97a1bfd90b90d374327d89e190", 
+            "size": 22740
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.09, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.66, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-15 12:09:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.29, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.02, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.67, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.77, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.55, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.41, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.12, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.97, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "1390956f-e9bc-4986-8e62-c42ec7b61ade", 
+        "file_sha256": "d88f0f4b2d5ec710516e00ba72dc8630004053a54873986d5c06128e41895a7e"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.105", 
+                "version": "TLS 1.2", 
+                "src_port": 35066, 
+                "dst_port": 443, 
+                "timestamp": "2021-12-25T12:09:47.402148+0200", 
+                "dst_ip": "91.189.92.39", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "b040415c0ba5e205cf93809ed56affc846971dfb1f193af1f65bf92ae1aa9bad", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "da0377efb24c9c96b2a7a96a031ef53045c499d94b5bd7b33c4d2c4153adff27", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "pnmnlfilt", 
+                "pid": 2072, 
+                "summary": {}, 
+                "first_seen": 1640383654.570191, 
+                "ppid": 2071
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "pnmnlfilt", 
+                "pid": 2071, 
+                "summary": {}, 
+                "first_seen": 1640383654.549417, 
+                "ppid": -1
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.549417 pnmnlfilt@7f9cd2b3fc27[2071] execve(\"/tmp/pnmnlfilt\", [\"/tmp/pnmnlfilt\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/pnmnlfilt\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmp1_OlNh\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b3fc27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/pnmnlfilt", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmp1_OlNh"
+                            ], 
+                            "p0": "/tmp/pnmnlfilt", 
+                            "p1": [
+                                "/tmp/pnmnlfilt"
+                            ]
+                        }, 
+                        "time": 1640383654.549417
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.552106 pnmnlfilt@7f9cd2b3fc27[2071] brk(0x0) = 94273680007168\n", 
+                        "api": "brk", 
+                        "return_value": "94273680007168", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b3fc27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383654.552106
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.554102 pnmnlfilt@7f9cd2b409d7[2071] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b409d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383654.554102
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.555107 pnmnlfilt@7f9cd2b40b0d[2071] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383654.555107
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.555159 pnmnlfilt@7f9cd2b40943[2071] fstat(4, 0x7fff25231490) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff25231490"
+                        }, 
+                        "time": 1640383654.555159
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.555202 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f9cd2b0e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2b0e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.555202
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.555246 pnmnlfilt@7f9cd2b409f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b409f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383654.555246
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.555306 pnmnlfilt@7f9cd2b40b0d[2071] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383654.555306
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.555353 pnmnlfilt@7f9cd2b40bd4[2071] read(4, 0x7fff25231648, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff25231648"
+                        }, 
+                        "time": 1640383654.555353
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.555395 pnmnlfilt@7f9cd2b40943[2071] fstat(4, 0x7fff252314e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff252314e0"
+                        }, 
+                        "time": 1640383654.555395
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.555435 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9cd2b0c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2b0c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.555435
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.555486 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9cd2b06000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2b06000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.555486
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.555532 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd2b07000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f9cd2b07000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2b07000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd2b07000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383654.555532
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.555585 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd2b09000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9cd2b09000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2b09000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd2b09000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383654.555585
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.555633 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd2b0a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9cd2b0a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2b0a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd2b0a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383654.555633
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.555695 pnmnlfilt@7f9cd2b409f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b409f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383654.555695
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.555751 pnmnlfilt@7f9cd2b40b0d[2071] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383654.555751
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.555799 pnmnlfilt@7f9cd2b40bd4[2071] read(4, 0x7fff25231628, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff25231628"
+                        }, 
+                        "time": 1640383654.555799
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.555841 pnmnlfilt@7f9cd2b40943[2071] fstat(4, 0x7fff252314c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff252314c0"
+                        }, 
+                        "time": 1640383654.555841
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.555897 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9cd29e5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd29e5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.555897
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.555987 pnmnlfilt@7f9cd2b40db7[2071] mprotect(0x7f9cd2a00000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f9cd2a00000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383654.555987
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556040 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd2a00000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f9cd2a00000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2a00000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd2a00000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383654.55604
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556090 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd2a80000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f9cd2a80000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2a80000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd2a80000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383654.55609
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556136 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd2b03000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f9cd2b03000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2b03000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd2b03000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383654.556136
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556191 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd2b05000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9cd2b05000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2b05000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f9cd2b05000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.556191
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556248 pnmnlfilt@7f9cd2b409f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b409f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383654.556248
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556314 pnmnlfilt@7f9cd2b40b0d[2071] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383654.556314
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556352 pnmnlfilt@7f9cd2b40bd4[2071] read(4, 0x7fff25231608, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff25231608"
+                        }, 
+                        "time": 1640383654.556352
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556383 pnmnlfilt@7f9cd2b40943[2071] fstat(4, 0x7fff252314a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff252314a0"
+                        }, 
+                        "time": 1640383654.556383
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556414 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9cd29da000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd29da000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.556414
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556453 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd29dd000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9cd29dd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd29dd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd29dd000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383654.556453
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556499 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd29e1000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f9cd29e1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd29e1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd29e1000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383654.556499
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556536 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd29e3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f9cd29e3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd29e3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd29e3000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383654.556536
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556584 pnmnlfilt@7f9cd2b409f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b409f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383654.556584
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556626 pnmnlfilt@7f9cd2b40b0d[2071] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383654.556626
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556663 pnmnlfilt@7f9cd2b40bd4[2071] read(4, 0x7fff252315e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff252315e8"
+                        }, 
+                        "time": 1640383654.556663
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556694 pnmnlfilt@7f9cd2b40943[2071] fstat(4, 0x7fff25231480) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff25231480"
+                        }, 
+                        "time": 1640383654.556694
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556728 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9cd27f8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd27f8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.556728
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556762 pnmnlfilt@7f9cd2b40db7[2071] mprotect(0x7f9cd288d000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f9cd288d000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383654.556762
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556800 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd288d000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7f9cd288d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd288d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd288d000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383654.5568
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556835 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd297f000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7f9cd297f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd297f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd297f000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383654.556835
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556869 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd29c9000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7f9cd29c9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd29c9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd29c9000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383654.556869
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556909 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd29d7000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9cd29d7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd29d7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f9cd29d7000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.556909
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556952 pnmnlfilt@7f9cd2b409f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b409f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383654.556952
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.556999 pnmnlfilt@7f9cd2b40b0d[2071] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383654.556999
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557108 pnmnlfilt@7f9cd2b40bd4[2071] read(4, 0x7fff252315c8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff252315c8"
+                        }, 
+                        "time": 1640383654.557108
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557145 pnmnlfilt@7f9cd2b40943[2071] fstat(4, 0x7fff25231460) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff25231460"
+                        }, 
+                        "time": 1640383654.557145
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557174 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9cd26aa000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd26aa000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.557174
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557224 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd26b9000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f9cd26b9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd26b9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd26b9000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383654.557224
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557265 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd275f000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f9cd275f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd275f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd275f000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383654.557265
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557301 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd27f6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f9cd27f6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd27f6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd27f6000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383654.557301
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557350 pnmnlfilt@7f9cd2b409f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b409f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383654.55735
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557395 pnmnlfilt@7f9cd2b40b0d[2071] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383654.557395
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557431 pnmnlfilt@7f9cd2b40bd4[2071] read(4, 0x7fff252315a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff252315a8"
+                        }, 
+                        "time": 1640383654.557431
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557463 pnmnlfilt@7f9cd2b40943[2071] fstat(4, 0x7fff25231440) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff25231440"
+                        }, 
+                        "time": 1640383654.557463
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557495 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9cd2690000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2690000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.557495
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557529 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd2693000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9cd2693000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2693000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd2693000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383654.557529
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557567 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd26a4000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f9cd26a4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd26a4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd26a4000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383654.557567
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557602 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd26a8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f9cd26a8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd26a8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd26a8000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383654.557602
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557649 pnmnlfilt@7f9cd2b409f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b409f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383654.557649
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557689 pnmnlfilt@7f9cd2b40b0d[2071] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383654.557689
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557737 pnmnlfilt@7f9cd2b40bd4[2071] read(4, 0x7fff25231588, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff25231588"
+                        }, 
+                        "time": 1640383654.557737
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557768 pnmnlfilt@7f9cd2b40943[2071] fstat(4, 0x7fff25231420) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff25231420"
+                        }, 
+                        "time": 1640383654.557768
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557799 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9cd268e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd268e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.557799
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557836 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9cd266d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd266d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.557836
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557870 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd2674000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f9cd2674000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2674000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd2674000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383654.55787
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557915 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd2683000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f9cd2683000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2683000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd2683000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383654.557915
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557951 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd2688000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f9cd2688000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2688000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd2688000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383654.557951
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.557991 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd268a000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9cd268a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd268a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f9cd268a000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.557991
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558033 pnmnlfilt@7f9cd2b409f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b409f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383654.558033
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558073 pnmnlfilt@7f9cd2b40b0d[2071] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383654.558073
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558109 pnmnlfilt@7f9cd2b40bd4[2071] read(4, 0x7fff25231568, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff25231568"
+                        }, 
+                        "time": 1640383654.558109
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558140 pnmnlfilt@7f9cd2b40943[2071] fstat(4, 0x7fff25231400) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff25231400"
+                        }, 
+                        "time": 1640383654.55814
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558171 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9cd2482000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2482000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.558171
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558205 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd24a7000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f9cd24a7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd24a7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd24a7000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383654.558205
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558242 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd261a000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f9cd261a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd261a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd261a000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383654.558242
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558276 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd2663000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f9cd2663000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2663000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd2663000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383654.558276
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558315 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd2669000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9cd2669000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2669000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f9cd2669000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.558315
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558357 pnmnlfilt@7f9cd2b409f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b409f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383654.558357
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558404 pnmnlfilt@7f9cd2b40b0d[2071] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383654.558404
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558441 pnmnlfilt@7f9cd2b40bd4[2071] read(4, 0x7fff25231548, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff25231548"
+                        }, 
+                        "time": 1640383654.558441
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558472 pnmnlfilt@7f9cd2b40943[2071] fstat(4, 0x7fff252313e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff252313e0"
+                        }, 
+                        "time": 1640383654.558472
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558502 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9cd247c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd247c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.558502
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558539 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd247d000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f9cd247d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd247d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd247d000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383654.558539
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558579 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd247f000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9cd247f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd247f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd247f000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383654.558579
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558616 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd2480000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9cd2480000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2480000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd2480000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383654.558616
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558663 pnmnlfilt@7f9cd2b409f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b409f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383654.558663
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558707 pnmnlfilt@7f9cd2b40b0d[2071] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383654.558707
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558743 pnmnlfilt@7f9cd2b40bd4[2071] read(4, 0x7fff25231528, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff25231528"
+                        }, 
+                        "time": 1640383654.558743
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558774 pnmnlfilt@7f9cd2b40943[2071] fstat(4, 0x7fff252313c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff252313c0"
+                        }, 
+                        "time": 1640383654.558774
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558808 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9cd2408000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2408000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.558808
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558843 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd240a000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f9cd240a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd240a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd240a000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383654.558843
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558883 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd245c000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f9cd245c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd245c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd245c000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383654.558883
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558919 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x7f9cd247a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f9cd247a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd247a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9cd247a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383654.558919
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.558968 pnmnlfilt@7f9cd2b409f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b409f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383654.558968
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.559820 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9cd2406000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2406000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.55982
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.559888 pnmnlfilt@7f9cd2b40d03[2071] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9cd2403000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd2403000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.559888
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.559927 pnmnlfilt@7f9cd2b25f30[2071] arch_prctl(ARCH_SET_FS, 140311519049664) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b25f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140311519049664"
+                        }, 
+                        "time": 1640383654.559927
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.560726 pnmnlfilt@7f9cd2b40db7[2071] mprotect(0x7f9cd2663000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9cd2663000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383654.560726
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.560785 pnmnlfilt@7f9cd2b40db7[2071] mprotect(0x7f9cd2688000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9cd2688000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383654.560785
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.560843 pnmnlfilt@7f9cd2b40db7[2071] mprotect(0x7f9cd247a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9cd247a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383654.560843
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.560891 pnmnlfilt@7f9cd2b40db7[2071] mprotect(0x7f9cd2480000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9cd2480000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383654.560891
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.560931 pnmnlfilt@7f9cd2b40db7[2071] mprotect(0x7f9cd26a8000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9cd26a8000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383654.560931
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.560987 pnmnlfilt@7f9cd2b40db7[2071] mprotect(0x7f9cd27f6000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9cd27f6000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383654.560987
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.561984 pnmnlfilt@7f9cd2b40db7[2071] mprotect(0x7f9cd29c9000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9cd29c9000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383654.561984
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.562036 pnmnlfilt@7f9cd2b40db7[2071] mprotect(0x7f9cd29e3000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9cd29e3000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383654.562036
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.562196 pnmnlfilt@7f9cd2b40db7[2071] mprotect(0x7f9cd2b03000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9cd2b03000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383654.562196
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.562250 pnmnlfilt@7f9cd2b40db7[2071] mprotect(0x7f9cd2b0a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9cd2b0a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383654.56225
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.566487 pnmnlfilt@7f9cd2b40db7[2071] mprotect(0x55bdca579000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55bdca579000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383654.566487
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.566541 pnmnlfilt@7f9cd2b40db7[2071] mprotect(0x7f9cd2b4e000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9cd2b4e000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383654.566541
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.566592 pnmnlfilt@7f9cd2b40d97[2071] munmap(0x7f9cd2b0e000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2b40d97", 
+                        "arguments": {
+                            "p0": "0x7f9cd2b0e000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383654.566592
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.566652 pnmnlfilt@7f9cd26748df[2071] set_tid_address(0x7f9cd2403a90) = 2071\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2071", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd26748df", 
+                        "arguments": {
+                            "p0": "0x7f9cd2403a90"
+                        }, 
+                        "time": 1640383654.566652
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.566684 pnmnlfilt@7f9cd267494a[2071] set_robust_list(0x7f9cd2403aa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd267494a", 
+                        "arguments": {
+                            "p0": "0x7f9cd2403aa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383654.566684
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.566722 pnmnlfilt@7f9cd2681010[2071] rt_sigaction(0x20, {0x7f9cd26746c0, SA_SIGINFO|SA_RESTORER, 0x7f9cd2680f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2681010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f9cd26746c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f9cd2680f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383654.566722
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.566755 pnmnlfilt@7f9cd2681010[2071] rt_sigaction(0x21, {0x7f9cd2674760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f9cd2680f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2681010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f9cd2674760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f9cd2680f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383654.566755
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.566786 pnmnlfilt@7f9cd2674a19[2071] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2674a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383654.566786
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.566826 pnmnlfilt@7f9cd2594df0[2071] prlimit64(0, RLIMIT_STACK, NULL, 0x7fff25232220) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2594df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7fff25232220", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383654.566826
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.567042 pnmnlfilt@7f9cd25952f7[2071] brk(0x0) = 94273680007168\n", 
+                        "api": "brk", 
+                        "return_value": "94273680007168", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd25952f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383654.567042
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.567073 pnmnlfilt@7f9cd25952f7[2071] brk(0x55bdcd377000) = 94273680142336\n", 
+                        "api": "brk", 
+                        "return_value": "94273680142336", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd25952f7", 
+                        "arguments": {
+                            "p0": "0x55bdcd377000"
+                        }, 
+                        "time": 1640383654.567073
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.568173 pnmnlfilt@7f9cd267db86[2071] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7fff25232170, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd267db86", 
+                        "arguments": {
+                            "p2": "0x7fff25232170", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383654.568173
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.569926 pnmnlfilt@7f9cd25994c3[2071] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f9cd1c02000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd1c02000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd25994c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.569926
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.569967 pnmnlfilt@7f9cd2599597[2071] mprotect(0x7f9cd1c03000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2599597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f9cd1c03000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383654.569967
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.570017 pnmnlfilt@7f9cd259fb11[2071] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f9cd2401f30, 0x7f9cd24029d0, 0x7f9cd24029d0) = 2072\n", 
+                        "api": "clone", 
+                        "return_value": "2072", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd259fb11", 
+                        "arguments": {
+                            "p2": "0x7f9cd24029d0", 
+                            "p3": "0x7f9cd24029d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f9cd2401f30"
+                        }, 
+                        "time": 1640383654.570017
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.570102 pnmnlfilt@7f9cd267db86[2071] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd267db86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383654.570102
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.573941 pnmnlfilt@7f9cd2594df0[2071] prlimit64(0, RLIMIT_STACK, NULL, 0x7fff25231cd0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2594df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7fff25231cd0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383654.573941
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.573992 pnmnlfilt@7f9cd25945c1[2071] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd25945c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383654.573992
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.574989 pnmnlfilt@7f9cd2563247[2071] uname(0x7fff25231940) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2563247", 
+                        "arguments": {
+                            "p0": "0x7fff25231940"
+                        }, 
+                        "time": 1640383654.574989
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.575030 pnmnlfilt@7f9cd2680337[2071] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2680337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383654.57503
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.575062 pnmnlfilt@7f9cd267fd94[2071] read(3, 0x7fff25231c30, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd267fd94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7fff25231c30"
+                        }, 
+                        "time": 1640383654.575062
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.575095 pnmnlfilt@7f9cd2680337[2071] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2680337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383654.575095
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.576249 pnmnlfilt@7f9cd25952f7[2071] brk(0x55bdcd398000) = 94273680277504\n", 
+                        "api": "brk", 
+                        "return_value": "94273680277504", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd25952f7", 
+                        "arguments": {
+                            "p0": "0x55bdcd398000"
+                        }, 
+                        "time": 1640383654.576249
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.576445 pnmnlfilt@7f9cd25994c3[2071] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9cd1b81000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cd1b81000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd25994c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.576445
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.576975 pnmnlfilt@7f9cd2599597[2071] mprotect(0x55bdca5fc000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2599597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55bdca5fc000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383654.576975
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.577097 pnmnlfilt@7f9cd2599667[2071] madvise(0x55bdca5fc000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2599667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55bdca5fc000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383654.577097
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.578055 pnmnlfilt@7f9cd25994c3[2071] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f9c4c000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9c4c000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd25994c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.578055
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.578121 pnmnlfilt@7f9cd258ed59[2071] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd258ed59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383654.578121
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.578182 pnmnlfilt@7f9cd258e613[2071] fstat(4, 0x7fff25231340) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd258e613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff25231340"
+                        }, 
+                        "time": 1640383654.578182
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.578223 pnmnlfilt@7f9cd258efb4[2071] read(4, 0x55bdcd3754e0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd258efb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x55bdcd3754e0"
+                        }, 
+                        "time": 1640383654.578223
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.578273 pnmnlfilt@7f9cd25943f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd25943f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383654.578273
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.578333 pnmnlfilt@7f9cd25992e9[2071] gettid() = 2071\n", 
+                        "api": "gettid", 
+                        "return_value": "2071", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd25992e9", 
+                        "arguments": {}, 
+                        "time": 1640383654.578333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.578373 pnmnlfilt@7f9cd258e613[2071] fstat(3, 0x7fff25231bb0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd258e613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7fff25231bb0"
+                        }, 
+                        "time": 1640383654.578373
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.578412 pnmnlfilt@7f9cd2564717[2071] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2564717", 
+                        "arguments": {}, 
+                        "time": 1640383654.578412
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.578451 pnmnlfilt@7f9cd2564737[2071] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2564737", 
+                        "arguments": {}, 
+                        "time": 1640383654.578451
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.578488 pnmnlfilt@7f9cd267fd94[2071] read(3, 0x7fff25231e10, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd267fd94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7fff25231e10"
+                        }, 
+                        "time": 1640383654.578488
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.578551 pnmnlfilt@7f9cd25994c3[2071] mmap2(0x7f9ccbfdd000, 143360, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f9ccbfdd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ccbfdd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd25994c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7f9ccbfdd000", 
+                            "p1": "143360", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.578551
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.578627 pnmnlfilt@7f9cd25994c3[2071] mmap2(0x7f9ccbfdd000, 20480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f9ccbfdd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ccbfdd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd25994c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f9ccbfdd000", 
+                            "p1": "20480", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.578627
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.578679 pnmnlfilt@7f9cd25994c3[2071] mmap2(0x7f9ccbff1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 16384) = 0x7f9ccbff1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ccbff1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd25994c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f9ccbff1000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "16384"
+                        }, 
+                        "time": 1640383654.578679
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.578724 pnmnlfilt@7f9cd25994c3[2071] mmap2(0x7f9ccbff3000, 53248, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9ccbff3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ccbff3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd25994c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f9ccbff3000", 
+                            "p1": "53248", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.578724
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.578776 pnmnlfilt@7f9cd267fe27[2071] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd267fe27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383654.578776
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.578834 pnmnlfilt@7f9cd25994c3[2071] mmap2(0x7f9ccb7dc000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9ccb7dc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ccb7dc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd25994c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f9ccb7dc000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.578834
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.578897 pnmnlfilt@7f9cd25952f7[2071] brk(0x55bdcd3b9000) = 94273680412672\n", 
+                        "api": "brk", 
+                        "return_value": "94273680412672", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd25952f7", 
+                        "arguments": {
+                            "p0": "0x55bdcd3b9000"
+                        }, 
+                        "time": 1640383654.578897
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.578989 pnmnlfilt@7f9cd2599597[2071] mprotect(0x7f9ccb7dc000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2599597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f9ccb7dc000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383654.578989
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.579045 pnmnlfilt@7f9cd268055e[2071] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd268055e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383654.579045
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.579122 pnmnlfilt@7f9cd258f057[2071] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd258f057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383654.579122
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.579207 pnmnlfilt@7f9cd2563926[2071] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2563926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383654.579207
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2071, 
+                        "raw": "Fri Dec 24 22:07:34 2021.579254 pnmnlfilt@7f9cd2563926[2071] futex(0x7f9cd2403a90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2563926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f9cd2403a90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383654.579254
+                    }
+                ], 
+                "pid": 2071, 
+                "process_name": "pnmnlfilt", 
+                "command_line": "/tmp/pnmnlfilt", 
+                "first_seen": 1640383654.549417, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:34 2021.570191 pnmnlfilt@7f9cd2676117[2072] set_robust_list(0x7f9cd24029e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2676117", 
+                        "arguments": {
+                            "p0": "0x7f9cd24029e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383654.570191
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:34 2021.570261 pnmnlfilt@7f9cd25994c3[2072] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f9cc9c02000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9cc9c02000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd25994c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383654.570261
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:34 2021.570324 pnmnlfilt@7f9cd2599567[2072] munmap(0x7f9cc9c02000, 37740544) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2599567", 
+                        "arguments": {
+                            "p0": "0x7f9cc9c02000", 
+                            "p1": "37740544"
+                        }, 
+                        "time": 1640383654.570324
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:34 2021.570385 pnmnlfilt@7f9cd2599567[2072] munmap(0x7f9cd0000000, 29368320) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2599567", 
+                        "arguments": {
+                            "p0": "0x7f9cd0000000", 
+                            "p1": "29368320"
+                        }, 
+                        "time": 1640383654.570385
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:34 2021.570438 pnmnlfilt@7f9cd2599597[2072] mprotect(0x7f9ccc000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2599597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f9ccc000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383654.570438
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pnmnlfilt", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:34 2021.570513 pnmnlfilt@7f9cd2680440[2072] nanosleep([0.010000000], 0x7f9cd2401d80) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9cd2680440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f9cd2401d80"
+                        }, 
+                        "time": 1640383654.570513
+                    }
+                ], 
+                "pid": 2072, 
+                "process_name": "pnmnlfilt", 
+                "command_line": "", 
+                "first_seen": 1640383654.570191, 
+                "ppid": 2071, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2071, 
+                "process_name": "pnmnlfilt", 
+                "command_line": "/tmp/pnmnlfilt", 
+                "first_seen": 1640383654.549417, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2072, 
+                        "process_name": "pnmnlfilt", 
+                        "command_line": "", 
+                        "first_seen": 1640383654.570191, 
+                        "ppid": 2071, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:07:27,001 [root] DEBUG: Starting analyzer from: /tmp/tmp1_OlNh\n", 
+            "2021-12-24 22:07:27,002 [root] DEBUG: Storing results at: /tmp/RQSKSyVlC\n", 
+            "2021-12-24 22:07:29,269 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:07:29,771 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:07:29,772 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:07:34,549 [lib.core.packages] INFO: Process startup took 4.77 seconds\n", 
+            "2021-12-24 22:07:34,551 [root] INFO: Added new process to list with pid: 2062\n", 
+            "2021-12-24 22:07:40,561 [root] INFO: Process with pid 2062 has terminated\n", 
+            "2021-12-24 22:07:40,562 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:43,565 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:43,566 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 12:01:11,237 [cuckoo.core.scheduler] DEBUG: Task #2549280: no machine available yet\n", 
+            "2021-12-25 12:01:41,274 [cuckoo.core.scheduler] DEBUG: Task #2549280: no machine available yet\n", 
+            "2021-12-25 12:02:11,320 [cuckoo.core.scheduler] DEBUG: Task #2549280: no machine available yet\n", 
+            "2021-12-25 12:02:41,361 [cuckoo.core.scheduler] DEBUG: Task #2549280: no machine available yet\n", 
+            "2021-12-25 12:03:11,408 [cuckoo.core.scheduler] DEBUG: Task #2549280: no machine available yet\n", 
+            "2021-12-25 12:03:41,436 [cuckoo.core.scheduler] DEBUG: Task #2549280: no machine available yet\n", 
+            "2021-12-25 12:04:11,461 [cuckoo.core.scheduler] DEBUG: Task #2549280: no machine available yet\n", 
+            "2021-12-25 12:04:41,500 [cuckoo.core.scheduler] DEBUG: Task #2549280: no machine available yet\n", 
+            "2021-12-25 12:05:11,546 [cuckoo.core.scheduler] DEBUG: Task #2549280: no machine available yet\n", 
+            "2021-12-25 12:05:41,598 [cuckoo.core.scheduler] DEBUG: Task #2549280: no machine available yet\n", 
+            "2021-12-25 12:06:11,640 [cuckoo.core.scheduler] DEBUG: Task #2549280: no machine available yet\n", 
+            "2021-12-25 12:06:41,656 [cuckoo.core.scheduler] DEBUG: Task #2549280: no machine available yet\n", 
+            "2021-12-25 12:07:11,704 [cuckoo.core.scheduler] DEBUG: Task #2549280: no machine available yet\n", 
+            "2021-12-25 12:07:41,728 [cuckoo.core.scheduler] DEBUG: Task #2549280: no machine available yet\n", 
+            "2021-12-25 12:08:11,769 [cuckoo.core.scheduler] DEBUG: Task #2549280: no machine available yet\n", 
+            "2021-12-25 12:08:41,787 [cuckoo.core.scheduler] DEBUG: Task #2549280: no machine available yet\n", 
+            "2021-12-25 12:09:11,843 [cuckoo.core.scheduler] INFO: Task #2549280: acquired machine Ubuntu1904x645 (label=Ubuntu1904x645)\n", 
+            "2021-12-25 12:09:11,845 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.105 for task #2549280\n", 
+            "2021-12-25 12:09:11,991 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3637315 (interface=vboxnet0, host=192.168.168.105)\n", 
+            "2021-12-25 12:09:12,391 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x645\n", 
+            "2021-12-25 12:09:12,893 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x645 to Snapshot\n", 
+            "2021-12-25 12:09:27,236 [cuckoo.core.guest] INFO: Starting analysis #2549280 on guest (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2021-12-25 12:09:28,241 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: not ready yet\n", 
+            "2021-12-25 12:09:33,262 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2021-12-25 12:09:33,276 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x645, ip=192.168.168.105, monitor=latest, size=72028)\n", 
+            "2021-12-25 12:09:34,427 [cuckoo.core.resultserver] DEBUG: Task #2549280: live log analysis.log initialized.\n", 
+            "2021-12-25 12:09:40,488 [cuckoo.core.resultserver] DEBUG: Task #2549280: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 12:09:40,520 [cuckoo.core.resultserver] DEBUG: Task #2549280 uploaded file length: 171578\n", 
+            "2021-12-25 12:09:48,433 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549280 still processing\n", 
+            "2021-12-25 12:09:51,017 [cuckoo.core.resultserver] DEBUG: Task #2549280: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 12:09:51,021 [cuckoo.core.resultserver] DEBUG: Task #2549280 uploaded file length: 21022\n", 
+            "2021-12-25 12:10:03,497 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549280 still processing\n", 
+            "2021-12-25 12:10:18,561 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549280 still processing\n", 
+            "2021-12-25 12:10:33,636 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549280 still processing\n", 
+            "2021-12-25 12:10:48,707 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549280 still processing\n", 
+            "2021-12-25 12:11:03,762 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549280 still processing\n", 
+            "2021-12-25 12:11:18,877 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549280 still processing\n", 
+            "2021-12-25 12:11:33,967 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549280 still processing\n", 
+            "2021-12-25 12:11:49,041 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549280 still processing\n", 
+            "2021-12-25 12:12:04,121 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549280 still processing\n", 
+            "2021-12-25 12:12:19,191 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549280 still processing\n", 
+            "2021-12-25 12:12:34,284 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549280 still processing\n", 
+            "2021-12-25 12:12:49,396 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549280 still processing\n", 
+            "2021-12-25 12:13:04,483 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549280 still processing\n", 
+            "2021-12-25 12:13:19,556 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549280 still processing\n", 
+            "2021-12-25 12:13:34,612 [cuckoo.core.guest] INFO: Ubuntu1904x645: end of analysis reached!\n", 
+            "2021-12-25 12:13:34,625 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 12:13:34,701 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 12:13:48,069 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x645 to path /srv/cuckoo/cwd/storage/analyses/2549280/memory.dmp\n", 
+            "2021-12-25 12:13:48,071 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x645\n", 
+            "2021-12-25 12:13:52,004 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.105 for task #2549280\n", 
+            "2021-12-25 12:13:52,004 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2549280\n", 
+            "2021-12-25 12:13:52,126 [cuckoo.core.scheduler] DEBUG: Released database task #2549280\n", 
+            "2021-12-25 12:13:52,219 [cuckoo.core.scheduler] INFO: Task #2549280: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "ALFRAC", 
+        "omaxval", 
+        "SQUARE", 
+        "AVEDIV", 
+        "noisevariance", 
+        "__stack_chk_guard", 
+        "pnm_init", 
+        "pm_usage", 
+        "__isoc99_sscanf", 
+        "pm_error", 
+        "pnm_readpnminit", 
+        "atfuncs", 
+        "pm_allocrow", 
+        "stdout", 
+        "pnm_writepnminit", 
+        "pnm_readpnmrow", 
+        "pnm_promoteformatrow", 
+        "pnm_writepnmrow", 
+        "pm_nextimage", 
+        "pm_freerow", 
+        "pm_close", 
+        "pm_message", 
+        "pm_openr", 
+        "libm.so.6", 
+        "libnetpbm.so.10", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "ld.so.1", 
+        "_ftext", 
+        "_fdata", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.4", 
+        "GLIBC_2.7", 
+        "GLIBC_2.0", 
+        "GLIBC_2.2", 
+        "42Fp@*", 
+        "1(F>6*F2", 
+        "c\"FH@B", 
+        "c$F>`&F6", 
+        "@\"FH@H", 
+        "D>D*F<", 
+        "alpha radius pnmfile", 
+        "0.0 <= alpha <= 0.5 for alpha trimmed mean -or- ", 
+        "1.0 <= alpha <= 2.0 for optimal estimation -or- ", 
+        "-0.1 >= alpha >= -0.9 for edge enhancement", 
+        "0.3333 <= radius <= 1.0 specify effective radius", 
+        "Alpha must be in range 0.0 <= alpha <= 0.5 for alpha trimmed mean", 
+        "Alpha must be in range 1.0 <= alpha <= 2.0 for optimal estimation", 
+        "Alpha must be in range -0.9 <= alpha <= -0.1 for edge enhancement", 
+        "Radius must be in range 0.333333333 <= radius <= 1.0", 
+        "The maxval of the input image (%d) is too large.", 
+        "This program's limit is %d.", 
+        "promoting file to PGM", 
+        "Width of Image %u (%d) is not the same as Image 0 (%d)", 
+        "Height of Image %u (%d) is not the same as Image 0 (%d)", 
+        "Maxval of Image %u (%u) is not the same as Image 0 (%u)", 
+        "Format of Image %u is not the same as Image 0", 
+        "(@UUUUUU", 
+        "@UUUUUU", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "da0377efb24c9c96b2a7a96a031ef53045c499d94b5bd7b33c4d2c4153adff27", 
+                "dirname": ""
+            }
+        }
+    }
+}
