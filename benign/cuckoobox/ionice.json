@@ -1,0 +1,3276 @@
+{
+    "info": {
+        "added": 1640383619.433036, 
+        "started": 1640404292.141568, 
+        "duration": 845, 
+        "ended": 1640405137.260866, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2548581, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x646", 
+            "label": "Ubuntu1904x646", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 04:00:38", 
+            "shutdown_on": "2021-12-25 04:05:36"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "7e38e5a9db9effceebe22c18ec1a63494821cef7", 
+            "name": "ionice", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=6e9fa8c9038e6bfafa63e2789fea00a0cc7ad394, stripped", 
+            "sha256": "48b53b441f9af6514e3e665fefc86b9b29974663cedd7b8e837b442fc76727ea", 
+            "urls": [], 
+            "crc32": "4F1A2E1B", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/48b53b441f9af6514e3e665fefc86b9b29974663cedd7b8e837b442fc76727ea", 
+            "ssdeep": "768:ngMWMtAzW9odqiTh73OCCRlp7ZVPNP97E8+sMdn1kFj4O6Yvh6Mf24C0Rj5P9Lz8:JWMtAa9odqiTh73OCCRlp7ZVPNP97E8A", 
+            "size": 28044, 
+            "sha512": "c86f9157f9a6758fdd3e516d0426bd540655e7894b2c8a88eebaae431613559aeddfe0c66b808791627bf8d6aa672fb0638eb5aea29cf053dc0b374210d0419e", 
+            "md5": "4a14577f05abd6fcbdf3c7004be764c2"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "74f5c762-7c1d-4f55-9e71-34ffc9ec5ad7", 
+        "parent_file_sha256": null, 
+        "name": "48b53b441f9af6514e3e665fefc86b9b29974663cedd7b8e837b442fc76727ea", 
+        "probes_total": 16, 
+        "scan_date": 1640397938, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "7e38e5a9db9effceebe22c18ec1a63494821cef7", 
+            "tags": [], 
+            "timestamp_first_scan": 1640397205.37, 
+            "timestamp_last_scan": 1640397947.16, 
+            "sha256": "48b53b441f9af6514e3e665fefc86b9b29974663cedd7b8e837b442fc76727ea", 
+            "md5": "4a14577f05abd6fcbdf3c7004be764c2", 
+            "size": 28044
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.08, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 0.59, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-15 12:09:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.32, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.02, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.77, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.7, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.63, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.67, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.11, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.01, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "b3af84e0-8ea4-4c8e-a0b2-9f0ea1a8721b", 
+        "file_sha256": "48b53b441f9af6514e3e665fefc86b9b29974663cedd7b8e837b442fc76727ea"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.106", 
+                "version": "TLS 1.2", 
+                "src_port": 57334, 
+                "dst_port": 443, 
+                "timestamp": "2021-12-25T04:01:00.833690+0200", 
+                "dst_ip": "91.189.92.20", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "3384f2cc6d36ff79222c4b4240988eba204482c6a7709930effa89208af66c80", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "ed8ca36b8795601bc8b62822d1d7affc7f0e0d02126b503bed9e31f38c1032cf", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "ionice", 
+                "pid": 2072, 
+                "summary": {}, 
+                "first_seen": 1640383626.088182, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "ionice", 
+                "pid": 2074, 
+                "summary": {}, 
+                "first_seen": 1640383627.366213, 
+                "ppid": 2072
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:06 2021.088182 ionice@7f83ed834c27[2072] execve(\"/tmp/ionice\", [\"/tmp/ionice\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/ionice\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpbbONfm\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed834c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/ionice", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpbbONfm"
+                            ], 
+                            "p0": "/tmp/ionice", 
+                            "p1": [
+                                "/tmp/ionice"
+                            ]
+                        }, 
+                        "time": 1640383626.088182
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.306852 ionice@7f83ed834c27[2072] brk(0x0) = 93954356350976\n", 
+                        "api": "brk", 
+                        "return_value": "93954356350976", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed834c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383627.306852
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.312602 ionice@7f83ed8359d7[2072] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed8359d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383627.312602
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.320389 ionice@7f83ed835b0d[2072] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383627.320389
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.320475 ionice@7f83ed835943[2072] fstat(4, 0x7ffeaf4b1890) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b1890"
+                        }, 
+                        "time": 1640383627.320475
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.320541 ionice@7f83ed835d03[2072] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f83ed803000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed803000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.320541
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.320612 ionice@7f83ed8359f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed8359f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383627.320612
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.320694 ionice@7f83ed835b0d[2072] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383627.320694
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.320761 ionice@7f83ed835bd4[2072] read(4, 0x7ffeaf4b1a48, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b1a48"
+                        }, 
+                        "time": 1640383627.320761
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.320823 ionice@7f83ed835943[2072] fstat(4, 0x7ffeaf4b18e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b18e0"
+                        }, 
+                        "time": 1640383627.320823
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.320875 ionice@7f83ed835d03[2072] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f83ed801000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed801000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.320875
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.320946 ionice@7f83ed835d03[2072] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f83ed7fb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed7fb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.320946
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.321076 ionice@7f83ed835d03[2072] mmap2(0x7f83ed7fc000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f83ed7fc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed7fc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed7fc000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383627.321076
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.321162 ionice@7f83ed835d03[2072] mmap2(0x7f83ed7fe000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f83ed7fe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed7fe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed7fe000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383627.321162
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.321273 ionice@7f83ed835d03[2072] mmap2(0x7f83ed7ff000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f83ed7ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed7ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed7ff000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383627.321273
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.321362 ionice@7f83ed8359f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed8359f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383627.321362
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.321433 ionice@7f83ed835b0d[2072] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383627.321433
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.321498 ionice@7f83ed835bd4[2072] read(4, 0x7ffeaf4b1a28, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b1a28"
+                        }, 
+                        "time": 1640383627.321498
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.321550 ionice@7f83ed835943[2072] fstat(4, 0x7ffeaf4b18c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b18c0"
+                        }, 
+                        "time": 1640383627.32155
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.321602 ionice@7f83ed835d03[2072] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f83ed6da000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed6da000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.321602
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.321661 ionice@7f83ed835db7[2072] mprotect(0x7f83ed6f5000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f83ed6f5000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383627.321661
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.321729 ionice@7f83ed835d03[2072] mmap2(0x7f83ed6f5000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f83ed6f5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed6f5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed6f5000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383627.321729
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.321789 ionice@7f83ed835d03[2072] mmap2(0x7f83ed775000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f83ed775000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed775000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed775000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383627.321789
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.321848 ionice@7f83ed835d03[2072] mmap2(0x7f83ed7f8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f83ed7f8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed7f8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed7f8000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383627.321848
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.321935 ionice@7f83ed835d03[2072] mmap2(0x7f83ed7fa000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f83ed7fa000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed7fa000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f83ed7fa000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.321935
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.322118 ionice@7f83ed8359f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed8359f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383627.322118
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.322196 ionice@7f83ed835b0d[2072] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383627.322196
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.322258 ionice@7f83ed835bd4[2072] read(4, 0x7ffeaf4b1a08, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b1a08"
+                        }, 
+                        "time": 1640383627.322258
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.322310 ionice@7f83ed835943[2072] fstat(4, 0x7ffeaf4b18a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b18a0"
+                        }, 
+                        "time": 1640383627.32231
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.322363 ionice@7f83ed835d03[2072] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f83ed6cf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed6cf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.322363
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.322425 ionice@7f83ed835d03[2072] mmap2(0x7f83ed6d2000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f83ed6d2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed6d2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed6d2000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383627.322425
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.322493 ionice@7f83ed835d03[2072] mmap2(0x7f83ed6d6000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f83ed6d6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed6d6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed6d6000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383627.322493
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.322553 ionice@7f83ed835d03[2072] mmap2(0x7f83ed6d8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f83ed6d8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed6d8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed6d8000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383627.322553
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.322628 ionice@7f83ed8359f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed8359f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383627.322628
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.322695 ionice@7f83ed835b0d[2072] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383627.322695
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.322754 ionice@7f83ed835bd4[2072] read(4, 0x7ffeaf4b19e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b19e8"
+                        }, 
+                        "time": 1640383627.322754
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.322809 ionice@7f83ed835943[2072] fstat(4, 0x7ffeaf4b1880) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b1880"
+                        }, 
+                        "time": 1640383627.322809
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.322866 ionice@7f83ed835d03[2072] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f83ed4ed000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed4ed000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.322866
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.322924 ionice@7f83ed835db7[2072] mprotect(0x7f83ed582000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f83ed582000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383627.322924
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.322984 ionice@7f83ed835d03[2072] mmap2(0x7f83ed582000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7f83ed582000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed582000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed582000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383627.322984
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.323039 ionice@7f83ed835d03[2072] mmap2(0x7f83ed674000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7f83ed674000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed674000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed674000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383627.323039
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.323094 ionice@7f83ed835d03[2072] mmap2(0x7f83ed6be000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7f83ed6be000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed6be000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed6be000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383627.323094
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.323163 ionice@7f83ed835d03[2072] mmap2(0x7f83ed6cc000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f83ed6cc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed6cc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f83ed6cc000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.323163
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.323233 ionice@7f83ed8359f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed8359f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383627.323233
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.323307 ionice@7f83ed835b0d[2072] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383627.323307
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.323376 ionice@7f83ed835bd4[2072] read(4, 0x7ffeaf4b19c8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b19c8"
+                        }, 
+                        "time": 1640383627.323376
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.323426 ionice@7f83ed835943[2072] fstat(4, 0x7ffeaf4b1860) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b1860"
+                        }, 
+                        "time": 1640383627.323426
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.323477 ionice@7f83ed835d03[2072] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f83ed39f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed39f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.323477
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.323534 ionice@7f83ed835d03[2072] mmap2(0x7f83ed3ae000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f83ed3ae000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed3ae000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed3ae000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383627.323534
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.323597 ionice@7f83ed835d03[2072] mmap2(0x7f83ed454000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f83ed454000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed454000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed454000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383627.323597
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.323654 ionice@7f83ed835d03[2072] mmap2(0x7f83ed4eb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f83ed4eb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed4eb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed4eb000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383627.323654
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.323728 ionice@7f83ed8359f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed8359f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383627.323728
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.323800 ionice@7f83ed835b0d[2072] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383627.3238
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.323857 ionice@7f83ed835bd4[2072] read(4, 0x7ffeaf4b19a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b19a8"
+                        }, 
+                        "time": 1640383627.323857
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.323909 ionice@7f83ed835943[2072] fstat(4, 0x7ffeaf4b1840) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b1840"
+                        }, 
+                        "time": 1640383627.323909
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.323958 ionice@7f83ed835d03[2072] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f83ed385000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed385000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.323958
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.324015 ionice@7f83ed835d03[2072] mmap2(0x7f83ed388000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f83ed388000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed388000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed388000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383627.324015
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.324075 ionice@7f83ed835d03[2072] mmap2(0x7f83ed399000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f83ed399000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed399000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed399000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383627.324075
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.324130 ionice@7f83ed835d03[2072] mmap2(0x7f83ed39d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f83ed39d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed39d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed39d000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383627.32413
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.324202 ionice@7f83ed8359f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed8359f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383627.324202
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.324267 ionice@7f83ed835b0d[2072] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383627.324267
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.324325 ionice@7f83ed835bd4[2072] read(4, 0x7ffeaf4b1988, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b1988"
+                        }, 
+                        "time": 1640383627.324325
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.324377 ionice@7f83ed835943[2072] fstat(4, 0x7ffeaf4b1820) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b1820"
+                        }, 
+                        "time": 1640383627.324377
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.324426 ionice@7f83ed835d03[2072] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f83ed383000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed383000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.324426
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.324486 ionice@7f83ed835d03[2072] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f83ed362000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed362000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.324486
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.324545 ionice@7f83ed835d03[2072] mmap2(0x7f83ed369000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f83ed369000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed369000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed369000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383627.324545
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.324607 ionice@7f83ed835d03[2072] mmap2(0x7f83ed378000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f83ed378000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed378000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed378000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383627.324607
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.324668 ionice@7f83ed835d03[2072] mmap2(0x7f83ed37d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f83ed37d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed37d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed37d000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383627.324668
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.324738 ionice@7f83ed835d03[2072] mmap2(0x7f83ed37f000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f83ed37f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed37f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f83ed37f000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.324738
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.324808 ionice@7f83ed8359f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed8359f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383627.324808
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.324875 ionice@7f83ed835b0d[2072] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383627.324875
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.324946 ionice@7f83ed835bd4[2072] read(4, 0x7ffeaf4b1968, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b1968"
+                        }, 
+                        "time": 1640383627.324946
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.324999 ionice@7f83ed835943[2072] fstat(4, 0x7ffeaf4b1800) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b1800"
+                        }, 
+                        "time": 1640383627.324999
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.325065 ionice@7f83ed835d03[2072] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f83ed177000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed177000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.325065
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.325145 ionice@7f83ed835d03[2072] mmap2(0x7f83ed19c000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f83ed19c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed19c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed19c000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383627.325145
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.325211 ionice@7f83ed835d03[2072] mmap2(0x7f83ed30f000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f83ed30f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed30f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed30f000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383627.325211
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.325270 ionice@7f83ed835d03[2072] mmap2(0x7f83ed358000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f83ed358000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed358000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed358000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383627.32527
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.325339 ionice@7f83ed835d03[2072] mmap2(0x7f83ed35e000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f83ed35e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed35e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f83ed35e000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.325339
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.325412 ionice@7f83ed8359f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed8359f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383627.325412
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.325490 ionice@7f83ed835b0d[2072] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383627.32549
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.325550 ionice@7f83ed835bd4[2072] read(4, 0x7ffeaf4b1948, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b1948"
+                        }, 
+                        "time": 1640383627.32555
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.325606 ionice@7f83ed835943[2072] fstat(4, 0x7ffeaf4b17e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b17e0"
+                        }, 
+                        "time": 1640383627.325606
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.325674 ionice@7f83ed835d03[2072] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f83ed171000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed171000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.325674
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.325737 ionice@7f83ed835d03[2072] mmap2(0x7f83ed172000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f83ed172000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed172000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed172000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383627.325737
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.325802 ionice@7f83ed835d03[2072] mmap2(0x7f83ed174000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f83ed174000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed174000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed174000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383627.325802
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.325862 ionice@7f83ed835d03[2072] mmap2(0x7f83ed175000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f83ed175000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed175000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed175000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383627.325862
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.325935 ionice@7f83ed8359f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed8359f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383627.325935
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.326055 ionice@7f83ed835b0d[2072] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383627.326055
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.326117 ionice@7f83ed835bd4[2072] read(4, 0x7ffeaf4b1928, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b1928"
+                        }, 
+                        "time": 1640383627.326117
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.326170 ionice@7f83ed835943[2072] fstat(4, 0x7ffeaf4b17c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b17c0"
+                        }, 
+                        "time": 1640383627.32617
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.326232 ionice@7f83ed835d03[2072] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f83ed0fd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed0fd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.326232
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.326294 ionice@7f83ed835d03[2072] mmap2(0x7f83ed0ff000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f83ed0ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed0ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed0ff000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383627.326294
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.326361 ionice@7f83ed835d03[2072] mmap2(0x7f83ed151000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f83ed151000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed151000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed151000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383627.326361
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.326419 ionice@7f83ed835d03[2072] mmap2(0x7f83ed16f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f83ed16f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed16f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f83ed16f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383627.326419
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.326495 ionice@7f83ed8359f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed8359f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383627.326495
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.331733 ionice@7f83ed835d03[2072] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f83ed0fb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed0fb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.331733
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.331834 ionice@7f83ed835d03[2072] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f83ed0f8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ed0f8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.331834
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.331897 ionice@7f83ed81af30[2072] arch_prctl(ARCH_SET_FS, 140204594661312) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed81af30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140204594661312"
+                        }, 
+                        "time": 1640383627.331897
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.336672 ionice@7f83ed835db7[2072] mprotect(0x7f83ed358000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f83ed358000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383627.336672
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.336742 ionice@7f83ed835db7[2072] mprotect(0x7f83ed37d000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f83ed37d000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383627.336742
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.336817 ionice@7f83ed835db7[2072] mprotect(0x7f83ed16f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f83ed16f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383627.336817
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.336869 ionice@7f83ed835db7[2072] mprotect(0x7f83ed175000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f83ed175000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383627.336869
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.336919 ionice@7f83ed835db7[2072] mprotect(0x7f83ed39d000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f83ed39d000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383627.336919
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.336983 ionice@7f83ed835db7[2072] mprotect(0x7f83ed4eb000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f83ed4eb000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383627.336983
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.337737 ionice@7f83ed835db7[2072] mprotect(0x7f83ed6be000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f83ed6be000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383627.337737
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.337793 ionice@7f83ed835db7[2072] mprotect(0x7f83ed6d8000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f83ed6d8000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383627.337793
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.337971 ionice@7f83ed835db7[2072] mprotect(0x7f83ed7f8000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f83ed7f8000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383627.337971
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.338082 ionice@7f83ed835db7[2072] mprotect(0x7f83ed7ff000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f83ed7ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383627.338082
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.362694 ionice@7f83ed835db7[2072] mprotect(0x5573711b8000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x5573711b8000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383627.362694
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.362779 ionice@7f83ed835db7[2072] mprotect(0x7f83ed843000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f83ed843000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383627.362779
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.362832 ionice@7f83ed835d97[2072] munmap(0x7f83ed803000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed835d97", 
+                        "arguments": {
+                            "p0": "0x7f83ed803000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383627.362832
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.362914 ionice@7f83ed3698df[2072] set_tid_address(0x7f83ed0f8a90) = 2072\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2072", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed3698df", 
+                        "arguments": {
+                            "p0": "0x7f83ed0f8a90"
+                        }, 
+                        "time": 1640383627.362914
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.362948 ionice@7f83ed36994a[2072] set_robust_list(0x7f83ed0f8aa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed36994a", 
+                        "arguments": {
+                            "p0": "0x7f83ed0f8aa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383627.362948
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.362991 ionice@7f83ed376010[2072] rt_sigaction(0x20, {0x7f83ed3696c0, SA_SIGINFO|SA_RESTORER, 0x7f83ed375f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed376010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f83ed3696c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f83ed375f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383627.362991
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.363027 ionice@7f83ed376010[2072] rt_sigaction(0x21, {0x7f83ed369760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f83ed375f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed376010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f83ed369760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f83ed375f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383627.363027
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.363061 ionice@7f83ed369a19[2072] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed369a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383627.363061
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.363150 ionice@7f83ed289df0[2072] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffeaf4b2620) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed289df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffeaf4b2620", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383627.36315
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.363389 ionice@7f83ed28a2f7[2072] brk(0x0) = 93954356350976\n", 
+                        "api": "brk", 
+                        "return_value": "93954356350976", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed28a2f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383627.363389
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.363424 ionice@7f83ed28a2f7[2072] brk(0x5573740b2000) = 93954356486144\n", 
+                        "api": "brk", 
+                        "return_value": "93954356486144", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed28a2f7", 
+                        "arguments": {
+                            "p0": "0x5573740b2000"
+                        }, 
+                        "time": 1640383627.363424
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.364720 ionice@7f83ed372b86[2072] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffeaf4b2570, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed372b86", 
+                        "arguments": {
+                            "p2": "0x7ffeaf4b2570", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383627.36472
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.365834 ionice@7f83ed28e4c3[2072] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f83ec8f7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ec8f7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed28e4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.365834
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.365898 ionice@7f83ed28e597[2072] mprotect(0x7f83ec8f8000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed28e597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f83ec8f8000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383627.365898
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.365956 ionice@7f83ed294b11[2072] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f83ed0f6f30, 0x7f83ed0f79d0, 0x7f83ed0f79d0) = 2074\n", 
+                        "api": "clone", 
+                        "return_value": "2074", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed294b11", 
+                        "arguments": {
+                            "p2": "0x7f83ed0f79d0", 
+                            "p3": "0x7f83ed0f79d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f83ed0f6f30"
+                        }, 
+                        "time": 1640383627.365956
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.366131 ionice@7f83ed372b86[2072] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed372b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383627.366131
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.371084 ionice@7f83ed289df0[2072] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffeaf4b20d0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed289df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffeaf4b20d0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383627.371084
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.371191 ionice@7f83ed2895c1[2072] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed2895c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383627.371191
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.372456 ionice@7f83ed258247[2072] uname(0x7ffeaf4b1d40) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed258247", 
+                        "arguments": {
+                            "p0": "0x7ffeaf4b1d40"
+                        }, 
+                        "time": 1640383627.372456
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.372538 ionice@7f83ed375337[2072] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed375337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383627.372538
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.372672 ionice@7f83ed374d94[2072] read(3, 0x7ffeaf4b2030, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed374d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffeaf4b2030"
+                        }, 
+                        "time": 1640383627.372672
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.372750 ionice@7f83ed375337[2072] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed375337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383627.37275
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.374048 ionice@7f83ed28a2f7[2072] brk(0x5573740d3000) = 93954356621312\n", 
+                        "api": "brk", 
+                        "return_value": "93954356621312", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed28a2f7", 
+                        "arguments": {
+                            "p0": "0x5573740d3000"
+                        }, 
+                        "time": 1640383627.374048
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.374240 ionice@7f83ed28e4c3[2072] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f83ec876000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83ec876000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed28e4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.37424
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.374729 ionice@7f83ed28e597[2072] mprotect(0x55737123b000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed28e597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55737123b000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383627.374729
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.374779 ionice@7f83ed28e667[2072] madvise(0x55737123b000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed28e667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55737123b000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383627.374779
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.375634 ionice@7f83ed28e4c3[2072] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f8368000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f8368000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed28e4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.375634
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.375690 ionice@7f83ed283d59[2072] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed283d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383627.37569
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.375750 ionice@7f83ed283613[2072] fstat(4, 0x7ffeaf4b1740) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed283613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffeaf4b1740"
+                        }, 
+                        "time": 1640383627.37575
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.375789 ionice@7f83ed283fb4[2072] read(4, 0x5573740b04e0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed283fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x5573740b04e0"
+                        }, 
+                        "time": 1640383627.375789
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.375839 ionice@7f83ed2893f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed2893f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383627.375839
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.375920 ionice@7f83ed28e2e9[2072] gettid() = 2072\n", 
+                        "api": "gettid", 
+                        "return_value": "2072", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed28e2e9", 
+                        "arguments": {}, 
+                        "time": 1640383627.37592
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.375973 ionice@7f83ed283613[2072] fstat(3, 0x7ffeaf4b1fb0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed283613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffeaf4b1fb0"
+                        }, 
+                        "time": 1640383627.375973
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.376022 ionice@7f83ed259717[2072] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed259717", 
+                        "arguments": {}, 
+                        "time": 1640383627.376022
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.376068 ionice@7f83ed259737[2072] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed259737", 
+                        "arguments": {}, 
+                        "time": 1640383627.376068
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.376117 ionice@7f83ed374d94[2072] read(3, 0x7ffeaf4b2210, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed374d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffeaf4b2210"
+                        }, 
+                        "time": 1640383627.376117
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.376191 ionice@7f83ed28e4c3[2072] mmap2(0x7f83e7fe9000, 94208, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f83e7fe9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83e7fe9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed28e4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7f83e7fe9000", 
+                            "p1": "94208", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.376191
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.376260 ionice@7f83ed28e4c3[2072] mmap2(0x7f83e7fe9000, 24576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f83e7fe9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83e7fe9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed28e4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f83e7fe9000", 
+                            "p1": "24576", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.37626
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.376303 ionice@7f83ed28e4c3[2072] mmap2(0x7f83e7ffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 20480) = 0x7f83e7ffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83e7ffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed28e4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f83e7ffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "20480"
+                        }, 
+                        "time": 1640383627.376303
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.376350 ionice@7f83ed374e27[2072] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed374e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383627.37635
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.376399 ionice@7f83ed28e4c3[2072] mmap2(0x7f83e77e8000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f83e77e8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83e77e8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed28e4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f83e77e8000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.376399
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.376450 ionice@7f83ed28a2f7[2072] brk(0x5573740f4000) = 93954356756480\n", 
+                        "api": "brk", 
+                        "return_value": "93954356756480", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed28a2f7", 
+                        "arguments": {
+                            "p0": "0x5573740f4000"
+                        }, 
+                        "time": 1640383627.37645
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.376561 ionice@7f83ed28e597[2072] mprotect(0x7f83e77e8000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed28e597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f83e77e8000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383627.376561
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.376628 ionice@7f83ed37555e[2072] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed37555e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383627.376628
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.376731 ionice@7f83ed284057[2072] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed284057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383627.376731
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.376825 ionice@7f83ed258926[2072] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed258926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383627.376825
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:07 2021.376889 ionice@7f83ed258926[2072] futex(0x7f83ed0f8a90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed258926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f83ed0f8a90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383627.376889
+                    }
+                ], 
+                "pid": 2072, 
+                "process_name": "ionice", 
+                "command_line": "/tmp/ionice", 
+                "first_seen": 1640383626.088182, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:07 2021.366213 ionice@7f83ed36b117[2074] set_robust_list(0x7f83ed0f79e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed36b117", 
+                        "arguments": {
+                            "p0": "0x7f83ed0f79e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383627.366213
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:07 2021.366287 ionice@7f83ed28e4c3[2074] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f83e48f7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f83e48f7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed28e4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383627.366287
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:07 2021.366348 ionice@7f83ed28e567[2074] munmap(0x7f83e48f7000, 57708544) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed28e567", 
+                        "arguments": {
+                            "p0": "0x7f83e48f7000", 
+                            "p1": "57708544"
+                        }, 
+                        "time": 1640383627.366348
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:07 2021.366404 ionice@7f83ed28e567[2074] munmap(0x7f83ec000000, 9400320) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed28e567", 
+                        "arguments": {
+                            "p0": "0x7f83ec000000", 
+                            "p1": "9400320"
+                        }, 
+                        "time": 1640383627.366404
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:07 2021.366456 ionice@7f83ed28e597[2074] mprotect(0x7f83e8000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed28e597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f83e8000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383627.366456
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:07 2021.366529 ionice@7f83ed375440[2074] nanosleep([0.010000000], 0x7f83ed0f6d80) = 0\n", 
+                        "api": "nanosleep", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed375440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f83ed0f6d80"
+                        }, 
+                        "time": 1640383627.366529
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ionice", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:07 2021.376795 ionice@7f83ed28e667[2074] madvise(0x5573740b2000, 8192, MADV_DONTNEED) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f83ed28e667", 
+                        "arguments": {
+                            "p2": "MADV_DONTNEED", 
+                            "p0": "0x5573740b2000", 
+                            "p1": "8192"
+                        }, 
+                        "time": 1640383627.376795
+                    }
+                ], 
+                "pid": 2074, 
+                "process_name": "ionice", 
+                "command_line": "", 
+                "first_seen": 1640383627.366213, 
+                "ppid": 2072, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2072, 
+                "process_name": "ionice", 
+                "command_line": "/tmp/ionice", 
+                "first_seen": 1640383626.088182, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2074, 
+                        "process_name": "ionice", 
+                        "command_line": "", 
+                        "first_seen": 1640383627.366213, 
+                        "ppid": 2072, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:06:59,005 [root] DEBUG: Starting analyzer from: /tmp/tmpbbONfm\n", 
+            "2021-12-24 22:06:59,005 [root] DEBUG: Storing results at: /tmp/ZAHPQGRQkp\n", 
+            "2021-12-24 22:07:01,256 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:07:01,258 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:07:01,264 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:07:06,081 [lib.core.packages] INFO: Process startup took 4.81 seconds\n", 
+            "2021-12-24 22:07:06,082 [root] INFO: Added new process to list with pid: 2060\n", 
+            "2021-12-24 22:07:15,091 [root] INFO: Process with pid 2060 has terminated\n", 
+            "2021-12-24 22:07:15,093 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:18,095 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:18,097 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 03:52:07,562 [cuckoo.core.scheduler] DEBUG: Task #2548581: no machine available yet\n", 
+            "2021-12-25 03:52:37,585 [cuckoo.core.scheduler] DEBUG: Task #2548581: no machine available yet\n", 
+            "2021-12-25 03:53:07,630 [cuckoo.core.scheduler] DEBUG: Task #2548581: no machine available yet\n", 
+            "2021-12-25 03:53:37,675 [cuckoo.core.scheduler] DEBUG: Task #2548581: no machine available yet\n", 
+            "2021-12-25 03:54:07,720 [cuckoo.core.scheduler] DEBUG: Task #2548581: no machine available yet\n", 
+            "2021-12-25 03:54:37,766 [cuckoo.core.scheduler] DEBUG: Task #2548581: no machine available yet\n", 
+            "2021-12-25 03:55:07,797 [cuckoo.core.scheduler] DEBUG: Task #2548581: no machine available yet\n", 
+            "2021-12-25 03:55:37,841 [cuckoo.core.scheduler] DEBUG: Task #2548581: no machine available yet\n", 
+            "2021-12-25 03:56:07,899 [cuckoo.core.scheduler] DEBUG: Task #2548581: no machine available yet\n", 
+            "2021-12-25 03:56:37,946 [cuckoo.core.scheduler] DEBUG: Task #2548581: no machine available yet\n", 
+            "2021-12-25 03:57:07,992 [cuckoo.core.scheduler] DEBUG: Task #2548581: no machine available yet\n", 
+            "2021-12-25 03:57:38,106 [cuckoo.core.scheduler] DEBUG: Task #2548581: no machine available yet\n", 
+            "2021-12-25 03:58:08,278 [cuckoo.core.scheduler] DEBUG: Task #2548581: no machine available yet\n", 
+            "2021-12-25 03:58:38,337 [cuckoo.core.scheduler] DEBUG: Task #2548581: no machine available yet\n", 
+            "2021-12-25 03:59:08,377 [cuckoo.core.scheduler] DEBUG: Task #2548581: no machine available yet\n", 
+            "2021-12-25 03:59:38,435 [cuckoo.core.scheduler] DEBUG: Task #2548581: no machine available yet\n", 
+            "2021-12-25 04:00:08,495 [cuckoo.core.scheduler] DEBUG: Task #2548581: no machine available yet\n", 
+            "2021-12-25 04:00:38,551 [cuckoo.core.scheduler] INFO: Task #2548581: acquired machine Ubuntu1904x646 (label=Ubuntu1904x646)\n", 
+            "2021-12-25 04:00:38,552 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.106 for task #2548581\n", 
+            "2021-12-25 04:00:38,685 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3191729 (interface=vboxnet0, host=192.168.168.106)\n", 
+            "2021-12-25 04:00:38,835 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x646\n", 
+            "2021-12-25 04:00:39,258 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x646 to Snapshot\n", 
+            "2021-12-25 04:00:53,883 [cuckoo.core.guest] INFO: Starting analysis #2548581 on guest (id=Ubuntu1904x646, ip=192.168.168.106)\n", 
+            "2021-12-25 04:00:53,904 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: not ready yet\n", 
+            "2021-12-25 04:00:59,548 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x646, ip=192.168.168.106)\n", 
+            "2021-12-25 04:00:59,560 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x646, ip=192.168.168.106, monitor=latest, size=72028)\n", 
+            "2021-12-25 04:00:59,693 [cuckoo.core.resultserver] DEBUG: Task #2548581: live log analysis.log initialized.\n", 
+            "2021-12-25 04:01:04,888 [cuckoo.core.resultserver] DEBUG: Task #2548581: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 04:01:04,898 [cuckoo.core.resultserver] DEBUG: Task #2548581 uploaded file length: 171578\n", 
+            "2021-12-25 04:01:14,708 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548581 still processing\n", 
+            "2021-12-25 04:01:18,803 [cuckoo.core.resultserver] DEBUG: Task #2548581: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 04:01:18,830 [cuckoo.core.resultserver] DEBUG: Task #2548581 uploaded file length: 20459\n", 
+            "2021-12-25 04:01:29,767 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548581 still processing\n", 
+            "2021-12-25 04:01:44,876 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548581 still processing\n", 
+            "2021-12-25 04:01:59,937 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548581 still processing\n", 
+            "2021-12-25 04:02:15,013 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548581 still processing\n", 
+            "2021-12-25 04:02:30,069 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548581 still processing\n", 
+            "2021-12-25 04:02:45,127 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548581 still processing\n", 
+            "2021-12-25 04:03:00,189 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548581 still processing\n", 
+            "2021-12-25 04:03:15,283 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548581 still processing\n", 
+            "2021-12-25 04:03:30,329 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548581 still processing\n", 
+            "2021-12-25 04:03:45,423 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548581 still processing\n", 
+            "2021-12-25 04:04:00,594 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548581 still processing\n", 
+            "2021-12-25 04:04:15,667 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548581 still processing\n", 
+            "2021-12-25 04:04:30,747 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548581 still processing\n", 
+            "2021-12-25 04:04:45,834 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2548581 still processing\n", 
+            "2021-12-25 04:05:00,878 [cuckoo.core.guest] INFO: Ubuntu1904x646: end of analysis reached!\n", 
+            "2021-12-25 04:05:00,887 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 04:05:00,969 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 04:05:16,843 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x646 to path /srv/cuckoo/cwd/storage/analyses/2548581/memory.dmp\n", 
+            "2021-12-25 04:05:16,845 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x646\n", 
+            "2021-12-25 04:05:36,902 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.106 for task #2548581\n", 
+            "2021-12-25 04:05:36,902 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2548581\n", 
+            "2021-12-25 04:05:37,020 [cuckoo.core.scheduler] DEBUG: Released database task #2548581\n", 
+            "2021-12-25 04:05:37,129 [cuckoo.core.scheduler] INFO: Task #2548581: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "dcgettext", 
+        "program_invocation_short_name", 
+        "__fprintf_chk", 
+        "stderr", 
+        "syscall", 
+        "__printf_chk", 
+        "to_prio", 
+        "stdout", 
+        "__fpending", 
+        "ferror", 
+        "fclose", 
+        "__errno_location", 
+        "setlocale", 
+        "bindtextdomain", 
+        "getopt_long", 
+        "optarg", 
+        "strtos32_or_err", 
+        "__ctype_b_loc", 
+        "strcasecmp", 
+        "optind", 
+        "execvp", 
+        "strchr", 
+        "__stack_chk_guard", 
+        "__strtoull_internal", 
+        "localeconv", 
+        "strlen", 
+        "strncmp", 
+        "__stack_chk_fail", 
+        "parse_size", 
+        "strcmp", 
+        "__strtoll_internal", 
+        "strtos64_or_err", 
+        "strtou64_or_err", 
+        "strtou32_or_err", 
+        "strtod", 
+        "strtol", 
+        "strtoul", 
+        "strtosize", 
+        "strtod_or_err", 
+        "__snprintf_chk", 
+        "__strdup", 
+        "string_to_idarray", 
+        "malloc", 
+        "memcpy", 
+        "__strndup", 
+        "calloc", 
+        "strnappend", 
+        "__vasprintf_chk", 
+        "strspn", 
+        "strcspn", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "__progname", 
+        "__cxa_atexit", 
+        "ld.so.1", 
+        "GLIBC_2.4", 
+        "GLIBC_2.3", 
+        "GLIBC_2.8", 
+        "GLIBC_2.2", 
+        "GLIBC_2.0", 
+        "GLIBC_2.3.4", 
+        "Usage:", 
+        " %1$s [options] -p <pid>...", 
+        " %1$s [options] -P <pgid>...", 
+        " %1$s [options] -u <uid>...", 
+        " %1$s [options] <command>", 
+        "Show or change the I/O-scheduling class and priority of a process.", 
+        "Options:", 
+        " -c, --class <class>    name or number of scheduling class,", 
+        "                          0: none, 1: realtime, 2: best-effort, 3: idle", 
+        " -n, --classdata <num>  priority (0..7) in the specified scheduling class,", 
+        "                          only for the realtime and best-effort classes", 
+        " -p, --pid <pid>...     act on these already running processes", 
+        " -P, --pgid <pgrp>...   act on already running processes in these groups", 
+        " -t, --ignore           ignore failures", 
+        " -u, --uid <uid>...     act on already running processes owned by these users", 
+        " -h, --help     display this help and exit", 
+        " -V, --version  output version information and exit", 
+        "For more details see %s.", 
+        "ionice(1)", 
+        "ioprio_get failed", 
+        "unknown", 
+        "%s: prio %lu", 
+        "ioprio_set failed", 
+        "write error", 
+        "/usr/share/locale", 
+        "util-linux", 
+        "invalid class data argument", 
+        "invalid class argument", 
+        "can handle only one of pid, pgid or uid at once", 
+        "invalid PID argument", 
+        "invalid PGID argument", 
+        "invalid UID argument", 
+        "%s from %s", 
+        "util-linux 2.29.2", 
+        "+n:c:p:P:u:tVh", 
+        "ignoring given class data for none class", 
+        "ignoring given class data for idle class", 
+        "unknown prio class %d", 
+        "failed to execute %s", 
+        "unknown scheduling class: '%s'", 
+        "classdata", 
+        "ignore", 
+        "version", 
+        "realtime", 
+        "best-effort", 
+        "KMGTPEYZ", 
+        "kmgtpeyz", 
+        "%s: '%s'", 
+        "BKMGTPE", 
+        "%d%s%llu%s", 
+        "9fa8c9038e6bfafa63e2789fea00a0cc7ad394.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame_hdr", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".data.rel.ro", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "ed8ca36b8795601bc8b62822d1d7affc7f0e0d02126b503bed9e31f38c1032cf", 
+                "dirname": ""
+            }
+        }
+    }
+}
