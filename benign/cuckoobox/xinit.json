@@ -1,0 +1,3330 @@
+{
+    "info": {
+        "added": 1640383637.498569, 
+        "started": 1640429696.45784, 
+        "duration": 818, 
+        "ended": 1640430515.245979, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2549184, 
+        "category": "file", 
+        "git": {
+            "head": "", 
+            "fetch_head": ""
+        }, 
+        "monitor": null, 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x642", 
+            "label": "Ubuntu1904x642", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 11:03:58", 
+            "shutdown_on": "2021-12-25 11:08:34"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "f81aae8f476d62b201a03713367cfdb7d3c8e310", 
+            "name": "xinit", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=736e4e5a0ea7d3ea332cd41dc3e96364d78ff07f, stripped", 
+            "sha256": "8cf4f322f0611006742bee444798f7822145d3daba9c88f86716042085ce8bc9", 
+            "urls": [], 
+            "crc32": "4391CEF6", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/8cf4f322f0611006742bee444798f7822145d3daba9c88f86716042085ce8bc9", 
+            "ssdeep": null, 
+            "size": 19024, 
+            "sha512": "d6a0bf2018d7dea80732207c55479cfbd20c45de0b25b60a55c0578cc00bb610bbb75b5d3851067377ed352d7131e3226027d199177edfeb97510d1fb08e93cf", 
+            "md5": "e0d1d299043823e60f93e15c794d6b88"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "fd61851a-3588-48e3-8710-4ffb81dd12e5", 
+        "parent_file_sha256": null, 
+        "name": "8cf4f322f0611006742bee444798f7822145d3daba9c88f86716042085ce8bc9", 
+        "probes_total": 16, 
+        "scan_date": 1640423316, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "f81aae8f476d62b201a03713367cfdb7d3c8e310", 
+            "tags": [], 
+            "timestamp_first_scan": 1640423315.79, 
+            "timestamp_last_scan": 1640423324.45, 
+            "sha256": "8cf4f322f0611006742bee444798f7822145d3daba9c88f86716042085ce8bc9", 
+            "md5": "e0d1d299043823e60f93e15c794d6b88", 
+            "size": 19024
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.1, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.65, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-15 12:09:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.25, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.02, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.78, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.93, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.64, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.36, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.12, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.02, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "73db0d95-be5d-4e12-8b8e-1120691d6ec4", 
+        "file_sha256": "8cf4f322f0611006742bee444798f7822145d3daba9c88f86716042085ce8bc9"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "xinit", 
+                "pid": 2086, 
+                "summary": {}, 
+                "first_seen": 1640383644.129008, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "xinit", 
+                "pid": 2087, 
+                "summary": {}, 
+                "first_seen": 1640383644.291214, 
+                "ppid": 2086
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.129008 xinit@7f6063b00c27[2086] execve(\"/tmp/xinit\", [\"/tmp/xinit\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/xinit\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmphlNF04\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b00c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/xinit", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmphlNF04"
+                            ], 
+                            "p0": "/tmp/xinit", 
+                            "p1": [
+                                "/tmp/xinit"
+                            ]
+                        }, 
+                        "time": 1640383644.129008
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.222909 xinit@7f6063b00c27[2086] brk(0x0) = 94183635603456\n", 
+                        "api": "brk", 
+                        "return_value": "94183635603456", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b00c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383644.222909
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.231062 xinit@7f6063b019d7[2086] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b019d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383644.231062
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.239575 xinit@7f6063b01b0d[2086] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383644.239575
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.239682 xinit@7f6063b01943[2086] fstat(4, 0x7ffe5b4d32f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d32f0"
+                        }, 
+                        "time": 1640383644.239682
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.239767 xinit@7f6063b01d03[2086] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f6063acf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063acf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.239767
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.239858 xinit@7f6063b019f7[2086] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b019f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.239858
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.239973 xinit@7f6063b01b0d[2086] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383644.239973
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.240051 xinit@7f6063b01bd4[2086] read(4, 0x7ffe5b4d34a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d34a8"
+                        }, 
+                        "time": 1640383644.240051
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.240109 xinit@7f6063b01943[2086] fstat(4, 0x7ffe5b4d3340) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d3340"
+                        }, 
+                        "time": 1640383644.240109
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.240160 xinit@7f6063b01d03[2086] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6063acd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063acd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.24016
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.240226 xinit@7f6063b01d03[2086] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f6063ac7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063ac7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.240226
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.240285 xinit@7f6063b01d03[2086] mmap2(0x7f6063ac8000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f6063ac8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063ac8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6063ac8000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383644.240285
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.240544 xinit@7f6063b01d03[2086] mmap2(0x7f6063aca000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f6063aca000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063aca000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6063aca000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383644.240544
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.240625 xinit@7f6063b01d03[2086] mmap2(0x7f6063acb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f6063acb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063acb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6063acb000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383644.240625
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.240698 xinit@7f6063b019f7[2086] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b019f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.240698
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.240764 xinit@7f6063b01b0d[2086] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383644.240764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.240821 xinit@7f6063b01bd4[2086] read(4, 0x7ffe5b4d3488, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d3488"
+                        }, 
+                        "time": 1640383644.240821
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.240869 xinit@7f6063b01943[2086] fstat(4, 0x7ffe5b4d3320) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d3320"
+                        }, 
+                        "time": 1640383644.240869
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.240919 xinit@7f6063b01d03[2086] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f60639a6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f60639a6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.240919
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.240975 xinit@7f6063b01db7[2086] mprotect(0x7f60639c1000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f60639c1000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383644.240975
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.241040 xinit@7f6063b01d03[2086] mmap2(0x7f60639c1000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f60639c1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f60639c1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f60639c1000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383644.24104
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.241096 xinit@7f6063b01d03[2086] mmap2(0x7f6063a41000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f6063a41000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063a41000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6063a41000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383644.241096
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.241160 xinit@7f6063b01d03[2086] mmap2(0x7f6063ac4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f6063ac4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063ac4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6063ac4000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383644.24116
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.241222 xinit@7f6063b01d03[2086] mmap2(0x7f6063ac6000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6063ac6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063ac6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f6063ac6000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.241222
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.241285 xinit@7f6063b019f7[2086] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b019f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.241285
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.241363 xinit@7f6063b01b0d[2086] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383644.241363
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.241422 xinit@7f6063b01bd4[2086] read(4, 0x7ffe5b4d3468, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d3468"
+                        }, 
+                        "time": 1640383644.241422
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.241471 xinit@7f6063b01943[2086] fstat(4, 0x7ffe5b4d3300) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d3300"
+                        }, 
+                        "time": 1640383644.241471
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.241518 xinit@7f6063b01d03[2086] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f606399b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f606399b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.241518
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.241575 xinit@7f6063b01d03[2086] mmap2(0x7f606399e000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f606399e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f606399e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f606399e000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383644.241575
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.241634 xinit@7f6063b01d03[2086] mmap2(0x7f60639a2000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f60639a2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f60639a2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f60639a2000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383644.241634
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.241688 xinit@7f6063b01d03[2086] mmap2(0x7f60639a4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f60639a4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f60639a4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f60639a4000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383644.241688
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.241760 xinit@7f6063b019f7[2086] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b019f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.24176
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.241827 xinit@7f6063b01b0d[2086] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383644.241827
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.241884 xinit@7f6063b01bd4[2086] read(4, 0x7ffe5b4d3448, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d3448"
+                        }, 
+                        "time": 1640383644.241884
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.241933 xinit@7f6063b01943[2086] fstat(4, 0x7ffe5b4d32e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d32e0"
+                        }, 
+                        "time": 1640383644.241933
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.241985 xinit@7f6063b01d03[2086] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f60637b9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f60637b9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.241985
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.242038 xinit@7f6063b01db7[2086] mprotect(0x7f606384e000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f606384e000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383644.242038
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.242095 xinit@7f6063b01d03[2086] mmap2(0x7f606384e000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7f606384e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f606384e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f606384e000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383644.242095
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.242150 xinit@7f6063b01d03[2086] mmap2(0x7f6063940000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7f6063940000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063940000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6063940000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383644.24215
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.242204 xinit@7f6063b01d03[2086] mmap2(0x7f606398a000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7f606398a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f606398a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f606398a000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383644.242204
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.242266 xinit@7f6063b01d03[2086] mmap2(0x7f6063998000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6063998000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063998000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f6063998000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.242266
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.242330 xinit@7f6063b019f7[2086] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b019f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.24233
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.242405 xinit@7f6063b01b0d[2086] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383644.242405
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.242462 xinit@7f6063b01bd4[2086] read(4, 0x7ffe5b4d3428, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d3428"
+                        }, 
+                        "time": 1640383644.242462
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.242509 xinit@7f6063b01943[2086] fstat(4, 0x7ffe5b4d32c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d32c0"
+                        }, 
+                        "time": 1640383644.242509
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.242556 xinit@7f6063b01d03[2086] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f606366b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f606366b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.242556
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.242609 xinit@7f6063b01d03[2086] mmap2(0x7f606367a000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f606367a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f606367a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f606367a000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383644.242609
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.242668 xinit@7f6063b01d03[2086] mmap2(0x7f6063720000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f6063720000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063720000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6063720000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383644.242668
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.242810 xinit@7f6063b01d03[2086] mmap2(0x7f60637b7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f60637b7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f60637b7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f60637b7000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383644.24281
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.242939 xinit@7f6063b019f7[2086] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b019f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.242939
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.243007 xinit@7f6063b01b0d[2086] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383644.243007
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.243063 xinit@7f6063b01bd4[2086] read(4, 0x7ffe5b4d3408, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d3408"
+                        }, 
+                        "time": 1640383644.243063
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.243112 xinit@7f6063b01943[2086] fstat(4, 0x7ffe5b4d32a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d32a0"
+                        }, 
+                        "time": 1640383644.243112
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.243161 xinit@7f6063b01d03[2086] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f6063651000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063651000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.243161
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.243217 xinit@7f6063b01d03[2086] mmap2(0x7f6063654000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f6063654000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063654000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6063654000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383644.243217
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.243275 xinit@7f6063b01d03[2086] mmap2(0x7f6063665000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f6063665000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063665000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6063665000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383644.243275
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.243328 xinit@7f6063b01d03[2086] mmap2(0x7f6063669000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f6063669000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063669000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6063669000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383644.243328
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.243398 xinit@7f6063b019f7[2086] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b019f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.243398
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.243460 xinit@7f6063b01b0d[2086] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383644.24346
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.243527 xinit@7f6063b01bd4[2086] read(4, 0x7ffe5b4d33e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d33e8"
+                        }, 
+                        "time": 1640383644.243527
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.243575 xinit@7f6063b01943[2086] fstat(4, 0x7ffe5b4d3280) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d3280"
+                        }, 
+                        "time": 1640383644.243575
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.243623 xinit@7f6063b01d03[2086] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f606364f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f606364f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.243623
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.243684 xinit@7f6063b01d03[2086] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f606362e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f606362e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.243684
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.243747 xinit@7f6063b01d03[2086] mmap2(0x7f6063635000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f6063635000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063635000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6063635000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383644.243747
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.243805 xinit@7f6063b01d03[2086] mmap2(0x7f6063644000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f6063644000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063644000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6063644000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383644.243805
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.243859 xinit@7f6063b01d03[2086] mmap2(0x7f6063649000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f6063649000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063649000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6063649000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383644.243859
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.243920 xinit@7f6063b01d03[2086] mmap2(0x7f606364b000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f606364b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f606364b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f606364b000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.24392
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.243983 xinit@7f6063b019f7[2086] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b019f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.243983
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.244048 xinit@7f6063b01b0d[2086] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383644.244048
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.244102 xinit@7f6063b01bd4[2086] read(4, 0x7ffe5b4d33c8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d33c8"
+                        }, 
+                        "time": 1640383644.244102
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.244150 xinit@7f6063b01943[2086] fstat(4, 0x7ffe5b4d3260) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d3260"
+                        }, 
+                        "time": 1640383644.24415
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.244198 xinit@7f6063b01d03[2086] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f6063443000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063443000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.244198
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.244252 xinit@7f6063b01d03[2086] mmap2(0x7f6063468000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f6063468000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063468000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6063468000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383644.244252
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.244311 xinit@7f6063b01d03[2086] mmap2(0x7f60635db000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f60635db000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f60635db000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f60635db000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383644.244311
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.244367 xinit@7f6063b01d03[2086] mmap2(0x7f6063624000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f6063624000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063624000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6063624000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383644.244367
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.244445 xinit@7f6063b01d03[2086] mmap2(0x7f606362a000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f606362a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f606362a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f606362a000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.244445
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.244510 xinit@7f6063b019f7[2086] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b019f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.24451
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.244588 xinit@7f6063b01b0d[2086] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383644.244588
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.244644 xinit@7f6063b01bd4[2086] read(4, 0x7ffe5b4d33a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d33a8"
+                        }, 
+                        "time": 1640383644.244644
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.244692 xinit@7f6063b01943[2086] fstat(4, 0x7ffe5b4d3240) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d3240"
+                        }, 
+                        "time": 1640383644.244692
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.244740 xinit@7f6063b01d03[2086] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f606343d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f606343d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.24474
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.244793 xinit@7f6063b01d03[2086] mmap2(0x7f606343e000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f606343e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f606343e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f606343e000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383644.244793
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.244853 xinit@7f6063b01d03[2086] mmap2(0x7f6063440000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f6063440000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063440000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6063440000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383644.244853
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.244909 xinit@7f6063b01d03[2086] mmap2(0x7f6063441000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f6063441000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6063441000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6063441000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383644.244909
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.244977 xinit@7f6063b019f7[2086] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b019f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.244977
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.245041 xinit@7f6063b01b0d[2086] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383644.245041
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.245096 xinit@7f6063b01bd4[2086] read(4, 0x7ffe5b4d3388, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d3388"
+                        }, 
+                        "time": 1640383644.245096
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.245153 xinit@7f6063b01943[2086] fstat(4, 0x7ffe5b4d3220) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d3220"
+                        }, 
+                        "time": 1640383644.245153
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.245206 xinit@7f6063b01d03[2086] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f60633c9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f60633c9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.245206
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.245260 xinit@7f6063b01d03[2086] mmap2(0x7f60633cb000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f60633cb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f60633cb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f60633cb000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383644.24526
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.245319 xinit@7f6063b01d03[2086] mmap2(0x7f606341d000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f606341d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f606341d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f606341d000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383644.245319
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.245373 xinit@7f6063b01d03[2086] mmap2(0x7f606343b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f606343b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f606343b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f606343b000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383644.245373
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.245442 xinit@7f6063b019f7[2086] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b019f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.245442
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.248882 xinit@7f6063b01d03[2086] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f60633c7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f60633c7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.248882
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.248994 xinit@7f6063b01d03[2086] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f60633c4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f60633c4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.248994
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.249055 xinit@7f6063ae6f30[2086] arch_prctl(ARCH_SET_FS, 140051958482880) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063ae6f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140051958482880"
+                        }, 
+                        "time": 1640383644.249055
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.253614 xinit@7f6063b01db7[2086] mprotect(0x7f6063624000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f6063624000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383644.253614
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.253672 xinit@7f6063b01db7[2086] mprotect(0x7f6063649000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f6063649000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.253672
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.253759 xinit@7f6063b01db7[2086] mprotect(0x7f606343b000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f606343b000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.253759
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.253803 xinit@7f6063b01db7[2086] mprotect(0x7f6063441000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f6063441000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.253803
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.253842 xinit@7f6063b01db7[2086] mprotect(0x7f6063669000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f6063669000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.253842
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.253911 xinit@7f6063b01db7[2086] mprotect(0x7f60637b7000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f60637b7000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.253911
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.254998 xinit@7f6063b01db7[2086] mprotect(0x7f606398a000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f606398a000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383644.254998
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.255056 xinit@7f6063b01db7[2086] mprotect(0x7f60639a4000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f60639a4000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.255056
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.255267 xinit@7f6063b01db7[2086] mprotect(0x7f6063ac4000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f6063ac4000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.255267
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.255321 xinit@7f6063b01db7[2086] mprotect(0x7f6063acb000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f6063acb000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.255321
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.278863 xinit@7f6063b01db7[2086] mprotect(0x55a8d404b000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55a8d404b000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383644.278863
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.278957 xinit@7f6063b01db7[2086] mprotect(0x7f6063b0f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f6063b0f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.278957
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.279021 xinit@7f6063b01d97[2086] munmap(0x7f6063acf000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063b01d97", 
+                        "arguments": {
+                            "p0": "0x7f6063acf000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383644.279021
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.279129 xinit@7f60636358df[2086] set_tid_address(0x7f60633c4a90) = 2086\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2086", 
+                        "category": "process", 
+                        "instruction_pointer": "7f60636358df", 
+                        "arguments": {
+                            "p0": "0x7f60633c4a90"
+                        }, 
+                        "time": 1640383644.279129
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.279174 xinit@7f606363594a[2086] set_robust_list(0x7f60633c4aa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606363594a", 
+                        "arguments": {
+                            "p0": "0x7f60633c4aa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383644.279174
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.279231 xinit@7f6063642010[2086] rt_sigaction(0x20, {0x7f60636356c0, SA_SIGINFO|SA_RESTORER, 0x7f6063641f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063642010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f60636356c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f6063641f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383644.279231
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.279278 xinit@7f6063642010[2086] rt_sigaction(0x21, {0x7f6063635760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f6063641f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063642010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f6063635760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f6063641f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383644.279278
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.279323 xinit@7f6063635a19[2086] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063635a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383644.279323
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.279383 xinit@7f6063555df0[2086] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe5b4d4080) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063555df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe5b4d4080", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383644.279383
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.279655 xinit@7f60635562f7[2086] brk(0x0) = 94183635603456\n", 
+                        "api": "brk", 
+                        "return_value": "94183635603456", 
+                        "category": "process", 
+                        "instruction_pointer": "7f60635562f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383644.279655
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.279699 xinit@7f60635562f7[2086] brk(0x55a8d626e000) = 94183635738624\n", 
+                        "api": "brk", 
+                        "return_value": "94183635738624", 
+                        "category": "process", 
+                        "instruction_pointer": "7f60635562f7", 
+                        "arguments": {
+                            "p0": "0x55a8d626e000"
+                        }, 
+                        "time": 1640383644.279699
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.285424 xinit@7f606363eb86[2086] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffe5b4d3fd0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606363eb86", 
+                        "arguments": {
+                            "p2": "0x7ffe5b4d3fd0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383644.285424
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.290654 xinit@7f606355a4c3[2086] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f6062bc3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6062bc3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606355a4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.290654
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.290796 xinit@7f606355a597[2086] mprotect(0x7f6062bc4000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606355a597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f6062bc4000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383644.290796
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.290895 xinit@7f6063560b11[2086] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f60633c2f30, 0x7f60633c39d0, 0x7f60633c39d0) = 2087\n", 
+                        "api": "clone", 
+                        "return_value": "2087", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063560b11", 
+                        "arguments": {
+                            "p2": "0x7f60633c39d0", 
+                            "p3": "0x7f60633c39d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f60633c2f30"
+                        }, 
+                        "time": 1640383644.290895
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.291111 xinit@7f606363eb86[2086] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606363eb86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383644.291111
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.296070 xinit@7f6063555df0[2086] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe5b4d3b30) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063555df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe5b4d3b30", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383644.29607
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.296162 xinit@7f60635555c1[2086] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f60635555c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383644.296162
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.297396 xinit@7f6063524247[2086] uname(0x7ffe5b4d37a0) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063524247", 
+                        "arguments": {
+                            "p0": "0x7ffe5b4d37a0"
+                        }, 
+                        "time": 1640383644.297396
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.297468 xinit@7f6063641337[2086] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063641337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383644.297468
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.297529 xinit@7f6063640d94[2086] read(3, 0x7ffe5b4d3a90, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063640d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffe5b4d3a90"
+                        }, 
+                        "time": 1640383644.297529
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.297595 xinit@7f6063641337[2086] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063641337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383644.297595
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.299196 xinit@7f60635562f7[2086] brk(0x55a8d628f000) = 94183635873792\n", 
+                        "api": "brk", 
+                        "return_value": "94183635873792", 
+                        "category": "process", 
+                        "instruction_pointer": "7f60635562f7", 
+                        "arguments": {
+                            "p0": "0x55a8d628f000"
+                        }, 
+                        "time": 1640383644.299196
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.299470 xinit@7f606355a4c3[2086] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6062b42000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6062b42000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606355a4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.29947
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.300167 xinit@7f606355a597[2086] mprotect(0x55a8d40ce000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606355a597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55a8d40ce000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383644.300167
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.300247 xinit@7f606355a667[2086] madvise(0x55a8d40ce000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606355a667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55a8d40ce000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383644.300247
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.301345 xinit@7f606355a4c3[2086] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f5fdc000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5fdc000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606355a4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.301345
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.301404 xinit@7f606354fd59[2086] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606354fd59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383644.301404
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.301467 xinit@7f606354f613[2086] fstat(4, 0x7ffe5b4d31a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606354f613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe5b4d31a0"
+                        }, 
+                        "time": 1640383644.301467
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.301503 xinit@7f606354ffb4[2086] read(4, 0x55a8d626c4e0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606354ffb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x55a8d626c4e0"
+                        }, 
+                        "time": 1640383644.301503
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.301548 xinit@7f60635553f7[2086] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f60635553f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.301548
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.301605 xinit@7f606355a2e9[2086] gettid() = 2086\n", 
+                        "api": "gettid", 
+                        "return_value": "2086", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606355a2e9", 
+                        "arguments": {}, 
+                        "time": 1640383644.301605
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.301638 xinit@7f606354f613[2086] fstat(3, 0x7ffe5b4d3a10) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606354f613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffe5b4d3a10"
+                        }, 
+                        "time": 1640383644.301638
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.301669 xinit@7f6063525717[2086] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063525717", 
+                        "arguments": {}, 
+                        "time": 1640383644.301669
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.301723 xinit@7f6063525737[2086] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063525737", 
+                        "arguments": {}, 
+                        "time": 1640383644.301723
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.301757 xinit@7f6063640d94[2086] read(3, 0x7ffe5b4d3c70, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063640d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffe5b4d3c70"
+                        }, 
+                        "time": 1640383644.301757
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.301846 xinit@7f606355a4c3[2086] mmap2(0x7f605bfeb000, 86016, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f605bfeb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f605bfeb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606355a4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7f605bfeb000", 
+                            "p1": "86016", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.301846
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.301913 xinit@7f606356ed9c[2086] futex(0x7f6063627c40, FUTEX_WAIT_PRIVATE, 2) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606356ed9c", 
+                        "arguments": {
+                            "p2": "2", 
+                            "p0": "0x7f6063627c40", 
+                            "p1": "FUTEX_WAIT_PRIVATE"
+                        }, 
+                        "time": 1640383644.301913
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.302093 xinit@7f606356edc9[2086] futex(0x7f6063627c40, FUTEX_WAKE_PRIVATE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606356edc9", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f6063627c40", 
+                            "p1": "FUTEX_WAKE_PRIVATE"
+                        }, 
+                        "time": 1640383644.302093
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.302146 xinit@7f606355a4c3[2086] mmap2(0x7f605bfeb000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f605bfeb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f605bfeb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606355a4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f605bfeb000", 
+                            "p1": "16384", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.302146
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.302188 xinit@7f606355a4c3[2086] mmap2(0x7f605bffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 12288) = 0x7f605bffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f605bffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606355a4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f605bffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383644.302188
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.302233 xinit@7f6063640e27[2086] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063640e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383644.302233
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.302279 xinit@7f606355a4c3[2086] mmap2(0x7f605b7ea000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f605b7ea000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f605b7ea000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606355a4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f605b7ea000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.302279
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.302343 xinit@7f60635562f7[2086] brk(0x55a8d62b0000) = 94183636008960\n", 
+                        "api": "brk", 
+                        "return_value": "94183636008960", 
+                        "category": "process", 
+                        "instruction_pointer": "7f60635562f7", 
+                        "arguments": {
+                            "p0": "0x55a8d62b0000"
+                        }, 
+                        "time": 1640383644.302343
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.302416 xinit@7f606355a597[2086] mprotect(0x7f605b7ea000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606355a597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f605b7ea000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.302416
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.302461 xinit@7f606364155e[2086] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606364155e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383644.302461
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.302535 xinit@7f6063550057[2086] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063550057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383644.302535
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.302648 xinit@7f6063524926[2086] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063524926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383644.302648
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:24 2021.302725 xinit@7f6063524926[2086] futex(0x7f60633c4a90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063524926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f60633c4a90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383644.302725
+                    }
+                ], 
+                "pid": 2086, 
+                "process_name": "xinit", 
+                "command_line": "/tmp/xinit", 
+                "first_seen": 1640383644.129008, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2087, 
+                        "raw": "Fri Dec 24 22:07:24 2021.291214 xinit@7f6063637117[2087] set_robust_list(0x7f60633c39e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063637117", 
+                        "arguments": {
+                            "p0": "0x7f60633c39e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383644.291214
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2087, 
+                        "raw": "Fri Dec 24 22:07:24 2021.291301 xinit@7f606355a4c3[2087] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f605abc3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f605abc3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606355a4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.291301
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2087, 
+                        "raw": "Fri Dec 24 22:07:24 2021.291376 xinit@7f606355a567[2087] munmap(0x7f605abc3000, 21221376) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606355a567", 
+                        "arguments": {
+                            "p0": "0x7f605abc3000", 
+                            "p1": "21221376"
+                        }, 
+                        "time": 1640383644.291376
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2087, 
+                        "raw": "Fri Dec 24 22:07:24 2021.291446 xinit@7f606355a567[2087] munmap(0x7f6060000000, 45887488) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606355a567", 
+                        "arguments": {
+                            "p0": "0x7f6060000000", 
+                            "p1": "45887488"
+                        }, 
+                        "time": 1640383644.291446
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2087, 
+                        "raw": "Fri Dec 24 22:07:24 2021.291509 xinit@7f606355a597[2087] mprotect(0x7f605c000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606355a597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f605c000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383644.291509
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2087, 
+                        "raw": "Fri Dec 24 22:07:24 2021.291601 xinit@7f6063641440[2087] nanosleep([0.010000000], 0x7f60633c2d80) = 0\n", 
+                        "api": "nanosleep", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6063641440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f60633c2d80"
+                        }, 
+                        "time": 1640383644.291601
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2087, 
+                        "raw": "Fri Dec 24 22:07:24 2021.301896 xinit@7f606355a667[2087] madvise(0x55a8d626e000, 8192, MADV_DONTNEED) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606355a667", 
+                        "arguments": {
+                            "p2": "MADV_DONTNEED", 
+                            "p0": "0x55a8d626e000", 
+                            "p1": "8192"
+                        }, 
+                        "time": 1640383644.301896
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2087, 
+                        "raw": "Fri Dec 24 22:07:24 2021.302002 xinit@7f606356edc9[2087] futex(0x7f6063627c40, FUTEX_WAKE_PRIVATE, 1) = 1\n", 
+                        "api": "futex", 
+                        "return_value": "1", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606356edc9", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f6063627c40", 
+                            "p1": "FUTEX_WAKE_PRIVATE"
+                        }, 
+                        "time": 1640383644.302002
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xinit", 
+                        "pid": 2087, 
+                        "raw": "Fri Dec 24 22:07:24 2021.302077 xinit@7f606355a2e9[2087] futex(0x55a8d60e1a48, FUTEX_WAIT, -1, NULL) = -512\n", 
+                        "api": "futex", 
+                        "return_value": "-512", 
+                        "category": "process", 
+                        "instruction_pointer": "7f606355a2e9", 
+                        "arguments": {
+                            "p2": "-1", 
+                            "p3": "NULL", 
+                            "p0": "0x55a8d60e1a48", 
+                            "p1": "FUTEX_WAIT"
+                        }, 
+                        "time": 1640383644.302077
+                    }
+                ], 
+                "pid": 2087, 
+                "process_name": "xinit", 
+                "command_line": "", 
+                "first_seen": 1640383644.291214, 
+                "ppid": 2086, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2086, 
+                "process_name": "xinit", 
+                "command_line": "/tmp/xinit", 
+                "first_seen": 1640383644.129008, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2087, 
+                        "process_name": "xinit", 
+                        "command_line": "", 
+                        "first_seen": 1640383644.291214, 
+                        "ppid": 2086, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:07:17,008 [root] DEBUG: Starting analyzer from: /tmp/tmphlNF04\n", 
+            "2021-12-24 22:07:17,013 [root] DEBUG: Storing results at: /tmp/PPNoqJSn\n", 
+            "2021-12-24 22:07:18,801 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:07:18,803 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:07:18,805 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:07:24,128 [lib.core.packages] INFO: Process startup took 5.32 seconds\n", 
+            "2021-12-24 22:07:24,132 [root] INFO: Added new process to list with pid: 2076\n", 
+            "2021-12-24 22:07:30,137 [root] INFO: Process with pid 2076 has terminated\n", 
+            "2021-12-24 22:07:30,139 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:33,143 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:33,145 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 10:54:56,989 [cuckoo.core.scheduler] DEBUG: Task #2549184: no machine available yet\n", 
+            "2021-12-25 10:55:27,030 [cuckoo.core.scheduler] DEBUG: Task #2549184: no machine available yet\n", 
+            "2021-12-25 10:55:57,069 [cuckoo.core.scheduler] DEBUG: Task #2549184: no machine available yet\n", 
+            "2021-12-25 10:56:27,109 [cuckoo.core.scheduler] DEBUG: Task #2549184: no machine available yet\n", 
+            "2021-12-25 10:56:57,155 [cuckoo.core.scheduler] DEBUG: Task #2549184: no machine available yet\n", 
+            "2021-12-25 10:57:27,200 [cuckoo.core.scheduler] DEBUG: Task #2549184: no machine available yet\n", 
+            "2021-12-25 10:57:57,238 [cuckoo.core.scheduler] DEBUG: Task #2549184: no machine available yet\n", 
+            "2021-12-25 10:58:27,279 [cuckoo.core.scheduler] DEBUG: Task #2549184: no machine available yet\n", 
+            "2021-12-25 10:58:57,319 [cuckoo.core.scheduler] DEBUG: Task #2549184: no machine available yet\n", 
+            "2021-12-25 10:59:27,361 [cuckoo.core.scheduler] DEBUG: Task #2549184: no machine available yet\n", 
+            "2021-12-25 10:59:57,405 [cuckoo.core.scheduler] DEBUG: Task #2549184: no machine available yet\n", 
+            "2021-12-25 11:00:27,445 [cuckoo.core.scheduler] DEBUG: Task #2549184: no machine available yet\n", 
+            "2021-12-25 11:00:57,488 [cuckoo.core.scheduler] DEBUG: Task #2549184: no machine available yet\n", 
+            "2021-12-25 11:01:27,522 [cuckoo.core.scheduler] DEBUG: Task #2549184: no machine available yet\n", 
+            "2021-12-25 11:01:57,551 [cuckoo.core.scheduler] DEBUG: Task #2549184: no machine available yet\n", 
+            "2021-12-25 11:02:27,595 [cuckoo.core.scheduler] DEBUG: Task #2549184: no machine available yet\n", 
+            "2021-12-25 11:02:57,641 [cuckoo.core.scheduler] DEBUG: Task #2549184: no machine available yet\n", 
+            "2021-12-25 11:03:27,686 [cuckoo.core.scheduler] DEBUG: Task #2549184: no machine available yet\n", 
+            "2021-12-25 11:03:57,739 [cuckoo.core.scheduler] INFO: Task #2549184: acquired machine Ubuntu1904x642 (label=Ubuntu1904x642)\n", 
+            "2021-12-25 11:03:57,740 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.102 for task #2549184\n", 
+            "2021-12-25 11:03:57,901 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3580492 (interface=vboxnet0, host=192.168.168.102)\n", 
+            "2021-12-25 11:03:58,035 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x642\n", 
+            "2021-12-25 11:03:58,469 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x642 to Snapshot\n", 
+            "2021-12-25 11:04:07,260 [cuckoo.core.guest] INFO: Starting analysis #2549184 on guest (id=Ubuntu1904x642, ip=192.168.168.102)\n", 
+            "2021-12-25 11:04:08,265 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: not ready yet\n", 
+            "2021-12-25 11:04:13,283 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x642, ip=192.168.168.102)\n", 
+            "2021-12-25 11:04:13,293 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x642, ip=192.168.168.102, monitor=latest, size=72028)\n", 
+            "2021-12-25 11:04:14,495 [cuckoo.core.resultserver] DEBUG: Task #2549184: live log analysis.log initialized.\n", 
+            "2021-12-25 11:04:19,708 [cuckoo.core.resultserver] DEBUG: Task #2549184: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 11:04:19,722 [cuckoo.core.resultserver] DEBUG: Task #2549184 uploaded file length: 171578\n", 
+            "2021-12-25 11:04:28,416 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2549184 still processing\n", 
+            "2021-12-25 11:04:30,656 [cuckoo.core.resultserver] DEBUG: Task #2549184: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 11:04:30,677 [cuckoo.core.resultserver] DEBUG: Task #2549184 uploaded file length: 20721\n", 
+            "2021-12-25 11:04:43,540 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2549184 still processing\n", 
+            "2021-12-25 11:04:58,657 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2549184 still processing\n", 
+            "2021-12-25 11:05:13,727 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2549184 still processing\n", 
+            "2021-12-25 11:05:28,781 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2549184 still processing\n", 
+            "2021-12-25 11:05:43,877 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2549184 still processing\n", 
+            "2021-12-25 11:05:58,936 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2549184 still processing\n", 
+            "2021-12-25 11:06:14,007 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2549184 still processing\n", 
+            "2021-12-25 11:06:29,083 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2549184 still processing\n", 
+            "2021-12-25 11:06:44,188 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2549184 still processing\n", 
+            "2021-12-25 11:06:59,270 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2549184 still processing\n", 
+            "2021-12-25 11:07:14,395 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2549184 still processing\n", 
+            "2021-12-25 11:07:29,473 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2549184 still processing\n", 
+            "2021-12-25 11:07:44,572 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2549184 still processing\n", 
+            "2021-12-25 11:07:59,650 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2549184 still processing\n", 
+            "2021-12-25 11:08:14,704 [cuckoo.core.guest] INFO: Ubuntu1904x642: end of analysis reached!\n", 
+            "2021-12-25 11:08:14,714 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 11:08:14,775 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 11:08:31,023 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x642 to path /srv/cuckoo/cwd/storage/analyses/2549184/memory.dmp\n", 
+            "2021-12-25 11:08:31,025 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x642\n", 
+            "2021-12-25 11:08:34,918 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.102 for task #2549184\n", 
+            "2021-12-25 11:08:34,919 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2549184\n", 
+            "2021-12-25 11:08:35,042 [cuckoo.core.scheduler] DEBUG: Released database task #2549184\n", 
+            "2021-12-25 11:08:35,125 [cuckoo.core.scheduler] INFO: Task #2549184: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "gotSignal", 
+        "__fprintf_chk", 
+        "stderr", 
+        "__vfprintf_chk", 
+        "__stack_chk_guard", 
+        "__stack_chk_fail", 
+        "__errno_location", 
+        "strerror", 
+        "serverpid", 
+        "status", 
+        "waitpid", 
+        "fflush", 
+        "clientpid", 
+        "XSetIOErrorHandler", 
+        "_setjmp", 
+        "killpg", 
+        "XCloseDisplay", 
+        "__longjmp_chk", 
+        "execvp", 
+        "access", 
+        "__ctype_b_loc", 
+        "getenv", 
+        "signal", 
+        "memset", 
+        "sigemptyset", 
+        "sigaction", 
+        "sigaddset", 
+        "sigprocmask", 
+        "setpriority", 
+        "server_names", 
+        "getpid", 
+        "setpgid", 
+        "bindir", 
+        "fwrite", 
+        "sigsuspend", 
+        "XOpenDisplay", 
+        "xserverrcbuf", 
+        "snprintf", 
+        "xinitrcbuf", 
+        "setenv", 
+        "XInternAtom", 
+        "getuid", 
+        "setuid", 
+        "XGetWindowProperty", 
+        "__snprintf_chk", 
+        "strlen", 
+        "malloc", 
+        "libX11.so.6", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "ld.so.1", 
+        "_ftext", 
+        "_fdata", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.4", 
+        "GLIBC_2.3", 
+        "GLIBC_2.11", 
+        "GLIBC_2.0", 
+        "GLIBC_2.2", 
+        "GLIBC_2.3.4", 
+        "!9'%(@", 
+        "@fp%0@", 
+        "d 9'%(@", 
+        "waiting for %s ", 
+        "can't send HUP to process group %d", 
+        "can't kill X server", 
+        "X server to shut down", 
+        "X server slow to shut down, sending KILL signal", 
+        "server to die", 
+        "can't SIGKILL X server", 
+        "X server refuses to die", 
+        "connection to X server lost", 
+        "Xorg        Common X server for most displays", 
+        "XINITRC", 
+        ".xinitrc", 
+        "warning, no client init file \"%s\"", 
+        "XSERVERRC", 
+        ".xserverrc", 
+        "warning, no server init file \"%s\"", 
+        "unable to run server \"%s\"", 
+        "Use the -- option, or make sure that %s is in your path and", 
+        "that \"%s\" is a program or a link to the right type of server", 
+        "for your display.  Possible server names include:", 
+        "    %s", 
+        "X server to begin accepting connections", 
+        "giving up", 
+        "unable to connect to X server", 
+        "DISPLAY", 
+        "unable to set DISPLAY", 
+        "XFree86_VT", 
+        "Unable to intern XFree86_VT atom", 
+        "No XFree86_VT property detected on X server, WINDOWPATH won't be set", 
+        "XFree86_VT property unexpectedly has %lu items instead of 1", 
+        "XFree86_VT property has unexpected format %d", 
+        "XFree86_VT property has unexpected type %lx", 
+        "WINDOWPATH", 
+        "unable to set WINDOWPATH", 
+        "cannot change uid", 
+        "Unable to run program \"%s\"", 
+        "Specify a program on the command line or make sure that %s", 
+        "is in your path.", 
+        "unexpected signal %d", 
+        "server error", 
+        "client error", 
+        "-geometry", 
+        "Xvfb        Virtual frame buffer", 
+        "Xfake       kdrive-based virtual frame buffer", 
+        "Xnest       X server nested in a window on another X server", 
+        "Xephyr      kdrive-based nested X server", 
+        "Xvnc        X server accessed over VNC's RFB protocol", 
+        "Xdmx        Distributed Multi-head X server", 
+        "/usr/bin", 
+        "6e4e5a0ea7d3ea332cd41dc3e96364d78ff07f.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".data.rel.ro", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
