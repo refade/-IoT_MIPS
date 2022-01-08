@@ -1,0 +1,3845 @@
+{
+    "info": {
+        "added": 1640383646.902476, 
+        "started": 1640433138.390955, 
+        "duration": 297, 
+        "ended": 1640433435.500121, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2549264, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x647", 
+            "label": "Ubuntu1904x647", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 11:52:34", 
+            "shutdown_on": "2021-12-25 11:57:15"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "555ccebfd8615c795459820e1134801526685306", 
+            "name": "pinentry-curses", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=eb8c52b16d91cd4e8b1b2f7022edcf4bcb13a3d0, stripped", 
+            "sha256": "42914ad8db4e502d0b0730748389117206aaf60491be47ba19cc0c841c60f9f0", 
+            "urls": [
+                "https://bugs.gnupg.org"
+            ], 
+            "crc32": "F09E54A3", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/42914ad8db4e502d0b0730748389117206aaf60491be47ba19cc0c841c60f9f0", 
+            "ssdeep": "1536:IPlL2QUIsgkRMA4c4AAEkY8w0oMIXbDZoIsELH/Ws5/fKXrHBHVI7OHaNNBOHuNV:IlCQUIsgkRMA4c4AAEkY8w0oMIXbDZoh", 
+            "size": 58412, 
+            "sha512": "a7f5edb1c9a7e92035d558a062bf24360f51b38c797ee179d012fdaed026df9d1b93fb7284672f8ddab0cbfb62d298fbfb429132ef50c4aa5ad74038a92ef5ca", 
+            "md5": "1990d455a0cec261b78df2459f5b8d3c"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "053085c0-d02c-4517-9429-fbe10194dde1", 
+        "parent_file_sha256": null, 
+        "name": "42914ad8db4e502d0b0730748389117206aaf60491be47ba19cc0c841c60f9f0", 
+        "probes_total": 16, 
+        "scan_date": 1640426236, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "555ccebfd8615c795459820e1134801526685306", 
+            "tags": [], 
+            "timestamp_first_scan": 1640426235.95, 
+            "timestamp_last_scan": 1640426244.83, 
+            "sha256": "42914ad8db4e502d0b0730748389117206aaf60491be47ba19cc0c841c60f9f0", 
+            "md5": "1990d455a0cec261b78df2459f5b8d3c", 
+            "size": 58412
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.04, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.09, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.6, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-16 07:23:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.28, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.04, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.67, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.9, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.77, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.21, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.12, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.97, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "f24964ce-cb5e-487b-a527-31c9f5975240", 
+        "file_sha256": "42914ad8db4e502d0b0730748389117206aaf60491be47ba19cc0c841c60f9f0"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "scans": {
+            "Bkav": {
+                "detected": false, 
+                "version": "1.3.0.9899", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Lionic": {
+                "detected": false, 
+                "version": "4.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "TotalDefense": {
+                "detected": false, 
+                "version": "37.1.62.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "MicroWorld-eScan": {
+                "detected": false, 
+                "version": "14.0.409.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "FireEye": {
+                "detected": false, 
+                "version": "32.31.0.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200316"
+            }, 
+            "CAT-QuickHeal": {
+                "detected": false, 
+                "version": "14.00", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "ALYac": {
+                "detected": false, 
+                "version": "1.1.1.5", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Malwarebytes": {
+                "detected": false, 
+                "version": "3.6.4.335", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Zillya": {
+                "detected": false, 
+                "version": "2.0.0.4052", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200323"
+            }, 
+            "Sangfor": {
+                "detected": false, 
+                "version": "1.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "K7AntiVirus": {
+                "detected": false, 
+                "version": "11.100.33618", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "K7GW": {
+                "detected": false, 
+                "version": "11.100.33618", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "BitDefenderTheta": {
+                "detected": false, 
+                "version": "7.2.37796.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200311"
+            }, 
+            "Cyren": {
+                "detected": false, 
+                "version": "6.2.2.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Symantec": {
+                "detected": false, 
+                "version": "1.11.0.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "ESET-NOD32": {
+                "detected": false, 
+                "version": "21051", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Baidu": {
+                "detected": false, 
+                "version": "1.0.0.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20190318"
+            }, 
+            "TrendMicro-HouseCall": {
+                "detected": false, 
+                "version": "10.0.0.1040", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Avast": {
+                "detected": false, 
+                "version": "18.4.3895.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Kaspersky": {
+                "detected": false, 
+                "version": "15.0.1.13", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "BitDefender": {
+                "detected": false, 
+                "version": "7.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "NANO-Antivirus": {
+                "detected": false, 
+                "version": "1.0.134.25032", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "SUPERAntiSpyware": {
+                "detected": false, 
+                "version": "5.6.0.1032", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Rising": {
+                "detected": false, 
+                "version": "25.0.0.24", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Ad-Aware": {
+                "detected": false, 
+                "version": "3.0.5.370", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Emsisoft": {
+                "detected": false, 
+                "version": "2018.12.0.1641", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Comodo": {
+                "detected": false, 
+                "version": "32241", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "F-Secure": {
+                "detected": false, 
+                "version": "12.0.86.52", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "DrWeb": {
+                "detected": false, 
+                "version": "7.0.46.3050", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "VIPRE": {
+                "detected": false, 
+                "version": "82468", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "TrendMicro": {
+                "detected": false, 
+                "version": "11.0.0.1006", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "McAfee-GW-Edition": {
+                "detected": false, 
+                "version": "v2017.3010", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "CMC": {
+                "detected": false, 
+                "version": "1.1.0.977", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20190321"
+            }, 
+            "Sophos": {
+                "detected": false, 
+                "version": "4.98.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Ikarus": {
+                "detected": false, 
+                "version": "0.1.5.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "F-Prot": {
+                "detected": false, 
+                "version": "4.7.1.166", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Jiangmin": {
+                "detected": false, 
+                "version": "16.0.100", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Avira": {
+                "detected": false, 
+                "version": "8.3.3.8", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Antiy-AVL": {
+                "detected": false, 
+                "version": "3.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Kingsoft": {
+                "detected": false, 
+                "version": "2013.8.14.323", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Microsoft": {
+                "detected": false, 
+                "version": "1.1.16800.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Arcabit": {
+                "detected": false, 
+                "version": "1.0.0.870", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "ViRobot": {
+                "detected": false, 
+                "version": "2014.3.20.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "ZoneAlarm": {
+                "detected": false, 
+                "version": "1.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Avast-Mobile": {
+                "detected": false, 
+                "version": "200323-00", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "GData": {
+                "detected": false, 
+                "version": "A:25.25239B:26.18125", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "AhnLab-V3": {
+                "detected": false, 
+                "version": "3.17.3.26870", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "McAfee": {
+                "detected": false, 
+                "version": "6.0.6.653", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "TACHYON": {
+                "detected": false, 
+                "version": "2020-03-24.02", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "VBA32": {
+                "detected": false, 
+                "version": "4.3.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Zoner": {
+                "detected": false, 
+                "version": "0.0.0.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Tencent": {
+                "detected": false, 
+                "version": "1.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Yandex": {
+                "detected": false, 
+                "version": "5.5.2.24", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "MAX": {
+                "detected": false, 
+                "version": "2019.9.16.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "MaxSecure": {
+                "detected": false, 
+                "version": "1.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200320"
+            }, 
+            "Fortinet": {
+                "detected": false, 
+                "version": "6.2.142.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "AVG": {
+                "detected": false, 
+                "version": "18.4.3895.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Panda": {
+                "detected": false, 
+                "version": "4.6.4.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }, 
+            "Qihoo-360": {
+                "detected": false, 
+                "version": "1.0.0.1120", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200324"
+            }
+        }, 
+        "scan_id": "42914ad8db4e502d0b0730748389117206aaf60491be47ba19cc0c841c60f9f0-1585077869", 
+        "sha1": "555ccebfd8615c795459820e1134801526685306", 
+        "resource": "1990d455a0cec261b78df2459f5b8d3c", 
+        "response_code": 1, 
+        "scan_date": "2020-03-24 19:24:29", 
+        "permalink": "https://www.virustotal.com/gui/file/42914ad8db4e502d0b0730748389117206aaf60491be47ba19cc0c841c60f9f0/detection/f-42914ad8db4e502d0b0730748389117206aaf60491be47ba19cc0c841c60f9f0-1585077869", 
+        "summary": {
+            "positives": 0, 
+            "permalink": "https://www.virustotal.com/gui/file/42914ad8db4e502d0b0730748389117206aaf60491be47ba19cc0c841c60f9f0/detection/f-42914ad8db4e502d0b0730748389117206aaf60491be47ba19cc0c841c60f9f0-1585077869", 
+            "scan_date": "2020-03-24 19:24:29"
+        }, 
+        "sha256": "42914ad8db4e502d0b0730748389117206aaf60491be47ba19cc0c841c60f9f0", 
+        "normalized": [], 
+        "total": 59, 
+        "positives": 0, 
+        "verbose_msg": "Scan finished, information embedded", 
+        "md5": "1990d455a0cec261b78df2459f5b8d3c"
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "pinentry-curses", 
+                "pid": 2083, 
+                "summary": {}, 
+                "first_seen": 1640383659.271145, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "pinentry-curses", 
+                "pid": 2084, 
+                "summary": {}, 
+                "first_seen": 1640383659.291595, 
+                "ppid": 2083
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.271145 pinentry-curses@7f2b39739c27[2083] execve(\"/tmp/pinentry-curses\", [\"/tmp/pinentry-curses\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/pinentry-curses\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmprDhD)\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b39739c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/pinentry-curses", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "\"PWD=/tmp/tmprDhD"
+                            ], 
+                            "p0": "/tmp/pinentry-curses", 
+                            "p1": [
+                                "/tmp/pinentry-curses"
+                            ]
+                        }, 
+                        "time": 1640383659.271145
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.274414 pinentry-curses@7f2b39739c27[2083] brk(0x0) = 94865058721792\n", 
+                        "api": "brk", 
+                        "return_value": "94865058721792", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b39739c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383659.274414
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.275330 pinentry-curses@7f2b3973a9d7[2083] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383659.27533
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.276168 pinentry-curses@7f2b3973ab0d[2083] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ab0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383659.276168
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.276392 pinentry-curses@7f2b3973a943[2083] fstat(4, 0x7ffd1ea024f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea024f0"
+                        }, 
+                        "time": 1640383659.276392
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.276443 pinentry-curses@7f2b3973ad03[2083] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f2b39708000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39708000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.276443
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.276481 pinentry-curses@7f2b3973a9f7[2083] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383659.276481
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.276533 pinentry-curses@7f2b3973ab0d[2083] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ab0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383659.276533
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.276574 pinentry-curses@7f2b3973abd4[2083] read(4, 0x7ffd1ea026a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973abd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea026a8"
+                        }, 
+                        "time": 1640383659.276574
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.276609 pinentry-curses@7f2b3973a943[2083] fstat(4, 0x7ffd1ea02540) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea02540"
+                        }, 
+                        "time": 1640383659.276609
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.276640 pinentry-curses@7f2b3973ad03[2083] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b39706000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39706000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.27664
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.276684 pinentry-curses@7f2b3973ad03[2083] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f2b39700000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39700000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.276684
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.276721 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b39701000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f2b39701000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39701000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b39701000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383659.276721
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.276765 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b39703000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f2b39703000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39703000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b39703000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383659.276765
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.276805 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b39704000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f2b39704000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39704000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b39704000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383659.276805
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.276853 pinentry-curses@7f2b3973a9f7[2083] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383659.276853
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.276895 pinentry-curses@7f2b3973ab0d[2083] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ab0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383659.276895
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.276933 pinentry-curses@7f2b3973abd4[2083] read(4, 0x7ffd1ea02688, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973abd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea02688"
+                        }, 
+                        "time": 1640383659.276933
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.276968 pinentry-curses@7f2b3973a943[2083] fstat(4, 0x7ffd1ea02520) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea02520"
+                        }, 
+                        "time": 1640383659.276968
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277000 pinentry-curses@7f2b3973ad03[2083] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f2b395df000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b395df000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.277
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277039 pinentry-curses@7f2b3973adb7[2083] mprotect(0x7f2b395fa000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973adb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f2b395fa000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383659.277039
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277080 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b395fa000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f2b395fa000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b395fa000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b395fa000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383659.27708
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277118 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b3967a000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f2b3967a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b3967a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b3967a000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383659.277118
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277154 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b396fd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f2b396fd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b396fd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b396fd000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383659.277154
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277196 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b396ff000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2b396ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b396ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f2b396ff000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.277196
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277239 pinentry-curses@7f2b3973a9f7[2083] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383659.277239
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277292 pinentry-curses@7f2b3973ab0d[2083] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ab0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383659.277292
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277334 pinentry-curses@7f2b3973abd4[2083] read(4, 0x7ffd1ea02668, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973abd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea02668"
+                        }, 
+                        "time": 1640383659.277334
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277365 pinentry-curses@7f2b3973a943[2083] fstat(4, 0x7ffd1ea02500) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea02500"
+                        }, 
+                        "time": 1640383659.277365
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277396 pinentry-curses@7f2b3973ad03[2083] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f2b395d4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b395d4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.277396
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277436 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b395d7000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f2b395d7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b395d7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b395d7000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383659.277436
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277479 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b395db000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f2b395db000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b395db000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b395db000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383659.277479
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277527 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b395dd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f2b395dd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b395dd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b395dd000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383659.277527
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277577 pinentry-curses@7f2b3973a9f7[2083] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383659.277577
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277621 pinentry-curses@7f2b3973ab0d[2083] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ab0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383659.277621
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277659 pinentry-curses@7f2b3973abd4[2083] read(4, 0x7ffd1ea02648, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973abd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea02648"
+                        }, 
+                        "time": 1640383659.277659
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277692 pinentry-curses@7f2b3973a943[2083] fstat(4, 0x7ffd1ea024e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea024e0"
+                        }, 
+                        "time": 1640383659.277692
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277726 pinentry-curses@7f2b3973ad03[2083] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f2b393f2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b393f2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.277726
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277805 pinentry-curses@7f2b3973adb7[2083] mprotect(0x7f2b39487000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973adb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f2b39487000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383659.277805
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277851 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b39487000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7f2b39487000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39487000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b39487000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383659.277851
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277889 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b39579000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7f2b39579000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39579000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b39579000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383659.277889
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277923 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b395c3000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7f2b395c3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b395c3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b395c3000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383659.277923
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.277965 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b395d1000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2b395d1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b395d1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f2b395d1000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.277965
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278011 pinentry-curses@7f2b3973a9f7[2083] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383659.278011
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278061 pinentry-curses@7f2b3973ab0d[2083] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ab0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383659.278061
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278099 pinentry-curses@7f2b3973abd4[2083] read(4, 0x7ffd1ea02628, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973abd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea02628"
+                        }, 
+                        "time": 1640383659.278099
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278132 pinentry-curses@7f2b3973a943[2083] fstat(4, 0x7ffd1ea024c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea024c0"
+                        }, 
+                        "time": 1640383659.278132
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278165 pinentry-curses@7f2b3973ad03[2083] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f2b392a4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b392a4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.278165
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278202 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b392b3000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f2b392b3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b392b3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b392b3000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383659.278202
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278242 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b39359000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f2b39359000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39359000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b39359000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383659.278242
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278277 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b393f0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f2b393f0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b393f0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b393f0000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383659.278277
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278335 pinentry-curses@7f2b3973a9f7[2083] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383659.278335
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278379 pinentry-curses@7f2b3973ab0d[2083] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ab0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383659.278379
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278415 pinentry-curses@7f2b3973abd4[2083] read(4, 0x7ffd1ea02608, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973abd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea02608"
+                        }, 
+                        "time": 1640383659.278415
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278447 pinentry-curses@7f2b3973a943[2083] fstat(4, 0x7ffd1ea024a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea024a0"
+                        }, 
+                        "time": 1640383659.278447
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278478 pinentry-curses@7f2b3973ad03[2083] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f2b3928a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b3928a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.278478
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278513 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b3928d000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f2b3928d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b3928d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b3928d000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383659.278513
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278551 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b3929e000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f2b3929e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b3929e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b3929e000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383659.278551
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278587 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b392a2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f2b392a2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b392a2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b392a2000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383659.278587
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278634 pinentry-curses@7f2b3973a9f7[2083] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383659.278634
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278676 pinentry-curses@7f2b3973ab0d[2083] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ab0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383659.278676
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278714 pinentry-curses@7f2b3973abd4[2083] read(4, 0x7ffd1ea025e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973abd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea025e8"
+                        }, 
+                        "time": 1640383659.278714
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278745 pinentry-curses@7f2b3973a943[2083] fstat(4, 0x7ffd1ea02480) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea02480"
+                        }, 
+                        "time": 1640383659.278745
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278775 pinentry-curses@7f2b3973ad03[2083] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b39288000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39288000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.278775
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278815 pinentry-curses@7f2b3973ad03[2083] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f2b39267000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39267000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.278815
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278851 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b3926e000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f2b3926e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b3926e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b3926e000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383659.278851
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278890 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b3927d000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f2b3927d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b3927d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b3927d000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383659.27889
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278932 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b39282000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f2b39282000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39282000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b39282000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383659.278932
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.278975 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b39284000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2b39284000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39284000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f2b39284000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.278975
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279021 pinentry-curses@7f2b3973a9f7[2083] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383659.279021
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279064 pinentry-curses@7f2b3973ab0d[2083] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ab0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383659.279064
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279100 pinentry-curses@7f2b3973abd4[2083] read(4, 0x7ffd1ea025c8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973abd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea025c8"
+                        }, 
+                        "time": 1640383659.2791
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279135 pinentry-curses@7f2b3973a943[2083] fstat(4, 0x7ffd1ea02460) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea02460"
+                        }, 
+                        "time": 1640383659.279135
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279166 pinentry-curses@7f2b3973ad03[2083] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f2b3907c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b3907c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.279166
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279202 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b390a1000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f2b390a1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b390a1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b390a1000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383659.279202
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279243 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b39214000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f2b39214000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39214000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b39214000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383659.279243
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279281 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b3925d000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f2b3925d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b3925d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b3925d000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383659.279281
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279323 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b39263000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2b39263000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39263000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f2b39263000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.279323
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279366 pinentry-curses@7f2b3973a9f7[2083] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383659.279366
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279421 pinentry-curses@7f2b3973ab0d[2083] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ab0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383659.279421
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279459 pinentry-curses@7f2b3973abd4[2083] read(4, 0x7ffd1ea025a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973abd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea025a8"
+                        }, 
+                        "time": 1640383659.279459
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279490 pinentry-curses@7f2b3973a943[2083] fstat(4, 0x7ffd1ea02440) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea02440"
+                        }, 
+                        "time": 1640383659.27949
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279520 pinentry-curses@7f2b3973ad03[2083] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f2b39076000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39076000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.27952
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279557 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b39077000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f2b39077000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39077000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b39077000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383659.279557
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279599 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b39079000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f2b39079000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39079000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b39079000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383659.279599
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279635 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b3907a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f2b3907a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b3907a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b3907a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383659.279635
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279683 pinentry-curses@7f2b3973a9f7[2083] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383659.279683
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279725 pinentry-curses@7f2b3973ab0d[2083] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ab0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383659.279725
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279764 pinentry-curses@7f2b3973abd4[2083] read(4, 0x7ffd1ea02588, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973abd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea02588"
+                        }, 
+                        "time": 1640383659.279764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279796 pinentry-curses@7f2b3973a943[2083] fstat(4, 0x7ffd1ea02420) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea02420"
+                        }, 
+                        "time": 1640383659.279796
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279830 pinentry-curses@7f2b3973ad03[2083] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f2b39002000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39002000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.27983
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279868 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b39004000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f2b39004000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39004000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b39004000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383659.279868
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279910 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b39056000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f2b39056000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39056000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b39056000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383659.27991
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279946 pinentry-curses@7f2b3973ad03[2083] mmap2(0x7f2b39074000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f2b39074000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39074000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2b39074000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383659.279946
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.279993 pinentry-curses@7f2b3973a9f7[2083] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973a9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383659.279993
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.282156 pinentry-curses@7f2b3973ad03[2083] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b39000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b39000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.282156
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.282219 pinentry-curses@7f2b3973ad03[2083] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b38ffd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b38ffd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.282219
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.282264 pinentry-curses@7f2b3971ff30[2083] arch_prctl(ARCH_SET_FS, 139823616612288) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3971ff30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "139823616612288"
+                        }, 
+                        "time": 1640383659.282264
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.283108 pinentry-curses@7f2b3973adb7[2083] mprotect(0x7f2b3925d000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f2b3925d000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383659.283108
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.283172 pinentry-curses@7f2b3973adb7[2083] mprotect(0x7f2b39282000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f2b39282000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383659.283172
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.283246 pinentry-curses@7f2b3973adb7[2083] mprotect(0x7f2b39074000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f2b39074000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383659.283246
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.283295 pinentry-curses@7f2b3973adb7[2083] mprotect(0x7f2b3907a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f2b3907a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383659.283295
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.283337 pinentry-curses@7f2b3973adb7[2083] mprotect(0x7f2b392a2000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f2b392a2000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383659.283337
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.283413 pinentry-curses@7f2b3973adb7[2083] mprotect(0x7f2b393f0000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f2b393f0000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383659.283413
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.284323 pinentry-curses@7f2b3973adb7[2083] mprotect(0x7f2b395c3000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f2b395c3000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383659.284323
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.284383 pinentry-curses@7f2b3973adb7[2083] mprotect(0x7f2b395dd000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f2b395dd000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383659.284383
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.284575 pinentry-curses@7f2b3973adb7[2083] mprotect(0x7f2b396fd000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f2b396fd000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383659.284575
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.284635 pinentry-curses@7f2b3973adb7[2083] mprotect(0x7f2b39704000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f2b39704000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383659.284635
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.288550 pinentry-curses@7f2b3973adb7[2083] mprotect(0x56477bd18000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x56477bd18000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383659.28855
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.288614 pinentry-curses@7f2b3973adb7[2083] mprotect(0x7f2b39748000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f2b39748000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383659.288614
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.288712 pinentry-curses@7f2b3973ad97[2083] munmap(0x7f2b39708000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3973ad97", 
+                        "arguments": {
+                            "p0": "0x7f2b39708000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383659.288712
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.288855 pinentry-curses@7f2b3926e8df[2083] set_tid_address(0x7f2b38ffda90) = 2083\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2083", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3926e8df", 
+                        "arguments": {
+                            "p0": "0x7f2b38ffda90"
+                        }, 
+                        "time": 1640383659.288855
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.288889 pinentry-curses@7f2b3926e94a[2083] set_robust_list(0x7f2b38ffdaa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3926e94a", 
+                        "arguments": {
+                            "p0": "0x7f2b38ffdaa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383659.288889
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.288933 pinentry-curses@7f2b3927b010[2083] rt_sigaction(0x20, {0x7f2b3926e6c0, SA_SIGINFO|SA_RESTORER, 0x7f2b3927af40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3927b010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f2b3926e6c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f2b3927af40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383659.288933
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.288969 pinentry-curses@7f2b3927b010[2083] rt_sigaction(0x21, {0x7f2b3926e760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f2b3927af40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3927b010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f2b3926e760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f2b3927af40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383659.288969
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.289004 pinentry-curses@7f2b3926ea19[2083] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3926ea19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383659.289004
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.289050 pinentry-curses@7f2b3918edf0[2083] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffd1ea03280) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3918edf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffd1ea03280", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383659.28905
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.289247 pinentry-curses@7f2b3918f2f7[2083] brk(0x0) = 94865058721792\n", 
+                        "api": "brk", 
+                        "return_value": "94865058721792", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3918f2f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383659.289247
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.289280 pinentry-curses@7f2b3918f2f7[2083] brk(0x56477e228000) = 94865058856960\n", 
+                        "api": "brk", 
+                        "return_value": "94865058856960", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3918f2f7", 
+                        "arguments": {
+                            "p0": "0x56477e228000"
+                        }, 
+                        "time": 1640383659.28928
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.290349 pinentry-curses@7f2b39277b86[2083] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffd1ea031d0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b39277b86", 
+                        "arguments": {
+                            "p2": "0x7ffd1ea031d0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383659.290349
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.291212 pinentry-curses@7f2b391934c3[2083] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f2b387fc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b387fc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b391934c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.291212
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.291256 pinentry-curses@7f2b39193597[2083] mprotect(0x7f2b387fd000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b39193597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f2b387fd000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383659.291256
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.291312 pinentry-curses@7f2b39199b11[2083] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f2b38ffbf30, 0x7f2b38ffc9d0, 0x7f2b38ffc9d0) = 2084\n", 
+                        "api": "clone", 
+                        "return_value": "2084", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b39199b11", 
+                        "arguments": {
+                            "p2": "0x7f2b38ffc9d0", 
+                            "p3": "0x7f2b38ffc9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f2b38ffbf30"
+                        }, 
+                        "time": 1640383659.291312
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.291430 pinentry-curses@7f2b39277b86[2083] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b39277b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383659.29143
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.296578 pinentry-curses@7f2b3918edf0[2083] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffd1ea02d30) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3918edf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffd1ea02d30", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383659.296578
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.296645 pinentry-curses@7f2b3918e5c1[2083] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3918e5c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383659.296645
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.297612 pinentry-curses@7f2b3915d247[2083] uname(0x7ffd1ea029a0) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3915d247", 
+                        "arguments": {
+                            "p0": "0x7ffd1ea029a0"
+                        }, 
+                        "time": 1640383659.297612
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.297658 pinentry-curses@7f2b3927a337[2083] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3927a337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383659.297658
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.297696 pinentry-curses@7f2b39279d94[2083] read(3, 0x7ffd1ea02c90, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b39279d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffd1ea02c90"
+                        }, 
+                        "time": 1640383659.297696
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.297737 pinentry-curses@7f2b3927a337[2083] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3927a337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383659.297737
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.298746 pinentry-curses@7f2b3918f2f7[2083] brk(0x56477e249000) = 94865058992128\n", 
+                        "api": "brk", 
+                        "return_value": "94865058992128", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3918f2f7", 
+                        "arguments": {
+                            "p0": "0x56477e249000"
+                        }, 
+                        "time": 1640383659.298746
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.298910 pinentry-curses@7f2b391934c3[2083] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b3877b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b3877b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b391934c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.29891
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.299324 pinentry-curses@7f2b39193597[2083] mprotect(0x56477bd9b000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b39193597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x56477bd9b000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383659.299324
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.299374 pinentry-curses@7f2b39193667[2083] madvise(0x56477bd9b000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b39193667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x56477bd9b000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383659.299374
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.300329 pinentry-curses@7f2b391934c3[2083] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f2ab4000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2ab4000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b391934c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.300329
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.300379 pinentry-curses@7f2b39188d59[2083] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b39188d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383659.300379
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.300447 pinentry-curses@7f2b39188613[2083] fstat(4, 0x7ffd1ea023a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b39188613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1ea023a0"
+                        }, 
+                        "time": 1640383659.300447
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.300485 pinentry-curses@7f2b39188fb4[2083] read(4, 0x56477e2264e0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b39188fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x56477e2264e0"
+                        }, 
+                        "time": 1640383659.300485
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.300531 pinentry-curses@7f2b3918e3f7[2083] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3918e3f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383659.300531
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.300585 pinentry-curses@7f2b391932e9[2083] gettid() = 2083\n", 
+                        "api": "gettid", 
+                        "return_value": "2083", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b391932e9", 
+                        "arguments": {}, 
+                        "time": 1640383659.300585
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.300620 pinentry-curses@7f2b39188613[2083] fstat(3, 0x7ffd1ea02c10) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b39188613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffd1ea02c10"
+                        }, 
+                        "time": 1640383659.30062
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.300652 pinentry-curses@7f2b3915e717[2083] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3915e717", 
+                        "arguments": {}, 
+                        "time": 1640383659.300652
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.300685 pinentry-curses@7f2b3915e737[2083] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3915e737", 
+                        "arguments": {}, 
+                        "time": 1640383659.300685
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.300716 pinentry-curses@7f2b39279d94[2083] read(3, 0x7ffd1ea02e70, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b39279d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffd1ea02e70"
+                        }, 
+                        "time": 1640383659.300716
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.300770 pinentry-curses@7f2b391934c3[2083] mmap2(0x7f2b33fe2000, 122880, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f2b33fe2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b33fe2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b391934c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7f2b33fe2000", 
+                            "p1": "122880", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.30077
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.300834 pinentry-curses@7f2b391934c3[2083] mmap2(0x7f2b33fe2000, 53248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f2b33fe2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b33fe2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b391934c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f2b33fe2000", 
+                            "p1": "53248", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.300834
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.300878 pinentry-curses@7f2b391934c3[2083] mmap2(0x7f2b33ffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 49152) = 0x7f2b33ffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b33ffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b391934c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f2b33ffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "49152"
+                        }, 
+                        "time": 1640383659.300878
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.300924 pinentry-curses@7f2b39279e27[2083] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b39279e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383659.300924
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.300970 pinentry-curses@7f2b391934c3[2083] mmap2(0x7f2b337e1000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2b337e1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b337e1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b391934c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f2b337e1000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.30097
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.301018 pinentry-curses@7f2b3918f2f7[2083] brk(0x56477e26a000) = 94865059127296\n", 
+                        "api": "brk", 
+                        "return_value": "94865059127296", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3918f2f7", 
+                        "arguments": {
+                            "p0": "0x56477e26a000"
+                        }, 
+                        "time": 1640383659.301018
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.301093 pinentry-curses@7f2b39193597[2083] mprotect(0x7f2b337e1000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b39193597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f2b337e1000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383659.301093
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.301139 pinentry-curses@7f2b3927a55e[2083] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3927a55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383659.301139
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.301218 pinentry-curses@7f2b39189057[2083] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b39189057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383659.301218
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.301307 pinentry-curses@7f2b3915d926[2083] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3915d926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383659.301307
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2083, 
+                        "raw": "Fri Dec 24 22:07:39 2021.301351 pinentry-curses@7f2b3915d926[2083] futex(0x7f2b38ffda90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3915d926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f2b38ffda90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383659.301351
+                    }
+                ], 
+                "pid": 2083, 
+                "process_name": "pinentry-curses", 
+                "command_line": "/tmp/pinentry-curses", 
+                "first_seen": 1640383659.271145, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2084, 
+                        "raw": "Fri Dec 24 22:07:39 2021.291595 pinentry-curses@7f2b39270117[2084] set_robust_list(0x7f2b38ffc9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b39270117", 
+                        "arguments": {
+                            "p0": "0x7f2b38ffc9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383659.291595
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2084, 
+                        "raw": "Fri Dec 24 22:07:39 2021.291676 pinentry-curses@7f2b391934c3[2084] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f2b307fc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2b307fc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b391934c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383659.291676
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2084, 
+                        "raw": "Fri Dec 24 22:07:39 2021.291753 pinentry-curses@7f2b39193567[2084] munmap(0x7f2b307fc000, 58736640) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b39193567", 
+                        "arguments": {
+                            "p0": "0x7f2b307fc000", 
+                            "p1": "58736640"
+                        }, 
+                        "time": 1640383659.291753
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2084, 
+                        "raw": "Fri Dec 24 22:07:39 2021.291824 pinentry-curses@7f2b39193567[2084] munmap(0x7f2b38000000, 8372224) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b39193567", 
+                        "arguments": {
+                            "p0": "0x7f2b38000000", 
+                            "p1": "8372224"
+                        }, 
+                        "time": 1640383659.291824
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2084, 
+                        "raw": "Fri Dec 24 22:07:39 2021.291889 pinentry-curses@7f2b39193597[2084] mprotect(0x7f2b34000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b39193597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f2b34000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383659.291889
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pinentry-curses", 
+                        "pid": 2084, 
+                        "raw": "Fri Dec 24 22:07:39 2021.291972 pinentry-curses@7f2b3927a440[2084] nanosleep([0.010000000], 0x7f2b38ffbd80) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2b3927a440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f2b38ffbd80"
+                        }, 
+                        "time": 1640383659.291972
+                    }
+                ], 
+                "pid": 2084, 
+                "process_name": "pinentry-curses", 
+                "command_line": "", 
+                "first_seen": 1640383659.291595, 
+                "ppid": 2083, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2083, 
+                "process_name": "pinentry-curses", 
+                "command_line": "/tmp/pinentry-curses", 
+                "first_seen": 1640383659.271145, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2084, 
+                        "process_name": "pinentry-curses", 
+                        "command_line": "", 
+                        "first_seen": 1640383659.291595, 
+                        "ppid": 2083, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:07:26,009 [root] DEBUG: Starting analyzer from: /tmp/tmprDhDq5\n", 
+            "2021-12-24 22:07:26,009 [root] DEBUG: Storing results at: /tmp/kRoiyMHU\n", 
+            "2021-12-24 22:07:28,402 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:07:28,903 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:07:28,905 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:07:39,269 [lib.core.packages] INFO: Process startup took 10.36 seconds\n", 
+            "2021-12-24 22:07:39,270 [root] INFO: Added new process to list with pid: 2070\n", 
+            "2021-12-24 22:07:51,294 [root] INFO: Process with pid 2070 has terminated\n", 
+            "2021-12-24 22:07:51,295 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:54,298 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:54,300 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 11:52:33,760 [cuckoo.core.scheduler] INFO: Task #2549264: acquired machine Ubuntu1904x647 (label=Ubuntu1904x647)\n", 
+            "2021-12-25 11:52:33,760 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.107 for task #2549264\n", 
+            "2021-12-25 11:52:33,890 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3624223 (interface=vboxnet0, host=192.168.168.107)\n", 
+            "2021-12-25 11:52:34,015 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x647\n", 
+            "2021-12-25 11:52:34,433 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x647 to Snapshot\n", 
+            "2021-12-25 11:52:43,990 [cuckoo.core.guest] INFO: Starting analysis #2549264 on guest (id=Ubuntu1904x647, ip=192.168.168.107)\n", 
+            "2021-12-25 11:52:44,998 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: not ready yet\n", 
+            "2021-12-25 11:52:50,015 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x647, ip=192.168.168.107)\n", 
+            "2021-12-25 11:52:50,039 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x647, ip=192.168.168.107, monitor=latest, size=72028)\n", 
+            "2021-12-25 11:52:51,200 [cuckoo.core.resultserver] DEBUG: Task #2549264: live log analysis.log initialized.\n", 
+            "2021-12-25 11:52:57,071 [cuckoo.core.resultserver] DEBUG: Task #2549264: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 11:52:57,168 [cuckoo.core.resultserver] DEBUG: Task #2549264 uploaded file length: 171578\n", 
+            "2021-12-25 11:53:05,190 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549264 still processing\n", 
+            "2021-12-25 11:53:19,514 [cuckoo.core.resultserver] DEBUG: Task #2549264: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 11:53:19,541 [cuckoo.core.resultserver] DEBUG: Task #2549264 uploaded file length: 21828\n", 
+            "2021-12-25 11:53:20,281 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549264 still processing\n", 
+            "2021-12-25 11:53:35,370 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549264 still processing\n", 
+            "2021-12-25 11:53:50,453 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549264 still processing\n", 
+            "2021-12-25 11:54:05,559 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549264 still processing\n", 
+            "2021-12-25 11:54:20,689 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549264 still processing\n", 
+            "2021-12-25 11:54:35,760 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549264 still processing\n", 
+            "2021-12-25 11:54:50,844 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549264 still processing\n", 
+            "2021-12-25 11:55:05,902 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549264 still processing\n", 
+            "2021-12-25 11:55:20,964 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549264 still processing\n", 
+            "2021-12-25 11:55:36,114 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549264 still processing\n", 
+            "2021-12-25 11:55:51,482 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549264 still processing\n", 
+            "2021-12-25 11:56:06,537 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549264 still processing\n", 
+            "2021-12-25 11:56:21,612 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549264 still processing\n", 
+            "2021-12-25 11:56:36,670 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549264 still processing\n", 
+            "2021-12-25 11:56:51,716 [cuckoo.core.guest] INFO: Ubuntu1904x647: end of analysis reached!\n", 
+            "2021-12-25 11:56:51,724 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 11:56:51,817 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 11:57:05,464 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x647 to path /srv/cuckoo/cwd/storage/analyses/2549264/memory.dmp\n", 
+            "2021-12-25 11:57:05,466 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x647\n", 
+            "2021-12-25 11:57:15,172 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.107 for task #2549264\n", 
+            "2021-12-25 11:57:15,173 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2549264\n", 
+            "2021-12-25 11:57:15,309 [cuckoo.core.scheduler] DEBUG: Released database task #2549264\n", 
+            "2021-12-25 11:57:15,391 [cuckoo.core.scheduler] INFO: Task #2549264: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "pinentry_init", 
+        "pinentry_parse_opts", 
+        "pinentry_loop", 
+        "strlen", 
+        "password_cache_clear", 
+        "strcmp", 
+        "__stack_chk_guard", 
+        "getpid", 
+        "__snprintf_chk", 
+        "strncmp", 
+        "assuan_send_data", 
+        "__stack_chk_fail", 
+        "strtol", 
+        "pinentry", 
+        "secmem_free", 
+        "memset", 
+        "__assert_fail", 
+        "__strdup", 
+        "gpg_err_code_from_syserror", 
+        "stderr", 
+        "__fprintf_chk", 
+        "strchr", 
+        "assuan_write_status", 
+        "strstr", 
+        "pinentry_cmd_handler", 
+        "setlocale", 
+        "nl_langinfo", 
+        "iconv_open", 
+        "iconv_close", 
+        "__errno_location", 
+        "secmem_malloc", 
+        "strcpy", 
+        "stpcpy", 
+        "assuan_write_line", 
+        "assuan_read_line", 
+        "secmem_realloc", 
+        "pinentry_setbufferlen", 
+        "password_cache_save", 
+        "password_cache_lookup", 
+        "memcpy", 
+        "__memcpy_chk", 
+        "gpgrt_check_version", 
+        "secmem_init", 
+        "secmem_set_flags", 
+        "drop_privs", 
+        "secmem_term", 
+        "assuan_set_malloc_hooks", 
+        "getenv", 
+        "strncasecmp", 
+        "set_strusage", 
+        "parse_color", 
+        "arg_parse", 
+        "getuid", 
+        "geteuid", 
+        "assuan_new", 
+        "assuan_fdopen", 
+        "assuan_init_pipe_server", 
+        "assuan_register_option_handler", 
+        "assuan_register_command", 
+        "gpg_strerror", 
+        "assuan_register_reset_notify", 
+        "assuan_accept", 
+        "assuan_process", 
+        "assuan_release", 
+        "pinentry_loop2", 
+        "__ctype_b_loc", 
+        "__vfprintf_chk", 
+        "strtoul", 
+        "stdout", 
+        "fflush", 
+        "_IO_getc", 
+        "ferror", 
+        "strpbrk", 
+        "wcwidth", 
+        "pinentry_utf8_to_local", 
+        "mbsrtowcs", 
+        "calloc", 
+        "curs_set", 
+        "stdscr", 
+        "waddnstr", 
+        "wrefresh", 
+        "sigaction", 
+        "newterm", 
+        "set_term", 
+        "keypad", 
+        "cbreak", 
+        "noecho", 
+        "has_colors", 
+        "wtimeout", 
+        "wgetch", 
+        "endwin", 
+        "delscreen", 
+        "fclose", 
+        "pinentry_local_to_utf8", 
+        "__xstat", 
+        "fileno", 
+        "isatty", 
+        "initscr", 
+        "start_color", 
+        "use_default_colors", 
+        "COLOR_PAIRS", 
+        "init_pair", 
+        "wattr_on", 
+        "wcslen", 
+        "wclear", 
+        "acs_map", 
+        "waddch", 
+        "whline", 
+        "wvline", 
+        "waddnwstr", 
+        "wattr_off", 
+        "log_info", 
+        "setuid", 
+        "log_fatal", 
+        "munmap", 
+        "perror", 
+        "libassuan.so.0", 
+        "libgpg-error.so.0", 
+        "libncursesw.so.5", 
+        "libtinfo.so.5", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "__cxa_atexit", 
+        "ld.so.1", 
+        "GPG_ERROR_1.0", 
+        "LIBASSUAN_1.0", 
+        "GLIBC_2.4", 
+        "NCURSES_TINFO_5.0.19991023", 
+        "NCURSESW_5.3.20021019", 
+        "NCURSESW_5.1.20000708", 
+        "GLIBC_2.3", 
+        "GLIBC_2.2", 
+        "GLIBC_2.0", 
+        "GLIBC_2.3.4", 
+        "$`^1&%", 
+        "$`^9'I", 
+        "$`^1&%", 
+        "pinentry-curses", 
+        "version", 
+        "flavor", 
+        "pinentry-", 
+        "%s%s%s", 
+        "pinentry", 
+        "Copyright (C) 2016 g10 Code GmbH", 
+        "Please report bugs to <https://bugs.gnupg.org>.", 
+        "Ask securely for a secret and print it to stdout.", 
+        "Usage: %s [options] (-h for help)", 
+        "../../pinentry/pinentry.c", 
+        "pin->pin_len == 0", 
+        "pin->pin_len > 0", 
+        "--clear", 
+        "no-grab", 
+        "debug-wait", 
+        "%s: waiting for debugger - my pid is %u ...", 
+        "%s: ... okay", 
+        "display", 
+        "ttyname", 
+        "ttytype", 
+        "lc-ctype", 
+        "lc-messages", 
+        "parent-wid", 
+        "touch-file", 
+        "default-ok", 
+        "default-cancel", 
+        "default-prompt", 
+        "default-pwmngr", 
+        "default-cf-visi", 
+        "default-tt-visi", 
+        "default-tt-hide", 
+        "allow-external-password-cache", 
+        "allow-emacs-prompt", 
+        "invisible-char", 
+        "Quality:", 
+        "%s.%s %d %s", 
+        "--one-button", 
+        "BUTTON_INFO", 
+        "%s: no LC_CTYPE known - assuming UTF-8", 
+        "%s: can't convert from UTF-8 to %s: %s", 
+        "%s: error converting from UTF-8 to %s: %s", 
+        "%s: can't convert from %s to UTF-8: %s", 
+        "%s: error converting from %s to UTF-8: %s", 
+        "%%%02X", 
+        "ASSUAN WRITE LINE failed: rc=%d", 
+        "ASSUAN READ LINE failed: rc=%d", 
+        "INQUIRE QUALITY ", 
+        "pin->pin", 
+        "!pin->pin", 
+        "PASSWORD_FROM_CACHE", 
+        "PIN_REPEATED", 
+        "len == 0", 
+        "DISPLAY", 
+        "--display", 
+        "--display=", 
+        "bright-", 
+        "bright", 
+        "SETDESC", 
+        "server context creation failed: %s", 
+        "%s: failed to initialize the server: %s", 
+        "%s: Assuan accept problem: %s", 
+        "%s: Assuan processing failed: %s", 
+        "%s: failed to the register commands with Assuan: %s", 
+        "SETPROMPT", 
+        "SETKEYINFO", 
+        "SETREPEAT", 
+        "SETREPEATERROR", 
+        "SETERROR", 
+        "SETNOTOK", 
+        "SETCANCEL", 
+        "GETPIN", 
+        "CONFIRM", 
+        "MESSAGE", 
+        "SETQUALITYBAR", 
+        "SETQUALITYBAR_TT", 
+        "GETINFO", 
+        "SETTITLE", 
+        "SETTIMEOUT", 
+        "CLEARPASSPHRASE", 
+        "Turn on debugging output", 
+        "|DISPLAY|Set the X display", 
+        "|FILE|Set the tty terminal node name", 
+        "|NAME|Set the tty terminal type", 
+        "|STRING|Set the tty LC_CTYPE value", 
+        "|STRING|Set the tty LC_MESSAGES value", 
+        "timeout", 
+        "|SECS|Timeout waiting for input after this many seconds", 
+        "no-global-grab", 
+        "Grab keyboard only while window is focused", 
+        "Parent window ID (for positioning)", 
+        "colors", 
+        "|STRING|Set custom colors for ncurses", 
+        "default", 
+        "yellow", 
+        "magenta", 
+        "pinentry_setbuffer_clear", 
+        "pinentry_setbuffer_use", 
+        "pinentry_setbufferlen", 
+        "%s: Ohhhh jeeee: ", 
+        "invalid argument for arg_parse", 
+        "argument not expected", 
+        "read error", 
+        "keyword too long", 
+        "missing argument", 
+        "invalid argument", 
+        "invalid command", 
+        "invalid alias definition", 
+        "out of core", 
+        "invalid option", 
+        "%s:%u: %s", 
+        "missing argument for option \"%.50s\"", 
+        "invalid argument for option \"%.50s\"", 
+        "option \"%.50s\" does not expect an argument", 
+        "invalid command \"%.50s\"", 
+        "option \"%.50s\" is ambiguous", 
+        "command \"%.50s\" is ambiguous", 
+        "out of core", 
+        "invalid option \"%.50s\"", 
+        "Copyright (C) YEAR NAME", 
+        "License GPLv2+: GNU GPL version 2 or later <https://www.gnu.org/licenses/>", 
+        "This is free software; you can redistribute it and/or modify", 
+        "it under the terms of the GNU General Public License as published by", 
+        "the Free Software Foundation; either version 2 of the License, or", 
+        "(at your option) any later version.", 
+        "It is distributed in the hope that it will be useful,", 
+        "but WITHOUT ANY WARRANTY; without even the implied warranty of", 
+        "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the", 
+        "GNU General Public License for more details.", 
+        "You should have received a copy of the GNU General Public License", 
+        "along with this software.  If not, see <https://www.gnu.org/licenses/>.", 
+        "This is free software: you are free to change and redistribute it.", 
+        "There is NO WARRANTY, to the extent permitted by law.", 
+        "Options:", 
+        "(A single dash may be used instead of the double ones)", 
+        "warranty", 
+        "dump-options", 
+        "--dump-options", 
+        "--help", 
+        "--version", 
+        "--warranty", 
+        "ignore-invalid-option", 
+        "<Cancel>", 
+        "../../pinentry/pinentry-curses.c", 
+        "diag->pinentry->pin", 
+        "!\"setbufferlen failed\"", 
+        "dialog_input", 
+        "Warning: using insecure memory!", 
+        "failed to drop setuid", 
+        "secure memory is disabled", 
+        "can't mmap pool of %u bytes: %s - using malloc", 
+        "can't allocate memory pool of %u bytes", 
+        "failed to reset uid: %s", 
+        "can't lock memory: %s", 
+        "Oops, secure memory pool already initialized", 
+        "operation is not possible without initialized secure memory", 
+        "(you may have used the wrong program for this task)", 
+        "secmem usage: %u/%u bytes in %u/%u blocks of pool %lu/%lu", 
+        "dropping privileges failed", 
+        "8c52b16d91cd4e8b1b2f7022edcf4bcb13a3d0.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".data.rel.ro", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
