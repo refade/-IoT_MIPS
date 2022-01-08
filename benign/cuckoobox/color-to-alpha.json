@@ -1,0 +1,3282 @@
+{
+    "info": {
+        "added": 1640383602.117718, 
+        "started": 1640388541.309189, 
+        "duration": 316, 
+        "ended": 1640388858.081378, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2548185, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x644", 
+            "label": "Ubuntu1904x644", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-24 23:29:26", 
+            "shutdown_on": "2021-12-24 23:34:17"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "ca6035bf68a61ffe479d8b29425c0b04b0d3d360", 
+            "name": "color-to-alpha", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=d13e9f9b18898276ab5e909dc14dff9ac7eb5308, stripped", 
+            "sha256": "5a59fcd159308b87a0a996a9025aab542dc89b06bde9a6aa8b0cecde5617647a", 
+            "urls": [], 
+            "crc32": "E8DA02AC", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/5a59fcd159308b87a0a996a9025aab542dc89b06bde9a6aa8b0cecde5617647a", 
+            "ssdeep": "384:24R8l0QRtJtb1V38gX9bSEbqpdcaAZ/GATIbhL67a+9n9UbqHMrAgPmlSthmFl7z:2vl0QRtJtb1V38gX9bSEbqpdcaAZ/GA9", 
+            "size": 14620, 
+            "sha512": "09910f2649110346f84ff58e092b6e59f52f973f58b5253a622de2f6c6d2668f993af77b521a8ce69269fc30858e340cf24ec40b40d0bfcf65c3302a055c84b4", 
+            "md5": "674754e61f84afd7cd5ef6a1830e194d"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "dffb805c-d88f-4064-b082-a24caec0706f", 
+        "parent_file_sha256": null, 
+        "name": "5a59fcd159308b87a0a996a9025aab542dc89b06bde9a6aa8b0cecde5617647a", 
+        "probes_total": 16, 
+        "scan_date": 1640381659, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "ca6035bf68a61ffe479d8b29425c0b04b0d3d360", 
+            "tags": [], 
+            "timestamp_first_scan": 1640381658.95, 
+            "timestamp_last_scan": 1640381667.83, 
+            "sha256": "5a59fcd159308b87a0a996a9025aab542dc89b06bde9a6aa8b0cecde5617647a", 
+            "md5": "674754e61f84afd7cd5ef6a1830e194d", 
+            "size": 14620
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.09, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 4.21, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-15 12:09:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.25, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.04, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.86, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.03, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.62, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.66, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.12, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.02, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "78fc424e-e078-453a-9f7a-c445475ed1ed", 
+        "file_sha256": "5a59fcd159308b87a0a996a9025aab542dc89b06bde9a6aa8b0cecde5617647a"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "color-to-alpha", 
+                "pid": 3846, 
+                "summary": {}, 
+                "first_seen": 1640383610.441675, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "color-to-alpha", 
+                "pid": 3847, 
+                "summary": {}, 
+                "first_seen": 1640383610.876333, 
+                "ppid": 3846
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.441675 color-to-alpha@7fbeac8bbc27[3846] execve(\"/tmp/color-to-alpha\", [\"/tmp/color-to-alpha\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/color-to-alpha\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpcjCaLG\")\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bbc27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/color-to-alpha", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpcjCaLG"
+                            ], 
+                            "p0": "/tmp/color-to-alpha", 
+                            "p1": [
+                                "/tmp/color-to-alpha"
+                            ]
+                        }, 
+                        "time": 1640383610.441675
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.772288 color-to-alpha@7fbeac8bbc27[3846] brk(0x0) = 94589214851072\n", 
+                        "api": "brk", 
+                        "return_value": "94589214851072", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bbc27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383610.772288
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.779992 color-to-alpha@7fbeac8bc9d7[3846] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383610.779992
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.823848 color-to-alpha@7fbeac8bcb0d[3846] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383610.823848
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.823962 color-to-alpha@7fbeac8bc943[3846] fstat(4, 0x7ffd02531640) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd02531640"
+                        }, 
+                        "time": 1640383610.823962
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.824022 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7fbeac88a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac88a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.824022
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.824092 color-to-alpha@7fbeac8bc9f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383610.824092
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.824178 color-to-alpha@7fbeac8bcb0d[3846] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383610.824178
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.824248 color-to-alpha@7fbeac8bcbd4[3846] read(4, 0x7ffd025317f8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd025317f8"
+                        }, 
+                        "time": 1640383610.824248
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.824317 color-to-alpha@7fbeac8bc943[3846] fstat(4, 0x7ffd02531690) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd02531690"
+                        }, 
+                        "time": 1640383610.824317
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.824387 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbeac888000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac888000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.824387
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.824463 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fbeac882000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac882000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.824463
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.824528 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac883000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fbeac883000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac883000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac883000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383610.824528
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.824602 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac885000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fbeac885000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac885000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac885000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383610.824602
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.824664 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac886000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fbeac886000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac886000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac886000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383610.824664
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.824744 color-to-alpha@7fbeac8bc9f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383610.824744
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.824813 color-to-alpha@7fbeac8bcb0d[3846] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383610.824813
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.824875 color-to-alpha@7fbeac8bcbd4[3846] read(4, 0x7ffd025317d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd025317d8"
+                        }, 
+                        "time": 1640383610.824875
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.824946 color-to-alpha@7fbeac8bc943[3846] fstat(4, 0x7ffd02531670) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd02531670"
+                        }, 
+                        "time": 1640383610.824946
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.825038 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fbeac761000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac761000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.825038
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.825108 color-to-alpha@7fbeac8bcdb7[3846] mprotect(0x7fbeac77c000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fbeac77c000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383610.825108
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.825185 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac77c000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7fbeac77c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac77c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac77c000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383610.825185
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.825276 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac7fc000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7fbeac7fc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac7fc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac7fc000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383610.825276
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.825360 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac87f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7fbeac87f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac87f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac87f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383610.82536
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.825439 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac881000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbeac881000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac881000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fbeac881000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.825439
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.825515 color-to-alpha@7fbeac8bc9f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383610.825515
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.825616 color-to-alpha@7fbeac8bcb0d[3846] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383610.825616
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.825700 color-to-alpha@7fbeac8bcbd4[3846] read(4, 0x7ffd025317b8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd025317b8"
+                        }, 
+                        "time": 1640383610.8257
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.825765 color-to-alpha@7fbeac8bc943[3846] fstat(4, 0x7ffd02531650) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd02531650"
+                        }, 
+                        "time": 1640383610.825765
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.825828 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fbeac756000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac756000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.825828
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.825890 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac759000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fbeac759000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac759000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac759000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383610.82589
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.826061 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac75d000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fbeac75d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac75d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac75d000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383610.826061
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.826129 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac75f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7fbeac75f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac75f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac75f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383610.826129
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.826229 color-to-alpha@7fbeac8bc9f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383610.826229
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.826309 color-to-alpha@7fbeac8bcb0d[3846] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383610.826309
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.826372 color-to-alpha@7fbeac8bcbd4[3846] read(4, 0x7ffd02531798, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd02531798"
+                        }, 
+                        "time": 1640383610.826372
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.826424 color-to-alpha@7fbeac8bc943[3846] fstat(4, 0x7ffd02531630) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd02531630"
+                        }, 
+                        "time": 1640383610.826424
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.826481 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fbeac574000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac574000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.826481
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.826597 color-to-alpha@7fbeac8bcdb7[3846] mprotect(0x7fbeac609000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fbeac609000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383610.826597
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.826664 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac609000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7fbeac609000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac609000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac609000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383610.826664
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.826726 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac6fb000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7fbeac6fb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac6fb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac6fb000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383610.826726
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.826782 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac745000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7fbeac745000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac745000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac745000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383610.826782
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.826848 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac753000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbeac753000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac753000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fbeac753000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.826848
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.826933 color-to-alpha@7fbeac8bc9f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383610.826933
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.827032 color-to-alpha@7fbeac8bcb0d[3846] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383610.827032
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.827108 color-to-alpha@7fbeac8bcbd4[3846] read(4, 0x7ffd02531778, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd02531778"
+                        }, 
+                        "time": 1640383610.827108
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.827151 color-to-alpha@7fbeac8bc943[3846] fstat(4, 0x7ffd02531610) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd02531610"
+                        }, 
+                        "time": 1640383610.827151
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.827193 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fbeac426000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac426000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.827193
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.827242 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac435000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7fbeac435000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac435000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac435000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383610.827242
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.827291 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac4db000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7fbeac4db000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac4db000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac4db000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383610.827291
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.827338 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac572000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7fbeac572000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac572000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac572000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383610.827338
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.827400 color-to-alpha@7fbeac8bc9f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383610.8274
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.827455 color-to-alpha@7fbeac8bcb0d[3846] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383610.827455
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.827501 color-to-alpha@7fbeac8bcbd4[3846] read(4, 0x7ffd02531758, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd02531758"
+                        }, 
+                        "time": 1640383610.827501
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.827543 color-to-alpha@7fbeac8bc943[3846] fstat(4, 0x7ffd025315f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd025315f0"
+                        }, 
+                        "time": 1640383610.827543
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.827584 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fbeac40c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac40c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.827584
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.827646 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac40f000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fbeac40f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac40f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac40f000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383610.827646
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.827697 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac420000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7fbeac420000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac420000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac420000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383610.827697
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.827742 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac424000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7fbeac424000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac424000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac424000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383610.827742
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.827804 color-to-alpha@7fbeac8bc9f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383610.827804
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.827859 color-to-alpha@7fbeac8bcb0d[3846] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383610.827859
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.827907 color-to-alpha@7fbeac8bcbd4[3846] read(4, 0x7ffd02531738, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd02531738"
+                        }, 
+                        "time": 1640383610.827907
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.827949 color-to-alpha@7fbeac8bc943[3846] fstat(4, 0x7ffd025315d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd025315d0"
+                        }, 
+                        "time": 1640383610.827949
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.827990 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbeac40a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac40a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.82799
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.828043 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fbeac3e9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac3e9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.828043
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.828087 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac3f0000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fbeac3f0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac3f0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac3f0000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383610.828087
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.828135 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac3ff000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7fbeac3ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac3ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac3ff000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383610.828135
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.828194 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac404000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7fbeac404000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac404000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac404000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383610.828194
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.828264 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac406000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbeac406000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac406000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fbeac406000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.828264
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.828322 color-to-alpha@7fbeac8bc9f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383610.828322
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.828379 color-to-alpha@7fbeac8bcb0d[3846] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383610.828379
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.828436 color-to-alpha@7fbeac8bcbd4[3846] read(4, 0x7ffd02531718, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd02531718"
+                        }, 
+                        "time": 1640383610.828436
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.828490 color-to-alpha@7fbeac8bc943[3846] fstat(4, 0x7ffd025315b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd025315b0"
+                        }, 
+                        "time": 1640383610.82849
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.828534 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fbeac1fe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac1fe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.828534
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.828581 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac223000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7fbeac223000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac223000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac223000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383610.828581
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.828636 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac396000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7fbeac396000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac396000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac396000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383610.828636
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.828684 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac3df000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7fbeac3df000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac3df000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac3df000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383610.828684
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.828744 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac3e5000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbeac3e5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac3e5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fbeac3e5000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.828744
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.828800 color-to-alpha@7fbeac8bc9f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383610.8288
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.828863 color-to-alpha@7fbeac8bcb0d[3846] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383610.828863
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.828912 color-to-alpha@7fbeac8bcbd4[3846] read(4, 0x7ffd025316f8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd025316f8"
+                        }, 
+                        "time": 1640383610.828912
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.828955 color-to-alpha@7fbeac8bc943[3846] fstat(4, 0x7ffd02531590) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd02531590"
+                        }, 
+                        "time": 1640383610.828955
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.828999 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fbeac1f8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac1f8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.828999
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.829046 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac1f9000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fbeac1f9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac1f9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac1f9000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383610.829046
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.829099 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac1fb000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fbeac1fb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac1fb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac1fb000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383610.829099
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.829166 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac1fc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fbeac1fc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac1fc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac1fc000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383610.829166
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.829250 color-to-alpha@7fbeac8bc9f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383610.82925
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.829333 color-to-alpha@7fbeac8bcb0d[3846] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383610.829333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.829406 color-to-alpha@7fbeac8bcbd4[3846] read(4, 0x7ffd025316d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd025316d8"
+                        }, 
+                        "time": 1640383610.829406
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.829473 color-to-alpha@7fbeac8bc943[3846] fstat(4, 0x7ffd02531570) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd02531570"
+                        }, 
+                        "time": 1640383610.829473
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.829544 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fbeac184000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac184000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.829544
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.829613 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac186000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7fbeac186000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac186000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac186000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383610.829613
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.829690 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac1d8000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7fbeac1d8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac1d8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac1d8000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383610.82969
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.829762 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x7fbeac1f6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7fbeac1f6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac1f6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbeac1f6000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383610.829762
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.829865 color-to-alpha@7fbeac8bc9f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383610.829865
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.833080 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbeac182000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac182000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.83308
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.833189 color-to-alpha@7fbeac8bcd03[3846] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbeac17f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeac17f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.833189
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.833265 color-to-alpha@7fbeac8a1f30[3846] arch_prctl(ARCH_SET_FS, 140456907765696) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8a1f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140456907765696"
+                        }, 
+                        "time": 1640383610.833265
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.835587 color-to-alpha@7fbeac8bcdb7[3846] mprotect(0x7fbeac3df000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbeac3df000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383610.835587
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.835728 color-to-alpha@7fbeac8bcdb7[3846] mprotect(0x7fbeac404000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbeac404000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383610.835728
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.835839 color-to-alpha@7fbeac8bcdb7[3846] mprotect(0x7fbeac1f6000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbeac1f6000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383610.835839
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.835924 color-to-alpha@7fbeac8bcdb7[3846] mprotect(0x7fbeac1fc000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbeac1fc000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383610.835924
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.835984 color-to-alpha@7fbeac8bcdb7[3846] mprotect(0x7fbeac424000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbeac424000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383610.835984
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.836068 color-to-alpha@7fbeac8bcdb7[3846] mprotect(0x7fbeac572000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbeac572000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383610.836068
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.837061 color-to-alpha@7fbeac8bcdb7[3846] mprotect(0x7fbeac745000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbeac745000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383610.837061
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.837150 color-to-alpha@7fbeac8bcdb7[3846] mprotect(0x7fbeac75f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbeac75f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383610.83715
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.837380 color-to-alpha@7fbeac8bcdb7[3846] mprotect(0x7fbeac87f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbeac87f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383610.83738
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.837468 color-to-alpha@7fbeac8bcdb7[3846] mprotect(0x7fbeac886000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbeac886000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383610.837468
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.864549 color-to-alpha@7fbeac8bcdb7[3846] mprotect(0x560741eab000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x560741eab000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383610.864549
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.864681 color-to-alpha@7fbeac8bcdb7[3846] mprotect(0x7fbeac8ca000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbeac8ca000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383610.864681
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.864777 color-to-alpha@7fbeac8bcd97[3846] munmap(0x7fbeac88a000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac8bcd97", 
+                        "arguments": {
+                            "p0": "0x7fbeac88a000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383610.864777
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.864920 color-to-alpha@7fbeac3f08df[3846] set_tid_address(0x7fbeac17fa90) = 3846\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "3846", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3f08df", 
+                        "arguments": {
+                            "p0": "0x7fbeac17fa90"
+                        }, 
+                        "time": 1640383610.86492
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.864988 color-to-alpha@7fbeac3f094a[3846] set_robust_list(0x7fbeac17faa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3f094a", 
+                        "arguments": {
+                            "p0": "0x7fbeac17faa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383610.864988
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.865068 color-to-alpha@7fbeac3fd010[3846] rt_sigaction(0x20, {0x7fbeac3f06c0, SA_SIGINFO|SA_RESTORER, 0x7fbeac3fcf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3fd010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7fbeac3f06c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7fbeac3fcf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383610.865068
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.865135 color-to-alpha@7fbeac3fd010[3846] rt_sigaction(0x21, {0x7fbeac3f0760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7fbeac3fcf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3fd010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7fbeac3f0760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7fbeac3fcf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383610.865135
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.865201 color-to-alpha@7fbeac3f0a19[3846] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3f0a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383610.865201
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.865286 color-to-alpha@7fbeac310df0[3846] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffd025323d0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac310df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffd025323d0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383610.865286
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.865643 color-to-alpha@7fbeac3112f7[3846] brk(0x0) = 94589214851072\n", 
+                        "api": "brk", 
+                        "return_value": "94589214851072", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3112f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383610.865643
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.865710 color-to-alpha@7fbeac3112f7[3846] brk(0x5607448f1000) = 94589214986240\n", 
+                        "api": "brk", 
+                        "return_value": "94589214986240", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3112f7", 
+                        "arguments": {
+                            "p0": "0x5607448f1000"
+                        }, 
+                        "time": 1640383610.86571
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.872934 color-to-alpha@7fbeac3f9b86[3846] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffd02532320, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3f9b86", 
+                        "arguments": {
+                            "p2": "0x7ffd02532320", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383610.872934
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.875832 color-to-alpha@7fbeac3154c3[3846] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fbeab97e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeab97e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3154c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.875832
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.875900 color-to-alpha@7fbeac315597[3846] mprotect(0x7fbeab97f000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac315597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fbeab97f000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383610.8759
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.875992 color-to-alpha@7fbeac31bb11[3846] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7fbeac17df30, 0x7fbeac17e9d0, 0x7fbeac17e9d0) = 3847\n", 
+                        "api": "clone", 
+                        "return_value": "3847", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac31bb11", 
+                        "arguments": {
+                            "p2": "0x7fbeac17e9d0", 
+                            "p3": "0x7fbeac17e9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7fbeac17df30"
+                        }, 
+                        "time": 1640383610.875992
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.876122 color-to-alpha@7fbeac3f9b86[3846] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3f9b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383610.876122
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.891310 color-to-alpha@7fbeac310df0[3846] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffd02531e80) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac310df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffd02531e80", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383610.89131
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.891429 color-to-alpha@7fbeac3105c1[3846] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3105c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383610.891429
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.902697 color-to-alpha@7fbeac2df247[3846] uname(0x7ffd02531af0) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac2df247", 
+                        "arguments": {
+                            "p0": "0x7ffd02531af0"
+                        }, 
+                        "time": 1640383610.902697
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.902761 color-to-alpha@7fbeac3fc337[3846] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3fc337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383610.902761
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.902809 color-to-alpha@7fbeac3fbd94[3846] read(3, 0x7ffd02531de0, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3fbd94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffd02531de0"
+                        }, 
+                        "time": 1640383610.902809
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.902861 color-to-alpha@7fbeac3fc337[3846] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3fc337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383610.902861
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.907734 color-to-alpha@7fbeac3112f7[3846] brk(0x560744912000) = 94589215121408\n", 
+                        "api": "brk", 
+                        "return_value": "94589215121408", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3112f7", 
+                        "arguments": {
+                            "p0": "0x560744912000"
+                        }, 
+                        "time": 1640383610.907734
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.908029 color-to-alpha@7fbeac3154c3[3846] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbeab8fd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeab8fd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3154c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.908029
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.910197 color-to-alpha@7fbeac315597[3846] mprotect(0x560741f2e000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac315597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x560741f2e000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383610.910197
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.910269 color-to-alpha@7fbeac315667[3846] madvise(0x560741f2e000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac315667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x560741f2e000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383610.910269
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.920201 color-to-alpha@7fbeac3154c3[3846] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fbe24000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbe24000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3154c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.920201
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.920313 color-to-alpha@7fbeac30ad59[3846] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac30ad59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383610.920313
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.920419 color-to-alpha@7fbeac30a613[3846] fstat(4, 0x7ffd025314f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac30a613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd025314f0"
+                        }, 
+                        "time": 1640383610.920419
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.920486 color-to-alpha@7fbeac30afb4[3846] read(4, 0x5607448ef4e0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac30afb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x5607448ef4e0"
+                        }, 
+                        "time": 1640383610.920486
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.920559 color-to-alpha@7fbeac3103f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3103f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383610.920559
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.920643 color-to-alpha@7fbeac3152e9[3846] gettid() = 3846\n", 
+                        "api": "gettid", 
+                        "return_value": "3846", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3152e9", 
+                        "arguments": {}, 
+                        "time": 1640383610.920643
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.920697 color-to-alpha@7fbeac30a613[3846] fstat(3, 0x7ffd02531d60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac30a613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffd02531d60"
+                        }, 
+                        "time": 1640383610.920697
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.920753 color-to-alpha@7fbeac2e0717[3846] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac2e0717", 
+                        "arguments": {}, 
+                        "time": 1640383610.920753
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.920807 color-to-alpha@7fbeac2e0737[3846] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac2e0737", 
+                        "arguments": {}, 
+                        "time": 1640383610.920807
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.920860 color-to-alpha@7fbeac3fbd94[3846] read(3, 0x7ffd02531fc0, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3fbd94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffd02531fc0"
+                        }, 
+                        "time": 1640383610.92086
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.920947 color-to-alpha@7fbeac3154c3[3846] mmap2(0x7fbea3fec000, 81920, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fbea3fec000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbea3fec000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3154c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7fbea3fec000", 
+                            "p1": "81920", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.920947
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.921051 color-to-alpha@7fbeac3154c3[3846] mmap2(0x7fbea3fec000, 12288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7fbea3fec000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbea3fec000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3154c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fbea3fec000", 
+                            "p1": "12288", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.921051
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.921122 color-to-alpha@7fbeac3154c3[3846] mmap2(0x7fbea3ffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 8192) = 0x7fbea3ffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbea3ffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3154c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fbea3ffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383610.921122
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.921199 color-to-alpha@7fbeac3fbe27[3846] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3fbe27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383610.921199
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.921274 color-to-alpha@7fbeac3154c3[3846] mmap2(0x7fbea37eb000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbea37eb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbea37eb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3154c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fbea37eb000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.921274
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.921350 color-to-alpha@7fbeac3112f7[3846] brk(0x560744933000) = 94589215256576\n", 
+                        "api": "brk", 
+                        "return_value": "94589215256576", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3112f7", 
+                        "arguments": {
+                            "p0": "0x560744933000"
+                        }, 
+                        "time": 1640383610.92135
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.921470 color-to-alpha@7fbeac315597[3846] mprotect(0x7fbea37eb000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac315597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fbea37eb000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383610.92147
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.921546 color-to-alpha@7fbeac3fc55e[3846] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3fc55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383610.921546
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.921681 color-to-alpha@7fbeac30b057[3846] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac30b057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383610.921681
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.921883 color-to-alpha@7fbeac2df926[3846] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac2df926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383610.921883
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3846, 
+                        "raw": "Fri Dec 24 22:06:50 2021.922775 color-to-alpha@7fbeac2df926[3846] futex(0x7fbeac17fa90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac2df926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7fbeac17fa90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383610.922775
+                    }
+                ], 
+                "pid": 3846, 
+                "process_name": "color-to-alpha", 
+                "command_line": "/tmp/color-to-alpha", 
+                "first_seen": 1640383610.441675, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3847, 
+                        "raw": "Fri Dec 24 22:06:50 2021.876333 color-to-alpha@7fbeac3f2117[3847] set_robust_list(0x7fbeac17e9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3f2117", 
+                        "arguments": {
+                            "p0": "0x7fbeac17e9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383610.876333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3847, 
+                        "raw": "Fri Dec 24 22:06:50 2021.876423 color-to-alpha@7fbeac3154c3[3847] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fbea397e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbea397e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3154c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383610.876423
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3847, 
+                        "raw": "Fri Dec 24 22:06:50 2021.876504 color-to-alpha@7fbeac315567[3847] munmap(0x7fbea397e000, 6823936) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac315567", 
+                        "arguments": {
+                            "p0": "0x7fbea397e000", 
+                            "p1": "6823936"
+                        }, 
+                        "time": 1640383610.876504
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3847, 
+                        "raw": "Fri Dec 24 22:06:50 2021.876588 color-to-alpha@7fbeac315567[3847] munmap(0x7fbea8000000, 60284928) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac315567", 
+                        "arguments": {
+                            "p0": "0x7fbea8000000", 
+                            "p1": "60284928"
+                        }, 
+                        "time": 1640383610.876588
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3847, 
+                        "raw": "Fri Dec 24 22:06:50 2021.876660 color-to-alpha@7fbeac315597[3847] mprotect(0x7fbea4000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac315597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fbea4000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383610.87666
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3847, 
+                        "raw": "Fri Dec 24 22:06:50 2021.876759 color-to-alpha@7fbeac3fc440[3847] nanosleep([0.010000000], 0x7fbeac17dd80) = 0\n", 
+                        "api": "nanosleep", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3fc440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7fbeac17dd80"
+                        }, 
+                        "time": 1640383610.876759
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3847, 
+                        "raw": "Fri Dec 24 22:06:50 2021.887606 color-to-alpha@7fbeac3152e9[3847] futex(0x560743f41a48, FUTEX_WAIT, -1, NULL) = -512\n", 
+                        "api": "futex", 
+                        "return_value": "-512", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3152e9", 
+                        "arguments": {
+                            "p2": "-1", 
+                            "p3": "NULL", 
+                            "p0": "0x560743f41a48", 
+                            "p1": "FUTEX_WAIT"
+                        }, 
+                        "time": 1640383610.887606
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "color-to-alpha", 
+                        "pid": 3847, 
+                        "raw": "Fri Dec 24 22:06:50 2021.922842 color-to-alpha@7fbeac3152e9[3847] futex(0x7fbeac17e9d0, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbeac3152e9", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7fbeac17e9d0", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383610.922842
+                    }
+                ], 
+                "pid": 3847, 
+                "process_name": "color-to-alpha", 
+                "command_line": "", 
+                "first_seen": 1640383610.876333, 
+                "ppid": 3846, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 3846, 
+                "process_name": "color-to-alpha", 
+                "command_line": "/tmp/color-to-alpha", 
+                "first_seen": 1640383610.441675, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 3847, 
+                        "process_name": "color-to-alpha", 
+                        "command_line": "", 
+                        "first_seen": 1640383610.876333, 
+                        "ppid": 3846, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:06:42,004 [root] DEBUG: Starting analyzer from: /tmp/tmpcjCaLG\n", 
+            "2021-12-24 22:06:42,005 [root] DEBUG: Storing results at: /tmp/ABoMzz\n", 
+            "2021-12-24 22:06:44,360 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:06:44,362 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:06:44,365 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:06:50,437 [lib.core.packages] INFO: Process startup took 6.06 seconds\n", 
+            "2021-12-24 22:06:50,439 [root] INFO: Added new process to list with pid: 3839\n", 
+            "2021-12-24 22:06:59,454 [root] INFO: Process with pid 3839 has terminated\n", 
+            "2021-12-24 22:06:59,455 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:02,459 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:02,461 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n", 
+            "2021-12-24 22:10:35,703 [root] INFO: Terminating remaining processes before shutdown.\n", 
+            "2021-12-24 22:10:35,704 [root] INFO: Analysis completed.\n"
+        ], 
+        "cuckoo": [
+            "2021-12-24 23:29:26,711 [cuckoo.core.scheduler] INFO: Task #2548185: acquired machine Ubuntu1904x644 (label=Ubuntu1904x644)\n", 
+            "2021-12-24 23:29:26,711 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.104 for task #2548185\n", 
+            "2021-12-24 23:29:26,850 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 2924796 (interface=vboxnet0, host=192.168.168.104)\n", 
+            "2021-12-24 23:29:26,990 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x644\n", 
+            "2021-12-24 23:29:27,432 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x644 to Snapshot\n", 
+            "2021-12-24 23:29:57,312 [cuckoo.core.guest] INFO: Starting analysis #2548185 on guest (id=Ubuntu1904x644, ip=192.168.168.104)\n", 
+            "2021-12-24 23:29:58,316 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: not ready yet\n", 
+            "2021-12-24 23:30:03,332 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x644, ip=192.168.168.104)\n", 
+            "2021-12-24 23:30:03,344 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x644, ip=192.168.168.104, monitor=latest, size=72028)\n", 
+            "2021-12-24 23:30:03,494 [cuckoo.core.resultserver] DEBUG: Task #2548185: live log analysis.log initialized.\n", 
+            "2021-12-24 23:30:14,386 [cuckoo.core.resultserver] DEBUG: Task #2548185: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-24 23:30:14,422 [cuckoo.core.resultserver] DEBUG: Task #2548185 uploaded file length: 171563\n", 
+            "2021-12-24 23:30:18,476 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2548185 still processing\n", 
+            "2021-12-24 23:30:23,966 [cuckoo.core.resultserver] DEBUG: Task #2548185: File upload for 'logs/all.stap'\n", 
+            "2021-12-24 23:30:23,972 [cuckoo.core.resultserver] DEBUG: Task #2548185 uploaded file length: 21886\n", 
+            "2021-12-24 23:30:33,542 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2548185 still processing\n", 
+            "2021-12-24 23:30:48,610 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2548185 still processing\n", 
+            "2021-12-24 23:31:03,818 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2548185 still processing\n", 
+            "2021-12-24 23:31:18,905 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2548185 still processing\n", 
+            "2021-12-24 23:31:33,991 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2548185 still processing\n", 
+            "2021-12-24 23:31:49,072 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2548185 still processing\n", 
+            "2021-12-24 23:32:04,133 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2548185 still processing\n", 
+            "2021-12-24 23:32:19,257 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2548185 still processing\n", 
+            "2021-12-24 23:32:34,316 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2548185 still processing\n", 
+            "2021-12-24 23:32:49,373 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2548185 still processing\n", 
+            "2021-12-24 23:33:04,439 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2548185 still processing\n", 
+            "2021-12-24 23:33:19,605 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2548185 still processing\n", 
+            "2021-12-24 23:33:34,690 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2548185 still processing\n", 
+            "2021-12-24 23:33:49,758 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2548185 still processing\n", 
+            "2021-12-24 23:33:58,788 [cuckoo.core.guest] INFO: Ubuntu1904x644: analysis completed successfully\n", 
+            "2021-12-24 23:33:58,797 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-24 23:33:58,888 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-24 23:34:13,835 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x644 to path /srv/cuckoo/cwd/storage/analyses/2548185/memory.dmp\n", 
+            "2021-12-24 23:34:13,837 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x644\n", 
+            "2021-12-24 23:34:17,723 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.104 for task #2548185\n", 
+            "2021-12-24 23:34:17,874 [cuckoo.core.scheduler] DEBUG: Released database task #2548185\n", 
+            "2021-12-24 23:34:17,956 [cuckoo.core.scheduler] INFO: Task #2548185: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "gimp_locale_directory", 
+        "bindtextdomain", 
+        "bind_textdomain_codeset", 
+        "gimp_drawable_get", 
+        "gimp_procedural_db_get_data", 
+        "gimp_drawable_is_rgb", 
+        "gimp_drawable_detach", 
+        "gimp_ui_init", 
+        "dcgettext", 
+        "gimp_dialog_new", 
+        "gimp_standard_help_func", 
+        "gtk_dialog_get_type", 
+        "g_type_check_instance_cast", 
+        "gtk_dialog_set_alternative_button_order", 
+        "gtk_window_get_type", 
+        "gimp_window_set_transient", 
+        "gtk_box_new", 
+        "gtk_container_get_type", 
+        "gtk_container_set_border_width", 
+        "gtk_dialog_get_content_area", 
+        "gtk_box_get_type", 
+        "gtk_box_pack_start", 
+        "gtk_widget_show", 
+        "gimp_drawable_preview_new", 
+        "g_signal_connect_data", 
+        "g_dpgettext", 
+        "gtk_label_new", 
+        "gimp_color_button_new", 
+        "gimp_color_button_get_type", 
+        "gimp_color_button_set_update", 
+        "gimp_color_button_get_color", 
+        "gimp_preview_invalidate", 
+        "gimp_dialog_get_type", 
+        "gimp_dialog_run", 
+        "gtk_widget_destroy", 
+        "gimp_procedural_db_set_data", 
+        "gimp_item_is_layer", 
+        "gimp_image_undo_group_start", 
+        "gimp_layer_add_alpha", 
+        "gimp_layer_get_lock_alpha", 
+        "gimp_layer_set_lock_alpha", 
+        "gimp_progress_init", 
+        "gimp_rgn_iterate2", 
+        "gimp_image_undo_group_end", 
+        "gimp_displays_flush", 
+        "gimp_install_procedure", 
+        "gimp_plugin_menu_register", 
+        "__stack_chk_guard", 
+        "gimp_rgba_set_uchar", 
+        "gimp_rgba_get_uchar", 
+        "__stack_chk_fail", 
+        "gimp_preview_get_position", 
+        "gimp_preview_get_size", 
+        "g_malloc", 
+        "gimp_pixel_rgn_init", 
+        "gimp_pixel_rgn_get_rect", 
+        "g_free", 
+        "gimp_preview_area_get_type", 
+        "gimp_preview_area_draw", 
+        "gimp_preview_draw_buffer", 
+        "gimp_main", 
+        "PLUG_IN_INFO", 
+        "libgimpui-2.0.so.0", 
+        "libgimpwidgets-2.0.so.0", 
+        "libgimpmodule-2.0.so.0", 
+        "libgimp-2.0.so.0", 
+        "libgimpmath-2.0.so.0", 
+        "libm.so.6", 
+        "libgimpconfig-2.0.so.0", 
+        "libgimpcolor-2.0.so.0", 
+        "libgimpbase-2.0.so.0", 
+        "libgtk-x11-2.0.so.0", 
+        "libgdk-x11-2.0.so.0", 
+        "libpangocairo-1.0.so.0", 
+        "libatk-1.0.so.0", 
+        "libcairo.so.2", 
+        "libgdk_pixbuf-2.0.so.0", 
+        "libgio-2.0.so.0", 
+        "libpangoft2-1.0.so.0", 
+        "libpango-1.0.so.0", 
+        "libgobject-2.0.so.0", 
+        "libfontconfig.so.1", 
+        "libfreetype.so.6", 
+        "libgthread-2.0.so.0", 
+        "libglib-2.0.so.0", 
+        "libpthread.so.0", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "ld.so.1", 
+        "_ftext", 
+        "_fdata", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.4", 
+        "GLIBC_2.2", 
+        "GLIBC_2.0", 
+        " F<q2F)", 
+        "p F<G\"F\"", 
+        " F<T$F", 
+        "s F<a&F", 
+        " F<2,F", 
+        ",F<%*F", 
+        "l!1&%8", 
+        "gimp20-std-plug-ins", 
+        "plug-in-colortoalpha", 
+        "color-to-aplha", 
+        "Color to Alpha", 
+        "gimp-color-to-aplha", 
+        "gtk-ok", 
+        "gtk-cancel", 
+        "invalidated", 
+        "color-to-alpha", 
+        "Color to Alpha Color Picker", 
+        "color-changed", 
+        "to alpha", 
+        "Removing color", 
+        "Seth Burgess", 
+        "This replaces as much of a given color as possible in each pixel with a corresponding amount of alpha, then readjusts the color accordingly.", 
+        "Convert a specified color to transparency", 
+        "Color to _Alpha...", 
+        "7th Aug 1999", 
+        "Seth Burgess <sjburges@gimp.org>", 
+        "<Image>/Colors/Modify", 
+        "<Image>/Layer/Transparency/Modify", 
+        "run-mode", 
+        "The run mode { RUN-INTERACTIVE (0), RUN-NONINTERACTIVE (1) }", 
+        "Input image (unused)", 
+        "drawable", 
+        "Input drawable", 
+        "Color to remove", 
+        "3e9f9b18898276ab5e909dc14dff9ac7eb5308.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".data.rel.ro", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
