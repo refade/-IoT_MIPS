@@ -1,0 +1,624 @@
+{
+    "info": {
+        "added": 1640383599.052626, 
+        "started": 1640383848.954248, 
+        "duration": 737, 
+        "ended": 1640384586.511319, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2548060, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x645", 
+            "label": "Ubuntu1904x645", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-24 22:17:20", 
+            "shutdown_on": "2021-12-24 22:23:06"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-object", 
+            "yara": [], 
+            "sha1": "03de4649edd77d1ccc16a6564aa57de11ec7b962", 
+            "name": "act_tunnel_key.ko", 
+            "type": "ELF 32-bit LSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), BuildID[sha1]=efa09a9f898c9cb32712fb318c03fe0ec41318f5, not stripped", 
+            "sha256": "f58cf9bc785a9bf5a6182d65919b97c169f17f5471166bd4934613164689f2c2", 
+            "urls": [], 
+            "crc32": "AE9DE337", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/f58cf9bc785a9bf5a6182d65919b97c169f17f5471166bd4934613164689f2c2", 
+            "ssdeep": "192:73sArfwq2tq237wsz8Zt2XI30E4UIFdLZwcUs4OYA6L8YUQw:78ADApXE49rZwXUQw", 
+            "size": 12136, 
+            "sha512": "c37e47c3384961d99a063a87d217e88bf0c6eb810a144c153e6560dc37f860d0c11461ae82c17e1da9e78fd77d2ee7e383cd77e2898c43e5530dae7e62b0ccc3", 
+            "md5": "daabcddd50d84fe2ad7b27ee339aa9e4"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "8632ae28-9722-485d-906b-53d6ed5c7614", 
+        "parent_file_sha256": null, 
+        "name": "f58cf9bc785a9bf5a6182d65919b97c169f17f5471166bd4934613164689f2c2", 
+        "probes_total": 16, 
+        "scan_date": 1640377387, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "03de4649edd77d1ccc16a6564aa57de11ec7b962", 
+            "tags": [], 
+            "timestamp_first_scan": 1640377386.93, 
+            "timestamp_last_scan": 1640377395.89, 
+            "sha256": "f58cf9bc785a9bf5a6182d65919b97c169f17f5471166bd4934613164689f2c2", 
+            "md5": "daabcddd50d84fe2ad7b27ee339aa9e4", 
+            "size": 12136
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.46, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.07, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.66, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-15 12:09:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.26, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.04, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.67, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.82, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.63, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.51, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.11, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.04, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "500b549f-a79a-485c-9f17-a73e52e98cf5", 
+        "file_sha256": "f58cf9bc785a9bf5a6182d65919b97c169f17f5471166bd4934613164689f2c2"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.105", 
+                "version": "TLS 1.2", 
+                "src_port": 43602, 
+                "dst_port": 443, 
+                "timestamp": "2021-12-24T22:18:24.878749+0200", 
+                "dst_ip": "91.189.92.20", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "aaee4da078f8b272c2c9255c4b5126a5fd87184b0f0bd9b16d2daf24c7cb1b55", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "f99fefce7d8135e3fbb3d6dde308c77d471c8b679e2b29f6dee1deded4e04e2a", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "sh", 
+                "pid": 2069, 
+                "summary": {}, 
+                "first_seen": 1640383607.332727, 
+                "ppid": -1
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "ENOEXEC", 
+                        "process_name": "sh", 
+                        "pid": 2069, 
+                        "raw": "Fri Dec 24 22:06:47 2021.332727 sh@7f4122090957[2069] execve(\"/tmp/act_tunnel_key.ko\", [\"/tmp/act_tunnel_key.ko\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/act_tunnel_key.ko\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/t) = -8 (ENOEXEC)\n", 
+                        "api": "execve", 
+                        "return_value": "-8", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4122090957", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/act_tunnel_key.ko", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "\"PWD=/tmp/t"
+                            ], 
+                            "p0": "/tmp/act_tunnel_key.ko", 
+                            "p1": [
+                                "/tmp/act_tunnel_key.ko"
+                            ]
+                        }, 
+                        "time": 1640383607.332727
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2069, 
+                        "raw": "Fri Dec 24 22:06:47 2021.343776 sh@7f41220bbcce[2069] openat(AT_FDCWD, \"/tmp/act_tunnel_key.ko\", O_RDONLY|O_NOCTTY) = 3\n", 
+                        "api": "openat", 
+                        "return_value": "3", 
+                        "category": "process", 
+                        "instruction_pointer": "7f41220bbcce", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NOCTTY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/tmp/act_tunnel_key.ko"
+                        }, 
+                        "time": 1640383607.343776
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2069, 
+                        "raw": "Fri Dec 24 22:06:47 2021.343834 sh@7f41220bbf81[2069] read(3, 0x7ffd9a8bab60, 128) = 128\n", 
+                        "api": "read", 
+                        "return_value": "128", 
+                        "category": "process", 
+                        "instruction_pointer": "7f41220bbf81", 
+                        "arguments": {
+                            "p2": "128", 
+                            "p0": "3", 
+                            "p1": "0x7ffd9a8bab60"
+                        }, 
+                        "time": 1640383607.343834
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2069, 
+                        "raw": "Fri Dec 24 22:06:47 2021.343890 sh@7f41220bc674[2069] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f41220bc674", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383607.34389
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2069, 
+                        "raw": "Fri Dec 24 22:06:47 2021.344024 sh@7f41220bc024[2069] write(2, \"sh: 1: \", 7) = 7\n", 
+                        "api": "write", 
+                        "return_value": "7", 
+                        "category": "process", 
+                        "instruction_pointer": "7f41220bc024", 
+                        "arguments": {
+                            "p2": "7", 
+                            "p0": "2", 
+                            "p1": "sh: 1: "
+                        }, 
+                        "time": 1640383607.344024
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2069, 
+                        "raw": "Fri Dec 24 22:06:47 2021.344080 sh@7f41220bc024[2069] write(2, \"/tmp/act_tunnel_key.ko: Exec format error\", 41) = 41\n", 
+                        "api": "write", 
+                        "return_value": "41", 
+                        "category": "process", 
+                        "instruction_pointer": "7f41220bc024", 
+                        "arguments": {
+                            "p2": "41", 
+                            "p0": "2", 
+                            "p1": "/tmp/act_tunnel_key.ko: Exec format error"
+                        }, 
+                        "time": 1640383607.34408
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2069, 
+                        "raw": "Fri Dec 24 22:06:47 2021.344122 sh@7f41220bc024[2069] write(2, \"\\n\", 1) = 1\n", 
+                        "api": "write", 
+                        "return_value": "1", 
+                        "category": "process", 
+                        "instruction_pointer": "7f41220bc024", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "2", 
+                            "p1": "\n"
+                        }, 
+                        "time": 1640383607.344122
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2069, 
+                        "raw": "Fri Dec 24 22:06:47 2021.344168 sh@7f4122090926[2069] exit_group(2)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4122090926", 
+                        "arguments": {
+                            "p0": "2"
+                        }, 
+                        "time": 1640383607.344168
+                    }
+                ], 
+                "pid": 2069, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1640383607.332727, 
+                "ppid": -1, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2069, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1640383607.332727, 
+                "ppid": -1, 
+                "children": []
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:06:39,004 [root] DEBUG: Starting analyzer from: /tmp/tmpEWU5Mu\n", 
+            "2021-12-24 22:06:39,004 [root] DEBUG: Storing results at: /tmp/kaqVslmp\n", 
+            "2021-12-24 22:06:41,189 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:06:41,690 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:06:41,691 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:06:47,330 [lib.core.packages] INFO: Process startup took 5.63 seconds\n", 
+            "2021-12-24 22:06:47,337 [root] INFO: Added new process to list with pid: 2059\n", 
+            "2021-12-24 22:06:53,346 [root] INFO: Process with pid 2059 has terminated\n", 
+            "2021-12-24 22:06:53,348 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:06:56,352 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:06:56,355 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-24 22:10:49,971 [cuckoo.core.scheduler] DEBUG: Task #2548060: no machine available yet\n", 
+            "2021-12-24 22:11:20,030 [cuckoo.core.scheduler] DEBUG: Task #2548060: no machine available yet\n", 
+            "2021-12-24 22:11:50,075 [cuckoo.core.scheduler] DEBUG: Task #2548060: no machine available yet\n", 
+            "2021-12-24 22:12:20,137 [cuckoo.core.scheduler] DEBUG: Task #2548060: no machine available yet\n", 
+            "2021-12-24 22:12:50,184 [cuckoo.core.scheduler] DEBUG: Task #2548060: no machine available yet\n", 
+            "2021-12-24 22:13:20,230 [cuckoo.core.scheduler] DEBUG: Task #2548060: no machine available yet\n", 
+            "2021-12-24 22:13:50,277 [cuckoo.core.scheduler] DEBUG: Task #2548060: no machine available yet\n", 
+            "2021-12-24 22:14:20,326 [cuckoo.core.scheduler] DEBUG: Task #2548060: no machine available yet\n", 
+            "2021-12-24 22:14:50,368 [cuckoo.core.scheduler] DEBUG: Task #2548060: no machine available yet\n", 
+            "2021-12-24 22:15:20,409 [cuckoo.core.scheduler] DEBUG: Task #2548060: no machine available yet\n", 
+            "2021-12-24 22:15:50,459 [cuckoo.core.scheduler] DEBUG: Task #2548060: no machine available yet\n", 
+            "2021-12-24 22:16:20,503 [cuckoo.core.scheduler] DEBUG: Task #2548060: no machine available yet\n", 
+            "2021-12-24 22:16:50,549 [cuckoo.core.scheduler] DEBUG: Task #2548060: no machine available yet\n", 
+            "2021-12-24 22:17:20,623 [cuckoo.core.scheduler] INFO: Task #2548060: acquired machine Ubuntu1904x645 (label=Ubuntu1904x645)\n", 
+            "2021-12-24 22:17:20,624 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.105 for task #2548060\n", 
+            "2021-12-24 22:17:20,744 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 2857910 (interface=vboxnet0, host=192.168.168.105)\n", 
+            "2021-12-24 22:17:20,895 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x645\n", 
+            "2021-12-24 22:17:21,309 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x645 to Snapshot\n", 
+            "2021-12-24 22:18:04,666 [cuckoo.core.guest] INFO: Starting analysis #2548060 on guest (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2021-12-24 22:18:05,671 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: not ready yet\n", 
+            "2021-12-24 22:18:10,692 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2021-12-24 22:18:10,703 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x645, ip=192.168.168.105, monitor=latest, size=72028)\n", 
+            "2021-12-24 22:18:11,915 [cuckoo.core.resultserver] DEBUG: Task #2548060: live log analysis.log initialized.\n", 
+            "2021-12-24 22:18:17,359 [cuckoo.core.resultserver] DEBUG: Task #2548060: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-24 22:18:17,370 [cuckoo.core.resultserver] DEBUG: Task #2548060 uploaded file length: 171563\n", 
+            "2021-12-24 22:18:25,833 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548060 still processing\n", 
+            "2021-12-24 22:18:29,285 [cuckoo.core.resultserver] DEBUG: Task #2548060: File upload for 'logs/all.stap'\n", 
+            "2021-12-24 22:18:29,287 [cuckoo.core.resultserver] DEBUG: Task #2548060 uploaded file length: 1207\n", 
+            "2021-12-24 22:18:40,888 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548060 still processing\n", 
+            "2021-12-24 22:18:55,944 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548060 still processing\n", 
+            "2021-12-24 22:19:10,992 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548060 still processing\n", 
+            "2021-12-24 22:19:26,046 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548060 still processing\n", 
+            "2021-12-24 22:19:41,103 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548060 still processing\n", 
+            "2021-12-24 22:19:56,234 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548060 still processing\n", 
+            "2021-12-24 22:20:11,307 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548060 still processing\n", 
+            "2021-12-24 22:20:26,458 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548060 still processing\n", 
+            "2021-12-24 22:20:41,800 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548060 still processing\n", 
+            "2021-12-24 22:20:56,985 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548060 still processing\n", 
+            "2021-12-24 22:21:12,172 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548060 still processing\n", 
+            "2021-12-24 22:21:27,315 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548060 still processing\n", 
+            "2021-12-24 22:21:42,417 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548060 still processing\n", 
+            "2021-12-24 22:21:57,512 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548060 still processing\n", 
+            "2021-12-24 22:22:12,591 [cuckoo.core.guest] INFO: Ubuntu1904x645: end of analysis reached!\n", 
+            "2021-12-24 22:22:12,603 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-24 22:22:12,681 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-24 22:22:29,098 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x645 to path /srv/cuckoo/cwd/storage/analyses/2548060/memory.dmp\n", 
+            "2021-12-24 22:22:29,099 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x645\n", 
+            "2021-12-24 22:23:06,161 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.105 for task #2548060\n", 
+            "2021-12-24 22:23:06,161 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2548060\n", 
+            "2021-12-24 22:23:06,301 [cuckoo.core.scheduler] DEBUG: Released database task #2548060\n", 
+            "2021-12-24 22:23:06,385 [cuckoo.core.scheduler] INFO: Task #2548060: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/build/linux-e9L2X9/linux-4.9.228/net/sched/act_tunnel_key.c", 
+        "3RTNL: assertion failed at %s (%d)", 
+        "/build/linux-e9L2X9/linux-4.9.228/include/net/netlink.h", 
+        "Bad tunnel_key action %d.", 
+        "license=GPL v2", 
+        "description=ip tunnel manipulation actions", 
+        "author=Amir Vadai <amir@vadai.me>", 
+        "depends=", 
+        "intree=Y", 
+        "vermagic=4.9.0-13-4kc-malta mod_unload modversions MIPS32_R2 32BIT ", 
+        "4Fmodule_layout", 
+        "tcf_unregister_action", 
+        "1utcf_register_action", 
+        "warn_slowpath_fmt", 
+        "warn_slowpath_null", 
+        "skb_trim", 
+        "nla_put_64bit", 
+        "}jiffies_to_clock_t", 
+        "jiffies", 
+        "nla_put", 
+        "Mdst_release", 
+        "tcf_hash_search", 
+        "__stack_chk_fail", 
+        "-kdump_stack", 
+        "'printk", 
+        "nla_memcpy", 
+        "tcf_hash_insert", 
+        ">dcall_rcu_sched", 
+        "rtnl_is_locked", 
+        "tcf_hash_create", 
+        "RX__tcf_hash_release", 
+        "+memset", 
+        "metadata_dst_alloc", 
+        "tcf_hash_check", 
+        "9Onla_parse", 
+        "__stack_chk_guard", 
+        "tcf_generic_walker", 
+        "kmem_cache_alloc_trace", 
+        "kmalloc_caches", 
+        "tcf_hashinfo_destroy", 
+        "_mcount", 
+        "tunnel_key", 
+        "act_tunnel_key", 
+        "GCC: (Debian 6.3.0-18+deb9u1) 6.3.0 20170516", 
+        "GCC: (Debian 6.3.0-18+deb9u1) 6.3.0 20170516", 
+        "act_tunnel_key.ko", 
+        "tunnel_key_exit_net", 
+        "tunnel_key_net_id", 
+        "tunnel_key_init_net", 
+        "act_tunnel_key_ops", 
+        "tunnel_key_walker", 
+        "tunnel_key_init", 
+        "tunnel_key_policy", 
+        "tunnel_key_search", 
+        "tunnel_key_release", 
+        "tunnel_key_dump", 
+        "tunnel_key_act", 
+        "__warned.56664", 
+        "tunnel_key_init_module", 
+        "tunnel_key_net_ops", 
+        "tunnel_key_cleanup_module", 
+        "__UNIQUE_ID_license163", 
+        "__UNIQUE_ID_description162", 
+        "__UNIQUE_ID_author161", 
+        "__module_depends", 
+        "____versions", 
+        "__UNIQUE_ID_intree53", 
+        "__UNIQUE_ID_vermagic52", 
+        "tcf_hash_check", 
+        "rtnl_is_locked", 
+        "__this_module", 
+        "jiffies_to_clock_t", 
+        "__stack_chk_guard", 
+        "nla_put_64bit", 
+        "tcf_hash_create", 
+        "call_rcu_sched", 
+        "warn_slowpath_fmt", 
+        "kmem_cache_alloc_trace", 
+        "dump_stack", 
+        "nla_parse", 
+        "__stack_chk_fail", 
+        "__tcf_hash_release", 
+        "tcf_unregister_action", 
+        "warn_slowpath_null", 
+        "nla_put", 
+        "tcf_hash_insert", 
+        "tcf_hashinfo_destroy", 
+        "printk", 
+        "memset", 
+        "nla_memcpy", 
+        "skb_trim", 
+        "jiffies", 
+        "tcf_hash_search", 
+        "tcf_register_action", 
+        "tcf_generic_walker", 
+        "metadata_dst_alloc", 
+        "dst_release", 
+        "_mcount", 
+        "kmalloc_caches", 
+        ".symtab", 
+        ".strtab", 
+        ".shstrtab", 
+        ".note.gnu.build-id", 
+        ".rel.text", 
+        ".rel.init.text", 
+        ".rel.exit.text", 
+        ".reginfo", 
+        ".MIPS.abiflags", 
+        ".rodata.str1.4", 
+        ".modinfo", 
+        ".rodata", 
+        ".rel__mcount_loc", 
+        "__versions", 
+        ".rel.data", 
+        ".data.unlikely", 
+        ".rel.gnu.linkonce.this_module", 
+        ".rel.pdr", 
+        ".mdebug.abi32", 
+        ".comment", 
+        ".gnu.attributes", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "f99fefce7d8135e3fbb3d6dde308c77d471c8b679e2b29f6dee1deded4e04e2a", 
+                "dirname": ""
+            }
+        }
+    }
+}
