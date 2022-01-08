@@ -1,0 +1,3432 @@
+{
+    "info": {
+        "added": 1640383650.618023, 
+        "started": 1640436297.95871, 
+        "duration": 6634, 
+        "ended": 1640442932.283504, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2549351, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x646", 
+            "label": "Ubuntu1904x646", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 14:30:59", 
+            "shutdown_on": "2021-12-25 14:35:31"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "5a12794891aad9825ef74f73489c398570627de3", 
+            "name": "rastertopwg", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=090af8e6a46a12eab4b285e9094d59a47756d624, stripped", 
+            "sha256": "0d001e002b3cf8bcd934a65d98180c539f7c3d7d9422277f4a7c51120b8932f9", 
+            "urls": [], 
+            "crc32": "4E063AAD", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/0d001e002b3cf8bcd934a65d98180c539f7c3d7d9422277f4a7c51120b8932f9", 
+            "ssdeep": "384:5QakyjL7sOxrBWuZQ+y6WyrHuuv0FI7zepXg9CspauOotX1GJ0Ee9VHCnJL8:yakWL7sArBWuZQ+y6WyrHTv0FI7qpXg7", 
+            "size": 14284, 
+            "sha512": "6f824210190a3b797a6bdbb0e98a8a7a4576e56aec79e9fa13b6a25f2b076e7327b5e31958510693e1e7a24a144f42ca22fda7852255206e85c2f3ce0e13bf7a", 
+            "md5": "f1379f81ec78ba8f44511e8911e8fc27"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "0ba2e403-645d-4165-8596-3c2171c701a0", 
+        "parent_file_sha256": null, 
+        "name": "0d001e002b3cf8bcd934a65d98180c539f7c3d7d9422277f4a7c51120b8932f9", 
+        "probes_total": 16, 
+        "scan_date": 1640435733, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "5a12794891aad9825ef74f73489c398570627de3", 
+            "tags": [], 
+            "timestamp_first_scan": 1640435732.72, 
+            "timestamp_last_scan": 1640435741.82, 
+            "sha256": "0d001e002b3cf8bcd934a65d98180c539f7c3d7d9422277f4a7c51120b8932f9", 
+            "md5": "f1379f81ec78ba8f44511e8911e8fc27", 
+            "size": 14284
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.47, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.07, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.67, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-16 07:23:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.32, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.72, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.89, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.63, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.29, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.14, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.15, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "6be43660-5920-494f-a8a6-f629f398aa9d", 
+        "file_sha256": "0d001e002b3cf8bcd934a65d98180c539f7c3d7d9422277f4a7c51120b8932f9"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "rastertopwg", 
+                "pid": 2080, 
+                "summary": {}, 
+                "first_seen": 1640383658.155954, 
+                "ppid": 2078
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "rastertopwg", 
+                "pid": 2078, 
+                "summary": {}, 
+                "first_seen": 1640383657.368821, 
+                "ppid": -1
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:37 2021.368821 rastertopwg@7fbebd18cc27[2078] execve(\"/tmp/rastertopwg\", [\"/tmp/rastertopwg\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/rastertopwg\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmp7DxZ18\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18cc27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/rastertopwg", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmp7DxZ18"
+                            ], 
+                            "p0": "/tmp/rastertopwg", 
+                            "p1": [
+                                "/tmp/rastertopwg"
+                            ]
+                        }, 
+                        "time": 1640383657.368821
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:37 2021.860719 rastertopwg@7fbebd18cc27[2078] brk(0x0) = 94778680553472\n", 
+                        "api": "brk", 
+                        "return_value": "94778680553472", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18cc27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383657.860719
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.032217 rastertopwg@7fbebd18d9d7[2078] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383658.032217
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.139872 rastertopwg@7fbebd18db0d[2078] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383658.139872
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.139957 rastertopwg@7fbebd18d943[2078] fstat(4, 0x7ffdf9e42ed0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e42ed0"
+                        }, 
+                        "time": 1640383658.139957
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.140004 rastertopwg@7fbebd18dd03[2078] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7fbebd15b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebd15b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.140004
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.140057 rastertopwg@7fbebd18d9f7[2078] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383658.140057
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.140118 rastertopwg@7fbebd18db0d[2078] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383658.140118
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.140167 rastertopwg@7fbebd18dbd4[2078] read(4, 0x7ffdf9e43088, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e43088"
+                        }, 
+                        "time": 1640383658.140167
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.140213 rastertopwg@7fbebd18d943[2078] fstat(4, 0x7ffdf9e42f20) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e42f20"
+                        }, 
+                        "time": 1640383658.140213
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.140266 rastertopwg@7fbebd18dd03[2078] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbebd159000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebd159000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.140266
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.140450 rastertopwg@7fbebd18dd03[2078] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fbebd153000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebd153000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.14045
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.140506 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebd154000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fbebd154000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebd154000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebd154000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383658.140506
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.140566 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebd156000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fbebd156000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebd156000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebd156000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383658.140566
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.140612 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebd157000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fbebd157000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebd157000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebd157000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383658.140612
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.140671 rastertopwg@7fbebd18d9f7[2078] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383658.140671
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.140724 rastertopwg@7fbebd18db0d[2078] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383658.140724
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.140803 rastertopwg@7fbebd18dbd4[2078] read(4, 0x7ffdf9e43068, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e43068"
+                        }, 
+                        "time": 1640383658.140803
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.140967 rastertopwg@7fbebd18d943[2078] fstat(4, 0x7ffdf9e42f00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e42f00"
+                        }, 
+                        "time": 1640383658.140967
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.141023 rastertopwg@7fbebd18dd03[2078] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fbebd032000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebd032000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.141023
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.141085 rastertopwg@7fbebd18ddb7[2078] mprotect(0x7fbebd04d000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18ddb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fbebd04d000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383658.141085
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.141155 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebd04d000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7fbebd04d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebd04d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebd04d000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383658.141155
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.141202 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebd0cd000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7fbebd0cd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebd0cd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebd0cd000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383658.141202
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.141243 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebd150000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7fbebd150000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebd150000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebd150000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383658.141243
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.141294 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebd152000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbebd152000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebd152000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fbebd152000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.141294
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.141344 rastertopwg@7fbebd18d9f7[2078] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383658.141344
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.141400 rastertopwg@7fbebd18db0d[2078] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383658.1414
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.141447 rastertopwg@7fbebd18dbd4[2078] read(4, 0x7ffdf9e43048, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e43048"
+                        }, 
+                        "time": 1640383658.141447
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.141497 rastertopwg@7fbebd18d943[2078] fstat(4, 0x7ffdf9e42ee0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e42ee0"
+                        }, 
+                        "time": 1640383658.141497
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.141537 rastertopwg@7fbebd18dd03[2078] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fbebd027000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebd027000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.141537
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.141579 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebd02a000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fbebd02a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebd02a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebd02a000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383658.141579
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.141625 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebd02e000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fbebd02e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebd02e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebd02e000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383658.141625
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.141667 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebd030000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7fbebd030000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebd030000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebd030000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383658.141667
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.141723 rastertopwg@7fbebd18d9f7[2078] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383658.141723
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.141772 rastertopwg@7fbebd18db0d[2078] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383658.141772
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.141816 rastertopwg@7fbebd18dbd4[2078] read(4, 0x7ffdf9e43028, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e43028"
+                        }, 
+                        "time": 1640383658.141816
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.141866 rastertopwg@7fbebd18d943[2078] fstat(4, 0x7ffdf9e42ec0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e42ec0"
+                        }, 
+                        "time": 1640383658.141866
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.141929 rastertopwg@7fbebd18dd03[2078] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fbebce45000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebce45000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.141929
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.142001 rastertopwg@7fbebd18ddb7[2078] mprotect(0x7fbebceda000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18ddb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fbebceda000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383658.142001
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.142062 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebceda000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7fbebceda000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebceda000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebceda000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383658.142062
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.142119 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebcfcc000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7fbebcfcc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebcfcc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebcfcc000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383658.142119
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.142162 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebd016000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7fbebd016000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebd016000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebd016000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383658.142162
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.142212 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebd024000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbebd024000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebd024000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fbebd024000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.142212
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.142273 rastertopwg@7fbebd18d9f7[2078] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383658.142273
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.142341 rastertopwg@7fbebd18db0d[2078] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383658.142341
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.142398 rastertopwg@7fbebd18dbd4[2078] read(4, 0x7ffdf9e43008, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e43008"
+                        }, 
+                        "time": 1640383658.142398
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.142453 rastertopwg@7fbebd18d943[2078] fstat(4, 0x7ffdf9e42ea0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e42ea0"
+                        }, 
+                        "time": 1640383658.142453
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.142508 rastertopwg@7fbebd18dd03[2078] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fbebccf7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebccf7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.142508
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.142569 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebcd06000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7fbebcd06000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebcd06000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebcd06000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383658.142569
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.142633 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebcdac000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7fbebcdac000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebcdac000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebcdac000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383658.142633
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.142678 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebce43000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7fbebce43000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebce43000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebce43000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383658.142678
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.142737 rastertopwg@7fbebd18d9f7[2078] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383658.142737
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.142791 rastertopwg@7fbebd18db0d[2078] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383658.142791
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.142834 rastertopwg@7fbebd18dbd4[2078] read(4, 0x7ffdf9e42fe8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e42fe8"
+                        }, 
+                        "time": 1640383658.142834
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.142874 rastertopwg@7fbebd18d943[2078] fstat(4, 0x7ffdf9e42e80) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e42e80"
+                        }, 
+                        "time": 1640383658.142874
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.142924 rastertopwg@7fbebd18dd03[2078] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fbebccdd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebccdd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.142924
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.142983 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebcce0000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fbebcce0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebcce0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebcce0000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383658.142983
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.143050 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebccf1000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7fbebccf1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebccf1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebccf1000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383658.14305
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.143114 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebccf5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7fbebccf5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebccf5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebccf5000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383658.143114
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.143180 rastertopwg@7fbebd18d9f7[2078] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383658.14318
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.143230 rastertopwg@7fbebd18db0d[2078] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383658.14323
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.143280 rastertopwg@7fbebd18dbd4[2078] read(4, 0x7ffdf9e42fc8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e42fc8"
+                        }, 
+                        "time": 1640383658.14328
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.143318 rastertopwg@7fbebd18d943[2078] fstat(4, 0x7ffdf9e42e60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e42e60"
+                        }, 
+                        "time": 1640383658.143318
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.143363 rastertopwg@7fbebd18dd03[2078] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbebccdb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebccdb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.143363
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.143428 rastertopwg@7fbebd18dd03[2078] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fbebccba000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebccba000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.143428
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.143489 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebccc1000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fbebccc1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebccc1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebccc1000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383658.143489
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.143552 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebccd0000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7fbebccd0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebccd0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebccd0000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383658.143552
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.143612 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebccd5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7fbebccd5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebccd5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebccd5000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383658.143612
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.143663 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebccd7000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbebccd7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebccd7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fbebccd7000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.143663
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.143715 rastertopwg@7fbebd18d9f7[2078] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383658.143715
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.143762 rastertopwg@7fbebd18db0d[2078] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383658.143762
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.143806 rastertopwg@7fbebd18dbd4[2078] read(4, 0x7ffdf9e42fa8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e42fa8"
+                        }, 
+                        "time": 1640383658.143806
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.143846 rastertopwg@7fbebd18d943[2078] fstat(4, 0x7ffdf9e42e40) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e42e40"
+                        }, 
+                        "time": 1640383658.143846
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.143885 rastertopwg@7fbebd18dd03[2078] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fbebcacf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebcacf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.143885
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.143930 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebcaf4000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7fbebcaf4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebcaf4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebcaf4000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383658.14393
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.143975 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebcc67000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7fbebcc67000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebcc67000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebcc67000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383658.143975
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.144028 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebccb0000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7fbebccb0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebccb0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebccb0000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383658.144028
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.144101 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebccb6000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbebccb6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebccb6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fbebccb6000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.144101
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.144175 rastertopwg@7fbebd18d9f7[2078] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383658.144175
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.144261 rastertopwg@7fbebd18db0d[2078] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383658.144261
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.144383 rastertopwg@7fbebd18dbd4[2078] read(4, 0x7ffdf9e42f88, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e42f88"
+                        }, 
+                        "time": 1640383658.144383
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.144423 rastertopwg@7fbebd18d943[2078] fstat(4, 0x7ffdf9e42e20) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e42e20"
+                        }, 
+                        "time": 1640383658.144423
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.144460 rastertopwg@7fbebd18dd03[2078] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fbebcac9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebcac9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.14446
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.144526 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebcaca000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fbebcaca000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebcaca000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebcaca000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383658.144526
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.144600 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebcacc000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fbebcacc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebcacc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebcacc000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383658.1446
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.144667 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebcacd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fbebcacd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebcacd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebcacd000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383658.144667
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.144751 rastertopwg@7fbebd18d9f7[2078] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383658.144751
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.144807 rastertopwg@7fbebd18db0d[2078] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383658.144807
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.144858 rastertopwg@7fbebd18dbd4[2078] read(4, 0x7ffdf9e42f68, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e42f68"
+                        }, 
+                        "time": 1640383658.144858
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.144894 rastertopwg@7fbebd18d943[2078] fstat(4, 0x7ffdf9e42e00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e42e00"
+                        }, 
+                        "time": 1640383658.144894
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.144951 rastertopwg@7fbebd18dd03[2078] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fbebca55000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebca55000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.144951
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.145008 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebca57000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7fbebca57000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebca57000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebca57000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383658.145008
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.145058 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebcaa9000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7fbebcaa9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebcaa9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebcaa9000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383658.145058
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.145100 rastertopwg@7fbebd18dd03[2078] mmap2(0x7fbebcac7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7fbebcac7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebcac7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fbebcac7000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383658.1451
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.145165 rastertopwg@7fbebd18d9f7[2078] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383658.145165
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.146209 rastertopwg@7fbebd18dd03[2078] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbebca53000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebca53000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.146209
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.146268 rastertopwg@7fbebd18dd03[2078] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbebca50000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebca50000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.146268
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.146309 rastertopwg@7fbebd172f30[2078] arch_prctl(ARCH_SET_FS, 140457185445824) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd172f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140457185445824"
+                        }, 
+                        "time": 1640383658.146309
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.147214 rastertopwg@7fbebd18ddb7[2078] mprotect(0x7fbebccb0000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbebccb0000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383658.147214
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.147273 rastertopwg@7fbebd18ddb7[2078] mprotect(0x7fbebccd5000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbebccd5000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383658.147273
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.147341 rastertopwg@7fbebd18ddb7[2078] mprotect(0x7fbebcac7000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbebcac7000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383658.147341
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.147384 rastertopwg@7fbebd18ddb7[2078] mprotect(0x7fbebcacd000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbebcacd000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383658.147384
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.147426 rastertopwg@7fbebd18ddb7[2078] mprotect(0x7fbebccf5000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbebccf5000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383658.147426
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.147494 rastertopwg@7fbebd18ddb7[2078] mprotect(0x7fbebce43000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbebce43000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383658.147494
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.148470 rastertopwg@7fbebd18ddb7[2078] mprotect(0x7fbebd016000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbebd016000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383658.14847
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.148531 rastertopwg@7fbebd18ddb7[2078] mprotect(0x7fbebd030000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbebd030000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383658.148531
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.148746 rastertopwg@7fbebd18ddb7[2078] mprotect(0x7fbebd150000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbebd150000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383658.148746
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.148808 rastertopwg@7fbebd18ddb7[2078] mprotect(0x7fbebd157000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbebd157000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383658.148808
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.152985 rastertopwg@7fbebd18ddb7[2078] mprotect(0x56335f6ac000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x56335f6ac000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383658.152985
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.153077 rastertopwg@7fbebd18ddb7[2078] mprotect(0x7fbebd19b000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fbebd19b000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383658.153077
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.153137 rastertopwg@7fbebd18dd97[2078] munmap(0x7fbebd15b000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebd18dd97", 
+                        "arguments": {
+                            "p0": "0x7fbebd15b000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383658.153137
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.153230 rastertopwg@7fbebccc18df[2078] set_tid_address(0x7fbebca50a90) = 2078\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2078", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebccc18df", 
+                        "arguments": {
+                            "p0": "0x7fbebca50a90"
+                        }, 
+                        "time": 1640383658.15323
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.153271 rastertopwg@7fbebccc194a[2078] set_robust_list(0x7fbebca50aa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebccc194a", 
+                        "arguments": {
+                            "p0": "0x7fbebca50aa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383658.153271
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.153359 rastertopwg@7fbebccce010[2078] rt_sigaction(0x20, {0x7fbebccc16c0, SA_SIGINFO|SA_RESTORER, 0x7fbebcccdf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebccce010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7fbebccc16c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7fbebcccdf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383658.153359
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.153411 rastertopwg@7fbebccce010[2078] rt_sigaction(0x21, {0x7fbebccc1760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7fbebcccdf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebccce010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7fbebccc1760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7fbebcccdf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383658.153411
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.153446 rastertopwg@7fbebccc1a19[2078] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebccc1a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383658.153446
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.153493 rastertopwg@7fbebcbe1df0[2078] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffdf9e43c60) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe1df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffdf9e43c60", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383658.153493
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.153703 rastertopwg@7fbebcbe22f7[2078] brk(0x0) = 94778680553472\n", 
+                        "api": "brk", 
+                        "return_value": "94778680553472", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe22f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383658.153703
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.153738 rastertopwg@7fbebcbe22f7[2078] brk(0x563361984000) = 94778680688640\n", 
+                        "api": "brk", 
+                        "return_value": "94778680688640", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe22f7", 
+                        "arguments": {
+                            "p0": "0x563361984000"
+                        }, 
+                        "time": 1640383658.153738
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.154856 rastertopwg@7fbebcccab86[2078] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffdf9e43bb0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcccab86", 
+                        "arguments": {
+                            "p2": "0x7ffdf9e43bb0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383658.154856
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.155649 rastertopwg@7fbebcbe64c3[2078] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fbebc24f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebc24f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe64c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.155649
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.155697 rastertopwg@7fbebcbe6597[2078] mprotect(0x7fbebc250000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe6597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fbebc250000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383658.155697
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.155753 rastertopwg@7fbebcbecb11[2078] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7fbebca4ef30, 0x7fbebca4f9d0, 0x7fbebca4f9d0) = 2080\n", 
+                        "api": "clone", 
+                        "return_value": "2080", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbecb11", 
+                        "arguments": {
+                            "p2": "0x7fbebca4f9d0", 
+                            "p3": "0x7fbebca4f9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7fbebca4ef30"
+                        }, 
+                        "time": 1640383658.155753
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.155858 rastertopwg@7fbebcccab86[2078] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcccab86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383658.155858
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.159960 rastertopwg@7fbebcbe1df0[2078] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffdf9e43710) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe1df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffdf9e43710", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383658.15996
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.160041 rastertopwg@7fbebcbe15c1[2078] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe15c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383658.160041
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.161014 rastertopwg@7fbebcbb0247[2078] uname(0x7ffdf9e43380) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbb0247", 
+                        "arguments": {
+                            "p0": "0x7ffdf9e43380"
+                        }, 
+                        "time": 1640383658.161014
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.161060 rastertopwg@7fbebcccd337[2078] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcccd337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383658.16106
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.161126 rastertopwg@7fbebccccd94[2078] read(3, 0x7ffdf9e43670, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebccccd94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffdf9e43670"
+                        }, 
+                        "time": 1640383658.161126
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.161172 rastertopwg@7fbebcccd337[2078] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcccd337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383658.161172
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.162406 rastertopwg@7fbebcbe22f7[2078] brk(0x5633619a5000) = 94778680823808\n", 
+                        "api": "brk", 
+                        "return_value": "94778680823808", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe22f7", 
+                        "arguments": {
+                            "p0": "0x5633619a5000"
+                        }, 
+                        "time": 1640383658.162406
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.162640 rastertopwg@7fbebcbe64c3[2078] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbebc1ce000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbebc1ce000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe64c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.16264
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.163221 rastertopwg@7fbebcbe6597[2078] mprotect(0x56335f72f000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe6597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x56335f72f000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383658.163221
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.163295 rastertopwg@7fbebcbe6667[2078] madvise(0x56335f72f000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe6667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x56335f72f000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383658.163295
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.164177 rastertopwg@7fbebcbe64c3[2078] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fbe38000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbe38000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe64c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.164177
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.164233 rastertopwg@7fbebcbdbd59[2078] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbdbd59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383658.164233
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.164375 rastertopwg@7fbebcbdb613[2078] fstat(4, 0x7ffdf9e42d80) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbdb613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf9e42d80"
+                        }, 
+                        "time": 1640383658.164375
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.164419 rastertopwg@7fbebcbdbfb4[2078] read(4, 0x5633619824e0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbdbfb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x5633619824e0"
+                        }, 
+                        "time": 1640383658.164419
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.164468 rastertopwg@7fbebcbe13f7[2078] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe13f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383658.164468
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.164530 rastertopwg@7fbebcbe62e9[2078] gettid() = 2078\n", 
+                        "api": "gettid", 
+                        "return_value": "2078", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe62e9", 
+                        "arguments": {}, 
+                        "time": 1640383658.16453
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.164567 rastertopwg@7fbebcbdb613[2078] fstat(3, 0x7ffdf9e435f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbdb613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffdf9e435f0"
+                        }, 
+                        "time": 1640383658.164567
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.164605 rastertopwg@7fbebcbb1717[2078] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbb1717", 
+                        "arguments": {}, 
+                        "time": 1640383658.164605
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.164642 rastertopwg@7fbebcbb1737[2078] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbb1737", 
+                        "arguments": {}, 
+                        "time": 1640383658.164642
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.164676 rastertopwg@7fbebccccd94[2078] read(3, 0x7ffdf9e43850, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebccccd94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffdf9e43850"
+                        }, 
+                        "time": 1640383658.164676
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.164751 rastertopwg@7fbebcbe64c3[2078] mmap2(0x7fbeb7fec000, 81920, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fbeb7fec000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeb7fec000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe64c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7fbeb7fec000", 
+                            "p1": "81920", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.164751
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.164834 rastertopwg@7fbebcbe64c3[2078] mmap2(0x7fbeb7fec000, 12288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7fbeb7fec000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeb7fec000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe64c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fbeb7fec000", 
+                            "p1": "12288", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.164834
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.164893 rastertopwg@7fbebcbe64c3[2078] mmap2(0x7fbeb7ffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 8192) = 0x7fbeb7ffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeb7ffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe64c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fbeb7ffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383658.164893
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.164948 rastertopwg@7fbebcccce27[2078] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcccce27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383658.164948
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.165001 rastertopwg@7fbebcbe64c3[2078] mmap2(0x7fbeb77eb000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbeb77eb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeb77eb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe64c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fbeb77eb000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.165001
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.165079 rastertopwg@7fbebcbe22f7[2078] brk(0x5633619c6000) = 94778680958976\n", 
+                        "api": "brk", 
+                        "return_value": "94778680958976", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe22f7", 
+                        "arguments": {
+                            "p0": "0x5633619c6000"
+                        }, 
+                        "time": 1640383658.165079
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.165190 rastertopwg@7fbebcbe6597[2078] mprotect(0x7fbeb77eb000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe6597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fbeb77eb000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383658.16519
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.165269 rastertopwg@7fbebcccd55e[2078] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcccd55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383658.165269
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.165379 rastertopwg@7fbebcbdc057[2078] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbdc057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383658.165379
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.165516 rastertopwg@7fbebcbb0926[2078] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbb0926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383658.165516
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2078, 
+                        "raw": "Fri Dec 24 22:07:38 2021.165579 rastertopwg@7fbebcbb0926[2078] futex(0x7fbebca50a90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbb0926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7fbebca50a90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383658.165579
+                    }
+                ], 
+                "pid": 2078, 
+                "process_name": "rastertopwg", 
+                "command_line": "/tmp/rastertopwg", 
+                "first_seen": 1640383657.368821, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2080, 
+                        "raw": "Fri Dec 24 22:07:38 2021.155954 rastertopwg@7fbebccc3117[2080] set_robust_list(0x7fbebca4f9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebccc3117", 
+                        "arguments": {
+                            "p0": "0x7fbebca4f9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383658.155954
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2080, 
+                        "raw": "Fri Dec 24 22:07:38 2021.156049 rastertopwg@7fbebcbe64c3[2080] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fbeb424f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fbeb424f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe64c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383658.156049
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2080, 
+                        "raw": "Fri Dec 24 22:07:38 2021.156291 rastertopwg@7fbebcbe6567[2080] munmap(0x7fbeb424f000, 64688128) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe6567", 
+                        "arguments": {
+                            "p0": "0x7fbeb424f000", 
+                            "p1": "64688128"
+                        }, 
+                        "time": 1640383658.156291
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2080, 
+                        "raw": "Fri Dec 24 22:07:38 2021.156382 rastertopwg@7fbebcbe6567[2080] munmap(0x7fbebc000000, 2420736) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe6567", 
+                        "arguments": {
+                            "p0": "0x7fbebc000000", 
+                            "p1": "2420736"
+                        }, 
+                        "time": 1640383658.156382
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2080, 
+                        "raw": "Fri Dec 24 22:07:38 2021.156473 rastertopwg@7fbebcbe6597[2080] mprotect(0x7fbeb8000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcbe6597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fbeb8000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383658.156473
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "rastertopwg", 
+                        "pid": 2080, 
+                        "raw": "Fri Dec 24 22:07:38 2021.156942 rastertopwg@7fbebcccd440[2080] nanosleep([0.010000000], 0x7fbebca4ed80) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7fbebcccd440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7fbebca4ed80"
+                        }, 
+                        "time": 1640383658.156942
+                    }
+                ], 
+                "pid": 2080, 
+                "process_name": "rastertopwg", 
+                "command_line": "", 
+                "first_seen": 1640383658.155954, 
+                "ppid": 2078, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2078, 
+                "process_name": "rastertopwg", 
+                "command_line": "/tmp/rastertopwg", 
+                "first_seen": 1640383657.368821, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2080, 
+                        "process_name": "rastertopwg", 
+                        "command_line": "", 
+                        "first_seen": 1640383658.155954, 
+                        "ppid": 2078, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:07:30,003 [root] DEBUG: Starting analyzer from: /tmp/tmp7DxZ18\n", 
+            "2021-12-24 22:07:30,004 [root] DEBUG: Storing results at: /tmp/vWMdktOon\n", 
+            "2021-12-24 22:07:31,806 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:07:31,809 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:07:31,811 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:07:37,366 [lib.core.packages] INFO: Process startup took 5.55 seconds\n", 
+            "2021-12-24 22:07:37,367 [root] INFO: Added new process to list with pid: 2068\n", 
+            "2021-12-24 22:07:46,381 [root] INFO: Process with pid 2068 has terminated\n", 
+            "2021-12-24 22:07:46,382 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:49,387 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:49,389 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 12:45:48,441 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:46:18,463 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:46:48,506 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:47:18,533 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:47:48,551 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:48:18,597 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:48:48,644 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:49:18,682 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:49:48,727 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:50:18,772 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:50:48,809 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:51:18,850 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:51:48,951 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:52:19,007 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:52:49,048 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:53:19,092 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:53:49,137 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:54:19,185 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:54:49,231 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:55:19,383 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:55:49,425 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:56:19,463 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:56:49,509 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:57:19,551 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:57:49,602 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:58:19,643 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:58:49,668 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:59:19,691 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 12:59:49,737 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:00:19,780 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:00:49,821 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:01:19,865 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:01:49,895 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:02:19,941 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:02:49,984 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:03:20,033 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:03:50,082 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:04:20,128 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:04:50,173 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:05:20,216 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:05:50,259 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:06:20,299 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:06:50,343 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:07:20,393 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:07:50,438 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:08:20,486 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:08:50,528 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:09:20,573 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:09:50,616 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:10:20,661 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:10:50,704 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:11:20,746 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:11:50,789 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:12:20,832 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:12:50,873 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:13:20,918 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:13:50,963 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:14:21,004 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:14:51,054 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:15:21,100 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:15:51,143 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:16:21,188 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:16:51,230 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:17:21,283 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:17:51,324 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:18:21,375 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:18:51,418 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:19:21,461 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:19:51,506 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:20:21,548 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:20:51,592 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:21:21,632 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:21:51,678 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:22:21,721 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:22:51,770 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:23:21,819 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:23:51,870 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:24:21,914 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:24:51,962 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:25:22,005 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:25:52,046 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:26:22,147 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:26:52,190 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:27:22,220 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:27:52,264 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:28:22,398 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:28:52,458 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:29:22,520 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:29:52,587 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:30:22,654 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:30:52,689 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:31:22,740 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:31:52,785 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:32:22,861 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:32:52,932 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:33:23,019 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:33:53,093 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:34:23,168 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:34:53,220 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:35:23,304 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:35:53,365 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:36:23,414 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:36:53,488 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:37:23,562 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:37:53,637 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:38:23,748 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:38:53,812 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:39:23,863 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:39:53,922 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:40:23,994 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:40:54,043 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:41:24,104 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:41:54,159 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:42:24,224 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:42:54,268 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:43:24,319 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:43:54,372 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:44:24,415 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:44:54,465 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:45:24,504 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:45:54,545 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:46:24,608 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:46:54,735 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:47:24,791 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:47:54,841 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:48:24,888 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:48:54,905 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:49:24,950 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:49:54,988 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:50:25,034 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:50:55,078 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:51:25,122 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:51:55,174 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:52:25,229 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:52:55,280 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:53:25,298 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:53:55,336 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:54:25,381 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:54:55,429 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:55:25,483 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:55:55,504 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:56:25,519 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:56:55,546 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:57:25,589 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:57:55,620 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:58:25,666 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:58:55,711 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:59:25,756 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 13:59:55,804 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:00:25,845 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:00:55,897 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:01:25,940 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:01:55,983 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:02:26,000 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:02:56,043 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:03:26,087 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:03:56,127 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:04:26,225 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:04:56,268 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:05:26,327 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:05:56,373 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:06:26,427 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:06:56,486 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:07:26,528 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:07:56,576 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:08:26,641 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:08:56,691 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:09:26,768 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:09:56,842 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:10:26,918 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:10:56,978 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:11:27,031 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:11:57,077 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:12:27,116 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:12:57,165 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:13:27,212 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:13:57,227 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:14:27,249 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:14:57,291 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:15:27,319 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:15:57,362 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:16:27,403 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:16:57,455 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:17:27,499 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:17:57,554 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:18:27,605 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:18:57,651 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:19:27,704 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:19:57,743 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:20:27,784 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:20:57,824 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:21:27,885 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:21:57,950 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:22:28,007 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:22:58,076 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:23:28,133 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:23:58,181 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:24:28,248 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:24:58,309 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:25:28,365 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:25:58,448 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:26:28,489 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:26:58,533 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:27:28,579 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:27:58,641 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:28:28,684 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:28:58,721 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:29:28,768 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:29:58,812 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:30:28,856 [cuckoo.core.scheduler] DEBUG: Task #2549351: no machine available yet\n", 
+            "2021-12-25 14:30:58,908 [cuckoo.core.scheduler] INFO: Task #2549351: acquired machine Ubuntu1904x646 (label=Ubuntu1904x646)\n", 
+            "2021-12-25 14:30:58,909 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.106 for task #2549351\n", 
+            "2021-12-25 14:30:59,083 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3750269 (interface=vboxnet0, host=192.168.168.106)\n", 
+            "2021-12-25 14:30:59,261 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x646\n", 
+            "2021-12-25 14:30:59,648 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x646 to Snapshot\n", 
+            "2021-12-25 14:31:08,556 [cuckoo.core.guest] INFO: Starting analysis #2549351 on guest (id=Ubuntu1904x646, ip=192.168.168.106)\n", 
+            "2021-12-25 14:31:09,560 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: not ready yet\n", 
+            "2021-12-25 14:31:14,577 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x646, ip=192.168.168.106)\n", 
+            "2021-12-25 14:31:14,590 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x646, ip=192.168.168.106, monitor=latest, size=72028)\n", 
+            "2021-12-25 14:31:15,758 [cuckoo.core.resultserver] DEBUG: Task #2549351: live log analysis.log initialized.\n", 
+            "2021-12-25 14:31:20,547 [cuckoo.core.resultserver] DEBUG: Task #2549351: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 14:31:20,590 [cuckoo.core.resultserver] DEBUG: Task #2549351 uploaded file length: 171578\n", 
+            "2021-12-25 14:31:29,742 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549351 still processing\n", 
+            "2021-12-25 14:31:35,159 [cuckoo.core.resultserver] DEBUG: Task #2549351: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 14:31:35,164 [cuckoo.core.resultserver] DEBUG: Task #2549351 uploaded file length: 21174\n", 
+            "2021-12-25 14:31:44,821 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549351 still processing\n", 
+            "2021-12-25 14:31:59,881 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549351 still processing\n", 
+            "2021-12-25 14:32:14,945 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549351 still processing\n", 
+            "2021-12-25 14:32:30,007 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549351 still processing\n", 
+            "2021-12-25 14:32:45,075 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549351 still processing\n", 
+            "2021-12-25 14:33:00,154 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549351 still processing\n", 
+            "2021-12-25 14:33:15,225 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549351 still processing\n", 
+            "2021-12-25 14:33:30,284 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549351 still processing\n", 
+            "2021-12-25 14:33:45,358 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549351 still processing\n", 
+            "2021-12-25 14:34:00,433 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549351 still processing\n", 
+            "2021-12-25 14:34:15,507 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549351 still processing\n", 
+            "2021-12-25 14:34:30,603 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549351 still processing\n", 
+            "2021-12-25 14:34:45,678 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549351 still processing\n", 
+            "2021-12-25 14:35:00,759 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549351 still processing\n", 
+            "2021-12-25 14:35:15,832 [cuckoo.core.guest] INFO: Ubuntu1904x646: end of analysis reached!\n", 
+            "2021-12-25 14:35:15,844 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 14:35:15,905 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 14:35:28,010 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x646 to path /srv/cuckoo/cwd/storage/analyses/2549351/memory.dmp\n", 
+            "2021-12-25 14:35:28,011 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x646\n", 
+            "2021-12-25 14:35:31,968 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.106 for task #2549351\n", 
+            "2021-12-25 14:35:31,968 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2549351\n", 
+            "2021-12-25 14:35:32,078 [cuckoo.core.scheduler] DEBUG: Released database task #2549351\n", 
+            "2021-12-25 14:35:32,164 [cuckoo.core.scheduler] INFO: Task #2549351: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "__stack_chk_guard", 
+        "cupsRasterOpen", 
+        "getenv", 
+        "ppdOpenFile", 
+        "ppdFindAttr", 
+        "cupsParseOptions", 
+        "ppdMarkDefaults", 
+        "cupsMarkOptions", 
+        "cupsRasterReadHeader2", 
+        "stderr", 
+        "__fprintf_chk", 
+        "_cupsLangPrintFilter", 
+        "open64", 
+        "perror", 
+        "cupsGetOption", 
+        "strcmp", 
+        "_cups_strlcpy", 
+        "strtol", 
+        "_ppdCacheGetSize", 
+        "_cups_strcasecmp", 
+        "cupsRasterWriteHeader2", 
+        "malloc", 
+        "memset", 
+        "cupsRasterWritePixels", 
+        "pwgMediaForSize", 
+        "cupsRasterReadPixels", 
+        "fwrite", 
+        "cupsRasterClose", 
+        "__stack_chk_fail", 
+        "libcupsimage.so.2", 
+        "libcups.so.2", 
+        "libpthread.so.0", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "ld.so.1", 
+        "_ftext", 
+        "_fdata", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.2", 
+        "GLIBC_2.0", 
+        "GLIBC_2.4", 
+        "GLIBC_2.3.4", 
+        "!(F>1$Fk", 
+        "&F>\"\"FY", 
+        "Usage: rastertopwg job user title copies options [filename]", 
+        "ERROR: Unable to open print file", 
+        "cupsBackSide", 
+        "DEBUG: Duplex = %d", 
+        "DEBUG: HWResolution = [ %d %d ]", 
+        "DEBUG: ImagingBoundingBox = [ %d %d %d %d ]", 
+        "DEBUG: Margins = [ %d %d ]", 
+        "DEBUG: ManualFeed = %d", 
+        "DEBUG: MediaPosition = %d", 
+        "DEBUG: NumCopies = %d", 
+        "DEBUG: Orientation = %d", 
+        "DEBUG: PageSize = [ %d %d ]", 
+        "DEBUG: cupsWidth = %d", 
+        "DEBUG: cupsHeight = %d", 
+        "DEBUG: cupsMediaType = %d", 
+        "DEBUG: cupsBitsPerColor = %d", 
+        "DEBUG: cupsBitsPerPixel = %d", 
+        "DEBUG: cupsBytesPerLine = %d", 
+        "DEBUG: cupsColorOrder = %d", 
+        "DEBUG: cupsColorSpace = %d", 
+        "DEBUG: cupsCompression = %d", 
+        "PAGE: %d %d", 
+        "Unsupported raster data.", 
+        "DEBUG: Bad bottom/left/top margin on page %d.", 
+        "DEBUG: Unsupported cupsColorSpace %d on page %d.", 
+        "DEBUG: Unsupported cupsColorOrder %d on page %d.", 
+        "DEBUG: Unsupported cupsBitsPerColor %d on page %d.", 
+        "print-content-optimize", 
+        "automatic", 
+        "Automatic", 
+        "graphics", 
+        "Graphics", 
+        "text-and-graphics", 
+        "TextAndGraphics", 
+        "DEBUG: Unsupported print-content-optimize value.", 
+        "print-quality", 
+        "DEBUG: Unsupported print-quality %d.", 
+        "print-rendering-intent", 
+        "absolute", 
+        "Absolute", 
+        "perceptual", 
+        "Perceptual", 
+        "relative", 
+        "Relative", 
+        "relative-bpc", 
+        "RelativeBpc", 
+        "saturation", 
+        "Saturation", 
+        "DEBUG: Unsupported print-rendering-intent value.", 
+        "DEBUG: Unsupported PageSize %.2fx%.2f.", 
+        "Normal", 
+        "Flipped", 
+        "ManualTumble", 
+        "Rotated", 
+        "DEBUG: Unsupported cupsBackSide value.", 
+        "Error sending raster data.", 
+        "DEBUG: Unable to write header for page %d.", 
+        "DEBUG: Unable to write line %d for page %d.", 
+        "Error reading raster data.", 
+        "DEBUG: Unable to read line %d for page %d.", 
+        "0af8e6a46a12eab4b285e9094d59a47756d624.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
