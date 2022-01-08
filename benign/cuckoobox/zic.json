@@ -1,0 +1,3754 @@
+{
+    "info": {
+        "added": 1640383638.414198, 
+        "started": 1640432243.120686, 
+        "duration": 807, 
+        "ended": 1640433050.415388, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2549245, 
+        "category": "file", 
+        "git": {
+            "head": "", 
+            "fetch_head": ""
+        }, 
+        "monitor": null, 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x646", 
+            "label": "Ubuntu1904x646", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 11:46:04", 
+            "shutdown_on": "2021-12-25 11:50:50"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "01c11ed2fae672e5c1ec649eb0dfc8aeb4314b12", 
+            "name": "zic", 
+            "type": "ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=e38f8fdbb78222fe0a7ecfe6f6f9458513f5e3fd, stripped", 
+            "sha256": "12edff29180546a7d670e6778e7e4e652e555c77328b6b07e0c07d9b6bded879", 
+            "urls": [
+                "http://www.debian.org/Bugs/"
+            ], 
+            "crc32": "5182A747", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/12edff29180546a7d670e6778e7e4e652e555c77328b6b07e0c07d9b6bded879", 
+            "ssdeep": null, 
+            "size": 52472, 
+            "sha512": "9fd5427dd51482b519369dc3866eadf015249892dbfaf710f64db4d1ba9356c97ca329e5b5e33655c045e8bb39e5bffc4665383b97cc9f72f1be3e1055abc06a", 
+            "md5": "51a505a33bea199efd1a430f2abfd76f"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "f3753014-70c8-401a-9738-58711248be74", 
+        "parent_file_sha256": null, 
+        "name": "12edff29180546a7d670e6778e7e4e652e555c77328b6b07e0c07d9b6bded879", 
+        "probes_total": 16, 
+        "scan_date": 1640425851, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "01c11ed2fae672e5c1ec649eb0dfc8aeb4314b12", 
+            "tags": [], 
+            "timestamp_first_scan": 1640425850.89, 
+            "timestamp_last_scan": 1640425859.63, 
+            "sha256": "12edff29180546a7d670e6778e7e4e652e555c77328b6b07e0c07d9b6bded879", 
+            "md5": "51a505a33bea199efd1a430f2abfd76f", 
+            "size": 52472
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.05, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.63, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-15 12:09:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.27, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.17, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.04, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.64, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.77, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.52, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.29, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.11, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.98, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "fb4fdaea-6150-4277-9a77-461cc363b98b", 
+        "file_sha256": "12edff29180546a7d670e6778e7e4e652e555c77328b6b07e0c07d9b6bded879"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "scans": {
+            "Bkav": {
+                "detected": false, 
+                "version": "1.3.0.9899", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Lionic": {
+                "detected": false, 
+                "version": "4.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "DrWeb": {
+                "detected": false, 
+                "version": "7.0.44.12030", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "MicroWorld-eScan": {
+                "detected": false, 
+                "version": "14.0.409.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "FireEye": {
+                "detected": false, 
+                "version": "29.7.0.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200305"
+            }, 
+            "CAT-QuickHeal": {
+                "detected": false, 
+                "version": "14.00", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "McAfee": {
+                "detected": false, 
+                "version": "6.0.6.653", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200304"
+            }, 
+            "Malwarebytes": {
+                "detected": false, 
+                "version": "3.6.4.335", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Zillya": {
+                "detected": false, 
+                "version": "2.0.0.4044", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Sangfor": {
+                "detected": false, 
+                "version": "1.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200306"
+            }, 
+            "K7AntiVirus": {
+                "detected": false, 
+                "version": "11.96.33471", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "K7GW": {
+                "detected": false, 
+                "version": "11.97.33484", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "BitDefenderTheta": {
+                "detected": false, 
+                "version": "7.2.37796.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200305"
+            }, 
+            "F-Prot": {
+                "detected": false, 
+                "version": "4.7.1.166", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "ESET-NOD32": {
+                "detected": false, 
+                "version": "20969", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "TrendMicro-HouseCall": {
+                "detected": false, 
+                "version": "10.0.0.1040", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Avast": {
+                "detected": false, 
+                "version": "18.4.3895.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "ClamAV": {
+                "detected": false, 
+                "version": "0.102.2.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "GData": {
+                "detected": false, 
+                "version": "A:25.25107B:26.17954", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Kaspersky": {
+                "detected": false, 
+                "version": "15.0.1.13", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "BitDefender": {
+                "detected": false, 
+                "version": "7.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "NANO-Antivirus": {
+                "detected": false, 
+                "version": "1.0.134.25032", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "SUPERAntiSpyware": {
+                "detected": false, 
+                "version": "5.6.0.1032", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200306"
+            }, 
+            "Tencent": {
+                "detected": false, 
+                "version": "1.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Ad-Aware": {
+                "detected": false, 
+                "version": "3.0.5.370", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Sophos": {
+                "detected": false, 
+                "version": "4.98.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Comodo": {
+                "detected": false, 
+                "version": "32181", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "F-Secure": {
+                "detected": false, 
+                "version": "12.0.86.52", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Baidu": {
+                "detected": false, 
+                "version": "1.0.0.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20190318"
+            }, 
+            "VIPRE": {
+                "detected": false, 
+                "version": "82110", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "TrendMicro": {
+                "detected": false, 
+                "version": "11.0.0.1006", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "McAfee-GW-Edition": {
+                "detected": false, 
+                "version": "v2017.3010", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "CMC": {
+                "detected": false, 
+                "version": "1.1.0.977", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20190321"
+            }, 
+            "Emsisoft": {
+                "detected": false, 
+                "version": "2018.12.0.1641", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Cyren": {
+                "detected": false, 
+                "version": "6.2.2.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Jiangmin": {
+                "detected": false, 
+                "version": "16.0.100", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Avira": {
+                "detected": false, 
+                "version": "8.3.3.8", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "MAX": {
+                "detected": false, 
+                "version": "2019.9.16.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Antiy-AVL": {
+                "detected": false, 
+                "version": "3.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Kingsoft": {
+                "detected": false, 
+                "version": "2013.8.14.323", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Arcabit": {
+                "detected": false, 
+                "version": "1.0.0.870", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "ViRobot": {
+                "detected": false, 
+                "version": "2014.3.20.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "AhnLab-V3": {
+                "detected": false, 
+                "version": "3.17.3.26870", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "ZoneAlarm": {
+                "detected": false, 
+                "version": "1.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Avast-Mobile": {
+                "detected": false, 
+                "version": "200309-00", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Microsoft": {
+                "detected": false, 
+                "version": "1.1.16800.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "TotalDefense": {
+                "detected": false, 
+                "version": "37.1.62.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "VBA32": {
+                "detected": false, 
+                "version": "4.3.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "TACHYON": {
+                "detected": false, 
+                "version": "2020-03-09.02", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Zoner": {
+                "detected": false, 
+                "version": "1.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Rising": {
+                "detected": false, 
+                "version": "25.0.0.24", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Yandex": {
+                "detected": false, 
+                "version": "5.5.2.24", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200306"
+            }, 
+            "Ikarus": {
+                "detected": false, 
+                "version": "0.1.5.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "MaxSecure": {
+                "detected": false, 
+                "version": "1.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Fortinet": {
+                "detected": false, 
+                "version": "6.2.142.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "AVG": {
+                "detected": false, 
+                "version": "18.4.3895.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Panda": {
+                "detected": false, 
+                "version": "4.6.4.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Qihoo-360": {
+                "detected": false, 
+                "version": "1.0.0.1120", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }
+        }, 
+        "scan_id": "12edff29180546a7d670e6778e7e4e652e555c77328b6b07e0c07d9b6bded879-1583785385", 
+        "sha1": "01c11ed2fae672e5c1ec649eb0dfc8aeb4314b12", 
+        "resource": "51a505a33bea199efd1a430f2abfd76f", 
+        "response_code": 1, 
+        "scan_date": "2020-03-09 20:23:05", 
+        "permalink": "https://www.virustotal.com/gui/file/12edff29180546a7d670e6778e7e4e652e555c77328b6b07e0c07d9b6bded879/detection/f-12edff29180546a7d670e6778e7e4e652e555c77328b6b07e0c07d9b6bded879-1583785385", 
+        "summary": {
+            "positives": 0, 
+            "permalink": "https://www.virustotal.com/gui/file/12edff29180546a7d670e6778e7e4e652e555c77328b6b07e0c07d9b6bded879/detection/f-12edff29180546a7d670e6778e7e4e652e555c77328b6b07e0c07d9b6bded879-1583785385", 
+            "scan_date": "2020-03-09 20:23:05"
+        }, 
+        "sha256": "12edff29180546a7d670e6778e7e4e652e555c77328b6b07e0c07d9b6bded879", 
+        "normalized": [], 
+        "total": 58, 
+        "positives": 0, 
+        "verbose_msg": "Scan finished, information embedded", 
+        "md5": "51a505a33bea199efd1a430f2abfd76f"
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "zic", 
+                "pid": 2074, 
+                "summary": {}, 
+                "first_seen": 1640383645.344879, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "zic", 
+                "pid": 2076, 
+                "summary": {}, 
+                "first_seen": 1640383645.886462, 
+                "ppid": 2074
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.344879 zic@7f641f9b1c27[2074] execve(\"/tmp/zic\", [\"/tmp/zic\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/zic\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpVEQKhV\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b1c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/zic", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpVEQKhV"
+                            ], 
+                            "p0": "/tmp/zic", 
+                            "p1": [
+                                "/tmp/zic"
+                            ]
+                        }, 
+                        "time": 1640383645.344879
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.799001 zic@7f641f9b1c27[2074] brk(0x0) = 93925435531264\n", 
+                        "api": "brk", 
+                        "return_value": "93925435531264", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b1c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383645.799001
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.807371 zic@7f641f9b29d7[2074] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b29d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383645.807371
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.817389 zic@7f641f9b2b0d[2074] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383645.817389
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.817468 zic@7f641f9b2943[2074] fstat(4, 0x7fff5cf65dd0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65dd0"
+                        }, 
+                        "time": 1640383645.817468
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.817566 zic@7f641f9b2d03[2074] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f641f980000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f980000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.817566
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.817640 zic@7f641f9b29f7[2074] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.81764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.817725 zic@7f641f9b2b0d[2074] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383645.817725
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.817787 zic@7f641f9b2bd4[2074] read(4, 0x7fff5cf65f88, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65f88"
+                        }, 
+                        "time": 1640383645.817787
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.817867 zic@7f641f9b2943[2074] fstat(4, 0x7fff5cf65e20) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65e20"
+                        }, 
+                        "time": 1640383645.817867
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.817956 zic@7f641f9b2d03[2074] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f641f97e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f97e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.817956
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.818059 zic@7f641f9b2d03[2074] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f641f978000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f978000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.818059
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.818256 zic@7f641f9b2d03[2074] mmap2(0x7f641f979000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f641f979000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f979000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f979000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383645.818256
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.818345 zic@7f641f9b2d03[2074] mmap2(0x7f641f97b000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f641f97b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f97b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f97b000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383645.818345
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.818438 zic@7f641f9b2d03[2074] mmap2(0x7f641f97c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f641f97c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f97c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f97c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383645.818438
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.818547 zic@7f641f9b29f7[2074] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.818547
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.818657 zic@7f641f9b2b0d[2074] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383645.818657
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.818787 zic@7f641f9b2bd4[2074] read(4, 0x7fff5cf65f68, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65f68"
+                        }, 
+                        "time": 1640383645.818787
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.818865 zic@7f641f9b2943[2074] fstat(4, 0x7fff5cf65e00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65e00"
+                        }, 
+                        "time": 1640383645.818865
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.818941 zic@7f641f9b2d03[2074] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f641f857000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f857000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.818941
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.819040 zic@7f641f9b2db7[2074] mprotect(0x7f641f872000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f641f872000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383645.81904
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.819131 zic@7f641f9b2d03[2074] mmap2(0x7f641f872000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f641f872000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f872000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f872000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383645.819131
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.819231 zic@7f641f9b2d03[2074] mmap2(0x7f641f8f2000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f641f8f2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f8f2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f8f2000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383645.819231
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.819337 zic@7f641f9b2d03[2074] mmap2(0x7f641f975000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f641f975000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f975000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f975000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383645.819337
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.819416 zic@7f641f9b2d03[2074] mmap2(0x7f641f977000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f641f977000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f977000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f641f977000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.819416
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.819511 zic@7f641f9b29f7[2074] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.819511
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.819613 zic@7f641f9b2b0d[2074] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383645.819613
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.819718 zic@7f641f9b2bd4[2074] read(4, 0x7fff5cf65f48, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65f48"
+                        }, 
+                        "time": 1640383645.819718
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.819795 zic@7f641f9b2943[2074] fstat(4, 0x7fff5cf65de0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65de0"
+                        }, 
+                        "time": 1640383645.819795
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.819884 zic@7f641f9b2d03[2074] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f641f84c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f84c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.819884
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.819983 zic@7f641f9b2d03[2074] mmap2(0x7f641f84f000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f641f84f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f84f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f84f000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383645.819983
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.820058 zic@7f641f9b2d03[2074] mmap2(0x7f641f853000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f641f853000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f853000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f853000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383645.820058
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.820136 zic@7f641f9b2d03[2074] mmap2(0x7f641f855000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f641f855000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f855000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f855000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383645.820136
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.820265 zic@7f641f9b29f7[2074] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.820265
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.820359 zic@7f641f9b2b0d[2074] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383645.820359
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.820492 zic@7f641f9b2bd4[2074] read(4, 0x7fff5cf65f28, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65f28"
+                        }, 
+                        "time": 1640383645.820492
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.820583 zic@7f641f9b2943[2074] fstat(4, 0x7fff5cf65dc0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65dc0"
+                        }, 
+                        "time": 1640383645.820583
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.820664 zic@7f641f9b2d03[2074] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f641f66a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f66a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.820664
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.820747 zic@7f641f9b2db7[2074] mprotect(0x7f641f6ff000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f641f6ff000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383645.820747
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.820846 zic@7f641f9b2d03[2074] mmap2(0x7f641f6ff000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7f641f6ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f6ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f6ff000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383645.820846
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.820943 zic@7f641f9b2d03[2074] mmap2(0x7f641f7f1000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7f641f7f1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f7f1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f7f1000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383645.820943
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.821051 zic@7f641f9b2d03[2074] mmap2(0x7f641f83b000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7f641f83b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f83b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f83b000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383645.821051
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.821153 zic@7f641f9b2d03[2074] mmap2(0x7f641f849000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f641f849000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f849000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f641f849000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.821153
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.821263 zic@7f641f9b29f7[2074] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.821263
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.821368 zic@7f641f9b2b0d[2074] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383645.821368
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.821453 zic@7f641f9b2bd4[2074] read(4, 0x7fff5cf65f08, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65f08"
+                        }, 
+                        "time": 1640383645.821453
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.821545 zic@7f641f9b2943[2074] fstat(4, 0x7fff5cf65da0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65da0"
+                        }, 
+                        "time": 1640383645.821545
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.821623 zic@7f641f9b2d03[2074] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f641f51c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f51c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.821623
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.821724 zic@7f641f9b2d03[2074] mmap2(0x7f641f52b000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f641f52b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f52b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f52b000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383645.821724
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.821814 zic@7f641f9b2d03[2074] mmap2(0x7f641f5d1000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f641f5d1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f5d1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f5d1000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383645.821814
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.821943 zic@7f641f9b2d03[2074] mmap2(0x7f641f668000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f641f668000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f668000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f668000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383645.821943
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.822062 zic@7f641f9b29f7[2074] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.822062
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.822163 zic@7f641f9b2b0d[2074] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383645.822163
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.822331 zic@7f641f9b2bd4[2074] read(4, 0x7fff5cf65ee8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65ee8"
+                        }, 
+                        "time": 1640383645.822331
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.822424 zic@7f641f9b2943[2074] fstat(4, 0x7fff5cf65d80) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65d80"
+                        }, 
+                        "time": 1640383645.822424
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.822518 zic@7f641f9b2d03[2074] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f641f502000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f502000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.822518
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.822621 zic@7f641f9b2d03[2074] mmap2(0x7f641f505000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f641f505000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f505000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f505000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383645.822621
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.822712 zic@7f641f9b2d03[2074] mmap2(0x7f641f516000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f641f516000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f516000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f516000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383645.822712
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.822821 zic@7f641f9b2d03[2074] mmap2(0x7f641f51a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f641f51a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f51a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f51a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383645.822821
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.822927 zic@7f641f9b29f7[2074] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.822927
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.823046 zic@7f641f9b2b0d[2074] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383645.823046
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.823161 zic@7f641f9b2bd4[2074] read(4, 0x7fff5cf65ec8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65ec8"
+                        }, 
+                        "time": 1640383645.823161
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.823253 zic@7f641f9b2943[2074] fstat(4, 0x7fff5cf65d60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65d60"
+                        }, 
+                        "time": 1640383645.823253
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.823328 zic@7f641f9b2d03[2074] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f641f500000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f500000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.823328
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.823431 zic@7f641f9b2d03[2074] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f641f4df000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f4df000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.823431
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.823526 zic@7f641f9b2d03[2074] mmap2(0x7f641f4e6000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f641f4e6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f4e6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f4e6000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383645.823526
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.823632 zic@7f641f9b2d03[2074] mmap2(0x7f641f4f5000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f641f4f5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f4f5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f4f5000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383645.823632
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.823733 zic@7f641f9b2d03[2074] mmap2(0x7f641f4fa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f641f4fa000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f4fa000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f4fa000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383645.823733
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.823823 zic@7f641f9b2d03[2074] mmap2(0x7f641f4fc000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f641f4fc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f4fc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f641f4fc000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.823823
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.823918 zic@7f641f9b29f7[2074] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.823918
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.823998 zic@7f641f9b2b0d[2074] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383645.823998
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.824078 zic@7f641f9b2bd4[2074] read(4, 0x7fff5cf65ea8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65ea8"
+                        }, 
+                        "time": 1640383645.824078
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.824158 zic@7f641f9b2943[2074] fstat(4, 0x7fff5cf65d40) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65d40"
+                        }, 
+                        "time": 1640383645.824158
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.824250 zic@7f641f9b2d03[2074] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f641f2f4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f2f4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.82425
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.824379 zic@7f641f9b2d03[2074] mmap2(0x7f641f319000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f641f319000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f319000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f319000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383645.824379
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.824485 zic@7f641f9b2d03[2074] mmap2(0x7f641f48c000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f641f48c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f48c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f48c000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383645.824485
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.824583 zic@7f641f9b2d03[2074] mmap2(0x7f641f4d5000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f641f4d5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f4d5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f4d5000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383645.824583
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.824662 zic@7f641f9b2d03[2074] mmap2(0x7f641f4db000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f641f4db000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f4db000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f641f4db000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.824662
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.824760 zic@7f641f9b29f7[2074] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.82476
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.824882 zic@7f641f9b2b0d[2074] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383645.824882
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.824997 zic@7f641f9b2bd4[2074] read(4, 0x7fff5cf65e88, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65e88"
+                        }, 
+                        "time": 1640383645.824997
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.825085 zic@7f641f9b2943[2074] fstat(4, 0x7fff5cf65d20) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65d20"
+                        }, 
+                        "time": 1640383645.825085
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.825163 zic@7f641f9b2d03[2074] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f641f2ee000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f2ee000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.825163
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.825264 zic@7f641f9b2d03[2074] mmap2(0x7f641f2ef000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f641f2ef000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f2ef000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f2ef000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383645.825264
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.825463 zic@7f641f9b2d03[2074] mmap2(0x7f641f2f1000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f641f2f1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f2f1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f2f1000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383645.825463
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.825650 zic@7f641f9b2d03[2074] mmap2(0x7f641f2f2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f641f2f2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f2f2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f2f2000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383645.82565
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.825760 zic@7f641f9b29f7[2074] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.82576
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.825914 zic@7f641f9b2b0d[2074] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383645.825914
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.826004 zic@7f641f9b2bd4[2074] read(4, 0x7fff5cf65e68, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65e68"
+                        }, 
+                        "time": 1640383645.826004
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.826246 zic@7f641f9b2943[2074] fstat(4, 0x7fff5cf65d00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65d00"
+                        }, 
+                        "time": 1640383645.826246
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.826384 zic@7f641f9b2d03[2074] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f641f27a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f27a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.826384
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.826548 zic@7f641f9b2d03[2074] mmap2(0x7f641f27c000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f641f27c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f27c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f27c000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383645.826548
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.826710 zic@7f641f9b2d03[2074] mmap2(0x7f641f2ce000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f641f2ce000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f2ce000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f2ce000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383645.82671
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.826879 zic@7f641f9b2d03[2074] mmap2(0x7f641f2ec000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f641f2ec000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f2ec000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f641f2ec000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383645.826879
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.826971 zic@7f641f9b29f7[2074] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.826971
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.834686 zic@7f641f9b2d03[2074] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f641f278000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f278000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.834686
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.834769 zic@7f641f9b2d03[2074] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f641f275000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641f275000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.834769
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.834812 zic@7f641f997f30[2074] arch_prctl(ARCH_SET_FS, 140067996129216) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f997f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140067996129216"
+                        }, 
+                        "time": 1640383645.834812
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.836573 zic@7f641f9b2db7[2074] mprotect(0x7f641f4d5000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f641f4d5000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383645.836573
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.836698 zic@7f641f9b2db7[2074] mprotect(0x7f641f4fa000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f641f4fa000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383645.836698
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.836806 zic@7f641f9b2db7[2074] mprotect(0x7f641f2ec000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f641f2ec000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383645.836806
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.836881 zic@7f641f9b2db7[2074] mprotect(0x7f641f2f2000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f641f2f2000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383645.836881
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.836968 zic@7f641f9b2db7[2074] mprotect(0x7f641f51a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f641f51a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383645.836968
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.837102 zic@7f641f9b2db7[2074] mprotect(0x7f641f668000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f641f668000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383645.837102
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.838526 zic@7f641f9b2db7[2074] mprotect(0x7f641f83b000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f641f83b000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383645.838526
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.838659 zic@7f641f9b2db7[2074] mprotect(0x7f641f855000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f641f855000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383645.838659
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.838952 zic@7f641f9b2db7[2074] mprotect(0x7f641f975000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f641f975000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383645.838952
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.839044 zic@7f641f9b2db7[2074] mprotect(0x7f641f97c000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f641f97c000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383645.839044
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.871560 zic@7f641f9b2db7[2074] mprotect(0x556cb5a0f000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x556cb5a0f000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383645.87156
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.871675 zic@7f641f9b2db7[2074] mprotect(0x7f641f9c0000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f641f9c0000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383645.871675
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.871792 zic@7f641f9b2d97[2074] munmap(0x7f641f980000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f9b2d97", 
+                        "arguments": {
+                            "p0": "0x7f641f980000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383645.871792
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.871915 zic@7f641f4e68df[2074] set_tid_address(0x7f641f275a90) = 2074\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2074", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f4e68df", 
+                        "arguments": {
+                            "p0": "0x7f641f275a90"
+                        }, 
+                        "time": 1640383645.871915
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.871994 zic@7f641f4e694a[2074] set_robust_list(0x7f641f275aa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f4e694a", 
+                        "arguments": {
+                            "p0": "0x7f641f275aa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383645.871994
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.872077 zic@7f641f4f3010[2074] rt_sigaction(0x20, {0x7f641f4e66c0, SA_SIGINFO|SA_RESTORER, 0x7f641f4f2f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f4f3010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f641f4e66c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f641f4f2f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383645.872077
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.872148 zic@7f641f4f3010[2074] rt_sigaction(0x21, {0x7f641f4e6760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f641f4f2f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f4f3010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f641f4e6760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f641f4f2f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383645.872148
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.872215 zic@7f641f4e6a19[2074] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f4e6a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383645.872215
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.872297 zic@7f641f406df0[2074] prlimit64(0, RLIMIT_STACK, NULL, 0x7fff5cf66b60) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f406df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7fff5cf66b60", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383645.872297
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.872610 zic@7f641f4072f7[2074] brk(0x0) = 93925435531264\n", 
+                        "api": "brk", 
+                        "return_value": "93925435531264", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f4072f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383645.87261
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.872675 zic@7f641f4072f7[2074] brk(0x556cb83a7000) = 93925435666432\n", 
+                        "api": "brk", 
+                        "return_value": "93925435666432", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f4072f7", 
+                        "arguments": {
+                            "p0": "0x556cb83a7000"
+                        }, 
+                        "time": 1640383645.872675
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.883794 zic@7f641f4efb86[2074] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7fff5cf66ab0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f4efb86", 
+                        "arguments": {
+                            "p2": "0x7fff5cf66ab0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383645.883794
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.885762 zic@7f641f40b4c3[2074] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f641ea74000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641ea74000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f40b4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.885762
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.885843 zic@7f641f40b597[2074] mprotect(0x7f641ea75000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f40b597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f641ea75000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383645.885843
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.885941 zic@7f641f411b11[2074] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f641f273f30, 0x7f641f2749d0, 0x7f641f2749d0) = 2076\n", 
+                        "api": "clone", 
+                        "return_value": "2076", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f411b11", 
+                        "arguments": {
+                            "p2": "0x7f641f2749d0", 
+                            "p3": "0x7f641f2749d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f641f273f30"
+                        }, 
+                        "time": 1640383645.885941
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.886165 zic@7f641f4efb86[2074] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f4efb86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383645.886165
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.922879 zic@7f641f406df0[2074] prlimit64(0, RLIMIT_STACK, NULL, 0x7fff5cf66610) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f406df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7fff5cf66610", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383645.922879
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.923016 zic@7f641f4065c1[2074] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f4065c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383645.923016
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.933073 zic@7f641f3d5247[2074] uname(0x7fff5cf66280) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f3d5247", 
+                        "arguments": {
+                            "p0": "0x7fff5cf66280"
+                        }, 
+                        "time": 1640383645.933073
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.933152 zic@7f641f4f2337[2074] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f4f2337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383645.933152
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.933219 zic@7f641f4f1d94[2074] read(3, 0x7fff5cf66570, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f4f1d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7fff5cf66570"
+                        }, 
+                        "time": 1640383645.933219
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.933286 zic@7f641f4f2337[2074] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f4f2337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383645.933286
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.937999 zic@7f641f4072f7[2074] brk(0x556cb83c8000) = 93925435801600\n", 
+                        "api": "brk", 
+                        "return_value": "93925435801600", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f4072f7", 
+                        "arguments": {
+                            "p0": "0x556cb83c8000"
+                        }, 
+                        "time": 1640383645.937999
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.938399 zic@7f641f40b4c3[2074] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f641e9f3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f641e9f3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f40b4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.938399
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.938942 zic@7f641f40b597[2074] mprotect(0x556cb5a92000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f40b597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x556cb5a92000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383645.938942
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.939006 zic@7f641f40b667[2074] madvise(0x556cb5a92000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f40b667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x556cb5a92000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383645.939006
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.944120 zic@7f641f40b4c3[2074] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f6398000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6398000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f40b4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.94412
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.944184 zic@7f641f400d59[2074] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f400d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383645.944184
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.944254 zic@7f641f400613[2074] fstat(4, 0x7fff5cf65c80) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f400613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff5cf65c80"
+                        }, 
+                        "time": 1640383645.944254
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.944298 zic@7f641f400fb4[2074] read(4, 0x556cb83a5460, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f400fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x556cb83a5460"
+                        }, 
+                        "time": 1640383645.944298
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.944353 zic@7f641f4063f7[2074] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f4063f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.944353
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.944417 zic@7f641f40b2e9[2074] gettid() = 2074\n", 
+                        "api": "gettid", 
+                        "return_value": "2074", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f40b2e9", 
+                        "arguments": {}, 
+                        "time": 1640383645.944417
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.944458 zic@7f641f400613[2074] fstat(3, 0x7fff5cf664f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f400613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7fff5cf664f0"
+                        }, 
+                        "time": 1640383645.944458
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.944499 zic@7f641f3d6717[2074] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f3d6717", 
+                        "arguments": {}, 
+                        "time": 1640383645.944499
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.944537 zic@7f641f3d6737[2074] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f3d6737", 
+                        "arguments": {}, 
+                        "time": 1640383645.944537
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.944575 zic@7f641f4f1d94[2074] read(3, 0x7fff5cf66750, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f4f1d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7fff5cf66750"
+                        }, 
+                        "time": 1640383645.944575
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.944638 zic@7f641f40b4c3[2074] mmap2(0x7f6398400000, 49152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f6398400000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6398400000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f40b4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f6398400000", 
+                            "p1": "49152", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.944638
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.944722 zic@7f641f40b4c3[2074] mmap2(0x7f639841b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 45056) = 0x7f639841b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f639841b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f40b4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f639841b000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "45056"
+                        }, 
+                        "time": 1640383645.944722
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.944771 zic@7f641f40b4c3[2074] mmap2(0x7f639841d000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f639841d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f639841d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f40b4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f639841d000", 
+                            "p1": "4096", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.944771
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.944825 zic@7f641f4f1e27[2074] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f4f1e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383645.944825
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.944885 zic@7f641f40b4c3[2074] mmap2(0x7f64177ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f64177ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f64177ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f40b4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f64177ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.944885
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.944949 zic@7f641f4072f7[2074] brk(0x556cb83e9000) = 93925435936768\n", 
+                        "api": "brk", 
+                        "return_value": "93925435936768", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f4072f7", 
+                        "arguments": {
+                            "p0": "0x556cb83e9000"
+                        }, 
+                        "time": 1640383645.944949
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.945054 zic@7f641f40b597[2074] mprotect(0x7f64177ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f40b597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f64177ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383645.945054
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.945114 zic@7f641f4f255e[2074] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f4f255e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383645.945114
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.945200 zic@7f641f401057[2074] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f401057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383645.9452
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.945307 zic@7f641f3d5926[2074] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f3d5926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383645.945307
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:25 2021.945355 zic@7f641f3d5926[2074] futex(0x7f641f275a90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f3d5926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f641f275a90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383645.945355
+                    }
+                ], 
+                "pid": 2074, 
+                "process_name": "zic", 
+                "command_line": "/tmp/zic", 
+                "first_seen": 1640383645.344879, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:25 2021.886462 zic@7f641f4e8117[2076] set_robust_list(0x7f641f2749e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f4e8117", 
+                        "arguments": {
+                            "p0": "0x7f641f2749e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383645.886462
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:25 2021.886539 zic@7f641f40b4c3[2076] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f6416a74000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6416a74000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f40b4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.886539
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:25 2021.886613 zic@7f641f40b567[2076] munmap(0x7f6416a74000, 22593536) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f40b567", 
+                        "arguments": {
+                            "p0": "0x7f6416a74000", 
+                            "p1": "22593536"
+                        }, 
+                        "time": 1640383645.886613
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:25 2021.886682 zic@7f641f40b567[2076] munmap(0x7f641c000000, 44515328) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f40b567", 
+                        "arguments": {
+                            "p0": "0x7f641c000000", 
+                            "p1": "44515328"
+                        }, 
+                        "time": 1640383645.886682
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:25 2021.886743 zic@7f641f40b597[2076] mprotect(0x7f6418000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f40b597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f6418000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383645.886743
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:25 2021.886834 zic@7f641f4f2440[2076] nanosleep([0.010000000], 0x7f641f273d80) = 0\n", 
+                        "api": "nanosleep", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f4f2440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f641f273d80"
+                        }, 
+                        "time": 1640383645.886834
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zic", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:07:25 2021.897057 zic@7f641f40b2e9[2076] futex(0x556cb7aa5a48, FUTEX_WAIT, -1, NULL) = -512\n", 
+                        "api": "futex", 
+                        "return_value": "-512", 
+                        "category": "process", 
+                        "instruction_pointer": "7f641f40b2e9", 
+                        "arguments": {
+                            "p2": "-1", 
+                            "p3": "NULL", 
+                            "p0": "0x556cb7aa5a48", 
+                            "p1": "FUTEX_WAIT"
+                        }, 
+                        "time": 1640383645.897057
+                    }
+                ], 
+                "pid": 2076, 
+                "process_name": "zic", 
+                "command_line": "", 
+                "first_seen": 1640383645.886462, 
+                "ppid": 2074, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2074, 
+                "process_name": "zic", 
+                "command_line": "/tmp/zic", 
+                "first_seen": 1640383645.344879, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2076, 
+                        "process_name": "zic", 
+                        "command_line": "", 
+                        "first_seen": 1640383645.886462, 
+                        "ppid": 2074, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:07:18,002 [root] DEBUG: Starting analyzer from: /tmp/tmpVEQKhV\n", 
+            "2021-12-24 22:07:18,002 [root] DEBUG: Storing results at: /tmp/WXcMkITrQ\n", 
+            "2021-12-24 22:07:19,767 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:07:20,272 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:07:20,273 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:07:25,337 [lib.core.packages] INFO: Process startup took 5.06 seconds\n", 
+            "2021-12-24 22:07:25,338 [root] INFO: Added new process to list with pid: 2065\n", 
+            "2021-12-24 22:07:34,355 [root] INFO: Process with pid 2065 has terminated\n", 
+            "2021-12-24 22:07:34,355 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:37,359 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:37,362 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 11:37:33,447 [cuckoo.core.scheduler] DEBUG: Task #2549245: no machine available yet\n", 
+            "2021-12-25 11:38:03,493 [cuckoo.core.scheduler] DEBUG: Task #2549245: no machine available yet\n", 
+            "2021-12-25 11:38:33,547 [cuckoo.core.scheduler] DEBUG: Task #2549245: no machine available yet\n", 
+            "2021-12-25 11:39:03,593 [cuckoo.core.scheduler] DEBUG: Task #2549245: no machine available yet\n", 
+            "2021-12-25 11:39:33,610 [cuckoo.core.scheduler] DEBUG: Task #2549245: no machine available yet\n", 
+            "2021-12-25 11:40:03,656 [cuckoo.core.scheduler] DEBUG: Task #2549245: no machine available yet\n", 
+            "2021-12-25 11:40:33,696 [cuckoo.core.scheduler] DEBUG: Task #2549245: no machine available yet\n", 
+            "2021-12-25 11:41:03,737 [cuckoo.core.scheduler] DEBUG: Task #2549245: no machine available yet\n", 
+            "2021-12-25 11:41:33,784 [cuckoo.core.scheduler] DEBUG: Task #2549245: no machine available yet\n", 
+            "2021-12-25 11:42:03,825 [cuckoo.core.scheduler] DEBUG: Task #2549245: no machine available yet\n", 
+            "2021-12-25 11:42:33,855 [cuckoo.core.scheduler] DEBUG: Task #2549245: no machine available yet\n", 
+            "2021-12-25 11:43:03,886 [cuckoo.core.scheduler] DEBUG: Task #2549245: no machine available yet\n", 
+            "2021-12-25 11:43:33,930 [cuckoo.core.scheduler] DEBUG: Task #2549245: no machine available yet\n", 
+            "2021-12-25 11:44:03,979 [cuckoo.core.scheduler] DEBUG: Task #2549245: no machine available yet\n", 
+            "2021-12-25 11:44:34,025 [cuckoo.core.scheduler] DEBUG: Task #2549245: no machine available yet\n", 
+            "2021-12-25 11:45:04,071 [cuckoo.core.scheduler] DEBUG: Task #2549245: no machine available yet\n", 
+            "2021-12-25 11:45:34,114 [cuckoo.core.scheduler] DEBUG: Task #2549245: no machine available yet\n", 
+            "2021-12-25 11:46:04,163 [cuckoo.core.scheduler] INFO: Task #2549245: acquired machine Ubuntu1904x646 (label=Ubuntu1904x646)\n", 
+            "2021-12-25 11:46:04,163 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.106 for task #2549245\n", 
+            "2021-12-25 11:46:04,303 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3617450 (interface=vboxnet0, host=192.168.168.106)\n", 
+            "2021-12-25 11:46:04,428 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x646\n", 
+            "2021-12-25 11:46:04,955 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x646 to Snapshot\n", 
+            "2021-12-25 11:46:18,872 [cuckoo.core.guest] INFO: Starting analysis #2549245 on guest (id=Ubuntu1904x646, ip=192.168.168.106)\n", 
+            "2021-12-25 11:46:19,876 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: not ready yet\n", 
+            "2021-12-25 11:46:24,895 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x646, ip=192.168.168.106)\n", 
+            "2021-12-25 11:46:24,910 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x646, ip=192.168.168.106, monitor=latest, size=72028)\n", 
+            "2021-12-25 11:46:26,066 [cuckoo.core.resultserver] DEBUG: Task #2549245: live log analysis.log initialized.\n", 
+            "2021-12-25 11:46:32,427 [cuckoo.core.resultserver] DEBUG: Task #2549245: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 11:46:32,460 [cuckoo.core.resultserver] DEBUG: Task #2549245 uploaded file length: 171578\n", 
+            "2021-12-25 11:46:40,029 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549245 still processing\n", 
+            "2021-12-25 11:46:45,443 [cuckoo.core.resultserver] DEBUG: Task #2549245: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 11:46:45,449 [cuckoo.core.resultserver] DEBUG: Task #2549245 uploaded file length: 19963\n", 
+            "2021-12-25 11:46:55,088 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549245 still processing\n", 
+            "2021-12-25 11:47:10,149 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549245 still processing\n", 
+            "2021-12-25 11:47:25,213 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549245 still processing\n", 
+            "2021-12-25 11:47:40,282 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549245 still processing\n", 
+            "2021-12-25 11:47:55,342 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549245 still processing\n", 
+            "2021-12-25 11:48:10,400 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549245 still processing\n", 
+            "2021-12-25 11:48:25,463 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549245 still processing\n", 
+            "2021-12-25 11:48:40,627 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549245 still processing\n", 
+            "2021-12-25 11:48:55,689 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549245 still processing\n", 
+            "2021-12-25 11:49:10,750 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549245 still processing\n", 
+            "2021-12-25 11:49:25,841 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549245 still processing\n", 
+            "2021-12-25 11:49:40,903 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549245 still processing\n", 
+            "2021-12-25 11:49:55,968 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549245 still processing\n", 
+            "2021-12-25 11:50:11,040 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2549245 still processing\n", 
+            "2021-12-25 11:50:26,093 [cuckoo.core.guest] INFO: Ubuntu1904x646: end of analysis reached!\n", 
+            "2021-12-25 11:50:26,108 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 11:50:26,177 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 11:50:39,262 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x646 to path /srv/cuckoo/cwd/storage/analyses/2549245/memory.dmp\n", 
+            "2021-12-25 11:50:39,264 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x646\n", 
+            "2021-12-25 11:50:50,047 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.106 for task #2549245\n", 
+            "2021-12-25 11:50:50,048 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2549245\n", 
+            "2021-12-25 11:50:50,160 [cuckoo.core.scheduler] DEBUG: Released database task #2549245\n", 
+            "2021-12-25 11:50:50,272 [cuckoo.core.scheduler] INFO: Task #2549245: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "_Jv_RegisterClasses", 
+        "strcmp", 
+        "ferror", 
+        "__dcgettext", 
+        "_libc_intl_domainname", 
+        "stderr", 
+        "fclose", 
+        "__errno_location", 
+        "strerror", 
+        "vfprintf", 
+        "strchr", 
+        "sscanf", 
+        "strlen", 
+        "memcpy", 
+        "sprintf", 
+        "strcpy", 
+        "memmove", 
+        "__strdup", 
+        "malloc", 
+        "realloc", 
+        "__xstat", 
+        "system", 
+        "remove", 
+        "strncmp", 
+        "symlink", 
+        "_IO_putc", 
+        "_IO_getc", 
+        "fwrite", 
+        "setlocale", 
+        "textdomain", 
+        "stdout", 
+        "getopt", 
+        "optarg", 
+        "optind", 
+        "libc.so.6", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "_IO_stdin_used", 
+        "GLIBC_2.2", 
+        "GLIBC_2.0", 
+        "<E9B$+", 
+        "'UUB$ @", 
+        "<E9c$+", 
+        "I/O error", 
+        "%s: usage is %s [ --version ] [ --help ] [ -v ] \\", 
+        "[ -l localtime ] [ -p posixrules ] [ -d directory ] \\", 
+        "[ -L leapseconds ] [ filename ... ]", 
+        "Report bugs to %s.", 
+        "<http://www.debian.org/Bugs/>", 
+        "%s: Memory exhausted: %s", 
+        "\"%s\", line %d: ", 
+        " (rule from \"%s\", line %d)", 
+        "time overflow", 
+        "warning: ", 
+        "file name '%s' ends with '/'", 
+        "file name '%s' begins with '/'", 
+        "file name '%s' contains '//'", 
+        "empty file name", 
+        "file name '%s' contains '%.*s' component", 
+        "file name '%s' component contains leading '-'", 
+        "file name '%s' contains overlength component '%.*s...'", 
+        "file name '%s' contains byte '%c'", 
+        "file name '%s' contains byte '\\%o'", 
+        "%lld%c", 
+        "%lld:%d%c", 
+        "%lld:%d:%d%c", 
+        "values over 24 hours not handled by pre-2007 versions of zic", 
+        "too many local time types", 
+        "UT offset out of range", 
+        "Local time zone must be set--see zic manual page", 
+        "time zone abbreviation has fewer than 3 characters", 
+        "time zone abbreviation has too many characters", 
+        "time zone abbreviation differs from POSIX standard", 
+        "%s (%s)", 
+        "too many, or too long, time zone abbreviations", 
+        "M%d.%d.%d", 
+        "%%z UTC offset magnitude exceeds 99:59:59", 
+        "size overflow", 
+        "invalid month name", 
+        "invalid time of day", 
+        "%s: panic: Invalid l_value %d", 
+        "invalid starting year", 
+        "invalid ending year", 
+        "starting year greater than ending year", 
+        "typed single year", 
+        "invalid day of month", 
+        "invalid weekday name", 
+        "use of 2/29 in non leap-year", 
+        "rule goes past start/end of month; will not work with pre-2004 versions of zic", 
+        "int overflow", 
+        "invalid UT offset", 
+        "invalid abbreviation format", 
+        "format '%s' not handled by pre-2015 versions of zic", 
+        "Zone continuation line end time is not after end time of previous line", 
+        "standard input", 
+        "%s: Can't open %s: %s", 
+        "line too long", 
+        "Odd number of quotation marks", 
+        "wrong number of fields on Zone continuation line", 
+        "input line of unknown type", 
+        "wrong number of fields on Rule line", 
+        "nameless rule", 
+        "invalid saved time", 
+        "wrong number of fields on Zone line", 
+        "/etc/localtime", 
+        "\"Zone %s\" line and -l option are mutually exclusive", 
+        "posixrules", 
+        "\"Zone %s\" line and -p option are mutually exclusive", 
+        "duplicate zone name %s (file \"%s\", line %d)", 
+        "wrong number of fields on Link line", 
+        "blank FROM field on Link line", 
+        "%s: Leap line in non leap seconds file %s", 
+        "wrong number of fields on Leap line", 
+        "invalid leaping year", 
+        "time too small", 
+        "time too large", 
+        "illegal CORRECTION field on Leap line", 
+        "illegal Rolling/Stationary field on Leap line", 
+        "leap second precedes Big Bang", 
+        "too many leap seconds", 
+        "repeated leap second moment", 
+        "expected continuation line not found", 
+        "%s: Can't create directory %s: %s", 
+        "pre-2014 clients may mishandle more than 1200 transition times", 
+        "%s: Can't remove %s: %s", 
+        "%s: Can't create %s: %s", 
+        "no POSIX environment variable for zone", 
+        "%s: pre-%d clients may mishandle distant timestamps", 
+        "%s %d %s", 
+        "Wild result from command execution", 
+        "%s: command was '%s', result was %d", 
+        "two rules for same instant", 
+        "can't determine time zone abbreviation to use just after until time", 
+        "%s: link from %s failed: %s", 
+        "hard link failed, symbolic link used", 
+        "%s: Can't read %s: %s", 
+        "link failed, copy used", 
+        "--version", 
+        "(Debian GLIBC 2.24-11+deb9u4) ", 
+        "zic %s%s", 
+        "--help", 
+        "%s: More than one -d option specified", 
+        "%s: More than one -l option specified", 
+        "%s: More than one -p option specified", 
+        "%s: More than one -y option specified", 
+        "%s: More than one -L option specified", 
+        "-s ignored", 
+        "d:l:p:L:vsy:", 
+        "/usr/share/zoneinfo", 
+        "yearistype", 
+        "same rule name in multiple files", 
+        "unruly zone", 
+        "%s in ruleless zone", 
+        "link to link", 
+        "command line", 
+        " !\"#$%&'()*+,.0123456789:;<=>?@[\\]^`{|}~", 
+        "-/_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", 
+        "Rolling", 
+        "Stationary", 
+        "minimum", 
+        "maximum", 
+        "last-Sunday", 
+        "last-Monday", 
+        "last-Tuesday", 
+        "last-Wednesday", 
+        "last-Thursday", 
+        "last-Friday", 
+        "last-Saturday", 
+        "Sunday", 
+        "Monday", 
+        "Tuesday", 
+        "Wednesday", 
+        "Thursday", 
+        "Friday", 
+        "Saturday", 
+        "January", 
+        "February", 
+        "August", 
+        "September", 
+        "October", 
+        "November", 
+        "December", 
+        "8f8fdbb78222fe0a7ecfe6f6f9458513f5e3fd.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame_hdr", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".data.rel.ro", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
