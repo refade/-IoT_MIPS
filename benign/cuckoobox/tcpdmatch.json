@@ -1,0 +1,3270 @@
+{
+    "info": {
+        "added": 1640383635.183855, 
+        "started": 1640424404.742597, 
+        "duration": 585, 
+        "ended": 1640424990.511355, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2549049, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x641", 
+            "label": "Ubuntu1904x641", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 09:31:45", 
+            "shutdown_on": "2021-12-25 09:36:30"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "cd009ddb7b45255e666b129edec3ed75f64f2b22", 
+            "name": "tcpdmatch", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=42876d38bafb04b24f2602405986f5f2dd72d51a, stripped", 
+            "sha256": "9e93b2acafc64e4e3d524a528ae7fd094a82c31b4a1a9512c22ab5eb22616f32", 
+            "urls": [], 
+            "crc32": "DA8B9ABE", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/9e93b2acafc64e4e3d524a528ae7fd094a82c31b4a1a9512c22ab5eb22616f32", 
+            "ssdeep": "384:kFmOJiaMH7T1r0alpw6nfLmiC+C1ko340tT0N0hxoZKxqJbi4x3mWmyOI7XnyQ4d:CmWiaMHvh0alpw6nfLmiC+C1ko340tT/", 
+            "size": 19060, 
+            "sha512": "dd871f13c195f19ab3a1693e3ffd11f4642def4c2505994caa13c92b23681fd01d7fc7b15eea5f4fd94864202238e9d117b8647051b23c98b23ec08ac9dd779c", 
+            "md5": "c1a6d9709faa2541f819ea6885f1fce6"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "b77d86ed-f480-47b4-9702-0f894d52f28b", 
+        "parent_file_sha256": null, 
+        "name": "9e93b2acafc64e4e3d524a528ae7fd094a82c31b4a1a9512c22ab5eb22616f32", 
+        "probes_total": 16, 
+        "scan_date": 1640417791, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "cd009ddb7b45255e666b129edec3ed75f64f2b22", 
+            "tags": [], 
+            "timestamp_first_scan": 1640417791.2, 
+            "timestamp_last_scan": 1640417806.89, 
+            "sha256": "9e93b2acafc64e4e3d524a528ae7fd094a82c31b4a1a9512c22ab5eb22616f32", 
+            "md5": "c1a6d9709faa2541f819ea6885f1fce6", 
+            "size": 19060
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.06, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 3.88, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-16 07:23:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.27, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.97, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 13.76, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.7, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.51, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.11, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.14, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.23, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "dcb85dc4-ee8a-45f3-b01d-99409107ef30", 
+        "file_sha256": "9e93b2acafc64e4e3d524a528ae7fd094a82c31b4a1a9512c22ab5eb22616f32"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.101", 
+                "version": "TLS 1.2", 
+                "src_port": 37750, 
+                "dst_port": 443, 
+                "timestamp": "2021-12-25T09:32:18.454520+0200", 
+                "dst_ip": "91.189.92.19", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "5032e06ee039f097febc9c4d8894f4b9b6fa637be23806d8565f1cff6f2c2126", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "f7547906cc55c0dc3123c1c48a23e9826ce2edb6a75c773d4f39f834e1e1e31e", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "tcpdmatch", 
+                "pid": 2073, 
+                "summary": {}, 
+                "first_seen": 1640383642.924076, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "tcpdmatch", 
+                "pid": 2074, 
+                "summary": {}, 
+                "first_seen": 1640383642.946255, 
+                "ppid": 2073
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.924076 tcpdmatch@7f707756ac27[2073] execve(\"/tmp/tcpdmatch\", [\"/tmp/tcpdmatch\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/tcpdmatch\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpJ828b7\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756ac27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/tcpdmatch", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpJ828b7"
+                            ], 
+                            "p0": "/tmp/tcpdmatch", 
+                            "p1": [
+                                "/tmp/tcpdmatch"
+                            ]
+                        }, 
+                        "time": 1640383642.924076
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.926986 tcpdmatch@7f707756ac27[2073] brk(0x0) = 94102860996608\n", 
+                        "api": "brk", 
+                        "return_value": "94102860996608", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756ac27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383642.926986
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.928245 tcpdmatch@7f707756b9d7[2073] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383642.928245
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.929346 tcpdmatch@7f707756bb0d[2073] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383642.929346
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.929420 tcpdmatch@7f707756b943[2073] fstat(4, 0x7ffe8ca1bed0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1bed0"
+                        }, 
+                        "time": 1640383642.92942
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.929479 tcpdmatch@7f707756bd03[2073] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f7077539000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7077539000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.929479
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.929542 tcpdmatch@7f707756b9f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383642.929542
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.929623 tcpdmatch@7f707756bb0d[2073] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383642.929623
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.929690 tcpdmatch@7f707756bbd4[2073] read(4, 0x7ffe8ca1c088, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1c088"
+                        }, 
+                        "time": 1640383642.92969
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.929735 tcpdmatch@7f707756b943[2073] fstat(4, 0x7ffe8ca1bf20) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1bf20"
+                        }, 
+                        "time": 1640383642.929735
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.929777 tcpdmatch@7f707756bd03[2073] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7077537000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7077537000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.929777
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.929830 tcpdmatch@7f707756bd03[2073] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f7077531000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7077531000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.92983
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.929880 tcpdmatch@7f707756bd03[2073] mmap2(0x7f7077532000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f7077532000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7077532000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7077532000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383642.92988
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.929937 tcpdmatch@7f707756bd03[2073] mmap2(0x7f7077534000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f7077534000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7077534000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7077534000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383642.929937
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.929987 tcpdmatch@7f707756bd03[2073] mmap2(0x7f7077535000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f7077535000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7077535000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7077535000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383642.929987
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.930063 tcpdmatch@7f707756b9f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383642.930063
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.930131 tcpdmatch@7f707756bb0d[2073] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383642.930131
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.930181 tcpdmatch@7f707756bbd4[2073] read(4, 0x7ffe8ca1c068, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1c068"
+                        }, 
+                        "time": 1640383642.930181
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.930224 tcpdmatch@7f707756b943[2073] fstat(4, 0x7ffe8ca1bf00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1bf00"
+                        }, 
+                        "time": 1640383642.930224
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.930268 tcpdmatch@7f707756bd03[2073] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f7077410000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7077410000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.930268
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.930319 tcpdmatch@7f707756bdb7[2073] mprotect(0x7f707742b000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f707742b000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383642.930319
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.930374 tcpdmatch@7f707756bd03[2073] mmap2(0x7f707742b000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f707742b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f707742b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f707742b000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383642.930374
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.930424 tcpdmatch@7f707756bd03[2073] mmap2(0x7f70774ab000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f70774ab000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70774ab000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70774ab000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383642.930424
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.930472 tcpdmatch@7f707756bd03[2073] mmap2(0x7f707752e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f707752e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f707752e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f707752e000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383642.930472
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.930528 tcpdmatch@7f707756bd03[2073] mmap2(0x7f7077530000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7077530000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7077530000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f7077530000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.930528
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.930580 tcpdmatch@7f707756b9f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383642.93058
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.930640 tcpdmatch@7f707756bb0d[2073] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383642.93064
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.930687 tcpdmatch@7f707756bbd4[2073] read(4, 0x7ffe8ca1c048, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1c048"
+                        }, 
+                        "time": 1640383642.930687
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.930729 tcpdmatch@7f707756b943[2073] fstat(4, 0x7ffe8ca1bee0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1bee0"
+                        }, 
+                        "time": 1640383642.930729
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.930771 tcpdmatch@7f707756bd03[2073] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f7077405000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7077405000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.930771
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.930822 tcpdmatch@7f707756bd03[2073] mmap2(0x7f7077408000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f7077408000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7077408000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7077408000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383642.930822
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.930885 tcpdmatch@7f707756bd03[2073] mmap2(0x7f707740c000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f707740c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f707740c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f707740c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383642.930885
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.930936 tcpdmatch@7f707756bd03[2073] mmap2(0x7f707740e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f707740e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f707740e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f707740e000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383642.930936
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.930995 tcpdmatch@7f707756b9f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383642.930995
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.931179 tcpdmatch@7f707756bb0d[2073] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383642.931179
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.931234 tcpdmatch@7f707756bbd4[2073] read(4, 0x7ffe8ca1c028, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1c028"
+                        }, 
+                        "time": 1640383642.931234
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.931277 tcpdmatch@7f707756b943[2073] fstat(4, 0x7ffe8ca1bec0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1bec0"
+                        }, 
+                        "time": 1640383642.931277
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.931324 tcpdmatch@7f707756bd03[2073] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f7077223000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7077223000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.931324
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.931372 tcpdmatch@7f707756bdb7[2073] mprotect(0x7f70772b8000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f70772b8000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383642.931372
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.931421 tcpdmatch@7f707756bd03[2073] mmap2(0x7f70772b8000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7f70772b8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70772b8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70772b8000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383642.931421
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.931472 tcpdmatch@7f707756bd03[2073] mmap2(0x7f70773aa000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7f70773aa000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70773aa000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70773aa000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383642.931472
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.931520 tcpdmatch@7f707756bd03[2073] mmap2(0x7f70773f4000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7f70773f4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70773f4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70773f4000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383642.93152
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.931576 tcpdmatch@7f707756bd03[2073] mmap2(0x7f7077402000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7077402000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7077402000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f7077402000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.931576
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.931631 tcpdmatch@7f707756b9f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383642.931631
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.931690 tcpdmatch@7f707756bb0d[2073] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383642.93169
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.931737 tcpdmatch@7f707756bbd4[2073] read(4, 0x7ffe8ca1c008, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1c008"
+                        }, 
+                        "time": 1640383642.931737
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.931779 tcpdmatch@7f707756b943[2073] fstat(4, 0x7ffe8ca1bea0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1bea0"
+                        }, 
+                        "time": 1640383642.931779
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.931822 tcpdmatch@7f707756bd03[2073] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f70770d5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70770d5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.931822
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.931869 tcpdmatch@7f707756bd03[2073] mmap2(0x7f70770e4000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f70770e4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70770e4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70770e4000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383642.931869
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.931923 tcpdmatch@7f707756bd03[2073] mmap2(0x7f707718a000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f707718a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f707718a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f707718a000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383642.931923
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.931980 tcpdmatch@7f707756bd03[2073] mmap2(0x7f7077221000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f7077221000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7077221000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7077221000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383642.93198
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.932039 tcpdmatch@7f707756b9f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383642.932039
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.932094 tcpdmatch@7f707756bb0d[2073] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383642.932094
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.932139 tcpdmatch@7f707756bbd4[2073] read(4, 0x7ffe8ca1bfe8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1bfe8"
+                        }, 
+                        "time": 1640383642.932139
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.932183 tcpdmatch@7f707756b943[2073] fstat(4, 0x7ffe8ca1be80) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1be80"
+                        }, 
+                        "time": 1640383642.932183
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.932226 tcpdmatch@7f707756bd03[2073] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f70770bb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70770bb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.932226
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.932275 tcpdmatch@7f707756bd03[2073] mmap2(0x7f70770be000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f70770be000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70770be000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70770be000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383642.932275
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.932326 tcpdmatch@7f707756bd03[2073] mmap2(0x7f70770cf000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f70770cf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70770cf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70770cf000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383642.932326
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.932373 tcpdmatch@7f707756bd03[2073] mmap2(0x7f70770d3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f70770d3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70770d3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70770d3000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383642.932373
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.932431 tcpdmatch@7f707756b9f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383642.932431
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.932482 tcpdmatch@7f707756bb0d[2073] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383642.932482
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.932529 tcpdmatch@7f707756bbd4[2073] read(4, 0x7ffe8ca1bfc8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1bfc8"
+                        }, 
+                        "time": 1640383642.932529
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.932571 tcpdmatch@7f707756b943[2073] fstat(4, 0x7ffe8ca1be60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1be60"
+                        }, 
+                        "time": 1640383642.932571
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.932614 tcpdmatch@7f707756bd03[2073] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f70770b9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70770b9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.932614
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.932664 tcpdmatch@7f707756bd03[2073] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f7077098000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7077098000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.932664
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.932720 tcpdmatch@7f707756bd03[2073] mmap2(0x7f707709f000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f707709f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f707709f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f707709f000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383642.93272
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.932797 tcpdmatch@7f707756bd03[2073] mmap2(0x7f70770ae000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f70770ae000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70770ae000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70770ae000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383642.932797
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.932883 tcpdmatch@7f707756bd03[2073] mmap2(0x7f70770b3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f70770b3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70770b3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70770b3000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383642.932883
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.932971 tcpdmatch@7f707756bd03[2073] mmap2(0x7f70770b5000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f70770b5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70770b5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f70770b5000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.932971
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.933038 tcpdmatch@7f707756b9f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383642.933038
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.933094 tcpdmatch@7f707756bb0d[2073] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383642.933094
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.933143 tcpdmatch@7f707756bbd4[2073] read(4, 0x7ffe8ca1bfa8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1bfa8"
+                        }, 
+                        "time": 1640383642.933143
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.933186 tcpdmatch@7f707756b943[2073] fstat(4, 0x7ffe8ca1be40) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1be40"
+                        }, 
+                        "time": 1640383642.933186
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.933230 tcpdmatch@7f707756bd03[2073] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f7076ead000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7076ead000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.93323
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.933276 tcpdmatch@7f707756bd03[2073] mmap2(0x7f7076ed2000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f7076ed2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7076ed2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7076ed2000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383642.933276
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.933329 tcpdmatch@7f707756bd03[2073] mmap2(0x7f7077045000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f7077045000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7077045000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7077045000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383642.933329
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.933376 tcpdmatch@7f707756bd03[2073] mmap2(0x7f707708e000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f707708e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f707708e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f707708e000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383642.933376
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.933432 tcpdmatch@7f707756bd03[2073] mmap2(0x7f7077094000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7077094000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7077094000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f7077094000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.933432
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.933486 tcpdmatch@7f707756b9f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383642.933486
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.933549 tcpdmatch@7f707756bb0d[2073] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383642.933549
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.933595 tcpdmatch@7f707756bbd4[2073] read(4, 0x7ffe8ca1bf88, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1bf88"
+                        }, 
+                        "time": 1640383642.933595
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.933638 tcpdmatch@7f707756b943[2073] fstat(4, 0x7ffe8ca1be20) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1be20"
+                        }, 
+                        "time": 1640383642.933638
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.933681 tcpdmatch@7f707756bd03[2073] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f7076ea7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7076ea7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.933681
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.933730 tcpdmatch@7f707756bd03[2073] mmap2(0x7f7076ea8000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f7076ea8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7076ea8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7076ea8000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383642.93373
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.933784 tcpdmatch@7f707756bd03[2073] mmap2(0x7f7076eaa000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f7076eaa000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7076eaa000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7076eaa000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383642.933784
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.933832 tcpdmatch@7f707756bd03[2073] mmap2(0x7f7076eab000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f7076eab000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7076eab000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7076eab000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383642.933832
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.933889 tcpdmatch@7f707756b9f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383642.933889
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.933943 tcpdmatch@7f707756bb0d[2073] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383642.933943
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.933988 tcpdmatch@7f707756bbd4[2073] read(4, 0x7ffe8ca1bf68, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1bf68"
+                        }, 
+                        "time": 1640383642.933988
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.934030 tcpdmatch@7f707756b943[2073] fstat(4, 0x7ffe8ca1be00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1be00"
+                        }, 
+                        "time": 1640383642.93403
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.934077 tcpdmatch@7f707756bd03[2073] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f7076e33000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7076e33000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.934077
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.934129 tcpdmatch@7f707756bd03[2073] mmap2(0x7f7076e35000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f7076e35000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7076e35000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7076e35000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383642.934129
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.934183 tcpdmatch@7f707756bd03[2073] mmap2(0x7f7076e87000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f7076e87000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7076e87000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7076e87000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383642.934183
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.934231 tcpdmatch@7f707756bd03[2073] mmap2(0x7f7076ea5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f7076ea5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7076ea5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7076ea5000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383642.934231
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.934289 tcpdmatch@7f707756b9f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383642.934289
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.935465 tcpdmatch@7f707756bd03[2073] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7076e31000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7076e31000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.935465
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.935543 tcpdmatch@7f707756bd03[2073] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7076e2e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7076e2e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.935543
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.935602 tcpdmatch@7f7077550f30[2073] arch_prctl(ARCH_SET_FS, 140121007646656) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7077550f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140121007646656"
+                        }, 
+                        "time": 1640383642.935602
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.936458 tcpdmatch@7f707756bdb7[2073] mprotect(0x7f707708e000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f707708e000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383642.936458
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.936511 tcpdmatch@7f707756bdb7[2073] mprotect(0x7f70770b3000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f70770b3000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383642.936511
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.936571 tcpdmatch@7f707756bdb7[2073] mprotect(0x7f7076ea5000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f7076ea5000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383642.936571
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.936614 tcpdmatch@7f707756bdb7[2073] mprotect(0x7f7076eab000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f7076eab000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383642.936614
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.936651 tcpdmatch@7f707756bdb7[2073] mprotect(0x7f70770d3000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f70770d3000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383642.936651
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.936712 tcpdmatch@7f707756bdb7[2073] mprotect(0x7f7077221000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f7077221000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383642.936712
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.937708 tcpdmatch@7f707756bdb7[2073] mprotect(0x7f70773f4000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f70773f4000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383642.937708
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.937753 tcpdmatch@7f707756bdb7[2073] mprotect(0x7f707740e000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f707740e000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383642.937753
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.937944 tcpdmatch@7f707756bdb7[2073] mprotect(0x7f707752e000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f707752e000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383642.937944
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.937995 tcpdmatch@7f707756bdb7[2073] mprotect(0x7f7077535000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f7077535000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383642.937995
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.943110 tcpdmatch@7f707756bdb7[2073] mprotect(0x559604c92000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x559604c92000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383642.94311
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.943176 tcpdmatch@7f707756bdb7[2073] mprotect(0x7f7077579000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f7077579000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383642.943176
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.943219 tcpdmatch@7f707756bd97[2073] munmap(0x7f7077539000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707756bd97", 
+                        "arguments": {
+                            "p0": "0x7f7077539000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383642.943219
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.943281 tcpdmatch@7f707709f8df[2073] set_tid_address(0x7f7076e2ea90) = 2073\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2073", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707709f8df", 
+                        "arguments": {
+                            "p0": "0x7f7076e2ea90"
+                        }, 
+                        "time": 1640383642.943281
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.943316 tcpdmatch@7f707709f94a[2073] set_robust_list(0x7f7076e2eaa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707709f94a", 
+                        "arguments": {
+                            "p0": "0x7f7076e2eaa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383642.943316
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.943356 tcpdmatch@7f70770ac010[2073] rt_sigaction(0x20, {0x7f707709f6c0, SA_SIGINFO|SA_RESTORER, 0x7f70770abf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70770ac010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f707709f6c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f70770abf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383642.943356
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.943395 tcpdmatch@7f70770ac010[2073] rt_sigaction(0x21, {0x7f707709f760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f70770abf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70770ac010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f707709f760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f70770abf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383642.943395
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.943427 tcpdmatch@7f707709fa19[2073] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f707709fa19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383642.943427
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.943471 tcpdmatch@7f7076fbfdf0[2073] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe8ca1cc60) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fbfdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe8ca1cc60", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383642.943471
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.943705 tcpdmatch@7f7076fc02f7[2073] brk(0x0) = 94102860996608\n", 
+                        "api": "brk", 
+                        "return_value": "94102860996608", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fc02f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383642.943705
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.943737 tcpdmatch@7f7076fc02f7[2073] brk(0x5596079c3000) = 94102861131776\n", 
+                        "api": "brk", 
+                        "return_value": "94102861131776", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fc02f7", 
+                        "arguments": {
+                            "p0": "0x5596079c3000"
+                        }, 
+                        "time": 1640383642.943737
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.944847 tcpdmatch@7f70770a8b86[2073] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffe8ca1cbb0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70770a8b86", 
+                        "arguments": {
+                            "p2": "0x7ffe8ca1cbb0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383642.944847
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.945836 tcpdmatch@7f7076fc44c3[2073] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f707662d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f707662d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fc44c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.945836
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.945909 tcpdmatch@7f7076fc4597[2073] mprotect(0x7f707662e000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fc4597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f707662e000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383642.945909
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.946002 tcpdmatch@7f7076fcab11[2073] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f7076e2cf30, 0x7f7076e2d9d0, 0x7f7076e2d9d0) = 2074\n", 
+                        "api": "clone", 
+                        "return_value": "2074", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fcab11", 
+                        "arguments": {
+                            "p2": "0x7f7076e2d9d0", 
+                            "p3": "0x7f7076e2d9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f7076e2cf30"
+                        }, 
+                        "time": 1640383642.946002
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.946122 tcpdmatch@7f70770a8b86[2073] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70770a8b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383642.946122
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.950257 tcpdmatch@7f7076fbfdf0[2073] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe8ca1c710) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fbfdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe8ca1c710", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383642.950257
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.950317 tcpdmatch@7f7076fbf5c1[2073] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fbf5c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383642.950317
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.951428 tcpdmatch@7f7076f8e247[2073] uname(0x7ffe8ca1c380) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076f8e247", 
+                        "arguments": {
+                            "p0": "0x7ffe8ca1c380"
+                        }, 
+                        "time": 1640383642.951428
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.951474 tcpdmatch@7f70770ab337[2073] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70770ab337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383642.951474
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.951510 tcpdmatch@7f70770aad94[2073] read(3, 0x7ffe8ca1c670, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70770aad94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffe8ca1c670"
+                        }, 
+                        "time": 1640383642.95151
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.951547 tcpdmatch@7f70770ab337[2073] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70770ab337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383642.951547
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.952796 tcpdmatch@7f7076fc02f7[2073] brk(0x5596079e4000) = 94102861266944\n", 
+                        "api": "brk", 
+                        "return_value": "94102861266944", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fc02f7", 
+                        "arguments": {
+                            "p0": "0x5596079e4000"
+                        }, 
+                        "time": 1640383642.952796
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.952990 tcpdmatch@7f7076fc44c3[2073] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f70765ac000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70765ac000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fc44c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.95299
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.953531 tcpdmatch@7f7076fc4597[2073] mprotect(0x559604d15000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fc4597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x559604d15000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383642.953531
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.953589 tcpdmatch@7f7076fc4667[2073] madvise(0x559604d15000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fc4667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x559604d15000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383642.953589
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.954594 tcpdmatch@7f7076fc44c3[2073] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f6ff0000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6ff0000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fc44c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.954594
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.954653 tcpdmatch@7f7076fb9d59[2073] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fb9d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383642.954653
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.954717 tcpdmatch@7f7076fb9613[2073] fstat(4, 0x7ffe8ca1bd80) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fb9613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe8ca1bd80"
+                        }, 
+                        "time": 1640383642.954717
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.954758 tcpdmatch@7f7076fb9fb4[2073] read(4, 0x5596079c14e0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fb9fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x5596079c14e0"
+                        }, 
+                        "time": 1640383642.954758
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.954810 tcpdmatch@7f7076fbf3f7[2073] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fbf3f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383642.95481
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.954875 tcpdmatch@7f7076fc42e9[2073] gettid() = 2073\n", 
+                        "api": "gettid", 
+                        "return_value": "2073", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fc42e9", 
+                        "arguments": {}, 
+                        "time": 1640383642.954875
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.954915 tcpdmatch@7f7076fb9613[2073] fstat(3, 0x7ffe8ca1c5f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fb9613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffe8ca1c5f0"
+                        }, 
+                        "time": 1640383642.954915
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.954955 tcpdmatch@7f7076f8f717[2073] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076f8f717", 
+                        "arguments": {}, 
+                        "time": 1640383642.954955
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.954994 tcpdmatch@7f7076f8f737[2073] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076f8f737", 
+                        "arguments": {}, 
+                        "time": 1640383642.954994
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.955076 tcpdmatch@7f70770aad94[2073] read(3, 0x7ffe8ca1c850, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70770aad94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffe8ca1c850"
+                        }, 
+                        "time": 1640383642.955076
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.955150 tcpdmatch@7f7076fc44c3[2073] mmap2(0x7f706ffeb000, 86016, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f706ffeb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f706ffeb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fc44c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7f706ffeb000", 
+                            "p1": "86016", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.95515
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.955367 tcpdmatch@7f7076fc44c3[2073] mmap2(0x7f706ffeb000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f706ffeb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f706ffeb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fc44c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f706ffeb000", 
+                            "p1": "16384", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.955367
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.955426 tcpdmatch@7f7076fc44c3[2073] mmap2(0x7f706fffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 12288) = 0x7f706fffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f706fffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fc44c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f706fffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383642.955426
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.955481 tcpdmatch@7f70770aae27[2073] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70770aae27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383642.955481
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.955541 tcpdmatch@7f7076fc44c3[2073] mmap2(0x7f706f7ea000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f706f7ea000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f706f7ea000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fc44c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f706f7ea000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.955541
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.955610 tcpdmatch@7f7076fc02f7[2073] brk(0x559607a05000) = 94102861402112\n", 
+                        "api": "brk", 
+                        "return_value": "94102861402112", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fc02f7", 
+                        "arguments": {
+                            "p0": "0x559607a05000"
+                        }, 
+                        "time": 1640383642.95561
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.955707 tcpdmatch@7f7076fc4597[2073] mprotect(0x7f706f7ea000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fc4597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f706f7ea000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383642.955707
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.955767 tcpdmatch@7f70770ab55e[2073] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70770ab55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383642.955767
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.955842 tcpdmatch@7f7076fba057[2073] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fba057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383642.955842
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.955927 tcpdmatch@7f7076f8e926[2073] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076f8e926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383642.955927
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:22 2021.955970 tcpdmatch@7f7076f8e926[2073] futex(0x7f7076e2ea90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076f8e926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f7076e2ea90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383642.95597
+                    }
+                ], 
+                "pid": 2073, 
+                "process_name": "tcpdmatch", 
+                "command_line": "/tmp/tcpdmatch", 
+                "first_seen": 1640383642.924076, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:22 2021.946255 tcpdmatch@7f70770a1117[2074] set_robust_list(0x7f7076e2d9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70770a1117", 
+                        "arguments": {
+                            "p0": "0x7f7076e2d9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383642.946255
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:22 2021.946331 tcpdmatch@7f7076fc44c3[2074] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f706e62d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f706e62d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fc44c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383642.946331
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:22 2021.946402 tcpdmatch@7f7076fc4567[2074] munmap(0x7f706e62d000, 27078656) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fc4567", 
+                        "arguments": {
+                            "p0": "0x7f706e62d000", 
+                            "p1": "27078656"
+                        }, 
+                        "time": 1640383642.946402
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:22 2021.946477 tcpdmatch@7f7076fc4567[2074] munmap(0x7f7074000000, 40030208) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fc4567", 
+                        "arguments": {
+                            "p0": "0x7f7074000000", 
+                            "p1": "40030208"
+                        }, 
+                        "time": 1640383642.946477
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:22 2021.946542 tcpdmatch@7f7076fc4597[2074] mprotect(0x7f7070000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7076fc4597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f7070000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383642.946542
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tcpdmatch", 
+                        "pid": 2074, 
+                        "raw": "Fri Dec 24 22:07:22 2021.946637 tcpdmatch@7f70770ab440[2074] nanosleep([0.010000000], 0x7f7076e2cd80) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70770ab440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f7076e2cd80"
+                        }, 
+                        "time": 1640383642.946637
+                    }
+                ], 
+                "pid": 2074, 
+                "process_name": "tcpdmatch", 
+                "command_line": "", 
+                "first_seen": 1640383642.946255, 
+                "ppid": 2073, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2073, 
+                "process_name": "tcpdmatch", 
+                "command_line": "/tmp/tcpdmatch", 
+                "first_seen": 1640383642.924076, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2074, 
+                        "process_name": "tcpdmatch", 
+                        "command_line": "", 
+                        "first_seen": 1640383642.946255, 
+                        "ppid": 2073, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:07:15,003 [root] DEBUG: Starting analyzer from: /tmp/tmpJ828b7\n", 
+            "2021-12-24 22:07:15,003 [root] DEBUG: Storing results at: /tmp/yGUJDeUUC\n", 
+            "2021-12-24 22:07:17,027 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:07:17,029 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:07:17,532 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:07:22,923 [lib.core.packages] INFO: Process startup took 5.39 seconds\n", 
+            "2021-12-24 22:07:22,926 [root] INFO: Added new process to list with pid: 2064\n", 
+            "2021-12-24 22:07:28,937 [root] INFO: Process with pid 2064 has terminated\n", 
+            "2021-12-24 22:07:28,937 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:31,941 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:31,942 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 09:26:45,096 [cuckoo.core.scheduler] DEBUG: Task #2549049: no machine available yet\n", 
+            "2021-12-25 09:27:15,138 [cuckoo.core.scheduler] DEBUG: Task #2549049: no machine available yet\n", 
+            "2021-12-25 09:27:45,182 [cuckoo.core.scheduler] DEBUG: Task #2549049: no machine available yet\n", 
+            "2021-12-25 09:28:15,233 [cuckoo.core.scheduler] DEBUG: Task #2549049: no machine available yet\n", 
+            "2021-12-25 09:28:45,272 [cuckoo.core.scheduler] DEBUG: Task #2549049: no machine available yet\n", 
+            "2021-12-25 09:29:15,296 [cuckoo.core.scheduler] DEBUG: Task #2549049: no machine available yet\n", 
+            "2021-12-25 09:29:45,343 [cuckoo.core.scheduler] DEBUG: Task #2549049: no machine available yet\n", 
+            "2021-12-25 09:30:15,387 [cuckoo.core.scheduler] DEBUG: Task #2549049: no machine available yet\n", 
+            "2021-12-25 09:30:45,430 [cuckoo.core.scheduler] DEBUG: Task #2549049: no machine available yet\n", 
+            "2021-12-25 09:31:15,479 [cuckoo.core.scheduler] DEBUG: Task #2549049: no machine available yet\n", 
+            "2021-12-25 09:31:45,520 [cuckoo.core.scheduler] INFO: Task #2549049: acquired machine Ubuntu1904x641 (label=Ubuntu1904x641)\n", 
+            "2021-12-25 09:31:45,521 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.101 for task #2549049\n", 
+            "2021-12-25 09:31:45,676 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3504466 (interface=vboxnet0, host=192.168.168.101)\n", 
+            "2021-12-25 09:31:45,796 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x641\n", 
+            "2021-12-25 09:31:46,248 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x641 to Snapshot\n", 
+            "2021-12-25 09:31:55,205 [cuckoo.core.guest] INFO: Starting analysis #2549049 on guest (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2021-12-25 09:31:56,209 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: not ready yet\n", 
+            "2021-12-25 09:32:01,226 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2021-12-25 09:32:01,238 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x641, ip=192.168.168.101, monitor=latest, size=72028)\n", 
+            "2021-12-25 09:32:02,389 [cuckoo.core.resultserver] DEBUG: Task #2549049: live log analysis.log initialized.\n", 
+            "2021-12-25 09:32:07,914 [cuckoo.core.resultserver] DEBUG: Task #2549049: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 09:32:07,985 [cuckoo.core.resultserver] DEBUG: Task #2549049 uploaded file length: 171578\n", 
+            "2021-12-25 09:32:16,342 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549049 still processing\n", 
+            "2021-12-25 09:32:19,346 [cuckoo.core.resultserver] DEBUG: Task #2549049: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 09:32:19,352 [cuckoo.core.resultserver] DEBUG: Task #2549049 uploaded file length: 20848\n", 
+            "2021-12-25 09:32:31,449 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549049 still processing\n", 
+            "2021-12-25 09:32:46,515 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549049 still processing\n", 
+            "2021-12-25 09:33:01,590 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549049 still processing\n", 
+            "2021-12-25 09:33:16,672 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549049 still processing\n", 
+            "2021-12-25 09:33:31,759 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549049 still processing\n", 
+            "2021-12-25 09:33:46,854 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549049 still processing\n", 
+            "2021-12-25 09:34:01,944 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549049 still processing\n", 
+            "2021-12-25 09:34:17,037 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549049 still processing\n", 
+            "2021-12-25 09:34:32,132 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549049 still processing\n", 
+            "2021-12-25 09:34:47,238 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549049 still processing\n", 
+            "2021-12-25 09:35:02,305 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549049 still processing\n", 
+            "2021-12-25 09:35:17,405 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549049 still processing\n", 
+            "2021-12-25 09:35:32,483 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549049 still processing\n", 
+            "2021-12-25 09:35:47,585 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549049 still processing\n", 
+            "2021-12-25 09:36:02,668 [cuckoo.core.guest] INFO: Ubuntu1904x641: end of analysis reached!\n", 
+            "2021-12-25 09:36:02,678 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 09:36:02,749 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 09:36:16,458 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x641 to path /srv/cuckoo/cwd/storage/analyses/2549049/memory.dmp\n", 
+            "2021-12-25 09:36:16,459 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x641\n", 
+            "2021-12-25 09:36:30,191 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.101 for task #2549049\n", 
+            "2021-12-25 09:36:30,192 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2549049\n", 
+            "2021-12-25 09:36:30,321 [cuckoo.core.scheduler] DEBUG: Released database task #2549049\n", 
+            "2021-12-25 09:36:30,405 [cuckoo.core.scheduler] INFO: Task #2549049: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "__fprintf_chk", 
+        "stderr", 
+        "fwrite", 
+        "percent_x", 
+        "__stack_chk_guard", 
+        "strcasecmp", 
+        "unknown", 
+        "__printf_chk", 
+        "__stack_chk_fail", 
+        "dry_run", 
+        "rfc931_timeout", 
+        "hosts_access", 
+        "allow_severity", 
+        "deny_severity", 
+        "hosts_access_verbose", 
+        "hosts_allow_table", 
+        "getopt", 
+        "optarg", 
+        "optind", 
+        "hosts_deny_table", 
+        "check_path", 
+        "tcpd_warn", 
+        "split_at", 
+        "strrchr", 
+        "inet_cfg", 
+        "inet_set", 
+        "inet_get", 
+        "request_init", 
+        "sock_hostname", 
+        "strspn", 
+        "sock_hostaddr", 
+        "paranoid", 
+        "request_set", 
+        "dot_quad_addr", 
+        "find_inet_addr", 
+        "__memcpy_chk", 
+        "eval_hostname", 
+        "eval_hostaddr", 
+        "memset", 
+        "getaddrinfo", 
+        "freeaddrinfo", 
+        "putchar", 
+        "percent_m", 
+        "stdout", 
+        "__vfprintf_chk", 
+        "fflush", 
+        "vsyslog", 
+        "strlen", 
+        "malloc", 
+        "memcpy", 
+        "tcpd_context", 
+        "strtok", 
+        "__sprintf_chk", 
+        "fclose", 
+        "inet_files", 
+        "__errno_location", 
+        "strcpy", 
+        "__xstat", 
+        "__strcpy_chk", 
+        "libwrap.so.0", 
+        "rfc931", 
+        "clean_exit", 
+        "shell_cmd", 
+        "libc.so.6", 
+        "closelog", 
+        "openlog", 
+        "_IO_stdin_used", 
+        "ld.so.1", 
+        "_ftext", 
+        "_fdata", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.4", 
+        "GLIBC_2.0", 
+        "GLIBC_2.3.4", 
+        "GLIBC_2.2", 
+        "s&|41&", 
+        "usage: %s [-d] [-i inet_conf] daemon[@host] [user@]host", 
+        "-d: use allow/deny files in current directory", 
+        "-i: location of inetd.conf file", 
+        "denied", 
+        "delegated", 
+        "granted", 
+        "client:   hostname", 
+        "client:   address ", 
+        "client:   username", 
+        "server:   hostname", 
+        "server:   address ", 
+        "server:   process ", 
+        "access:   %s", 
+        "hosts.allow", 
+        "hosts.deny", 
+        "/usr/sbin", 
+        "REAL_DAEMON_DIR %s: %m", 
+        "REAL_DAEMON_DIR %s is not a directory", 
+        "%s: daemon name normalized to: %s", 
+        "portmap", 
+        "rpcbind", 
+        "%s: no such process name in %s", 
+        "%s: service possibly not wrapped", 
+        "01234567890./", 
+        "host address %s->name lookup failed", 
+        "Error: %s has more than one address", 
+        "Please specify an address instead", 
+        "out of memory", 
+        "open %s: %m", 
+        "stream", 
+        "internal", 
+        "-0123456789", 
+        "incomplete line", 
+        "0123456789", 
+        "%s: not found: %m", 
+        "%s: not executable", 
+        "rpc.rexd", 
+        "%s may be an insecure service", 
+        "%s is recursively calling itself", 
+        "%s: file is set-uid or set-gid", 
+        "%s inserted before %s", 
+        "%s: not found in %s: %m", 
+        "%s: file lookup: %m", 
+        "%s: cannot wrap rpc/tcp services", 
+        "rpc/tcp", 
+        "/etc/inetd.conf", 
+        "%s: host not found", 
+        "%d: not an internet host", 
+        "%s: hostname alias", 
+        "(cannot obtain official name)", 
+        "(official name: %.*s)", 
+        "command: %s", 
+        "%s: world writable", 
+        "876d38bafb04b24f2602405986f5f2dd72d51a.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "f7547906cc55c0dc3123c1c48a23e9826ce2edb6a75c773d4f39f834e1e1e31e", 
+                "dirname": ""
+            }
+        }
+    }
+}
