@@ -1,0 +1,3441 @@
+{
+    "info": {
+        "added": 1640383638.429777, 
+        "started": 1640432362.717389, 
+        "duration": 2157, 
+        "ended": 1640434519.818935, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2549246, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x644", 
+            "label": "Ubuntu1904x644", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 12:10:26", 
+            "shutdown_on": "2021-12-25 12:15:19"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "cde986b25bec7abe8eaeccc2acb358ef7dbc3279", 
+            "name": "zjsdecode", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=2458e93219dc1a5fe557e6562227beaf4442441c, stripped", 
+            "sha256": "4e9a8605da01e1349ba1c23024744ff43d2010438a0c09d5780212903088945c", 
+            "urls": [
+                "http://ddk.zeno.com"
+            ], 
+            "crc32": "3719AB80", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/4e9a8605da01e1349ba1c23024744ff43d2010438a0c09d5780212903088945c", 
+            "ssdeep": "768:Cgmetu2s7b5rVuDFrgup5FLGNTNQMN/KkFKDERAPz+ot6ZIFMk5n44ZGf587ecUX:DZt9s7b5rVuJrgup5FLGNTNQMN/KkFKk", 
+            "size": 26916, 
+            "sha512": "1b11718498a80652826a9874c47ebcbd29eb0bc7586681110d97c69de9fce42b76de20c6c2248d85b7636e0d03dc9bc1726e96f58672e84db3ee9ece51e89ae3", 
+            "md5": "59673c76676cbed1e7d63a31662a8f52"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "7317fbef-d11a-46e1-8e6a-5c1ef8c8d524", 
+        "parent_file_sha256": null, 
+        "name": "4e9a8605da01e1349ba1c23024744ff43d2010438a0c09d5780212903088945c", 
+        "probes_total": 16, 
+        "scan_date": 1640427320, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "cde986b25bec7abe8eaeccc2acb358ef7dbc3279", 
+            "tags": [], 
+            "timestamp_first_scan": 1640427320.35, 
+            "timestamp_last_scan": 1640427329.83, 
+            "sha256": "4e9a8605da01e1349ba1c23024744ff43d2010438a0c09d5780212903088945c", 
+            "md5": "59673c76676cbed1e7d63a31662a8f52", 
+            "size": 26916
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.06, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.66, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-15 12:09:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.29, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.64, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.75, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.56, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.2, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.13, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.96, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "673f8a07-e80b-4fbc-90df-6b6cf7250549", 
+        "file_sha256": "4e9a8605da01e1349ba1c23024744ff43d2010438a0c09d5780212903088945c"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "zjsdecode", 
+                "pid": 3854, 
+                "summary": {}, 
+                "first_seen": 1640383645.649145, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "zjsdecode", 
+                "pid": 3855, 
+                "summary": {}, 
+                "first_seen": 1640383646.888458, 
+                "ppid": 3854
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:25 2021.649145 zjsdecode@7f1b616eec27[3854] execve(\"/tmp/zjsdecode\", [\"/tmp/zjsdecode\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/zjsdecode\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpQErLIO\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616eec27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/zjsdecode", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpQErLIO"
+                            ], 
+                            "p0": "/tmp/zjsdecode", 
+                            "p1": [
+                                "/tmp/zjsdecode"
+                            ]
+                        }, 
+                        "time": 1640383645.649145
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.809794 zjsdecode@7f1b616eec27[3854] brk(0x0) = 94228353265664\n", 
+                        "api": "brk", 
+                        "return_value": "94228353265664", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616eec27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383646.809794
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.823510 zjsdecode@7f1b616ef9d7[3854] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383646.82351
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.837267 zjsdecode@7f1b616efb0d[3854] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383646.837267
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.837350 zjsdecode@7f1b616ef943[3854] fstat(4, 0x7fff4e4c52d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c52d0"
+                        }, 
+                        "time": 1640383646.83735
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.837410 zjsdecode@7f1b616efd03[3854] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f1b616bd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b616bd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.83741
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.837477 zjsdecode@7f1b616ef9f7[3854] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383646.837477
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.837561 zjsdecode@7f1b616efb0d[3854] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383646.837561
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.837624 zjsdecode@7f1b616efbd4[3854] read(4, 0x7fff4e4c5488, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c5488"
+                        }, 
+                        "time": 1640383646.837624
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.837683 zjsdecode@7f1b616ef943[3854] fstat(4, 0x7fff4e4c5320) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c5320"
+                        }, 
+                        "time": 1640383646.837683
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.837736 zjsdecode@7f1b616efd03[3854] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1b616bb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b616bb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.837736
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.837803 zjsdecode@7f1b616efd03[3854] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1b616b5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b616b5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.837803
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.837863 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b616b6000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f1b616b6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b616b6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b616b6000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383646.837863
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.837935 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b616b8000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f1b616b8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b616b8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b616b8000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383646.837935
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.837999 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b616b9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f1b616b9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b616b9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b616b9000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383646.837999
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.838079 zjsdecode@7f1b616ef9f7[3854] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383646.838079
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.838150 zjsdecode@7f1b616efb0d[3854] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383646.83815
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.838211 zjsdecode@7f1b616efbd4[3854] read(4, 0x7fff4e4c5468, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c5468"
+                        }, 
+                        "time": 1640383646.838211
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.838265 zjsdecode@7f1b616ef943[3854] fstat(4, 0x7fff4e4c5300) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c5300"
+                        }, 
+                        "time": 1640383646.838265
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.838317 zjsdecode@7f1b616efd03[3854] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1b61594000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b61594000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.838317
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.838382 zjsdecode@7f1b616efdb7[3854] mprotect(0x7f1b615af000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f1b615af000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383646.838382
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.838452 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b615af000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f1b615af000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b615af000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b615af000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383646.838452
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.838514 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b6162f000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f1b6162f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b6162f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b6162f000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383646.838514
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.838572 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b616b2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f1b616b2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b616b2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b616b2000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383646.838572
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.838639 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b616b4000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f1b616b4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b616b4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f1b616b4000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.838639
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.838708 zjsdecode@7f1b616ef9f7[3854] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383646.838708
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.838790 zjsdecode@7f1b616efb0d[3854] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383646.83879
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.838854 zjsdecode@7f1b616efbd4[3854] read(4, 0x7fff4e4c5448, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c5448"
+                        }, 
+                        "time": 1640383646.838854
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.838906 zjsdecode@7f1b616ef943[3854] fstat(4, 0x7fff4e4c52e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c52e0"
+                        }, 
+                        "time": 1640383646.838906
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.838958 zjsdecode@7f1b616efd03[3854] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1b61589000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b61589000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.838958
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.839020 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b6158c000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f1b6158c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b6158c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b6158c000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383646.83902
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.839086 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b61590000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f1b61590000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b61590000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b61590000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383646.839086
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.839147 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b61592000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f1b61592000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b61592000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b61592000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383646.839147
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.839224 zjsdecode@7f1b616ef9f7[3854] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383646.839224
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.839294 zjsdecode@7f1b616efb0d[3854] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383646.839294
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.839355 zjsdecode@7f1b616efbd4[3854] read(4, 0x7fff4e4c5428, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c5428"
+                        }, 
+                        "time": 1640383646.839355
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.839408 zjsdecode@7f1b616ef943[3854] fstat(4, 0x7fff4e4c52c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c52c0"
+                        }, 
+                        "time": 1640383646.839408
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.839466 zjsdecode@7f1b616efd03[3854] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1b613a7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b613a7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.839466
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.839525 zjsdecode@7f1b616efdb7[3854] mprotect(0x7f1b6143c000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f1b6143c000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383646.839525
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.839587 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b6143c000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7f1b6143c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b6143c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b6143c000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383646.839587
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.839646 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b6152e000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7f1b6152e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b6152e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b6152e000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383646.839646
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.839703 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b61578000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7f1b61578000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b61578000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b61578000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383646.839703
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.839783 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b61586000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f1b61586000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b61586000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f1b61586000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.839783
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.839863 zjsdecode@7f1b616ef9f7[3854] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383646.839863
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.839941 zjsdecode@7f1b616efb0d[3854] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383646.839941
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.840000 zjsdecode@7f1b616efbd4[3854] read(4, 0x7fff4e4c5408, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c5408"
+                        }, 
+                        "time": 1640383646.84
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.840053 zjsdecode@7f1b616ef943[3854] fstat(4, 0x7fff4e4c52a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c52a0"
+                        }, 
+                        "time": 1640383646.840053
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.840180 zjsdecode@7f1b616efd03[3854] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1b61259000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b61259000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.84018
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.840244 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b61268000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f1b61268000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b61268000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b61268000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383646.840244
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.840311 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b6130e000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f1b6130e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b6130e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b6130e000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383646.840311
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.840370 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b613a5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f1b613a5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b613a5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b613a5000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383646.84037
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.840449 zjsdecode@7f1b616ef9f7[3854] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383646.840449
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.840586 zjsdecode@7f1b616efb0d[3854] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383646.840586
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.840649 zjsdecode@7f1b616efbd4[3854] read(4, 0x7fff4e4c53e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c53e8"
+                        }, 
+                        "time": 1640383646.840649
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.840703 zjsdecode@7f1b616ef943[3854] fstat(4, 0x7fff4e4c5280) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c5280"
+                        }, 
+                        "time": 1640383646.840703
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.840756 zjsdecode@7f1b616efd03[3854] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1b6123f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b6123f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.840756
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.840816 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b61242000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f1b61242000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b61242000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b61242000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383646.840816
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.840886 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b61253000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f1b61253000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b61253000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b61253000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383646.840886
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.840941 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b61257000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f1b61257000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b61257000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b61257000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383646.840941
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.841006 zjsdecode@7f1b616ef9f7[3854] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383646.841006
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.841063 zjsdecode@7f1b616efb0d[3854] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383646.841063
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.841113 zjsdecode@7f1b616efbd4[3854] read(4, 0x7fff4e4c53c8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c53c8"
+                        }, 
+                        "time": 1640383646.841113
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.841156 zjsdecode@7f1b616ef943[3854] fstat(4, 0x7fff4e4c5260) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c5260"
+                        }, 
+                        "time": 1640383646.841156
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.841199 zjsdecode@7f1b616efd03[3854] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1b6123d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b6123d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.841199
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.841255 zjsdecode@7f1b616efd03[3854] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1b6121c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b6121c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.841255
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.841312 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b61223000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f1b61223000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b61223000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b61223000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383646.841312
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.841389 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b61232000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f1b61232000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b61232000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b61232000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383646.841389
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.841442 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b61237000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f1b61237000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b61237000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b61237000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383646.841442
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.841499 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b61239000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f1b61239000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b61239000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f1b61239000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.841499
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.841566 zjsdecode@7f1b616ef9f7[3854] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383646.841566
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.841628 zjsdecode@7f1b616efb0d[3854] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383646.841628
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.841681 zjsdecode@7f1b616efbd4[3854] read(4, 0x7fff4e4c53a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c53a8"
+                        }, 
+                        "time": 1640383646.841681
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.841739 zjsdecode@7f1b616ef943[3854] fstat(4, 0x7fff4e4c5240) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c5240"
+                        }, 
+                        "time": 1640383646.841739
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.841784 zjsdecode@7f1b616efd03[3854] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1b61031000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b61031000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.841784
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.841835 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b61056000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f1b61056000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b61056000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b61056000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383646.841835
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.841903 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b611c9000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f1b611c9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b611c9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b611c9000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383646.841903
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.841954 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b61212000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f1b61212000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b61212000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b61212000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383646.841954
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.842014 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b61218000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f1b61218000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b61218000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f1b61218000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.842014
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.842074 zjsdecode@7f1b616ef9f7[3854] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383646.842074
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.842144 zjsdecode@7f1b616efb0d[3854] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383646.842144
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.842196 zjsdecode@7f1b616efbd4[3854] read(4, 0x7fff4e4c5388, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c5388"
+                        }, 
+                        "time": 1640383646.842196
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.842241 zjsdecode@7f1b616ef943[3854] fstat(4, 0x7fff4e4c5220) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c5220"
+                        }, 
+                        "time": 1640383646.842241
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.842285 zjsdecode@7f1b616efd03[3854] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1b6102b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b6102b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.842285
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.842336 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b6102c000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f1b6102c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b6102c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b6102c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383646.842336
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.842389 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b6102e000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f1b6102e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b6102e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b6102e000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383646.842389
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.842441 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b6102f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f1b6102f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b6102f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b6102f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383646.842441
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.842505 zjsdecode@7f1b616ef9f7[3854] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383646.842505
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.842563 zjsdecode@7f1b616efb0d[3854] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383646.842563
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.842613 zjsdecode@7f1b616efbd4[3854] read(4, 0x7fff4e4c5368, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c5368"
+                        }, 
+                        "time": 1640383646.842613
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.842656 zjsdecode@7f1b616ef943[3854] fstat(4, 0x7fff4e4c5200) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c5200"
+                        }, 
+                        "time": 1640383646.842656
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.842705 zjsdecode@7f1b616efd03[3854] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1b60fb7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b60fb7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.842705
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.842756 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b60fb9000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f1b60fb9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b60fb9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b60fb9000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383646.842756
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.842813 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b6100b000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f1b6100b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b6100b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b6100b000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383646.842813
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.842862 zjsdecode@7f1b616efd03[3854] mmap2(0x7f1b61029000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f1b61029000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b61029000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1b61029000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383646.842862
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.842926 zjsdecode@7f1b616ef9f7[3854] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616ef9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383646.842926
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.852836 zjsdecode@7f1b616efd03[3854] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1b60fb5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b60fb5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.852836
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.852918 zjsdecode@7f1b616efd03[3854] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1b60fb2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b60fb2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.852918
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.852973 zjsdecode@7f1b616d4f30[3854] arch_prctl(ARCH_SET_FS, 139755567916992) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616d4f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "139755567916992"
+                        }, 
+                        "time": 1640383646.852973
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.856185 zjsdecode@7f1b616efdb7[3854] mprotect(0x7f1b61212000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1b61212000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383646.856185
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.856267 zjsdecode@7f1b616efdb7[3854] mprotect(0x7f1b61237000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1b61237000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383646.856267
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.856359 zjsdecode@7f1b616efdb7[3854] mprotect(0x7f1b61029000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1b61029000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383646.856359
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.856419 zjsdecode@7f1b616efdb7[3854] mprotect(0x7f1b6102f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1b6102f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383646.856419
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.856474 zjsdecode@7f1b616efdb7[3854] mprotect(0x7f1b61257000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1b61257000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383646.856474
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.856558 zjsdecode@7f1b616efdb7[3854] mprotect(0x7f1b613a5000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1b613a5000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383646.856558
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.857800 zjsdecode@7f1b616efdb7[3854] mprotect(0x7f1b61578000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1b61578000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383646.8578
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.857869 zjsdecode@7f1b616efdb7[3854] mprotect(0x7f1b61592000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1b61592000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383646.857869
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.858117 zjsdecode@7f1b616efdb7[3854] mprotect(0x7f1b616b2000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1b616b2000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383646.858117
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.858192 zjsdecode@7f1b616efdb7[3854] mprotect(0x7f1b616b9000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1b616b9000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383646.858192
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.874259 zjsdecode@7f1b616efdb7[3854] mprotect(0x55b33cd50000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55b33cd50000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383646.874259
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.874345 zjsdecode@7f1b616efdb7[3854] mprotect(0x7f1b616fd000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1b616fd000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383646.874345
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.874419 zjsdecode@7f1b616efd97[3854] munmap(0x7f1b616bd000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b616efd97", 
+                        "arguments": {
+                            "p0": "0x7f1b616bd000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383646.874419
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.874522 zjsdecode@7f1b612238df[3854] set_tid_address(0x7f1b60fb2a90) = 3854\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "3854", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b612238df", 
+                        "arguments": {
+                            "p0": "0x7f1b60fb2a90"
+                        }, 
+                        "time": 1640383646.874522
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.874573 zjsdecode@7f1b6122394a[3854] set_robust_list(0x7f1b60fb2aa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b6122394a", 
+                        "arguments": {
+                            "p0": "0x7f1b60fb2aa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383646.874573
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.874635 zjsdecode@7f1b61230010[3854] rt_sigaction(0x20, {0x7f1b612236c0, SA_SIGINFO|SA_RESTORER, 0x7f1b6122ff40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b61230010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f1b612236c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f1b6122ff40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383646.874635
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.874689 zjsdecode@7f1b61230010[3854] rt_sigaction(0x21, {0x7f1b61223760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f1b6122ff40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b61230010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f1b61223760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f1b6122ff40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383646.874689
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.874740 zjsdecode@7f1b61223a19[3854] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b61223a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383646.87474
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.874803 zjsdecode@7f1b61143df0[3854] prlimit64(0, RLIMIT_STACK, NULL, 0x7fff4e4c6060) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b61143df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7fff4e4c6060", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383646.874803
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.875055 zjsdecode@7f1b611442f7[3854] brk(0x0) = 94228353265664\n", 
+                        "api": "brk", 
+                        "return_value": "94228353265664", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b611442f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383646.875055
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.875105 zjsdecode@7f1b611442f7[3854] brk(0x55b33f884000) = 94228353400832\n", 
+                        "api": "brk", 
+                        "return_value": "94228353400832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b611442f7", 
+                        "arguments": {
+                            "p0": "0x55b33f884000"
+                        }, 
+                        "time": 1640383646.875105
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.879485 zjsdecode@7f1b6122cb86[3854] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7fff4e4c5fb0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b6122cb86", 
+                        "arguments": {
+                            "p2": "0x7fff4e4c5fb0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383646.879485
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.887930 zjsdecode@7f1b611484c3[3854] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f1b607b1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b607b1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b611484c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.88793
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.888017 zjsdecode@7f1b61148597[3854] mprotect(0x7f1b607b2000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b61148597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f1b607b2000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383646.888017
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.888159 zjsdecode@7f1b6114eb11[3854] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f1b60fb0f30, 0x7f1b60fb19d0, 0x7f1b60fb19d0) = 3855\n", 
+                        "api": "clone", 
+                        "return_value": "3855", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b6114eb11", 
+                        "arguments": {
+                            "p2": "0x7f1b60fb19d0", 
+                            "p3": "0x7f1b60fb19d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f1b60fb0f30"
+                        }, 
+                        "time": 1640383646.888159
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.888310 zjsdecode@7f1b6122cb86[3854] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b6122cb86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383646.88831
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.922584 zjsdecode@7f1b61143df0[3854] prlimit64(0, RLIMIT_STACK, NULL, 0x7fff4e4c5b10) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b61143df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7fff4e4c5b10", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383646.922584
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.922665 zjsdecode@7f1b611435c1[3854] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b611435c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383646.922665
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.929792 zjsdecode@7f1b61112247[3854] uname(0x7fff4e4c5780) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b61112247", 
+                        "arguments": {
+                            "p0": "0x7fff4e4c5780"
+                        }, 
+                        "time": 1640383646.929792
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.929887 zjsdecode@7f1b6122f337[3854] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b6122f337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383646.929887
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.929957 zjsdecode@7f1b6122ed94[3854] read(3, 0x7fff4e4c5a70, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b6122ed94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7fff4e4c5a70"
+                        }, 
+                        "time": 1640383646.929957
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.930019 zjsdecode@7f1b6122f337[3854] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b6122f337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383646.930019
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.939479 zjsdecode@7f1b611442f7[3854] brk(0x55b33f8a5000) = 94228353536000\n", 
+                        "api": "brk", 
+                        "return_value": "94228353536000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b611442f7", 
+                        "arguments": {
+                            "p0": "0x55b33f8a5000"
+                        }, 
+                        "time": 1640383646.939479
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.939630 zjsdecode@7f1b611484c3[3854] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1b60730000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b60730000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b611484c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.93963
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.939908 zjsdecode@7f1b61148597[3854] mprotect(0x55b33cdd3000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b61148597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55b33cdd3000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383646.939908
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.939954 zjsdecode@7f1b61148667[3854] madvise(0x55b33cdd3000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b61148667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55b33cdd3000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383646.939954
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.944497 zjsdecode@7f1b611484c3[3854] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f1adc000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1adc000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b611484c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.944497
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.944549 zjsdecode@7f1b6113dd59[3854] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b6113dd59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383646.944549
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.944614 zjsdecode@7f1b6113d613[3854] fstat(4, 0x7fff4e4c5180) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b6113d613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff4e4c5180"
+                        }, 
+                        "time": 1640383646.944614
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.944649 zjsdecode@7f1b6113dfb4[3854] read(4, 0x55b33f8824e0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b6113dfb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x55b33f8824e0"
+                        }, 
+                        "time": 1640383646.944649
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.944693 zjsdecode@7f1b611433f7[3854] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b611433f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383646.944693
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.944741 zjsdecode@7f1b611482e9[3854] gettid() = 3854\n", 
+                        "api": "gettid", 
+                        "return_value": "3854", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b611482e9", 
+                        "arguments": {}, 
+                        "time": 1640383646.944741
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.944773 zjsdecode@7f1b6113d613[3854] fstat(3, 0x7fff4e4c59f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b6113d613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7fff4e4c59f0"
+                        }, 
+                        "time": 1640383646.944773
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.944816 zjsdecode@7f1b61113717[3854] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b61113717", 
+                        "arguments": {}, 
+                        "time": 1640383646.944816
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.944847 zjsdecode@7f1b61113737[3854] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b61113737", 
+                        "arguments": {}, 
+                        "time": 1640383646.944847
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.944880 zjsdecode@7f1b6122ed94[3854] read(3, 0x7fff4e4c5c50, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b6122ed94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7fff4e4c5c50"
+                        }, 
+                        "time": 1640383646.94488
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.944932 zjsdecode@7f1b611484c3[3854] mmap2(0x7f1b5bfe9000, 94208, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f1b5bfe9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b5bfe9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b611484c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7f1b5bfe9000", 
+                            "p1": "94208", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.944932
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.944987 zjsdecode@7f1b611484c3[3854] mmap2(0x7f1b5bfe9000, 24576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f1b5bfe9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b5bfe9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b611484c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f1b5bfe9000", 
+                            "p1": "24576", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.944987
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.945027 zjsdecode@7f1b611484c3[3854] mmap2(0x7f1b5bffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 20480) = 0x7f1b5bffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b5bffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b611484c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f1b5bffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "20480"
+                        }, 
+                        "time": 1640383646.945027
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.945067 zjsdecode@7f1b6122ee27[3854] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b6122ee27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383646.945067
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.945110 zjsdecode@7f1b611484c3[3854] mmap2(0x7f1b5b7e8000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f1b5b7e8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b5b7e8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b611484c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f1b5b7e8000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.94511
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.945152 zjsdecode@7f1b611442f7[3854] brk(0x55b33f8c6000) = 94228353671168\n", 
+                        "api": "brk", 
+                        "return_value": "94228353671168", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b611442f7", 
+                        "arguments": {
+                            "p0": "0x55b33f8c6000"
+                        }, 
+                        "time": 1640383646.945152
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.945219 zjsdecode@7f1b61148597[3854] mprotect(0x7f1b5b7e8000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b61148597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f1b5b7e8000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383646.945219
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.945261 zjsdecode@7f1b6122f55e[3854] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b6122f55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383646.945261
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.945335 zjsdecode@7f1b6113e057[3854] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b6113e057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383646.945335
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.945429 zjsdecode@7f1b61112926[3854] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b61112926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383646.945429
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3854, 
+                        "raw": "Fri Dec 24 22:07:26 2021.945467 zjsdecode@7f1b61112926[3854] futex(0x7f1b60fb2a90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b61112926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f1b60fb2a90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383646.945467
+                    }
+                ], 
+                "pid": 3854, 
+                "process_name": "zjsdecode", 
+                "command_line": "/tmp/zjsdecode", 
+                "first_seen": 1640383645.649145, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3855, 
+                        "raw": "Fri Dec 24 22:07:26 2021.888458 zjsdecode@7f1b61225117[3855] set_robust_list(0x7f1b60fb19e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b61225117", 
+                        "arguments": {
+                            "p0": "0x7f1b60fb19e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383646.888458
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3855, 
+                        "raw": "Fri Dec 24 22:07:26 2021.888554 zjsdecode@7f1b611484c3[3855] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f1b587b1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1b587b1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b611484c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383646.888554
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3855, 
+                        "raw": "Fri Dec 24 22:07:26 2021.888630 zjsdecode@7f1b61148567[3855] munmap(0x7f1b587b1000, 59043840) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b61148567", 
+                        "arguments": {
+                            "p0": "0x7f1b587b1000", 
+                            "p1": "59043840"
+                        }, 
+                        "time": 1640383646.88863
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3855, 
+                        "raw": "Fri Dec 24 22:07:26 2021.888705 zjsdecode@7f1b61148567[3855] munmap(0x7f1b60000000, 8065024) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b61148567", 
+                        "arguments": {
+                            "p0": "0x7f1b60000000", 
+                            "p1": "8065024"
+                        }, 
+                        "time": 1640383646.888705
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3855, 
+                        "raw": "Fri Dec 24 22:07:26 2021.888774 zjsdecode@7f1b61148597[3855] mprotect(0x7f1b5c000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b61148597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f1b5c000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383646.888774
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3855, 
+                        "raw": "Fri Dec 24 22:07:26 2021.888872 zjsdecode@7f1b6122f440[3855] nanosleep([0.010000000], 0x7f1b60fb0d80) = 0\n", 
+                        "api": "nanosleep", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b6122f440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f1b60fb0d80"
+                        }, 
+                        "time": 1640383646.888872
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "zjsdecode", 
+                        "pid": 3855, 
+                        "raw": "Fri Dec 24 22:07:26 2021.899111 zjsdecode@7f1b611482e9[3855] futex(0x55b33ede6a48, FUTEX_WAIT, -1, NULL) = -512\n", 
+                        "api": "futex", 
+                        "return_value": "-512", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1b611482e9", 
+                        "arguments": {
+                            "p2": "-1", 
+                            "p3": "NULL", 
+                            "p0": "0x55b33ede6a48", 
+                            "p1": "FUTEX_WAIT"
+                        }, 
+                        "time": 1640383646.899111
+                    }
+                ], 
+                "pid": 3855, 
+                "process_name": "zjsdecode", 
+                "command_line": "", 
+                "first_seen": 1640383646.888458, 
+                "ppid": 3854, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 3854, 
+                "process_name": "zjsdecode", 
+                "command_line": "/tmp/zjsdecode", 
+                "first_seen": 1640383645.649145, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 3855, 
+                        "process_name": "zjsdecode", 
+                        "command_line": "", 
+                        "first_seen": 1640383646.888458, 
+                        "ppid": 3854, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:07:18,010 [root] DEBUG: Starting analyzer from: /tmp/tmpQErLIO\n", 
+            "2021-12-24 22:07:18,010 [root] DEBUG: Storing results at: /tmp/wMHSUzl\n", 
+            "2021-12-24 22:07:20,085 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:07:20,089 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:07:20,092 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:07:25,649 [lib.core.packages] INFO: Process startup took 5.55 seconds\n", 
+            "2021-12-24 22:07:25,650 [root] INFO: Added new process to list with pid: 3847\n", 
+            "2021-12-24 22:07:34,950 [root] INFO: Process with pid 3847 has terminated\n", 
+            "2021-12-24 22:07:34,957 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:37,962 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:37,964 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n", 
+            "2021-12-24 22:11:12,945 [root] INFO: Terminating remaining processes before shutdown.\n", 
+            "2021-12-24 22:11:12,946 [root] INFO: Analysis completed.\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 11:39:23,044 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:39:53,090 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:40:23,138 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:40:53,183 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:41:23,226 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:41:53,269 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:42:23,292 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:42:53,332 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:43:23,372 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:43:53,412 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:44:23,460 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:44:53,508 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:45:23,528 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:45:53,580 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:46:23,655 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:46:53,697 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:47:23,728 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:47:53,771 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:48:23,812 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:48:53,851 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:49:23,899 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:49:53,944 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:50:23,988 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:50:54,045 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:51:24,089 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:51:54,188 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:52:24,231 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:52:54,274 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:53:24,320 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:53:54,368 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:54:24,406 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:54:54,454 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:55:24,502 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:55:54,547 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:56:24,595 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:56:54,641 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:57:24,687 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:57:54,770 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:58:24,816 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:58:54,851 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:59:24,895 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 11:59:54,943 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 12:00:24,985 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 12:00:55,032 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 12:01:25,105 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 12:01:55,149 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 12:02:25,194 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 12:02:55,239 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 12:03:25,284 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 12:03:55,328 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 12:04:25,382 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 12:04:55,430 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 12:05:25,475 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 12:05:55,539 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 12:06:25,598 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 12:06:55,645 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 12:07:25,707 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 12:07:55,761 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 12:08:25,812 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 12:08:55,879 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 12:09:25,939 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 12:09:56,001 [cuckoo.core.scheduler] DEBUG: Task #2549246: no machine available yet\n", 
+            "2021-12-25 12:10:26,067 [cuckoo.core.scheduler] INFO: Task #2549246: acquired machine Ubuntu1904x644 (label=Ubuntu1904x644)\n", 
+            "2021-12-25 12:10:26,071 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.104 for task #2549246\n", 
+            "2021-12-25 12:10:26,259 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3638304 (interface=vboxnet0, host=192.168.168.104)\n", 
+            "2021-12-25 12:10:26,414 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x644\n", 
+            "2021-12-25 12:10:26,932 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x644 to Snapshot\n", 
+            "2021-12-25 12:10:54,679 [cuckoo.core.guest] INFO: Starting analysis #2549246 on guest (id=Ubuntu1904x644, ip=192.168.168.104)\n", 
+            "2021-12-25 12:10:55,683 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: not ready yet\n", 
+            "2021-12-25 12:11:00,703 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x644, ip=192.168.168.104)\n", 
+            "2021-12-25 12:11:00,733 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x644, ip=192.168.168.104, monitor=latest, size=72028)\n", 
+            "2021-12-25 12:11:00,872 [cuckoo.core.resultserver] DEBUG: Task #2549246: live log analysis.log initialized.\n", 
+            "2021-12-25 12:11:11,570 [cuckoo.core.resultserver] DEBUG: Task #2549246: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 12:11:11,575 [cuckoo.core.resultserver] DEBUG: Task #2549246 uploaded file length: 171578\n", 
+            "2021-12-25 12:11:15,871 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2549246 still processing\n", 
+            "2021-12-25 12:11:20,847 [cuckoo.core.resultserver] DEBUG: Task #2549246: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 12:11:20,849 [cuckoo.core.resultserver] DEBUG: Task #2549246 uploaded file length: 20956\n", 
+            "2021-12-25 12:11:30,948 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2549246 still processing\n", 
+            "2021-12-25 12:11:46,019 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2549246 still processing\n", 
+            "2021-12-25 12:12:01,099 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2549246 still processing\n", 
+            "2021-12-25 12:12:16,172 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2549246 still processing\n", 
+            "2021-12-25 12:12:31,267 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2549246 still processing\n", 
+            "2021-12-25 12:12:46,363 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2549246 still processing\n", 
+            "2021-12-25 12:13:01,454 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2549246 still processing\n", 
+            "2021-12-25 12:13:16,515 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2549246 still processing\n", 
+            "2021-12-25 12:13:31,571 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2549246 still processing\n", 
+            "2021-12-25 12:13:46,629 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2549246 still processing\n", 
+            "2021-12-25 12:14:01,702 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2549246 still processing\n", 
+            "2021-12-25 12:14:16,770 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2549246 still processing\n", 
+            "2021-12-25 12:14:31,874 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2549246 still processing\n", 
+            "2021-12-25 12:14:46,956 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2549246 still processing\n", 
+            "2021-12-25 12:14:56,002 [cuckoo.core.guest] INFO: Ubuntu1904x644: analysis completed successfully\n", 
+            "2021-12-25 12:14:56,009 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 12:14:56,077 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 12:15:15,467 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x644 to path /srv/cuckoo/cwd/storage/analyses/2549246/memory.dmp\n", 
+            "2021-12-25 12:15:15,469 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x644\n", 
+            "2021-12-25 12:15:19,474 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.104 for task #2549246\n", 
+            "2021-12-25 12:15:19,607 [cuckoo.core.scheduler] DEBUG: Released database task #2549246\n", 
+            "2021-12-25 12:15:19,688 [cuckoo.core.scheduler] INFO: Task #2549246: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "__stack_chk_guard", 
+        "stderr", 
+        "__vfprintf_chk", 
+        "__stack_chk_fail", 
+        "fwrite", 
+        "__errno_location", 
+        "strerror", 
+        "__fprintf_chk", 
+        "__printf_chk", 
+        "PrintOffset", 
+        "PrintHexOffset", 
+        "_IO_getc", 
+        "ungetc", 
+        "stdout", 
+        "strlen", 
+        "strcmp", 
+        "strncmp", 
+        "memcmp", 
+        "putchar", 
+        "fflush", 
+        "RawFile", 
+        "DecFile", 
+        "fclose", 
+        "__sprintf_chk", 
+        "jbg_dec_init", 
+        "jbg_dec_in", 
+        "jbg_dec_getheight", 
+        "jbg_dec_getwidth", 
+        "jbg_dec_getimage", 
+        "jbg_dec_getsize", 
+        "jbg_dec_free", 
+        "print_bih", 
+        "optarg", 
+        "getopt", 
+        "strtol", 
+        "optind", 
+        "decode", 
+        "libjbig.so.0", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "ld.so.1", 
+        "_ftext", 
+        "_fdata", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.4", 
+        "GLIBC_2.3.4", 
+        "GLIBC_2.2", 
+        "GLIBC_2.0", 
+        "Qf&%(@", 
+        "Error: ", 
+        "Warning: ", 
+        "Usage:", 
+        "zjsdecode [options] < zjs-file", 
+        "Decode a ZjStream into human readable form.", 
+        "A ZjStream is the printer language used by some Minolta/QMS and", 
+        "HP printers, such as the 2300DL and LJ-1000.", 
+        "More information on Zenographics ZjStream can be found at:", 
+        "http://ddk.zeno.com", 
+        "Options:", 
+        "       -d basename Basename of .pbm file for saving decompressed planes", 
+        "       -r basename Basename of .jbg file for saving raw planes", 
+        "       -h          Print hex file offsets", 
+        "       -o          Print file offsets", 
+        "       -p          Don't do 4 byte padding", 
+        "       -D lvl      Set Debug level [%d]", 
+        " HITOLO", 
+        " ILEAVE", 
+        " other", 
+        " LRLTWO", 
+        " VLENGTH", 
+        " TPDON", 
+        " TPBON", 
+        " DPPRIV", 
+        " DPLAST", 
+        "DL = %d, D = %d, P = %d, - = %d, XY = %d x %d", 
+        "L0 = %d, MX = %d, MY = %d", 
+        "Order   = %d %s%s%s%s%s", 
+        "Options = %d %s%s%s%s%s%s%s%s", 
+        "%u stripes, %d layers, %d planes", 
+        "%d:     ", 
+        "%6x:    ", 
+        "ZJI_PAGECOUNT", 
+        "ZJI_DMCOLLATE", 
+        "ZJI_DMDUPLEX", 
+        "ZJI_DMPAPER", 
+        "ZJI_DMCOPIES", 
+        "ZJI_DMDEFAULTSOURCE", 
+        "ZJI_DMMEDIATYPE", 
+        "ZJI_NBIE", 
+        "ZJI_RESOLUTION_X", 
+        "ZJI_RESOLUTION_Y", 
+        "ZJI_OFFSET_X", 
+        "ZJI_OFFSET_Y", 
+        "ZJI_RASTER_X", 
+        "ZJI_RASTER_Y", 
+        "ZJI_MINOLTA_CUSTOM_X", 
+        "ZJI_MINOLTA_CUSTOM_Y", 
+        "ZJI_COLLATE", 
+        "ZJI_QUANTITY", 
+        "ZJI_VIDEO_BPP", 
+        "ZJI_VIDEO_X", 
+        "ZJI_VIDEO_Y", 
+        "ZJI_INTERLACE", 
+        "ZJI_PLANE", 
+        "ZJI_PALETTE", 
+        "ZJI_PAD", 
+        "ZJI_QMS_FINEMODE", 
+        "ZJI_QMS_OUTBIN", 
+        "ZJI_MINOLTA_PAGE_NUMBER", 
+        "ZJI_MINOLTA_FILENAME", 
+        "ZJI_MINOLTA_USERNAME", 
+        "ZJI_BITMAP_TYPE", 
+        "ZJI_BITMAP_PIXELS", 
+        "ZJI_BITMAP_BPP", 
+        "ZJI_BITMAP_STRIDE", 
+        "ZJI_INCRY", 
+        "ZJI_JBIG_BIH", 
+        "ZJI_RET", 
+        "ZJI_ECONOMODE", 
+        "ZJI_HP_CDOTS", 
+        "ZJI_HP_MDOTS", 
+        "ZJI_HP_YDOTS", 
+        "ZJI_HP_KDOTS", 
+        "ZJI_HP_CWHITE", 
+        "ZJI_HP_MWHITE", 
+        "ZJI_HP_YWHITE", 
+        "ZJI_HP_KWHITE", 
+        "ZJI_ZX_0x6c", 
+        "ZJI_ZX_COLOR_OPT", 
+        "ZJI_ZX_0x6f", 
+        "ZJT_ZX_0x0f", 
+        "ZJT_ZX_0x0e", 
+        "ZJT_ZX_0x0d", 
+        "ZJT_2600N", 
+        "ZJT_2600N_PAUSE", 
+        "ZJT_END_PLANE", 
+        "ZJT_START_PLANE", 
+        "ZJT_RAW_IMAGE", 
+        "ZJT_SIGNATURE", 
+        "ZJT_END_JBIG", 
+        "ZJT_JBIG_BID", 
+        "ZJT_JBIG_BIH", 
+        "ZJT_END_PAGE", 
+        "ZJT_START_PAGE", 
+        "ZJT_END_DOC", 
+        "ZJT_START_DOC", 
+        "standard / plain", 
+        "transparency / transparency", 
+        "glossy / unknown", 
+        "unk / light", 
+        "letterhead", 
+        "unk / bond", 
+        "thickstock / cardstock", 
+        "postcard / heavy 111-130g", 
+        "labels / rough", 
+        "unk / labels", 
+        "unk / envelope", 
+        "unk / vellum", 
+        "unk / z3: hp tough paper", 
+        "unk / medium / z3: mid-weight 96-110g", 
+        "unk / extra heavy 131-175g", 
+        "unk / z3: heavy glossy 111-130g", 
+        "unk / z3: extra heavy glossy 131-175g", 
+        "unk / z3: card glossy 176-220g", 
+        "unk / z3: heavy envelope", 
+        "unk / z3: heavy rough", 
+        "unk / z3: hp laserjet 90g", 
+        "unk / z3: hp color laser matte 105g", 
+        "unk / z3: hp premium choice matte 120g", 
+        "unk / z3: hp color laser brochure matte 160g", 
+        "unk / z3: hp superior laser matte 160g", 
+        "unk / z3: hp cover matte 200g", 
+        "unk / z3: hp presentation glossy 130g", 
+        "unk / z3: hp color laser brochure glossy 160g", 
+        "unk / z3: hp superior laser glossy 160g", 
+        "unk / z3: hp color laser photo glossy 220g", 
+        "unk / z3: hp tri-fold color laser brochure 160g", 
+        "unk / z3: hp matte photo 200g", 
+        "unk / z3: hp professional laser glossy 130g", 
+        "unk / color", 
+        "unk / letterhead", 
+        "unk / preprinted", 
+        "unk / prepunched", 
+        "unk / recycled", 
+        "unk / unspecified", 
+        "letter", 
+        "executive", 
+        "fanfold german legal", 
+        "16k 195x270", 
+        "16k 184x260", 
+        "16k 197x273", 
+        "z1-postcard", 
+        "z1-double postcard", 
+        "postcard", 
+        "z2-double postcard rotated", 
+        "env#10", 
+        "envMonarch", 
+        "z3-4x6", 
+        "z3-5x8", 
+        "z3-10x15cm", 
+        "EOF on file reading header.", 
+        "@PJL ENTER LANGUAGE = ZJS", 
+        "@PJL USTATUS TIMED = ", 
+        "buf=%s", 
+        "\\033%s", 
+        "@PJL SET JOBATTR=", 
+        "Missing ZJS Magic number", 
+        "ZJS_MAGIC, 0x%lx (%.4s)", 
+        "Don't understand magic number 0x%lx", 
+        " (unaligned size)", 
+        " (reserved=0x%x)", 
+        " (funny siggy 0x%x)", 
+        " [Page %d]", 
+        "Data: %d bytes (0x%x)", 
+        "%s, %ld (0x%lx)", 
+        "ZJI_0x%x, %ld (0x%lx)", 
+        " [black]", 
+        " [cyan]", 
+        " [yellow]", 
+        " [magenta]", 
+        " [mono]", 
+        " [rgb]", 
+        " [cmyk]", 
+        "%s, '%s'", 
+        "ZJI_0x%x, '%s'", 
+        "%s, BYTELUT (len=%d)", 
+        "ZJI_0x%x, BYTELUT (len=%d)", 
+        "#items is wrong!", 
+        "Data: %d bytes", 
+        "JBIG uses unimplemented feature", 
+        "%s-%02d-%d.jbg", 
+        "%s-%02d-%d.pbm", 
+        "%s-%02d-%d.pgm", 
+        "%8d %8d", 
+        "%8d %8d 3", 
+        "Missing image %dx%d!", 
+        "Total size: %d bytes", 
+        "%s, %ld items", 
+        "ZJT_0x%lx, %ld items", 
+        "d:hopr:D:?h", 
+        "file '%s' doesn't exist", 
+        "58e93219dc1a5fe557e6562227beaf4442441c.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
