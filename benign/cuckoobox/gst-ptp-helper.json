@@ -1,0 +1,3337 @@
+{
+    "info": {
+        "added": 1640383611.934659, 
+        "started": 1640399851.571327, 
+        "duration": 1224, 
+        "ended": 1640401075.714148, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2548464, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x645", 
+            "label": "Ubuntu1904x645", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 02:52:33", 
+            "shutdown_on": "2021-12-25 02:57:55"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "11567527f834b225f21c698d040a17e7b1657c58", 
+            "name": "gst-ptp-helper", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=e1275b6dd6a2d45d9c51ae71ad7fcc90669b6fa2, stripped", 
+            "sha256": "0323c17f9de0d903450d3201926799abc9435fbbb6c55758f7e4888448c1c5bf", 
+            "urls": [], 
+            "crc32": "15ED5D9E", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/0323c17f9de0d903450d3201926799abc9435fbbb6c55758f7e4888448c1c5bf", 
+            "ssdeep": "384:eDMJp3H7iH1GWxW6I6ajHDZ6zrIKZ6BRc94qO8h5uj2LkLx1BTDPDhDbsDj6rLFh:eDqp3H2H1GWxW6I6ajHDZ6zr/Z6BG94a", 
+            "size": 18660, 
+            "sha512": "f4d89539f9cf04400b0308a4480167a93fa6641b0c9e64cebc0368c29a2c115ee09986f77fc88d8805b9dc21a9b62640ccf61cb7c148b9f72eacc7dcf79606ab", 
+            "md5": "adf1e1a2bf702eec862636105a75d3c7"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "d880c100-5f3c-49b6-b1b6-85940aa2fc54", 
+        "parent_file_sha256": null, 
+        "name": "0323c17f9de0d903450d3201926799abc9435fbbb6c55758f7e4888448c1c5bf", 
+        "probes_total": 16, 
+        "scan_date": 1640393877, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "11567527f834b225f21c698d040a17e7b1657c58", 
+            "tags": [], 
+            "timestamp_first_scan": 1640393876.91, 
+            "timestamp_last_scan": 1640393885.79, 
+            "sha256": "0323c17f9de0d903450d3201926799abc9435fbbb6c55758f7e4888448c1c5bf", 
+            "md5": "adf1e1a2bf702eec862636105a75d3c7", 
+            "size": 18660
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.05, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.66, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-15 12:09:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.26, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.16, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.7, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.22, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.6, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.33, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.12, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.98, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "520c53bf-ce8c-4389-96d7-73df055ea4a4", 
+        "file_sha256": "0323c17f9de0d903450d3201926799abc9435fbbb6c55758f7e4888448c1c5bf"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.105", 
+                "version": "TLS 1.2", 
+                "src_port": 53850, 
+                "dst_port": 443, 
+                "timestamp": "2021-12-25T02:53:31.174035+0200", 
+                "dst_ip": "91.189.92.41", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "37cf3356f7d22acfdba330ac209d474d92f8b1a0cac4f0cf17ee3f884e125c6c", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "dfcb730fdb132201ebe09a384adef46b56bab6669d8374bf64f09e0ca5ba1390", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "gst-ptp-helper", 
+                "pid": 2075, 
+                "summary": {}, 
+                "first_seen": 1640383619.714789, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "gst-ptp-helper", 
+                "pid": 2076, 
+                "summary": {}, 
+                "first_seen": 1640383619.73761, 
+                "ppid": 2075
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.714789 gst-ptp-helper@7f70a2d9bc27[2075] execve(\"/tmp/gst-ptp-helper\", [\"/tmp/gst-ptp-helper\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/gst-ptp-helper\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpFyj7f2\")\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9bc27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/gst-ptp-helper", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpFyj7f2"
+                            ], 
+                            "p0": "/tmp/gst-ptp-helper", 
+                            "p1": [
+                                "/tmp/gst-ptp-helper"
+                            ]
+                        }, 
+                        "time": 1640383619.714789
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.717691 gst-ptp-helper@7f70a2d9bc27[2075] brk(0x0) = 94891997696000\n", 
+                        "api": "brk", 
+                        "return_value": "94891997696000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9bc27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383619.717691
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.718710 gst-ptp-helper@7f70a2d9c9d7[2075] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383619.71871
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.719752 gst-ptp-helper@7f70a2d9cb0d[2075] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383619.719752
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.719814 gst-ptp-helper@7f70a2d9c943[2075] fstat(4, 0x7ffe9904b7e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b7e0"
+                        }, 
+                        "time": 1640383619.719814
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.719862 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f70a2d6a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2d6a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.719862
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.719911 gst-ptp-helper@7f70a2d9c9f7[2075] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.719911
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.719973 gst-ptp-helper@7f70a2d9cb0d[2075] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383619.719973
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.720029 gst-ptp-helper@7f70a2d9cbd4[2075] read(4, 0x7ffe9904b998, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b998"
+                        }, 
+                        "time": 1640383619.720029
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.720074 gst-ptp-helper@7f70a2d9c943[2075] fstat(4, 0x7ffe9904b830) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b830"
+                        }, 
+                        "time": 1640383619.720074
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.720117 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f70a2d68000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2d68000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.720117
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.720171 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f70a2d62000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2d62000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.720171
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.720218 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a2d63000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f70a2d63000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2d63000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a2d63000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383619.720218
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.720274 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a2d65000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f70a2d65000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2d65000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a2d65000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383619.720274
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.720327 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a2d66000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f70a2d66000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2d66000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a2d66000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383619.720327
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.720393 gst-ptp-helper@7f70a2d9c9f7[2075] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.720393
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.720455 gst-ptp-helper@7f70a2d9cb0d[2075] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383619.720455
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.720508 gst-ptp-helper@7f70a2d9cbd4[2075] read(4, 0x7ffe9904b978, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b978"
+                        }, 
+                        "time": 1640383619.720508
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.720567 gst-ptp-helper@7f70a2d9c943[2075] fstat(4, 0x7ffe9904b810) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b810"
+                        }, 
+                        "time": 1640383619.720567
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.720617 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f70a2c41000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2c41000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.720617
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.720668 gst-ptp-helper@7f70a2d9cdb7[2075] mprotect(0x7f70a2c5c000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f70a2c5c000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383619.720668
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.720723 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a2c5c000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f70a2c5c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2c5c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a2c5c000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383619.720723
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.720776 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a2cdc000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f70a2cdc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2cdc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a2cdc000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383619.720776
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.720832 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a2d5f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f70a2d5f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2d5f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a2d5f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383619.720832
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.720894 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a2d61000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f70a2d61000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2d61000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f70a2d61000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.720894
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.720950 gst-ptp-helper@7f70a2d9c9f7[2075] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.72095
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.721017 gst-ptp-helper@7f70a2d9cb0d[2075] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383619.721017
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.721072 gst-ptp-helper@7f70a2d9cbd4[2075] read(4, 0x7ffe9904b958, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b958"
+                        }, 
+                        "time": 1640383619.721072
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.721119 gst-ptp-helper@7f70a2d9c943[2075] fstat(4, 0x7ffe9904b7f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b7f0"
+                        }, 
+                        "time": 1640383619.721119
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.721165 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f70a2c36000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2c36000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.721165
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.721218 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a2c39000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f70a2c39000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2c39000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a2c39000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383619.721218
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.721279 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a2c3d000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f70a2c3d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2c3d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a2c3d000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383619.721279
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.721329 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a2c3f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f70a2c3f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2c3f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a2c3f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383619.721329
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.721396 gst-ptp-helper@7f70a2d9c9f7[2075] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.721396
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.721456 gst-ptp-helper@7f70a2d9cb0d[2075] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383619.721456
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.721508 gst-ptp-helper@7f70a2d9cbd4[2075] read(4, 0x7ffe9904b938, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b938"
+                        }, 
+                        "time": 1640383619.721508
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.721552 gst-ptp-helper@7f70a2d9c943[2075] fstat(4, 0x7ffe9904b7d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b7d0"
+                        }, 
+                        "time": 1640383619.721552
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.721601 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f70a2a54000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2a54000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.721601
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.721652 gst-ptp-helper@7f70a2d9cdb7[2075] mprotect(0x7f70a2ae9000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f70a2ae9000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383619.721652
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.721701 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a2ae9000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7f70a2ae9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2ae9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a2ae9000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383619.721701
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.721843 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a2bdb000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7f70a2bdb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2bdb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a2bdb000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383619.721843
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.721903 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a2c25000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7f70a2c25000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2c25000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a2c25000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383619.721903
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.721963 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a2c33000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f70a2c33000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2c33000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f70a2c33000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.721963
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.722024 gst-ptp-helper@7f70a2d9c9f7[2075] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.722024
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.722092 gst-ptp-helper@7f70a2d9cb0d[2075] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383619.722092
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.722146 gst-ptp-helper@7f70a2d9cbd4[2075] read(4, 0x7ffe9904b918, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b918"
+                        }, 
+                        "time": 1640383619.722146
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.722192 gst-ptp-helper@7f70a2d9c943[2075] fstat(4, 0x7ffe9904b7b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b7b0"
+                        }, 
+                        "time": 1640383619.722192
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.722236 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f70a2906000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2906000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.722236
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.722283 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a2915000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f70a2915000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2915000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a2915000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383619.722283
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.722336 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a29bb000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f70a29bb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a29bb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a29bb000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383619.722336
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.722386 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a2a52000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f70a2a52000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2a52000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a2a52000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383619.722386
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.722451 gst-ptp-helper@7f70a2d9c9f7[2075] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.722451
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.722516 gst-ptp-helper@7f70a2d9cb0d[2075] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383619.722516
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.722567 gst-ptp-helper@7f70a2d9cbd4[2075] read(4, 0x7ffe9904b8f8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b8f8"
+                        }, 
+                        "time": 1640383619.722567
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.722610 gst-ptp-helper@7f70a2d9c943[2075] fstat(4, 0x7ffe9904b790) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b790"
+                        }, 
+                        "time": 1640383619.72261
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.722653 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f70a28ec000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a28ec000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.722653
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.722700 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a28ef000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f70a28ef000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a28ef000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a28ef000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383619.7227
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.722756 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a2900000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f70a2900000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2900000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a2900000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383619.722756
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.722809 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a2904000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f70a2904000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2904000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a2904000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383619.722809
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.722879 gst-ptp-helper@7f70a2d9c9f7[2075] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.722879
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.722936 gst-ptp-helper@7f70a2d9cb0d[2075] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383619.722936
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.722993 gst-ptp-helper@7f70a2d9cbd4[2075] read(4, 0x7ffe9904b8d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b8d8"
+                        }, 
+                        "time": 1640383619.722993
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.723037 gst-ptp-helper@7f70a2d9c943[2075] fstat(4, 0x7ffe9904b770) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b770"
+                        }, 
+                        "time": 1640383619.723037
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.723081 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f70a28ea000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a28ea000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.723081
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.723136 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f70a28c9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a28c9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.723136
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.723184 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a28d0000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f70a28d0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a28d0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a28d0000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383619.723184
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.723240 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a28df000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f70a28df000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a28df000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a28df000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383619.72324
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.723296 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a28e4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f70a28e4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a28e4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a28e4000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383619.723296
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.723351 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a28e6000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f70a28e6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a28e6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f70a28e6000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.723351
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.723409 gst-ptp-helper@7f70a2d9c9f7[2075] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.723409
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.723465 gst-ptp-helper@7f70a2d9cb0d[2075] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383619.723465
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.723518 gst-ptp-helper@7f70a2d9cbd4[2075] read(4, 0x7ffe9904b8b8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b8b8"
+                        }, 
+                        "time": 1640383619.723518
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.723565 gst-ptp-helper@7f70a2d9c943[2075] fstat(4, 0x7ffe9904b750) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b750"
+                        }, 
+                        "time": 1640383619.723565
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.723609 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f70a26de000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a26de000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.723609
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.723659 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a2703000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f70a2703000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2703000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a2703000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383619.723659
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.723717 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a2876000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f70a2876000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2876000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a2876000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383619.723717
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.723771 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a28bf000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f70a28bf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a28bf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a28bf000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383619.723771
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.723829 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a28c5000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f70a28c5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a28c5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f70a28c5000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.723829
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.723888 gst-ptp-helper@7f70a2d9c9f7[2075] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.723888
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.723962 gst-ptp-helper@7f70a2d9cb0d[2075] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383619.723962
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.724022 gst-ptp-helper@7f70a2d9cbd4[2075] read(4, 0x7ffe9904b898, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b898"
+                        }, 
+                        "time": 1640383619.724022
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.724065 gst-ptp-helper@7f70a2d9c943[2075] fstat(4, 0x7ffe9904b730) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b730"
+                        }, 
+                        "time": 1640383619.724065
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.724109 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f70a26d8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a26d8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.724109
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.724162 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a26d9000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f70a26d9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a26d9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a26d9000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383619.724162
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.724218 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a26db000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f70a26db000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a26db000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a26db000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383619.724218
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.724362 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a26dc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f70a26dc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a26dc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a26dc000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383619.724362
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.724433 gst-ptp-helper@7f70a2d9c9f7[2075] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.724433
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.724547 gst-ptp-helper@7f70a2d9cb0d[2075] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383619.724547
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.724603 gst-ptp-helper@7f70a2d9cbd4[2075] read(4, 0x7ffe9904b878, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b878"
+                        }, 
+                        "time": 1640383619.724603
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.724650 gst-ptp-helper@7f70a2d9c943[2075] fstat(4, 0x7ffe9904b710) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b710"
+                        }, 
+                        "time": 1640383619.72465
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.724701 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f70a2664000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2664000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.724701
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.724751 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a2666000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f70a2666000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2666000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a2666000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383619.724751
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.724806 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a26b8000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f70a26b8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a26b8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a26b8000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383619.724806
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.724859 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x7f70a26d6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f70a26d6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a26d6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f70a26d6000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383619.724859
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.724925 gst-ptp-helper@7f70a2d9c9f7[2075] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.724925
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.726327 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f70a2662000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a2662000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.726327
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.726417 gst-ptp-helper@7f70a2d9cd03[2075] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f70a265f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a265f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.726417
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.726486 gst-ptp-helper@7f70a2d81f30[2075] arch_prctl(ARCH_SET_FS, 140121737656256) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d81f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140121737656256"
+                        }, 
+                        "time": 1640383619.726486
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.727408 gst-ptp-helper@7f70a2d9cdb7[2075] mprotect(0x7f70a28bf000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f70a28bf000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383619.727408
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.727496 gst-ptp-helper@7f70a2d9cdb7[2075] mprotect(0x7f70a28e4000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f70a28e4000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383619.727496
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.727604 gst-ptp-helper@7f70a2d9cdb7[2075] mprotect(0x7f70a26d6000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f70a26d6000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383619.727604
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.727658 gst-ptp-helper@7f70a2d9cdb7[2075] mprotect(0x7f70a26dc000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f70a26dc000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383619.727658
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.727703 gst-ptp-helper@7f70a2d9cdb7[2075] mprotect(0x7f70a2904000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f70a2904000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383619.727703
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.727774 gst-ptp-helper@7f70a2d9cdb7[2075] mprotect(0x7f70a2a52000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f70a2a52000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383619.727774
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.728883 gst-ptp-helper@7f70a2d9cdb7[2075] mprotect(0x7f70a2c25000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f70a2c25000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383619.728883
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.728962 gst-ptp-helper@7f70a2d9cdb7[2075] mprotect(0x7f70a2c3f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f70a2c3f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383619.728962
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.729223 gst-ptp-helper@7f70a2d9cdb7[2075] mprotect(0x7f70a2d5f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f70a2d5f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383619.729223
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.729312 gst-ptp-helper@7f70a2d9cdb7[2075] mprotect(0x7f70a2d66000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f70a2d66000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383619.729312
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.734451 gst-ptp-helper@7f70a2d9cdb7[2075] mprotect(0x564dc1629000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x564dc1629000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383619.734451
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.734529 gst-ptp-helper@7f70a2d9cdb7[2075] mprotect(0x7f70a2daa000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f70a2daa000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383619.734529
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.734584 gst-ptp-helper@7f70a2d9cd97[2075] munmap(0x7f70a2d6a000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2d9cd97", 
+                        "arguments": {
+                            "p0": "0x7f70a2d6a000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383619.734584
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.734713 gst-ptp-helper@7f70a28d08df[2075] set_tid_address(0x7f70a265fa90) = 2075\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2075", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a28d08df", 
+                        "arguments": {
+                            "p0": "0x7f70a265fa90"
+                        }, 
+                        "time": 1640383619.734713
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.734806 gst-ptp-helper@7f70a28d094a[2075] set_robust_list(0x7f70a265faa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a28d094a", 
+                        "arguments": {
+                            "p0": "0x7f70a265faa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383619.734806
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.734867 gst-ptp-helper@7f70a28dd010[2075] rt_sigaction(0x20, {0x7f70a28d06c0, SA_SIGINFO|SA_RESTORER, 0x7f70a28dcf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a28dd010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f70a28d06c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f70a28dcf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383619.734867
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.734905 gst-ptp-helper@7f70a28dd010[2075] rt_sigaction(0x21, {0x7f70a28d0760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f70a28dcf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a28dd010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f70a28d0760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f70a28dcf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383619.734905
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.734941 gst-ptp-helper@7f70a28d0a19[2075] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a28d0a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383619.734941
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.734993 gst-ptp-helper@7f70a27f0df0[2075] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe9904c570) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f0df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe9904c570", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383619.734993
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.735201 gst-ptp-helper@7f70a27f12f7[2075] brk(0x0) = 94891997696000\n", 
+                        "api": "brk", 
+                        "return_value": "94891997696000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f12f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383619.735201
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.735236 gst-ptp-helper@7f70a27f12f7[2075] brk(0x564dc3d2a000) = 94891997831168\n", 
+                        "api": "brk", 
+                        "return_value": "94891997831168", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f12f7", 
+                        "arguments": {
+                            "p0": "0x564dc3d2a000"
+                        }, 
+                        "time": 1640383619.735236
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.736385 gst-ptp-helper@7f70a28d9b86[2075] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffe9904c4c0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a28d9b86", 
+                        "arguments": {
+                            "p2": "0x7ffe9904c4c0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383619.736385
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.737312 gst-ptp-helper@7f70a27f54c3[2075] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f70a1e5e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a1e5e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f54c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.737312
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.737374 gst-ptp-helper@7f70a27f5597[2075] mprotect(0x7f70a1e5f000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f5597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f70a1e5f000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383619.737374
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.737453 gst-ptp-helper@7f70a27fbb11[2075] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f70a265df30, 0x7f70a265e9d0, 0x7f70a265e9d0) = 2076\n", 
+                        "api": "clone", 
+                        "return_value": "2076", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27fbb11", 
+                        "arguments": {
+                            "p2": "0x7f70a265e9d0", 
+                            "p3": "0x7f70a265e9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f70a265df30"
+                        }, 
+                        "time": 1640383619.737453
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.737572 gst-ptp-helper@7f70a28d9b86[2075] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a28d9b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383619.737572
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.742588 gst-ptp-helper@7f70a27f0df0[2075] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe9904c020) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f0df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe9904c020", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383619.742588
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.742675 gst-ptp-helper@7f70a27f05c1[2075] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f05c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383619.742675
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.744116 gst-ptp-helper@7f70a27bf247[2075] uname(0x7ffe9904bc90) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27bf247", 
+                        "arguments": {
+                            "p0": "0x7ffe9904bc90"
+                        }, 
+                        "time": 1640383619.744116
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.744164 gst-ptp-helper@7f70a28dc337[2075] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a28dc337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383619.744164
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.744202 gst-ptp-helper@7f70a28dbd94[2075] read(3, 0x7ffe9904bf80, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a28dbd94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffe9904bf80"
+                        }, 
+                        "time": 1640383619.744202
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.744256 gst-ptp-helper@7f70a28dc337[2075] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a28dc337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383619.744256
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.745503 gst-ptp-helper@7f70a27f12f7[2075] brk(0x564dc3d4b000) = 94891997966336\n", 
+                        "api": "brk", 
+                        "return_value": "94891997966336", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f12f7", 
+                        "arguments": {
+                            "p0": "0x564dc3d4b000"
+                        }, 
+                        "time": 1640383619.745503
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.745711 gst-ptp-helper@7f70a27f54c3[2075] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f70a1ddd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70a1ddd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f54c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.745711
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.746348 gst-ptp-helper@7f70a27f5597[2075] mprotect(0x564dc16ac000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f5597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x564dc16ac000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383619.746348
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.746405 gst-ptp-helper@7f70a27f5667[2075] madvise(0x564dc16ac000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f5667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x564dc16ac000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383619.746405
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.747308 gst-ptp-helper@7f70a27f54c3[2075] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f701c000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f701c000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f54c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.747308
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.747368 gst-ptp-helper@7f70a27ead59[2075] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27ead59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383619.747368
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.747435 gst-ptp-helper@7f70a27ea613[2075] fstat(4, 0x7ffe9904b690) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27ea613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9904b690"
+                        }, 
+                        "time": 1640383619.747435
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.747472 gst-ptp-helper@7f70a27eafb4[2075] read(4, 0x564dc3d284e0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27eafb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x564dc3d284e0"
+                        }, 
+                        "time": 1640383619.747472
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.747518 gst-ptp-helper@7f70a27f03f7[2075] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f03f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.747518
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.747573 gst-ptp-helper@7f70a27f52e9[2075] gettid() = 2075\n", 
+                        "api": "gettid", 
+                        "return_value": "2075", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f52e9", 
+                        "arguments": {}, 
+                        "time": 1640383619.747573
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.747607 gst-ptp-helper@7f70a27ea613[2075] fstat(3, 0x7ffe9904bf00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27ea613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffe9904bf00"
+                        }, 
+                        "time": 1640383619.747607
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.747642 gst-ptp-helper@7f70a27c0717[2075] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27c0717", 
+                        "arguments": {}, 
+                        "time": 1640383619.747642
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.747679 gst-ptp-helper@7f70a27c0737[2075] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27c0737", 
+                        "arguments": {}, 
+                        "time": 1640383619.747679
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.747728 gst-ptp-helper@7f70a28dbd94[2075] read(3, 0x7ffe9904c160, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a28dbd94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffe9904c160"
+                        }, 
+                        "time": 1640383619.747728
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.747805 gst-ptp-helper@7f70a27f54c3[2075] mmap2(0x7f709bfeb000, 86016, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f709bfeb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f709bfeb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f54c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7f709bfeb000", 
+                            "p1": "86016", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.747805
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.747902 gst-ptp-helper@7f70a27f54c3[2075] mmap2(0x7f709bfeb000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f709bfeb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f709bfeb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f54c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f709bfeb000", 
+                            "p1": "16384", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.747902
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.747968 gst-ptp-helper@7f70a27f54c3[2075] mmap2(0x7f709bffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 12288) = 0x7f709bffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f709bffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f54c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f709bffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383619.747968
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.748039 gst-ptp-helper@7f70a28dbe27[2075] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a28dbe27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383619.748039
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.748120 gst-ptp-helper@7f70a27f54c3[2075] mmap2(0x7f709b7ea000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f709b7ea000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f709b7ea000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f54c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f709b7ea000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.74812
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.748202 gst-ptp-helper@7f70a2809d9c[2075] futex(0x7f70a28c2c40, FUTEX_WAIT_PRIVATE, 2) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2809d9c", 
+                        "arguments": {
+                            "p2": "2", 
+                            "p0": "0x7f70a28c2c40", 
+                            "p1": "FUTEX_WAIT_PRIVATE"
+                        }, 
+                        "time": 1640383619.748202
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.748401 gst-ptp-helper@7f70a27f12f7[2075] brk(0x564dc3d6c000) = 94891998101504\n", 
+                        "api": "brk", 
+                        "return_value": "94891998101504", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f12f7", 
+                        "arguments": {
+                            "p0": "0x564dc3d6c000"
+                        }, 
+                        "time": 1640383619.748401
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.748443 gst-ptp-helper@7f70a2809dc9[2075] futex(0x7f70a28c2c40, FUTEX_WAKE_PRIVATE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2809dc9", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f70a28c2c40", 
+                            "p1": "FUTEX_WAKE_PRIVATE"
+                        }, 
+                        "time": 1640383619.748443
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.748513 gst-ptp-helper@7f70a27f5597[2075] mprotect(0x7f709b7ea000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f5597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f709b7ea000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383619.748513
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.748566 gst-ptp-helper@7f70a28dc55e[2075] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a28dc55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383619.748566
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.748672 gst-ptp-helper@7f70a27eb057[2075] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27eb057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383619.748672
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.748803 gst-ptp-helper@7f70a27bf926[2075] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27bf926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383619.748803
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2075, 
+                        "raw": "Fri Dec 24 22:06:59 2021.748855 gst-ptp-helper@7f70a27bf926[2075] futex(0x7f70a265fa90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27bf926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f70a265fa90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383619.748855
+                    }
+                ], 
+                "pid": 2075, 
+                "process_name": "gst-ptp-helper", 
+                "command_line": "/tmp/gst-ptp-helper", 
+                "first_seen": 1640383619.714789, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.737610 gst-ptp-helper@7f70a28d2117[2076] set_robust_list(0x7f70a265e9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a28d2117", 
+                        "arguments": {
+                            "p0": "0x7f70a265e9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383619.73761
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.737669 gst-ptp-helper@7f70a27f54c3[2076] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f7099e5e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7099e5e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f54c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.737669
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.737867 gst-ptp-helper@7f70a27f5567[2076] munmap(0x7f7099e5e000, 35266560) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f5567", 
+                        "arguments": {
+                            "p0": "0x7f7099e5e000", 
+                            "p1": "35266560"
+                        }, 
+                        "time": 1640383619.737867
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.737906 gst-ptp-helper@7f70a27f5567[2076] munmap(0x7f70a0000000, 31842304) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f5567", 
+                        "arguments": {
+                            "p0": "0x7f70a0000000", 
+                            "p1": "31842304"
+                        }, 
+                        "time": 1640383619.737906
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.737939 gst-ptp-helper@7f70a27f5597[2076] mprotect(0x7f709c000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f5597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f709c000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383619.737939
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.737990 gst-ptp-helper@7f70a28dc440[2076] nanosleep([0.010000000], 0x7f70a265dd80) = 0\n", 
+                        "api": "nanosleep", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a28dc440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f70a265dd80"
+                        }, 
+                        "time": 1640383619.73799
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.748218 gst-ptp-helper@7f70a27f5667[2076] madvise(0x564dc3d2a000, 8192, MADV_DONTNEED) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f5667", 
+                        "arguments": {
+                            "p2": "MADV_DONTNEED", 
+                            "p0": "0x564dc3d2a000", 
+                            "p1": "8192"
+                        }, 
+                        "time": 1640383619.748218
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.748290 gst-ptp-helper@7f70a2809dc9[2076] futex(0x7f70a28c2c40, FUTEX_WAKE_PRIVATE, 1) = 1\n", 
+                        "api": "futex", 
+                        "return_value": "1", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a2809dc9", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f70a28c2c40", 
+                            "p1": "FUTEX_WAKE_PRIVATE"
+                        }, 
+                        "time": 1640383619.74829
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gst-ptp-helper", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.748351 gst-ptp-helper@7f70a27f52e9[2076] futex(0x564dc36bfa48, FUTEX_WAIT, -1, NULL) = -512\n", 
+                        "api": "futex", 
+                        "return_value": "-512", 
+                        "category": "process", 
+                        "instruction_pointer": "7f70a27f52e9", 
+                        "arguments": {
+                            "p2": "-1", 
+                            "p3": "NULL", 
+                            "p0": "0x564dc36bfa48", 
+                            "p1": "FUTEX_WAIT"
+                        }, 
+                        "time": 1640383619.748351
+                    }
+                ], 
+                "pid": 2076, 
+                "process_name": "gst-ptp-helper", 
+                "command_line": "", 
+                "first_seen": 1640383619.73761, 
+                "ppid": 2075, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2075, 
+                "process_name": "gst-ptp-helper", 
+                "command_line": "/tmp/gst-ptp-helper", 
+                "first_seen": 1640383619.714789, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2076, 
+                        "process_name": "gst-ptp-helper", 
+                        "command_line": "", 
+                        "first_seen": 1640383619.73761, 
+                        "ppid": 2075, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:06:51,003 [root] DEBUG: Starting analyzer from: /tmp/tmpFyj7f2\n", 
+            "2021-12-24 22:06:51,004 [root] DEBUG: Storing results at: /tmp/PIyxep\n", 
+            "2021-12-24 22:06:53,293 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:06:53,796 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:06:53,797 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:06:59,713 [lib.core.packages] INFO: Process startup took 5.91 seconds\n", 
+            "2021-12-24 22:06:59,714 [root] INFO: Added new process to list with pid: 2065\n", 
+            "2021-12-24 22:07:05,722 [root] INFO: Process with pid 2065 has terminated\n", 
+            "2021-12-24 22:07:05,722 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:08,726 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:08,727 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 02:37:32,110 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:38:02,157 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:38:32,198 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:39:02,241 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:39:32,285 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:40:02,325 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:40:32,369 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:41:02,416 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:41:32,459 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:42:02,507 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:42:32,551 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:43:02,595 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:43:32,629 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:44:02,674 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:44:32,717 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:45:02,756 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:45:32,807 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:46:02,856 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:46:32,902 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:47:02,939 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:47:32,982 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:48:03,021 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:48:33,062 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:49:03,105 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:49:33,148 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:50:03,190 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:50:33,230 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:51:03,282 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:51:33,325 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:52:03,366 [cuckoo.core.scheduler] DEBUG: Task #2548464: no machine available yet\n", 
+            "2021-12-25 02:52:33,431 [cuckoo.core.scheduler] INFO: Task #2548464: acquired machine Ubuntu1904x645 (label=Ubuntu1904x645)\n", 
+            "2021-12-25 02:52:33,431 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.105 for task #2548464\n", 
+            "2021-12-25 02:52:33,576 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3122016 (interface=vboxnet0, host=192.168.168.105)\n", 
+            "2021-12-25 02:52:33,720 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x645\n", 
+            "2021-12-25 02:52:34,146 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x645 to Snapshot\n", 
+            "2021-12-25 02:53:11,094 [cuckoo.core.guest] INFO: Starting analysis #2548464 on guest (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2021-12-25 02:53:12,099 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: not ready yet\n", 
+            "2021-12-25 02:53:17,127 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2021-12-25 02:53:17,142 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x645, ip=192.168.168.105, monitor=latest, size=72028)\n", 
+            "2021-12-25 02:53:18,324 [cuckoo.core.resultserver] DEBUG: Task #2548464: live log analysis.log initialized.\n", 
+            "2021-12-25 02:53:24,197 [cuckoo.core.resultserver] DEBUG: Task #2548464: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 02:53:24,235 [cuckoo.core.resultserver] DEBUG: Task #2548464 uploaded file length: 171563\n", 
+            "2021-12-25 02:53:32,283 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548464 still processing\n", 
+            "2021-12-25 02:53:36,060 [cuckoo.core.resultserver] DEBUG: Task #2548464: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 02:53:36,083 [cuckoo.core.resultserver] DEBUG: Task #2548464 uploaded file length: 22241\n", 
+            "2021-12-25 02:53:47,345 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548464 still processing\n", 
+            "2021-12-25 02:54:02,424 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548464 still processing\n", 
+            "2021-12-25 02:54:17,485 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548464 still processing\n", 
+            "2021-12-25 02:54:32,581 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548464 still processing\n", 
+            "2021-12-25 02:54:47,717 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548464 still processing\n", 
+            "2021-12-25 02:55:02,791 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548464 still processing\n", 
+            "2021-12-25 02:55:17,861 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548464 still processing\n", 
+            "2021-12-25 02:55:32,947 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548464 still processing\n", 
+            "2021-12-25 02:55:48,012 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548464 still processing\n", 
+            "2021-12-25 02:56:03,068 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548464 still processing\n", 
+            "2021-12-25 02:56:18,197 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548464 still processing\n", 
+            "2021-12-25 02:56:33,267 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548464 still processing\n", 
+            "2021-12-25 02:56:48,330 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548464 still processing\n", 
+            "2021-12-25 02:57:03,457 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548464 still processing\n", 
+            "2021-12-25 02:57:18,508 [cuckoo.core.guest] INFO: Ubuntu1904x645: end of analysis reached!\n", 
+            "2021-12-25 02:57:18,517 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 02:57:18,593 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 02:57:31,253 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x645 to path /srv/cuckoo/cwd/storage/analyses/2548464/memory.dmp\n", 
+            "2021-12-25 02:57:31,255 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x645\n", 
+            "2021-12-25 02:57:55,363 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.105 for task #2548464\n", 
+            "2021-12-25 02:57:55,364 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2548464\n", 
+            "2021-12-25 02:57:55,484 [cuckoo.core.scheduler] DEBUG: Released database task #2548464\n", 
+            "2021-12-25 02:57:55,576 [cuckoo.core.scheduler] INFO: Task #2548464: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "g_socket_receive", 
+        "__stack_chk_guard", 
+        "g_clear_error", 
+        "g_io_channel_write_chars", 
+        "__stack_chk_fail", 
+        "g_io_channel_read_chars", 
+        "g_socket_send_to", 
+        "g_socket_new", 
+        "g_socket_set_multicast_loopback", 
+        "g_inet_address_new_any", 
+        "g_inet_socket_address_new", 
+        "g_socket_bind", 
+        "g_object_unref", 
+        "g_inet_address_new_from_string", 
+        "g_socket_join_multicast_group", 
+        "g_io_error_quark", 
+        "g_error_matches", 
+        "g_socket_create_source", 
+        "g_source_set_priority", 
+        "g_source_set_callback", 
+        "g_source_attach", 
+        "g_strfreev", 
+        "g_socket_get_fd", 
+        "strncpy", 
+        "g_random_int", 
+        "g_malloc0_n", 
+        "g_strndup", 
+        "g_option_context_new", 
+        "g_option_context_add_main_entries", 
+        "g_option_context_parse", 
+        "g_option_context_free", 
+        "cap_get_proc", 
+        "cap_clear", 
+        "__errno_location", 
+        "g_strerror", 
+        "cap_set_proc", 
+        "g_io_channel_unix_new", 
+        "g_io_channel_set_encoding", 
+        "g_io_channel_set_buffered", 
+        "g_io_create_watch", 
+        "g_main_loop_new", 
+        "g_main_loop_run", 
+        "g_assertion_message_expr", 
+        "libgio-2.0.so.0", 
+        "libgobject-2.0.so.0", 
+        "libglib-2.0.so.0", 
+        "libcap.so.2", 
+        "libpthread.so.0", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "ld.so.1", 
+        "_ftext", 
+        "_fdata", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.4", 
+        "GLIBC_2.2", 
+        "GLIBC_2.0", 
+        "general", 
+        "Failed to read from socket: %s", 
+        "Received %i bytes from %s socket", 
+        "Failed to write to stdout: %s", 
+        "EOF on stdout", 
+        "Unexpected stdout write status: %d", 
+        "Unexpected write size: %u", 
+        "EOF on stdin", 
+        "Failed to read from stdin: %s", 
+        "Unexpected stdin read status: %d", 
+        "Unexpected read size: %u", 
+        "Unexpected size: %u", 
+        "Failed to write to socket: %s", 
+        "Unexpected write size: %i", 
+        "Sent %i bytes to %s socket", 
+        "Couldn't create event socket: %s", 
+        "Couldn't create general socket: %s", 
+        "Couldn't bind event socket: %s", 
+        "Couldn't bind general socket: %s", 
+        "can't get flags of interface '%s'", 
+        "can't get any MAC address, using random clock id", 
+        "224.0.1.129", 
+        "Couldn't join multicast group on interface '%s': %s", 
+        "Couldn't join multicast group: %s", 
+        "- GStreamer PTP helper process", 
+        "Error parsing options: %s", 
+        "Failed to get process caps: %s", 
+        "Failed to clear caps: %s", 
+        "Failed to set process caps: %s", 
+        "Failed to set stdin to binary encoding", 
+        "Failed to set stdout to binary encoding", 
+        "gst-ptp-helper.c", 
+        "interface", 
+        "Interface to listen on", 
+        "clock-id", 
+        "PTP clock id", 
+        "verbose", 
+        "Be verbose", 
+        "275b6dd6a2d45d9c51ae71ad7fcc90669b6fa2.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "dfcb730fdb132201ebe09a384adef46b56bab6669d8374bf64f09e0ca5ba1390", 
+                "dirname": ""
+            }
+        }
+    }
+}
