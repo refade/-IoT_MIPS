@@ -1,0 +1,3245 @@
+{
+    "info": {
+        "added": 1640383600.397793, 
+        "started": 1640386279.063698, 
+        "duration": 617, 
+        "ended": 1640386896.818142, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2548134, 
+        "category": "file", 
+        "git": {
+            "head": "", 
+            "fetch_head": ""
+        }, 
+        "monitor": null, 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x645", 
+            "label": "Ubuntu1904x645", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-24 22:56:55", 
+            "shutdown_on": "2021-12-24 23:01:36"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "cf2c96a69e975eca1b746fcbf540f90287f02176", 
+            "name": "calibrate_ppa", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=437285293c7b677913786a31d3efc77c33c24e3e, stripped", 
+            "sha256": "08a848277c57794a30031ec7f38f17333a3f25c7cbc84ef47e0e480497c8c3e7", 
+            "urls": [], 
+            "crc32": "91E7184C", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/08a848277c57794a30031ec7f38f17333a3f25c7cbc84ef47e0e480497c8c3e7", 
+            "ssdeep": null, 
+            "size": 28360, 
+            "sha512": "044ffb35844abe29bf00c3ebb8943d8b774f2be4f8dfc27fd727ffbc1dc45bc75af9125286e7c0b73b4daba95c5eebd67eb7c992bd399d124343dd93489ec9fb", 
+            "md5": "19e0ba29dbec6b852c9fe8f0c1560d10"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "681762d8-4c2e-4562-8d9e-b357006af8b3", 
+        "parent_file_sha256": null, 
+        "name": "08a848277c57794a30031ec7f38f17333a3f25c7cbc84ef47e0e480497c8c3e7", 
+        "probes_total": 16, 
+        "scan_date": 1640379697, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "cf2c96a69e975eca1b746fcbf540f90287f02176", 
+            "tags": [], 
+            "timestamp_first_scan": 1640379697.31, 
+            "timestamp_last_scan": 1640379706.37, 
+            "sha256": "08a848277c57794a30031ec7f38f17333a3f25c7cbc84ef47e0e480497c8c3e7", 
+            "md5": "19e0ba29dbec6b852c9fe8f0c1560d10", 
+            "size": 28360
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.07, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.62, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-16 07:23:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.25, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.17, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.02, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.78, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.99, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.61, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.89, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.12, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.02, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.23, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "36b581b2-c5e4-48d7-8e45-13141fe96988", 
+        "file_sha256": "08a848277c57794a30031ec7f38f17333a3f25c7cbc84ef47e0e480497c8c3e7"
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "04a8faa55200a1045e753fd1a0c4f31a7e8456907a0b0765249a9466be6ee049", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "d402795ac79ad940d9070b71b79d22e28df40c28b6b685350f47212d189222cc", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "calibrate_ppa", 
+                "pid": 2068, 
+                "summary": {}, 
+                "first_seen": 1640383607.433039, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "calibrate_ppa", 
+                "pid": 2069, 
+                "summary": {}, 
+                "first_seen": 1640383607.454238, 
+                "ppid": 2068
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.433039 calibrate_ppa@7fcc18d58c27[2068] execve(\"/tmp/calibrate_ppa\", [\"/tmp/calibrate_ppa\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/calibrate_ppa\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpEJ788O\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d58c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/calibrate_ppa", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpEJ788O"
+                            ], 
+                            "p0": "/tmp/calibrate_ppa", 
+                            "p1": [
+                                "/tmp/calibrate_ppa"
+                            ]
+                        }, 
+                        "time": 1640383607.433039
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.435649 calibrate_ppa@7fcc18d58c27[2068] brk(0x0) = 93963025211392\n", 
+                        "api": "brk", 
+                        "return_value": "93963025211392", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d58c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383607.435649
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.436869 calibrate_ppa@7fcc18d599d7[2068] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d599d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383607.436869
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.438113 calibrate_ppa@7fcc18d59b0d[2068] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383607.438113
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.438227 calibrate_ppa@7fcc18d59943[2068] fstat(4, 0x7ffd894e6770) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd894e6770"
+                        }, 
+                        "time": 1640383607.438227
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.438299 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7fcc18d27000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18d27000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.438299
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.438365 calibrate_ppa@7fcc18d599f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d599f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383607.438365
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.438449 calibrate_ppa@7fcc18d59b0d[2068] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383607.438449
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.438539 calibrate_ppa@7fcc18d59bd4[2068] read(4, 0x7ffd894e6928, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd894e6928"
+                        }, 
+                        "time": 1640383607.438539
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.438601 calibrate_ppa@7fcc18d59943[2068] fstat(4, 0x7ffd894e67c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd894e67c0"
+                        }, 
+                        "time": 1640383607.438601
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.438660 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcc18d25000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18d25000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.43866
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.438737 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcc18d1f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18d1f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.438737
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.438804 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18d20000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fcc18d20000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18d20000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc18d20000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383607.438804
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.438880 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18d22000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fcc18d22000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18d22000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc18d22000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383607.43888
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.438950 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18d23000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fcc18d23000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18d23000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc18d23000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383607.43895
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.439030 calibrate_ppa@7fcc18d599f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d599f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383607.43903
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.439106 calibrate_ppa@7fcc18d59b0d[2068] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383607.439106
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.439171 calibrate_ppa@7fcc18d59bd4[2068] read(4, 0x7ffd894e6908, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd894e6908"
+                        }, 
+                        "time": 1640383607.439171
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.439231 calibrate_ppa@7fcc18d59943[2068] fstat(4, 0x7ffd894e67a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd894e67a0"
+                        }, 
+                        "time": 1640383607.439231
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.439290 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcc18bfe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18bfe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.43929
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.439356 calibrate_ppa@7fcc18d59db7[2068] mprotect(0x7fcc18c19000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fcc18c19000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383607.439356
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.439431 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18c19000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7fcc18c19000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18c19000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc18c19000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383607.439431
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.439501 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18c99000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7fcc18c99000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18c99000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc18c99000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383607.439501
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.439569 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18d1c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7fcc18d1c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18d1c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc18d1c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383607.439569
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.439644 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18d1e000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fcc18d1e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18d1e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fcc18d1e000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.439644
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.439717 calibrate_ppa@7fcc18d599f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d599f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383607.439717
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.439826 calibrate_ppa@7fcc18d59b0d[2068] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383607.439826
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.439893 calibrate_ppa@7fcc18d59bd4[2068] read(4, 0x7ffd894e68e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd894e68e8"
+                        }, 
+                        "time": 1640383607.439893
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.439953 calibrate_ppa@7fcc18d59943[2068] fstat(4, 0x7ffd894e6780) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd894e6780"
+                        }, 
+                        "time": 1640383607.439953
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.440012 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcc18bf3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18bf3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.440012
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.440079 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18bf6000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fcc18bf6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18bf6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc18bf6000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383607.440079
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.440161 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18bfa000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fcc18bfa000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18bfa000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc18bfa000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383607.440161
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.440230 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18bfc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7fcc18bfc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18bfc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc18bfc000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383607.44023
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.440318 calibrate_ppa@7fcc18d599f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d599f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383607.440318
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.440393 calibrate_ppa@7fcc18d59b0d[2068] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383607.440393
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.440597 calibrate_ppa@7fcc18d59bd4[2068] read(4, 0x7ffd894e68c8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd894e68c8"
+                        }, 
+                        "time": 1640383607.440597
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.440661 calibrate_ppa@7fcc18d59943[2068] fstat(4, 0x7ffd894e6760) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd894e6760"
+                        }, 
+                        "time": 1640383607.440661
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.440728 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcc18a11000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18a11000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.440728
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.440801 calibrate_ppa@7fcc18d59db7[2068] mprotect(0x7fcc18aa6000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fcc18aa6000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383607.440801
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.440845 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18aa6000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7fcc18aa6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18aa6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc18aa6000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383607.440845
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.440887 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18b98000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7fcc18b98000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18b98000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc18b98000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383607.440887
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.440927 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18be2000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7fcc18be2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18be2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc18be2000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383607.440927
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.440974 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18bf0000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fcc18bf0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18bf0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fcc18bf0000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.440974
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441022 calibrate_ppa@7fcc18d599f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d599f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383607.441022
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441076 calibrate_ppa@7fcc18d59b0d[2068] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383607.441076
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441118 calibrate_ppa@7fcc18d59bd4[2068] read(4, 0x7ffd894e68a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd894e68a8"
+                        }, 
+                        "time": 1640383607.441118
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441155 calibrate_ppa@7fcc18d59943[2068] fstat(4, 0x7ffd894e6740) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd894e6740"
+                        }, 
+                        "time": 1640383607.441155
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441190 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcc188c3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc188c3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.44119
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441231 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc188d2000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7fcc188d2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc188d2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc188d2000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383607.441231
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441276 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18978000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7fcc18978000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18978000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc18978000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383607.441276
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441319 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18a0f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7fcc18a0f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18a0f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc18a0f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383607.441319
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441377 calibrate_ppa@7fcc18d599f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d599f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383607.441377
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441427 calibrate_ppa@7fcc18d59b0d[2068] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383607.441427
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441465 calibrate_ppa@7fcc18d59bd4[2068] read(4, 0x7ffd894e6888, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd894e6888"
+                        }, 
+                        "time": 1640383607.441465
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441501 calibrate_ppa@7fcc18d59943[2068] fstat(4, 0x7ffd894e6720) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd894e6720"
+                        }, 
+                        "time": 1640383607.441501
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441537 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcc188a9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc188a9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.441537
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441576 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc188ac000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fcc188ac000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc188ac000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc188ac000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383607.441576
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441619 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc188bd000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7fcc188bd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc188bd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc188bd000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383607.441619
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441660 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc188c1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7fcc188c1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc188c1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc188c1000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383607.44166
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441709 calibrate_ppa@7fcc18d599f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d599f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383607.441709
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441754 calibrate_ppa@7fcc18d59b0d[2068] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383607.441754
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441794 calibrate_ppa@7fcc18d59bd4[2068] read(4, 0x7ffd894e6868, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd894e6868"
+                        }, 
+                        "time": 1640383607.441794
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441830 calibrate_ppa@7fcc18d59943[2068] fstat(4, 0x7ffd894e6700) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd894e6700"
+                        }, 
+                        "time": 1640383607.44183
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441866 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcc188a7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc188a7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.441866
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441907 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcc18886000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18886000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.441907
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441947 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc1888d000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fcc1888d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc1888d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc1888d000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383607.441947
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.441997 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc1889c000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7fcc1889c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc1889c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc1889c000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383607.441997
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442040 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc188a1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7fcc188a1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc188a1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc188a1000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383607.44204
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442085 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc188a3000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fcc188a3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc188a3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fcc188a3000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.442085
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442132 calibrate_ppa@7fcc18d599f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d599f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383607.442132
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442176 calibrate_ppa@7fcc18d59b0d[2068] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383607.442176
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442214 calibrate_ppa@7fcc18d59bd4[2068] read(4, 0x7ffd894e6848, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd894e6848"
+                        }, 
+                        "time": 1640383607.442214
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442249 calibrate_ppa@7fcc18d59943[2068] fstat(4, 0x7ffd894e66e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd894e66e0"
+                        }, 
+                        "time": 1640383607.442249
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442285 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcc1869b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc1869b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.442285
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442324 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc186c0000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7fcc186c0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc186c0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc186c0000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383607.442324
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442367 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18833000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7fcc18833000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18833000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc18833000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383607.442367
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442408 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc1887c000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7fcc1887c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc1887c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc1887c000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383607.442408
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442453 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18882000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fcc18882000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18882000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fcc18882000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.442453
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442497 calibrate_ppa@7fcc18d599f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d599f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383607.442497
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442548 calibrate_ppa@7fcc18d59b0d[2068] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383607.442548
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442589 calibrate_ppa@7fcc18d59bd4[2068] read(4, 0x7ffd894e6828, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd894e6828"
+                        }, 
+                        "time": 1640383607.442589
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442625 calibrate_ppa@7fcc18d59943[2068] fstat(4, 0x7ffd894e66c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd894e66c0"
+                        }, 
+                        "time": 1640383607.442625
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442661 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcc18695000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18695000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.442661
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442707 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18696000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fcc18696000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18696000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc18696000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383607.442707
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442753 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18698000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fcc18698000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18698000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc18698000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383607.442753
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442797 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18699000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fcc18699000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18699000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc18699000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383607.442797
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442848 calibrate_ppa@7fcc18d599f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d599f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383607.442848
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442895 calibrate_ppa@7fcc18d59b0d[2068] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383607.442895
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442935 calibrate_ppa@7fcc18d59bd4[2068] read(4, 0x7ffd894e6808, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd894e6808"
+                        }, 
+                        "time": 1640383607.442935
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.442970 calibrate_ppa@7fcc18d59943[2068] fstat(4, 0x7ffd894e66a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd894e66a0"
+                        }, 
+                        "time": 1640383607.44297
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.443009 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcc18621000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18621000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.443009
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.443050 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18623000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7fcc18623000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18623000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc18623000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383607.44305
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.443096 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18675000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7fcc18675000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18675000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc18675000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383607.443096
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.443138 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x7fcc18693000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7fcc18693000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc18693000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcc18693000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383607.443138
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.443189 calibrate_ppa@7fcc18d599f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d599f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383607.443189
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.443957 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcc1861f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc1861f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.443957
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.444018 calibrate_ppa@7fcc18d59d03[2068] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcc1861c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc1861c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.444018
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.444061 calibrate_ppa@7fcc18d3ef30[2068] arch_prctl(ARCH_SET_FS, 140514559117248) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d3ef30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140514559117248"
+                        }, 
+                        "time": 1640383607.444061
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.444787 calibrate_ppa@7fcc18d59db7[2068] mprotect(0x7fcc1887c000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcc1887c000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383607.444787
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.444846 calibrate_ppa@7fcc18d59db7[2068] mprotect(0x7fcc188a1000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcc188a1000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383607.444846
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.444912 calibrate_ppa@7fcc18d59db7[2068] mprotect(0x7fcc18693000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcc18693000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383607.444912
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.444959 calibrate_ppa@7fcc18d59db7[2068] mprotect(0x7fcc18699000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcc18699000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383607.444959
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.445392 calibrate_ppa@7fcc18d59db7[2068] mprotect(0x7fcc188c1000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcc188c1000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383607.445392
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.445460 calibrate_ppa@7fcc18d59db7[2068] mprotect(0x7fcc18a0f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcc18a0f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383607.44546
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.446641 calibrate_ppa@7fcc18d59db7[2068] mprotect(0x7fcc18be2000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcc18be2000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383607.446641
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.446723 calibrate_ppa@7fcc18d59db7[2068] mprotect(0x7fcc18bfc000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcc18bfc000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383607.446723
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.446986 calibrate_ppa@7fcc18d59db7[2068] mprotect(0x7fcc18d1c000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcc18d1c000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383607.446986
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.447075 calibrate_ppa@7fcc18d59db7[2068] mprotect(0x7fcc18d23000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcc18d23000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383607.447075
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.451544 calibrate_ppa@7fcc18d59db7[2068] mprotect(0x55757699c000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55757699c000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383607.451544
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.451596 calibrate_ppa@7fcc18d59db7[2068] mprotect(0x7fcc18d67000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcc18d67000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383607.451596
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.451634 calibrate_ppa@7fcc18d59d97[2068] munmap(0x7fcc18d27000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18d59d97", 
+                        "arguments": {
+                            "p0": "0x7fcc18d27000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383607.451634
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.451689 calibrate_ppa@7fcc1888d8df[2068] set_tid_address(0x7fcc1861ca90) = 2068\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2068", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc1888d8df", 
+                        "arguments": {
+                            "p0": "0x7fcc1861ca90"
+                        }, 
+                        "time": 1640383607.451689
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.451720 calibrate_ppa@7fcc1888d94a[2068] set_robust_list(0x7fcc1861caa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc1888d94a", 
+                        "arguments": {
+                            "p0": "0x7fcc1861caa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383607.45172
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.451780 calibrate_ppa@7fcc1889a010[2068] rt_sigaction(0x20, {0x7fcc1888d6c0, SA_SIGINFO|SA_RESTORER, 0x7fcc18899f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc1889a010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7fcc1888d6c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7fcc18899f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383607.45178
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.451814 calibrate_ppa@7fcc1889a010[2068] rt_sigaction(0x21, {0x7fcc1888d760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7fcc18899f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc1889a010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7fcc1888d760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7fcc18899f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383607.451814
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.451848 calibrate_ppa@7fcc1888da19[2068] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc1888da19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383607.451848
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.451891 calibrate_ppa@7fcc187addf0[2068] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffd894e7500) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187addf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffd894e7500", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383607.451891
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.452128 calibrate_ppa@7fcc187ae2f7[2068] brk(0x0) = 93963025211392\n", 
+                        "api": "brk", 
+                        "return_value": "93963025211392", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187ae2f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383607.452128
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.452159 calibrate_ppa@7fcc187ae2f7[2068] brk(0x557578bf7000) = 93963025346560\n", 
+                        "api": "brk", 
+                        "return_value": "93963025346560", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187ae2f7", 
+                        "arguments": {
+                            "p0": "0x557578bf7000"
+                        }, 
+                        "time": 1640383607.452159
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.453160 calibrate_ppa@7fcc18896b86[2068] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffd894e7450, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18896b86", 
+                        "arguments": {
+                            "p2": "0x7ffd894e7450", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383607.45316
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.453978 calibrate_ppa@7fcc187b24c3[2068] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fcc17e1b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc17e1b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187b24c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.453978
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.454018 calibrate_ppa@7fcc187b2597[2068] mprotect(0x7fcc17e1c000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187b2597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fcc17e1c000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383607.454018
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.454068 calibrate_ppa@7fcc187b8b11[2068] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7fcc1861af30, 0x7fcc1861b9d0, 0x7fcc1861b9d0) = 2069\n", 
+                        "api": "clone", 
+                        "return_value": "2069", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187b8b11", 
+                        "arguments": {
+                            "p2": "0x7fcc1861b9d0", 
+                            "p3": "0x7fcc1861b9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7fcc1861af30"
+                        }, 
+                        "time": 1640383607.454068
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.454157 calibrate_ppa@7fcc18896b86[2068] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18896b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383607.454157
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.458873 calibrate_ppa@7fcc187addf0[2068] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffd894e6fb0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187addf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffd894e6fb0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383607.458873
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.458925 calibrate_ppa@7fcc187ad5c1[2068] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187ad5c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383607.458925
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.459905 calibrate_ppa@7fcc1877c247[2068] uname(0x7ffd894e6c20) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc1877c247", 
+                        "arguments": {
+                            "p0": "0x7ffd894e6c20"
+                        }, 
+                        "time": 1640383607.459905
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.459943 calibrate_ppa@7fcc18899337[2068] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18899337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383607.459943
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.459974 calibrate_ppa@7fcc18898d94[2068] read(3, 0x7ffd894e6f10, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18898d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffd894e6f10"
+                        }, 
+                        "time": 1640383607.459974
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.460007 calibrate_ppa@7fcc18899337[2068] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18899337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383607.460007
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.461192 calibrate_ppa@7fcc187ae2f7[2068] brk(0x557578c18000) = 93963025481728\n", 
+                        "api": "brk", 
+                        "return_value": "93963025481728", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187ae2f7", 
+                        "arguments": {
+                            "p0": "0x557578c18000"
+                        }, 
+                        "time": 1640383607.461192
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.461367 calibrate_ppa@7fcc187b24c3[2068] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcc17d9a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc17d9a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187b24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.461367
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.461831 calibrate_ppa@7fcc187b2597[2068] mprotect(0x557576a1f000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187b2597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x557576a1f000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383607.461831
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.461879 calibrate_ppa@7fcc187b2667[2068] madvise(0x557576a1f000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187b2667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x557576a1f000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383607.461879
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.462811 calibrate_ppa@7fcc187b24c3[2068] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fcb90000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcb90000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187b24c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.462811
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.462864 calibrate_ppa@7fcc187a7d59[2068] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187a7d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383607.462864
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.462917 calibrate_ppa@7fcc187a7613[2068] fstat(4, 0x7ffd894e6620) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187a7613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd894e6620"
+                        }, 
+                        "time": 1640383607.462917
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.462955 calibrate_ppa@7fcc187a7fb4[2068] read(4, 0x557578bf54e0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187a7fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x557578bf54e0"
+                        }, 
+                        "time": 1640383607.462955
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.463007 calibrate_ppa@7fcc187ad3f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187ad3f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383607.463007
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.463062 calibrate_ppa@7fcc187b22e9[2068] gettid() = 2068\n", 
+                        "api": "gettid", 
+                        "return_value": "2068", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187b22e9", 
+                        "arguments": {}, 
+                        "time": 1640383607.463062
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.463098 calibrate_ppa@7fcc187a7613[2068] fstat(3, 0x7ffd894e6e90) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187a7613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffd894e6e90"
+                        }, 
+                        "time": 1640383607.463098
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.463134 calibrate_ppa@7fcc1877d717[2068] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc1877d717", 
+                        "arguments": {}, 
+                        "time": 1640383607.463134
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.463168 calibrate_ppa@7fcc1877d737[2068] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc1877d737", 
+                        "arguments": {}, 
+                        "time": 1640383607.463168
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.463203 calibrate_ppa@7fcc18898d94[2068] read(3, 0x7ffd894e70f0, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18898d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffd894e70f0"
+                        }, 
+                        "time": 1640383607.463203
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.463255 calibrate_ppa@7fcc187b24c3[2068] mmap2(0x7fcc0ffe8000, 98304, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fcc0ffe8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc0ffe8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187b24c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7fcc0ffe8000", 
+                            "p1": "98304", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.463255
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.463317 calibrate_ppa@7fcc187b24c3[2068] mmap2(0x7fcc0ffe8000, 24576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7fcc0ffe8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc0ffe8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187b24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fcc0ffe8000", 
+                            "p1": "24576", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.463317
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.463360 calibrate_ppa@7fcc187b24c3[2068] mmap2(0x7fcc0fffd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 20480) = 0x7fcc0fffd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc0fffd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187b24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fcc0fffd000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "20480"
+                        }, 
+                        "time": 1640383607.46336
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.463401 calibrate_ppa@7fcc187b24c3[2068] mmap2(0x7fcc0ffff000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fcc0ffff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc0ffff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187b24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fcc0ffff000", 
+                            "p1": "4096", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.463401
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.463445 calibrate_ppa@7fcc18898e27[2068] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18898e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383607.463445
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.463496 calibrate_ppa@7fcc187b24c3[2068] mmap2(0x7fcc0f7e7000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fcc0f7e7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc0f7e7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187b24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fcc0f7e7000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.463496
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.463549 calibrate_ppa@7fcc187ae2f7[2068] brk(0x557578c39000) = 93963025616896\n", 
+                        "api": "brk", 
+                        "return_value": "93963025616896", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187ae2f7", 
+                        "arguments": {
+                            "p0": "0x557578c39000"
+                        }, 
+                        "time": 1640383607.463549
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.463782 calibrate_ppa@7fcc187b2597[2068] mprotect(0x7fcc0f7e7000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187b2597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fcc0f7e7000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383607.463782
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.463836 calibrate_ppa@7fcc1889955e[2068] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc1889955e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383607.463836
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.463906 calibrate_ppa@7fcc187a8057[2068] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187a8057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383607.463906
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.464001 calibrate_ppa@7fcc1877c926[2068] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc1877c926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383607.464001
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:06:47 2021.464043 calibrate_ppa@7fcc1877c926[2068] futex(0x7fcc1861ca90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc1877c926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7fcc1861ca90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383607.464043
+                    }
+                ], 
+                "pid": 2068, 
+                "process_name": "calibrate_ppa", 
+                "command_line": "/tmp/calibrate_ppa", 
+                "first_seen": 1640383607.433039, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2069, 
+                        "raw": "Fri Dec 24 22:06:47 2021.454238 calibrate_ppa@7fcc1888f117[2069] set_robust_list(0x7fcc1861b9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc1888f117", 
+                        "arguments": {
+                            "p0": "0x7fcc1861b9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383607.454238
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2069, 
+                        "raw": "Fri Dec 24 22:06:47 2021.454349 calibrate_ppa@7fcc187b24c3[2069] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fcc0fe1b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcc0fe1b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187b24c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383607.454349
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2069, 
+                        "raw": "Fri Dec 24 22:06:47 2021.454415 calibrate_ppa@7fcc187b2567[2069] munmap(0x7fcc0fe1b000, 1986560) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187b2567", 
+                        "arguments": {
+                            "p0": "0x7fcc0fe1b000", 
+                            "p1": "1986560"
+                        }, 
+                        "time": 1640383607.454415
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2069, 
+                        "raw": "Fri Dec 24 22:06:47 2021.454480 calibrate_ppa@7fcc187b2567[2069] munmap(0x7fcc14000000, 65122304) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187b2567", 
+                        "arguments": {
+                            "p0": "0x7fcc14000000", 
+                            "p1": "65122304"
+                        }, 
+                        "time": 1640383607.45448
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2069, 
+                        "raw": "Fri Dec 24 22:06:47 2021.454539 calibrate_ppa@7fcc187b2597[2069] mprotect(0x7fcc10000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc187b2597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fcc10000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383607.454539
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "calibrate_ppa", 
+                        "pid": 2069, 
+                        "raw": "Fri Dec 24 22:06:47 2021.454617 calibrate_ppa@7fcc18899440[2069] nanosleep([0.010000000], 0x7fcc1861ad80) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcc18899440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7fcc1861ad80"
+                        }, 
+                        "time": 1640383607.454617
+                    }
+                ], 
+                "pid": 2069, 
+                "process_name": "calibrate_ppa", 
+                "command_line": "", 
+                "first_seen": 1640383607.454238, 
+                "ppid": 2068, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2068, 
+                "process_name": "calibrate_ppa", 
+                "command_line": "/tmp/calibrate_ppa", 
+                "first_seen": 1640383607.433039, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2069, 
+                        "process_name": "calibrate_ppa", 
+                        "command_line": "", 
+                        "first_seen": 1640383607.454238, 
+                        "ppid": 2068, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:06:40,017 [root] DEBUG: Starting analyzer from: /tmp/tmpEJ788O\n", 
+            "2021-12-24 22:06:40,017 [root] DEBUG: Storing results at: /tmp/NdfjXOg\n", 
+            "2021-12-24 22:06:42,048 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:06:42,051 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:06:42,556 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:06:47,432 [lib.core.packages] INFO: Process startup took 4.87 seconds\n", 
+            "2021-12-24 22:06:47,436 [root] INFO: Added new process to list with pid: 2059\n", 
+            "2021-12-24 22:06:53,448 [root] INFO: Process with pid 2059 has terminated\n", 
+            "2021-12-24 22:06:53,448 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:06:56,452 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:06:56,453 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-24 22:51:24,408 [cuckoo.core.scheduler] DEBUG: Task #2548134: no machine available yet\n", 
+            "2021-12-24 22:51:54,451 [cuckoo.core.scheduler] DEBUG: Task #2548134: no machine available yet\n", 
+            "2021-12-24 22:52:24,495 [cuckoo.core.scheduler] DEBUG: Task #2548134: no machine available yet\n", 
+            "2021-12-24 22:52:54,539 [cuckoo.core.scheduler] DEBUG: Task #2548134: no machine available yet\n", 
+            "2021-12-24 22:53:24,581 [cuckoo.core.scheduler] DEBUG: Task #2548134: no machine available yet\n", 
+            "2021-12-24 22:53:54,617 [cuckoo.core.scheduler] DEBUG: Task #2548134: no machine available yet\n", 
+            "2021-12-24 22:54:24,656 [cuckoo.core.scheduler] DEBUG: Task #2548134: no machine available yet\n", 
+            "2021-12-24 22:54:54,699 [cuckoo.core.scheduler] DEBUG: Task #2548134: no machine available yet\n", 
+            "2021-12-24 22:55:24,739 [cuckoo.core.scheduler] DEBUG: Task #2548134: no machine available yet\n", 
+            "2021-12-24 22:55:54,784 [cuckoo.core.scheduler] DEBUG: Task #2548134: no machine available yet\n", 
+            "2021-12-24 22:56:24,826 [cuckoo.core.scheduler] DEBUG: Task #2548134: no machine available yet\n", 
+            "2021-12-24 22:56:54,849 [cuckoo.core.scheduler] INFO: Task #2548134: acquired machine Ubuntu1904x645 (label=Ubuntu1904x645)\n", 
+            "2021-12-24 22:56:54,849 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.105 for task #2548134\n", 
+            "2021-12-24 22:56:54,985 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 2892991 (interface=vboxnet0, host=192.168.168.105)\n", 
+            "2021-12-24 22:56:55,122 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x645\n", 
+            "2021-12-24 22:56:55,526 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x645 to Snapshot\n", 
+            "2021-12-24 22:57:03,775 [cuckoo.core.guest] INFO: Starting analysis #2548134 on guest (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2021-12-24 22:57:04,779 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: not ready yet\n", 
+            "2021-12-24 22:57:09,797 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2021-12-24 22:57:09,810 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x645, ip=192.168.168.105, monitor=latest, size=72028)\n", 
+            "2021-12-24 22:57:10,992 [cuckoo.core.resultserver] DEBUG: Task #2548134: live log analysis.log initialized.\n", 
+            "2021-12-24 22:57:16,224 [cuckoo.core.resultserver] DEBUG: Task #2548134: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-24 22:57:16,265 [cuckoo.core.resultserver] DEBUG: Task #2548134 uploaded file length: 171563\n", 
+            "2021-12-24 22:57:24,923 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548134 still processing\n", 
+            "2021-12-24 22:57:27,462 [cuckoo.core.resultserver] DEBUG: Task #2548134: File upload for 'logs/all.stap'\n", 
+            "2021-12-24 22:57:27,465 [cuckoo.core.resultserver] DEBUG: Task #2548134 uploaded file length: 21679\n", 
+            "2021-12-24 22:57:40,058 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548134 still processing\n", 
+            "2021-12-24 22:57:55,192 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548134 still processing\n", 
+            "2021-12-24 22:58:10,347 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548134 still processing\n", 
+            "2021-12-24 22:58:25,412 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548134 still processing\n", 
+            "2021-12-24 22:58:40,485 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548134 still processing\n", 
+            "2021-12-24 22:58:55,573 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548134 still processing\n", 
+            "2021-12-24 22:59:10,647 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548134 still processing\n", 
+            "2021-12-24 22:59:25,730 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548134 still processing\n", 
+            "2021-12-24 22:59:40,814 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548134 still processing\n", 
+            "2021-12-24 22:59:55,882 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548134 still processing\n", 
+            "2021-12-24 23:00:10,950 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548134 still processing\n", 
+            "2021-12-24 23:00:26,012 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548134 still processing\n", 
+            "2021-12-24 23:00:41,368 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548134 still processing\n", 
+            "2021-12-24 23:00:56,429 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2548134 still processing\n", 
+            "2021-12-24 23:01:11,484 [cuckoo.core.guest] INFO: Ubuntu1904x645: end of analysis reached!\n", 
+            "2021-12-24 23:01:11,493 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-24 23:01:11,561 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-24 23:01:31,352 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x645 to path /srv/cuckoo/cwd/storage/analyses/2548134/memory.dmp\n", 
+            "2021-12-24 23:01:31,355 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x645\n", 
+            "2021-12-24 23:01:36,454 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.105 for task #2548134\n", 
+            "2021-12-24 23:01:36,454 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2548134\n", 
+            "2021-12-24 23:01:36,574 [cuckoo.core.scheduler] DEBUG: Released database task #2548134\n", 
+            "2021-12-24 23:01:36,687 [cuckoo.core.scheduler] INFO: Task #2548134: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "__printf_chk", 
+        "putchar", 
+        "gHeight", 
+        "__fprintf_chk", 
+        "gWidth", 
+        "malloc", 
+        "ProduceGamma", 
+        "fwrite", 
+        "stderr", 
+        "__stack_chk_guard", 
+        "setplus", 
+        "__sprintf_chk", 
+        "setstring", 
+        "__stack_chk_fail", 
+        "setpixel", 
+        "black_maxlines", 
+        "setstringv", 
+        "BitMap_topline", 
+        "BitMap_Height", 
+        "BitMap_Width", 
+        "BitMap_bottomline", 
+        "color_bitmap", 
+        "check_alignment", 
+        "memset", 
+        "centering", 
+        "_IO_putc", 
+        "color_alignment", 
+        "head_cleaning", 
+        "setsquare", 
+        "setchar", 
+        "getopt_long", 
+        "optarg", 
+        "strlen", 
+        "strncmp", 
+        "strtol", 
+        "show_usage", 
+        "strncpy", 
+        "stdout", 
+        "make_test_pattern", 
+        "make_ppm_file", 
+        "fclose", 
+        "setblock", 
+        "gEnh_curve_b", 
+        "gEnh_curve_r", 
+        "gEnh_curve_g", 
+        "Make_GammaCurve", 
+        "libm.so.6", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "ld.so.1", 
+        "GLIBC_2.0", 
+        "GLIBC_2.4", 
+        "GLIBC_2.3.4", 
+        "GLIBC_2.2", 
+        "xhp!H'", 
+        "$0Z1&!", 
+        "(fp!Xt", 
+        "(fp!Xu", 
+        "\"F>  F", 
+        "usage: %s [ options ] [ -o <outfile> ]] ", 
+        "  Produces various PixMap (PPM) files used for calibrating pnm2ppa.", 
+        "  NOTE: The size of a  full-page PixMap is 100MB!!.", 
+        "  These PixMaps should be piped directly to pnm2ppa, except in the case of", 
+        "  the  -g option, where the PixMap should be viewed or printed by other means.", 
+        "    -g, --gamma     produce  gamma.ppm (10MB, used in color calibration).", 
+        "    -h,   --help    displays this help text.", 
+        "    -o <outfile>    output to file <outfile>, \"-o -\" means stdout (default)", 
+        "    -p <n>          create test pattern number <n>", 
+        "    --align         pattern 0:  align print heads. (default) ", 
+        "    --test          pattern 1:  test alignment. ", 
+        "    --clean         pattern 2:  clean print head. ", 
+        "    --center        pattern 3:  center paper. ", 
+        "    -s <paper>      default papersize (a4, legal, letter = us (default))", 
+        "#PPM (PixMap) Image for comparison with printed output of \"pnm2ppa -g\"", 
+        "%s:  malloc failed", 
+        "COLOFFSX", 
+        "COLOFFSY", 
+        "COLORSHEAR ", 
+        "BLACKSHEAR ", 
+        "XOFFSET", 
+        "YOFFSET", 
+        "# pnm2ppa calibration image", 
+        "%s: unknown test pattern (%d)", 
+        "test pattern 0 : cartridge alignment (default)", 
+        "             1 : check alignment", 
+        "             2 : colored stripes, use for head cleaning", 
+        "             3 : center paper ", 
+        "letter", 
+        "%s: unknown paper size \"%s\"", 
+        "gho:p:s:v:", 
+        "%s: writing requested PPM data to \"%s\"", 
+        "%s: cannot open output file \"%s\"", 
+        "center", 
+        "BaQIF\"AII6", 
+        "'EEE9>III2", 
+        "6III6&III>|", 
+        "III6>AAA\"", 
+        ")O\"EIQ\"", 
+        "?@ @?c", 
+        "HP 710C, 712C, 720C, 722C Series Printers", 
+        "HP 820 Series Printers", 
+        "HP1000", 
+        "HP 1000 Series Printers", 
+        "7285293c7b677913786a31d3efc77c33c24e3e.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "d402795ac79ad940d9070b71b79d22e28df40c28b6b685350f47212d189222cc", 
+                "dirname": ""
+            }
+        }
+    }
+}
