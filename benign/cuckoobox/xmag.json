@@ -1,0 +1,3330 @@
+{
+    "info": {
+        "added": 1640383637.568365, 
+        "started": 1640429877.636693, 
+        "duration": 499, 
+        "ended": 1640430377.328589, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2549189, 
+        "category": "file", 
+        "git": {
+            "head": "", 
+            "fetch_head": ""
+        }, 
+        "monitor": null, 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x641", 
+            "label": "Ubuntu1904x641", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 11:01:43", 
+            "shutdown_on": "2021-12-25 11:06:16"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "f3aec0196410dd43608804a2de3ec09073a7afb7", 
+            "name": "xmag", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=471c8fac24dc650aa5d8448995417e9c90dd27ff, stripped", 
+            "sha256": "8f25c9febbd6ed4e1eb462de7e766176d02b204d1a40b08eeb93deb6a158f8e6", 
+            "urls": [], 
+            "crc32": "F2D0FD26", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/8f25c9febbd6ed4e1eb462de7e766176d02b204d1a40b08eeb93deb6a158f8e6", 
+            "ssdeep": null, 
+            "size": 37916, 
+            "sha512": "b56046245ba4ff72b090278d0526e0807ff84a0f0c756cfc87e8dcee614c0efdfd43f360a62bde26a2923c4af8fdc33e7c2580c8454d2554b376c4a8bb6563a9", 
+            "md5": "3d96bd598f18bfdecb4a21b8e1f09366"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "6312febf-d76e-4811-985c-eaaf9a4f7731", 
+        "parent_file_sha256": null, 
+        "name": "8f25c9febbd6ed4e1eb462de7e766176d02b204d1a40b08eeb93deb6a158f8e6", 
+        "probes_total": 16, 
+        "scan_date": 1640423178, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "f3aec0196410dd43608804a2de3ec09073a7afb7", 
+            "tags": [], 
+            "timestamp_first_scan": 1640423177.77, 
+            "timestamp_last_scan": 1640423186.64, 
+            "sha256": "8f25c9febbd6ed4e1eb462de7e766176d02b204d1a40b08eeb93deb6a158f8e6", 
+            "md5": "3d96bd598f18bfdecb4a21b8e1f09366", 
+            "size": 37916
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.04, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.07, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 3.4, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-15 12:09:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.28, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.78, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.86, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.69, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.48, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.13, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.04, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "0f1fbed8-2dda-4b13-81f1-c30c877855da", 
+        "file_sha256": "8f25c9febbd6ed4e1eb462de7e766176d02b204d1a40b08eeb93deb6a158f8e6"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.101", 
+                "version": "TLS 1.2", 
+                "src_port": 39732, 
+                "dst_port": 443, 
+                "timestamp": "2021-12-25T11:02:15.803370+0200", 
+                "dst_ip": "91.189.92.41", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "72277ddd9b0b118b33c16cfe5f2368f8a75ac68841032a43989e38292d3c747e", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "0bf97e96b9ee686e90cc08e1ec93a82f5fa33881e06b63a34f2b5ce2390df484", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "xmag", 
+                "pid": 2067, 
+                "summary": {}, 
+                "first_seen": 1640383645.062182, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "xmag", 
+                "pid": 2068, 
+                "summary": {}, 
+                "first_seen": 1640383645.082948, 
+                "ppid": 2067
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.062182 xmag@7f3ef825bc27[2067] execve(\"/tmp/xmag\", [\"/tmp/xmag\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/xmag\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmp_s6QNd\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825bc27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/xmag", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmp_s6QNd"
+                            ], 
+                            "p0": "/tmp/xmag", 
+                            "p1": [
+                                "/tmp/xmag"
+                            ]
+                        }, 
+                        "time": 1640383645.062182
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.067063 xmag@7f3ef825bc27[2067] brk(0x0) = 94545198129152\n", 
+                        "api": "brk", 
+                        "return_value": "94545198129152", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825bc27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383645.067063
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.068058 xmag@7f3ef825c9d7[2067] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383645.068058
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069034 xmag@7f3ef825cb0d[2067] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383645.069034
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069086 xmag@7f3ef825c943[2067] fstat(4, 0x7ffdf62edc30) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf62edc30"
+                        }, 
+                        "time": 1640383645.069086
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069131 xmag@7f3ef825cd03[2067] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f3ef822a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef822a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.069131
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069177 xmag@7f3ef825c9f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.069177
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069229 xmag@7f3ef825cb0d[2067] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383645.069229
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069269 xmag@7f3ef825cbd4[2067] read(4, 0x7ffdf62edde8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdf62edde8"
+                        }, 
+                        "time": 1640383645.069269
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069304 xmag@7f3ef825c943[2067] fstat(4, 0x7ffdf62edc80) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf62edc80"
+                        }, 
+                        "time": 1640383645.069304
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069410 xmag@7f3ef825cd03[2067] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3ef8228000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef8228000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.06941
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069454 xmag@7f3ef825cd03[2067] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3ef8222000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef8222000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.069454
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069489 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef8223000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f3ef8223000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef8223000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef8223000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383645.069489
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069530 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef8225000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f3ef8225000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef8225000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef8225000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383645.06953
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069566 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef8226000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f3ef8226000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef8226000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef8226000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383645.069566
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069609 xmag@7f3ef825c9f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.069609
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069649 xmag@7f3ef825cb0d[2067] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383645.069649
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069685 xmag@7f3ef825cbd4[2067] read(4, 0x7ffdf62eddc8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdf62eddc8"
+                        }, 
+                        "time": 1640383645.069685
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069716 xmag@7f3ef825c943[2067] fstat(4, 0x7ffdf62edc60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf62edc60"
+                        }, 
+                        "time": 1640383645.069716
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069746 xmag@7f3ef825cd03[2067] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3ef8101000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef8101000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.069746
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069782 xmag@7f3ef825cdb7[2067] mprotect(0x7f3ef811c000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f3ef811c000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383645.069782
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069822 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef811c000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f3ef811c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef811c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef811c000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383645.069822
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069873 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef819c000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f3ef819c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef819c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef819c000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383645.069873
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069930 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef821f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f3ef821f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef821f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef821f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383645.06993
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.069985 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef8221000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3ef8221000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef8221000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f3ef8221000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.069985
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070038 xmag@7f3ef825c9f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.070038
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070096 xmag@7f3ef825cb0d[2067] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383645.070096
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070132 xmag@7f3ef825cbd4[2067] read(4, 0x7ffdf62edda8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdf62edda8"
+                        }, 
+                        "time": 1640383645.070132
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070162 xmag@7f3ef825c943[2067] fstat(4, 0x7ffdf62edc40) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf62edc40"
+                        }, 
+                        "time": 1640383645.070162
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070192 xmag@7f3ef825cd03[2067] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3ef80f6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef80f6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.070192
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070228 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef80f9000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f3ef80f9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef80f9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef80f9000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383645.070228
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070266 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef80fd000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f3ef80fd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef80fd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef80fd000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383645.070266
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070301 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef80ff000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f3ef80ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef80ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef80ff000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383645.070301
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070344 xmag@7f3ef825c9f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.070344
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070383 xmag@7f3ef825cb0d[2067] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383645.070383
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070417 xmag@7f3ef825cbd4[2067] read(4, 0x7ffdf62edd88, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdf62edd88"
+                        }, 
+                        "time": 1640383645.070417
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070447 xmag@7f3ef825c943[2067] fstat(4, 0x7ffdf62edc20) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf62edc20"
+                        }, 
+                        "time": 1640383645.070447
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070496 xmag@7f3ef825cd03[2067] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3ef7f14000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7f14000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.070496
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070530 xmag@7f3ef825cdb7[2067] mprotect(0x7f3ef7fa9000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f3ef7fa9000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383645.07053
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070571 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef7fa9000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7f3ef7fa9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7fa9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef7fa9000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383645.070571
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070607 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef809b000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7f3ef809b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef809b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef809b000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383645.070607
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070640 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef80e5000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7f3ef80e5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef80e5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef80e5000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383645.07064
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070678 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef80f3000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3ef80f3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef80f3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f3ef80f3000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.070678
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070717 xmag@7f3ef825c9f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.070717
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070763 xmag@7f3ef825cb0d[2067] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383645.070763
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070798 xmag@7f3ef825cbd4[2067] read(4, 0x7ffdf62edd68, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdf62edd68"
+                        }, 
+                        "time": 1640383645.070798
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070828 xmag@7f3ef825c943[2067] fstat(4, 0x7ffdf62edc00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf62edc00"
+                        }, 
+                        "time": 1640383645.070828
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070858 xmag@7f3ef825cd03[2067] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3ef7dc6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7dc6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.070858
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070892 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef7dd5000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f3ef7dd5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7dd5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef7dd5000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383645.070892
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070930 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef7e7b000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f3ef7e7b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7e7b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef7e7b000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383645.07093
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.070965 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef7f12000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f3ef7f12000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7f12000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef7f12000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383645.070965
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071022 xmag@7f3ef825c9f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.071022
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071064 xmag@7f3ef825cb0d[2067] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383645.071064
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071097 xmag@7f3ef825cbd4[2067] read(4, 0x7ffdf62edd48, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdf62edd48"
+                        }, 
+                        "time": 1640383645.071097
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071127 xmag@7f3ef825c943[2067] fstat(4, 0x7ffdf62edbe0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf62edbe0"
+                        }, 
+                        "time": 1640383645.071127
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071157 xmag@7f3ef825cd03[2067] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3ef7dac000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7dac000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.071157
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071196 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef7daf000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f3ef7daf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7daf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef7daf000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383645.071196
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071232 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef7dc0000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f3ef7dc0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7dc0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef7dc0000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383645.071232
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071265 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef7dc4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f3ef7dc4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7dc4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef7dc4000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383645.071265
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071306 xmag@7f3ef825c9f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.071306
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071344 xmag@7f3ef825cb0d[2067] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383645.071344
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071378 xmag@7f3ef825cbd4[2067] read(4, 0x7ffdf62edd28, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdf62edd28"
+                        }, 
+                        "time": 1640383645.071378
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071408 xmag@7f3ef825c943[2067] fstat(4, 0x7ffdf62edbc0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf62edbc0"
+                        }, 
+                        "time": 1640383645.071408
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071438 xmag@7f3ef825cd03[2067] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3ef7daa000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7daa000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.071438
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071477 xmag@7f3ef825cd03[2067] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3ef7d89000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7d89000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.071477
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071511 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef7d90000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f3ef7d90000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7d90000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef7d90000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383645.071511
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071549 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef7d9f000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f3ef7d9f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7d9f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef7d9f000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383645.071549
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071583 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef7da4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f3ef7da4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7da4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef7da4000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383645.071583
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071622 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef7da6000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3ef7da6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7da6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f3ef7da6000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.071622
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071659 xmag@7f3ef825c9f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.071659
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071696 xmag@7f3ef825cb0d[2067] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383645.071696
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071731 xmag@7f3ef825cbd4[2067] read(4, 0x7ffdf62edd08, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdf62edd08"
+                        }, 
+                        "time": 1640383645.071731
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071761 xmag@7f3ef825c943[2067] fstat(4, 0x7ffdf62edba0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf62edba0"
+                        }, 
+                        "time": 1640383645.071761
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071791 xmag@7f3ef825cd03[2067] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3ef7b9e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7b9e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.071791
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071825 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef7bc3000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f3ef7bc3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7bc3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef7bc3000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383645.071825
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071863 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef7d36000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f3ef7d36000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7d36000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef7d36000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383645.071863
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071898 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef7d7f000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f3ef7d7f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7d7f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef7d7f000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383645.071898
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071937 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef7d85000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3ef7d85000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7d85000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f3ef7d85000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.071937
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.071976 xmag@7f3ef825c9f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.071976
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.072025 xmag@7f3ef825cb0d[2067] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383645.072025
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.072060 xmag@7f3ef825cbd4[2067] read(4, 0x7ffdf62edce8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdf62edce8"
+                        }, 
+                        "time": 1640383645.07206
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.072091 xmag@7f3ef825c943[2067] fstat(4, 0x7ffdf62edb80) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf62edb80"
+                        }, 
+                        "time": 1640383645.072091
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.072120 xmag@7f3ef825cd03[2067] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3ef7b98000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7b98000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.07212
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.072155 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef7b99000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f3ef7b99000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7b99000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef7b99000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383645.072155
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.072192 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef7b9b000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f3ef7b9b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7b9b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef7b9b000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383645.072192
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.072226 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef7b9c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f3ef7b9c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7b9c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef7b9c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383645.072226
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.072267 xmag@7f3ef825c9f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.072267
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.072306 xmag@7f3ef825cb0d[2067] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383645.072306
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.072340 xmag@7f3ef825cbd4[2067] read(4, 0x7ffdf62edcc8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdf62edcc8"
+                        }, 
+                        "time": 1640383645.07234
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.072370 xmag@7f3ef825c943[2067] fstat(4, 0x7ffdf62edb60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf62edb60"
+                        }, 
+                        "time": 1640383645.07237
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.072403 xmag@7f3ef825cd03[2067] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3ef7b24000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7b24000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.072403
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.072437 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef7b26000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f3ef7b26000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7b26000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef7b26000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383645.072437
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.072480 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef7b78000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f3ef7b78000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7b78000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef7b78000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383645.07248
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.072515 xmag@7f3ef825cd03[2067] mmap2(0x7f3ef7b96000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f3ef7b96000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7b96000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3ef7b96000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383645.072515
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.072556 xmag@7f3ef825c9f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825c9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.072556
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.073684 xmag@7f3ef825cd03[2067] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3ef7b22000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7b22000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.073684
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.073741 xmag@7f3ef825cd03[2067] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3ef7b1f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef7b1f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.073741
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.073787 xmag@7f3ef8241f30[2067] arch_prctl(ARCH_SET_FS, 139908420335552) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef8241f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "139908420335552"
+                        }, 
+                        "time": 1640383645.073787
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.074620 xmag@7f3ef825cdb7[2067] mprotect(0x7f3ef7d7f000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3ef7d7f000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383645.07462
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.074671 xmag@7f3ef825cdb7[2067] mprotect(0x7f3ef7da4000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3ef7da4000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383645.074671
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.074729 xmag@7f3ef825cdb7[2067] mprotect(0x7f3ef7b96000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3ef7b96000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383645.074729
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.074768 xmag@7f3ef825cdb7[2067] mprotect(0x7f3ef7b9c000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3ef7b9c000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383645.074768
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.074803 xmag@7f3ef825cdb7[2067] mprotect(0x7f3ef7dc4000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3ef7dc4000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383645.074803
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.074856 xmag@7f3ef825cdb7[2067] mprotect(0x7f3ef7f12000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3ef7f12000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383645.074856
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.075534 xmag@7f3ef825cdb7[2067] mprotect(0x7f3ef80e5000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3ef80e5000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383645.075534
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.075578 xmag@7f3ef825cdb7[2067] mprotect(0x7f3ef80ff000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3ef80ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383645.075578
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.075747 xmag@7f3ef825cdb7[2067] mprotect(0x7f3ef821f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3ef821f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383645.075747
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.075795 xmag@7f3ef825cdb7[2067] mprotect(0x7f3ef8226000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3ef8226000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383645.075795
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.080401 xmag@7f3ef825cdb7[2067] mprotect(0x55fd0294a000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55fd0294a000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383645.080401
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.080467 xmag@7f3ef825cdb7[2067] mprotect(0x7f3ef826a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3ef826a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383645.080467
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.080509 xmag@7f3ef825cd97[2067] munmap(0x7f3ef822a000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef825cd97", 
+                        "arguments": {
+                            "p0": "0x7f3ef822a000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383645.080509
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.080574 xmag@7f3ef7d908df[2067] set_tid_address(0x7f3ef7b1fa90) = 2067\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2067", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7d908df", 
+                        "arguments": {
+                            "p0": "0x7f3ef7b1fa90"
+                        }, 
+                        "time": 1640383645.080574
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.080608 xmag@7f3ef7d9094a[2067] set_robust_list(0x7f3ef7b1faa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7d9094a", 
+                        "arguments": {
+                            "p0": "0x7f3ef7b1faa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383645.080608
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.080650 xmag@7f3ef7d9d010[2067] rt_sigaction(0x20, {0x7f3ef7d906c0, SA_SIGINFO|SA_RESTORER, 0x7f3ef7d9cf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7d9d010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f3ef7d906c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f3ef7d9cf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383645.08065
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.080685 xmag@7f3ef7d9d010[2067] rt_sigaction(0x21, {0x7f3ef7d90760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f3ef7d9cf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7d9d010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f3ef7d90760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f3ef7d9cf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383645.080685
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.080755 xmag@7f3ef7d90a19[2067] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7d90a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383645.080755
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.080810 xmag@7f3ef7cb0df0[2067] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffdf62ee9c0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb0df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffdf62ee9c0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383645.08081
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.081010 xmag@7f3ef7cb12f7[2067] brk(0x0) = 94545198129152\n", 
+                        "api": "brk", 
+                        "return_value": "94545198129152", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb12f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383645.08101
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.081040 xmag@7f3ef7cb12f7[2067] brk(0x55fd04f53000) = 94545198264320\n", 
+                        "api": "brk", 
+                        "return_value": "94545198264320", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb12f7", 
+                        "arguments": {
+                            "p0": "0x55fd04f53000"
+                        }, 
+                        "time": 1640383645.08104
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.081991 xmag@7f3ef7d99b86[2067] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffdf62ee910, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7d99b86", 
+                        "arguments": {
+                            "p2": "0x7ffdf62ee910", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383645.081991
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.082684 xmag@7f3ef7cb54c3[2067] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f3ef731e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef731e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb54c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.082684
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.082725 xmag@7f3ef7cb5597[2067] mprotect(0x7f3ef731f000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb5597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f3ef731f000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383645.082725
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.082781 xmag@7f3ef7cbbb11[2067] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f3ef7b1df30, 0x7f3ef7b1e9d0, 0x7f3ef7b1e9d0) = 2068\n", 
+                        "api": "clone", 
+                        "return_value": "2068", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cbbb11", 
+                        "arguments": {
+                            "p2": "0x7f3ef7b1e9d0", 
+                            "p3": "0x7f3ef7b1e9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f3ef7b1df30"
+                        }, 
+                        "time": 1640383645.082781
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.082871 xmag@7f3ef7d99b86[2067] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7d99b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383645.082871
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.086159 xmag@7f3ef7cb0df0[2067] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffdf62ee470) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb0df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffdf62ee470", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383645.086159
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.086221 xmag@7f3ef7cb05c1[2067] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb05c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383645.086221
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.087118 xmag@7f3ef7c7f247[2067] uname(0x7ffdf62ee0e0) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7c7f247", 
+                        "arguments": {
+                            "p0": "0x7ffdf62ee0e0"
+                        }, 
+                        "time": 1640383645.087118
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.087161 xmag@7f3ef7d9c337[2067] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7d9c337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383645.087161
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.087197 xmag@7f3ef7d9bd94[2067] read(3, 0x7ffdf62ee3d0, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7d9bd94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffdf62ee3d0"
+                        }, 
+                        "time": 1640383645.087197
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.087234 xmag@7f3ef7d9c337[2067] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7d9c337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383645.087234
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.088232 xmag@7f3ef7cb12f7[2067] brk(0x55fd04f74000) = 94545198399488\n", 
+                        "api": "brk", 
+                        "return_value": "94545198399488", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb12f7", 
+                        "arguments": {
+                            "p0": "0x55fd04f74000"
+                        }, 
+                        "time": 1640383645.088232
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.088389 xmag@7f3ef7cb54c3[2067] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3ef729d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3ef729d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb54c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.088389
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.088845 xmag@7f3ef7cb5597[2067] mprotect(0x55fd029cd000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb5597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55fd029cd000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383645.088845
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.088908 xmag@7f3ef7cb5667[2067] madvise(0x55fd029cd000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb5667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55fd029cd000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383645.088908
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.089641 xmag@7f3ef7cb54c3[2067] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f3e70000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3e70000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb54c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.089641
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.089692 xmag@7f3ef7caad59[2067] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7caad59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383645.089692
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.089747 xmag@7f3ef7caa613[2067] fstat(4, 0x7ffdf62edae0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7caa613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdf62edae0"
+                        }, 
+                        "time": 1640383645.089747
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.089783 xmag@7f3ef7caafb4[2067] read(4, 0x55fd04f51460, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7caafb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x55fd04f51460"
+                        }, 
+                        "time": 1640383645.089783
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.089825 xmag@7f3ef7cb03f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb03f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383645.089825
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.089876 xmag@7f3ef7cb52e9[2067] gettid() = 2067\n", 
+                        "api": "gettid", 
+                        "return_value": "2067", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb52e9", 
+                        "arguments": {}, 
+                        "time": 1640383645.089876
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.089907 xmag@7f3ef7caa613[2067] fstat(3, 0x7ffdf62ee350) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7caa613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffdf62ee350"
+                        }, 
+                        "time": 1640383645.089907
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.089940 xmag@7f3ef7c80717[2067] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7c80717", 
+                        "arguments": {}, 
+                        "time": 1640383645.08994
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.089971 xmag@7f3ef7c80737[2067] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7c80737", 
+                        "arguments": {}, 
+                        "time": 1640383645.089971
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.090001 xmag@7f3ef7d9bd94[2067] read(3, 0x7ffdf62ee5b0, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7d9bd94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffdf62ee5b0"
+                        }, 
+                        "time": 1640383645.090001
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.090050 xmag@7f3ef7cb54c3[2067] mmap2(0x7f3eeffe7000, 102400, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f3eeffe7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3eeffe7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb54c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7f3eeffe7000", 
+                            "p1": "102400", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.09005
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.090133 xmag@7f3ef7cb54c3[2067] mmap2(0x7f3eeffe7000, 32768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f3eeffe7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3eeffe7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb54c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f3eeffe7000", 
+                            "p1": "32768", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.090133
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.090184 xmag@7f3ef7cb54c3[2067] mmap2(0x7f3eefffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 28672) = 0x7f3eefffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3eefffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb54c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f3eefffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383645.090184
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.090239 xmag@7f3ef7d9be27[2067] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7d9be27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383645.090239
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.090304 xmag@7f3ef7cb54c3[2067] mmap2(0x7f3eef7e6000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3eef7e6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3eef7e6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb54c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f3eef7e6000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.090304
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.090403 xmag@7f3ef7cb12f7[2067] brk(0x55fd04f95000) = 94545198534656\n", 
+                        "api": "brk", 
+                        "return_value": "94545198534656", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb12f7", 
+                        "arguments": {
+                            "p0": "0x55fd04f95000"
+                        }, 
+                        "time": 1640383645.090403
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.090478 xmag@7f3ef7cb5597[2067] mprotect(0x7f3eef7e6000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb5597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f3eef7e6000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383645.090478
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.090522 xmag@7f3ef7d9c55e[2067] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7d9c55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383645.090522
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.090595 xmag@7f3ef7cab057[2067] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cab057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383645.090595
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.090684 xmag@7f3ef7c7f926[2067] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7c7f926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383645.090684
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2067, 
+                        "raw": "Fri Dec 24 22:07:25 2021.090722 xmag@7f3ef7c7f926[2067] futex(0x7f3ef7b1fa90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7c7f926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f3ef7b1fa90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383645.090722
+                    }
+                ], 
+                "pid": 2067, 
+                "process_name": "xmag", 
+                "command_line": "/tmp/xmag", 
+                "first_seen": 1640383645.062182, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:07:25 2021.082948 xmag@7f3ef7d92117[2068] set_robust_list(0x7f3ef7b1e9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7d92117", 
+                        "arguments": {
+                            "p0": "0x7f3ef7b1e9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383645.082948
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:07:25 2021.083010 xmag@7f3ef7cb54c3[2068] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f3eef31e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3eef31e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb54c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383645.08301
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:07:25 2021.083059 xmag@7f3ef7cb5567[2068] munmap(0x7f3eef31e000, 13508608) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb5567", 
+                        "arguments": {
+                            "p0": "0x7f3eef31e000", 
+                            "p1": "13508608"
+                        }, 
+                        "time": 1640383645.083059
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:07:25 2021.083098 xmag@7f3ef7cb5567[2068] munmap(0x7f3ef4000000, 53600256) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb5567", 
+                        "arguments": {
+                            "p0": "0x7f3ef4000000", 
+                            "p1": "53600256"
+                        }, 
+                        "time": 1640383645.083098
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:07:25 2021.083133 xmag@7f3ef7cb5597[2068] mprotect(0x7f3ef0000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7cb5597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f3ef0000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383645.083133
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xmag", 
+                        "pid": 2068, 
+                        "raw": "Fri Dec 24 22:07:25 2021.083184 xmag@7f3ef7d9c440[2068] nanosleep([0.010000000], 0x7f3ef7b1dd80) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3ef7d9c440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f3ef7b1dd80"
+                        }, 
+                        "time": 1640383645.083184
+                    }
+                ], 
+                "pid": 2068, 
+                "process_name": "xmag", 
+                "command_line": "", 
+                "first_seen": 1640383645.082948, 
+                "ppid": 2067, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2067, 
+                "process_name": "xmag", 
+                "command_line": "/tmp/xmag", 
+                "first_seen": 1640383645.062182, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2068, 
+                        "process_name": "xmag", 
+                        "command_line": "", 
+                        "first_seen": 1640383645.082948, 
+                        "ppid": 2067, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:07:17,001 [root] DEBUG: Starting analyzer from: /tmp/tmp_s6QNd\n", 
+            "2021-12-24 22:07:17,002 [root] DEBUG: Storing results at: /tmp/wAyboqT\n", 
+            "2021-12-24 22:07:19,294 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:07:19,796 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:07:20,298 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:07:25,063 [lib.core.packages] INFO: Process startup took 4.76 seconds\n", 
+            "2021-12-24 22:07:25,064 [root] INFO: Added new process to list with pid: 2058\n", 
+            "2021-12-24 22:07:31,073 [root] INFO: Process with pid 2058 has terminated\n", 
+            "2021-12-24 22:07:31,074 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:34,079 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:34,079 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 10:58:13,035 [cuckoo.core.scheduler] DEBUG: Task #2549189: no machine available yet\n", 
+            "2021-12-25 10:58:43,082 [cuckoo.core.scheduler] DEBUG: Task #2549189: no machine available yet\n", 
+            "2021-12-25 10:59:13,149 [cuckoo.core.scheduler] DEBUG: Task #2549189: no machine available yet\n", 
+            "2021-12-25 10:59:43,195 [cuckoo.core.scheduler] DEBUG: Task #2549189: no machine available yet\n", 
+            "2021-12-25 11:00:13,236 [cuckoo.core.scheduler] DEBUG: Task #2549189: no machine available yet\n", 
+            "2021-12-25 11:00:43,264 [cuckoo.core.scheduler] DEBUG: Task #2549189: no machine available yet\n", 
+            "2021-12-25 11:01:13,302 [cuckoo.core.scheduler] DEBUG: Task #2549189: no machine available yet\n", 
+            "2021-12-25 11:01:43,340 [cuckoo.core.scheduler] INFO: Task #2549189: acquired machine Ubuntu1904x641 (label=Ubuntu1904x641)\n", 
+            "2021-12-25 11:01:43,341 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.101 for task #2549189\n", 
+            "2021-12-25 11:01:43,481 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3578870 (interface=vboxnet0, host=192.168.168.101)\n", 
+            "2021-12-25 11:01:43,622 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x641\n", 
+            "2021-12-25 11:01:44,049 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x641 to Snapshot\n", 
+            "2021-12-25 11:01:52,475 [cuckoo.core.guest] INFO: Starting analysis #2549189 on guest (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2021-12-25 11:01:53,479 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: not ready yet\n", 
+            "2021-12-25 11:01:58,496 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2021-12-25 11:01:58,507 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x641, ip=192.168.168.101, monitor=latest, size=72028)\n", 
+            "2021-12-25 11:01:59,641 [cuckoo.core.resultserver] DEBUG: Task #2549189: live log analysis.log initialized.\n", 
+            "2021-12-25 11:02:05,316 [cuckoo.core.resultserver] DEBUG: Task #2549189: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 11:02:05,331 [cuckoo.core.resultserver] DEBUG: Task #2549189 uploaded file length: 171578\n", 
+            "2021-12-25 11:02:13,667 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549189 still processing\n", 
+            "2021-12-25 11:02:16,735 [cuckoo.core.resultserver] DEBUG: Task #2549189: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 11:02:16,737 [cuckoo.core.resultserver] DEBUG: Task #2549189 uploaded file length: 20029\n", 
+            "2021-12-25 11:02:28,734 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549189 still processing\n", 
+            "2021-12-25 11:02:43,793 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549189 still processing\n", 
+            "2021-12-25 11:02:58,924 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549189 still processing\n", 
+            "2021-12-25 11:03:13,995 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549189 still processing\n", 
+            "2021-12-25 11:03:29,062 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549189 still processing\n", 
+            "2021-12-25 11:03:44,130 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549189 still processing\n", 
+            "2021-12-25 11:03:59,281 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549189 still processing\n", 
+            "2021-12-25 11:04:14,353 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549189 still processing\n", 
+            "2021-12-25 11:04:29,412 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549189 still processing\n", 
+            "2021-12-25 11:04:44,479 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549189 still processing\n", 
+            "2021-12-25 11:04:59,558 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549189 still processing\n", 
+            "2021-12-25 11:05:14,618 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549189 still processing\n", 
+            "2021-12-25 11:05:29,681 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549189 still processing\n", 
+            "2021-12-25 11:05:44,749 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2549189 still processing\n", 
+            "2021-12-25 11:05:59,801 [cuckoo.core.guest] INFO: Ubuntu1904x641: end of analysis reached!\n", 
+            "2021-12-25 11:05:59,811 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 11:05:59,882 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 11:06:12,943 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x641 to path /srv/cuckoo/cwd/storage/analyses/2549189/memory.dmp\n", 
+            "2021-12-25 11:06:12,945 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x641\n", 
+            "2021-12-25 11:06:16,978 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.101 for task #2549189\n", 
+            "2021-12-25 11:06:16,978 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2549189\n", 
+            "2021-12-25 11:06:17,098 [cuckoo.core.scheduler] DEBUG: Released database task #2549189\n", 
+            "2021-12-25 11:06:17,178 [cuckoo.core.scheduler] INFO: Task #2549189: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "XmuConvertStandardSelection", 
+        "XmuInternAtom", 
+        "_XA_TARGETS", 
+        "XtRealloc", 
+        "XInternAtom", 
+        "XtMalloc", 
+        "XCreatePixmap", 
+        "XPutImage", 
+        "__stack_chk_guard", 
+        "XGetGeometry", 
+        "XGetImage", 
+        "SWAutoscale", 
+        "SWSetImage", 
+        "XtFree", 
+        "__stack_chk_fail", 
+        "XtOwnSelection", 
+        "XtGetSelectionValue", 
+        "XtWarning", 
+        "XCreateGC", 
+        "XChangeGC", 
+        "XFillRectangle", 
+        "XFreeGC", 
+        "XFillRectangles", 
+        "XtReleaseGC", 
+        "XtCreateWindow", 
+        "XClearArea", 
+        "SWRequestSelection", 
+        "SWGrabSelection", 
+        "XtGetGC", 
+        "strtod", 
+        "XtCalloc", 
+        "XCreateImage", 
+        "floorf", 
+        "XtMakeResizeRequest", 
+        "XtStrings", 
+        "strcmp", 
+        "stderr", 
+        "__fprintf_chk", 
+        "XSetForeground", 
+        "XSetBackground", 
+        "XtSetValues", 
+        "XtGetValues", 
+        "XtPopdown", 
+        "SWGetImagePixel", 
+        "XQueryColor", 
+        "__snprintf_chk", 
+        "XtPopup", 
+        "XtTranslateCoords", 
+        "XtRealizeWidget", 
+        "XtSetWMColormapWindows", 
+        "XtDestroyWidget", 
+        "XmuPrintDefaultErrorMessage", 
+        "XGetWindowAttributes", 
+        "XTranslateCoordinates", 
+        "XtLastTimestampProcessed", 
+        "XtGrabPointer", 
+        "XQueryPointer", 
+        "XtAddRawEventHandler", 
+        "XtAppAddTimeOut", 
+        "XGrabServer", 
+        "XUngrabServer", 
+        "XDrawRectangle", 
+        "XFlush", 
+        "nanosleep", 
+        "XChangeActivePointerGrab", 
+        "XQueryColors", 
+        "XtError", 
+        "XtVaCreatePopupShell", 
+        "topLevelShellWidgetClass", 
+        "XtShellStrings", 
+        "panedWidgetClass", 
+        "XtCreateManagedWidget", 
+        "commandWidgetClass", 
+        "XtAddCallback", 
+        "labelWidgetClass", 
+        "scaleWidgetClass", 
+        "XtVaCreateManagedWidget", 
+        "XtParseTranslationTable", 
+        "XtOverrideTranslations", 
+        "overrideShellWidgetClass", 
+        "XtInstallAllAccelerators", 
+        "XtWindow", 
+        "XSetWMProtocols", 
+        "XtRemoveRawEventHandler", 
+        "XWarpPointer", 
+        "XtAddEventHandler", 
+        "XtUngrabPointer", 
+        "XtUnmanageChild", 
+        "XtUnrealizeWidget", 
+        "XtManageChild", 
+        "XtRemoveEventHandler", 
+        "XSetErrorHandler", 
+        "XtAppInitialize", 
+        "XtDisplay", 
+        "XtGetApplicationResources", 
+        "fwrite", 
+        "XParseGeometry", 
+        "XtAppAddActions", 
+        "XCreateFontCursor", 
+        "rootWindowWidgetClass", 
+        "XtCreateWidget", 
+        "XtAppMainLoop", 
+        "libXaw.so.7", 
+        "_XtInherit", 
+        "simpleClassRec", 
+        "widgetClassRec", 
+        "libXmu.so.6", 
+        "libXt.so.6", 
+        "libX11.so.6", 
+        "libm.so.6", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "ld.so.1", 
+        "_ftext", 
+        "_fdata", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.2", 
+        "GLIBC_2.0", 
+        "GLIBC_2.4", 
+        "GLIBC_2.3.4", 
+        "Pip@T9'!", 
+        "l,9'%8@", 
+        "'l_9'g", 
+        "MULTIPLE", 
+        "RootWindow", 
+        "can not preserve aspect ratio", 
+        "buffer size has to be a positive number greater than zero", 
+        "AspectRatio has to be a positive number. (forced to 1.0)", 
+        "Precision has to be a positive number. (forced to 0.001)", 
+        "ScaleValue has to be a positive number. (forced to 1.0)", 
+        "userData", 
+        "bufferSize", 
+        "aspectRatio", 
+        "AspectRatio has to be a positive number.", 
+        "proportional", 
+        "scaleX", 
+        "scaleY", 
+        "ScaleValue has to be a positive number.", 
+        "================>>%f %f", 
+        "precision", 
+        "Precision has to be a positive number.", 
+        "unscale", 
+        "autoscale", 
+        "initial-size", 
+        "XtDefaultForeground", 
+        "gravity", 
+        "Gravity", 
+        "ForgetGravity", 
+        "Autoscale", 
+        "Proportional", 
+        "ScaleFactor", 
+        "AspectRatio", 
+        "Precision", 
+        "pasteBuffer", 
+        "PasteBuffer", 
+        "BufferSize", 
+        "UserData", 
+        "visual", 
+        "Visual", 
+        "OPixel %ld at (%d,%d) colored (%x,%x,%x).", 
+        "Out of memory!", 
+        "replace", 
+        "select", 
+        "helpLabel", 
+        "<Message>WM_PROTOCOLS: close()", 
+        "pixShell", 
+        "pixLabel", 
+        "usage:  xmag [-source geom] [-mag magfactor] [-toolkitoption]", 
+        "WM_DELETE_WINDOW", 
+        "set-colors", 
+        "unset-colors", 
+        "popup-pixel", 
+        "update-pixel", 
+        "popdown-pixel", 
+        "select-region", 
+        "*borderColor", 
+        "*background", 
+        "*borderWidth", 
+        "-geometry", 
+        "*geometry", 
+        "-source", 
+        "*source", 
+        "-title", 
+        "*title", 
+        "geometry", 
+        "Geometry", 
+        "source", 
+        "Source", 
+        "SRCWIDTHxSRCHEIGHT", 
+        " <Key>u:           unscale()", 
+        " <Key>a:           autoscale()", 
+        " <Key>i:           initial-size()", 
+        "1c8fac24dc650aa5d8448995417e9c90dd27ff.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "0bf97e96b9ee686e90cc08e1ec93a82f5fa33881e06b63a34f2b5ce2390df484", 
+                "dirname": ""
+            }
+        }
+    }
+}
