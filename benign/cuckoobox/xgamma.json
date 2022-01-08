@@ -1,0 +1,3297 @@
+{
+    "info": {
+        "added": 1640383637.473639, 
+        "started": 1640429665.971991, 
+        "duration": 781, 
+        "ended": 1640430447.442717, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2549182, 
+        "category": "file", 
+        "git": {
+            "head": "", 
+            "fetch_head": ""
+        }, 
+        "monitor": null, 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x645", 
+            "label": "Ubuntu1904x645", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 11:02:42", 
+            "shutdown_on": "2021-12-25 11:07:27"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "dc1232c33a1821f4ad7b8233d1cb742ac62e5e1c", 
+            "name": "xgamma", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=3d1da9d31b1c5479f9e1060d71341027ba80e62b, stripped", 
+            "sha256": "fa27b7efb68c5a3d0472c27b405e5eaa0aaf442cd6f93349c8aaa50b6041af9f", 
+            "urls": [], 
+            "crc32": "6B3EC307", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/fa27b7efb68c5a3d0472c27b405e5eaa0aaf442cd6f93349c8aaa50b6041af9f", 
+            "ssdeep": null, 
+            "size": 10196, 
+            "sha512": "e792fd5601dc400e1cbb3841bed2ccf173d14efad54328deaf54d0583bb14cc774819683f58d4c471034350720eba8a559cff6287fd48b30dd6244391e0b10e9", 
+            "md5": "8256ee268013d39eb0f5d1f615ca9898"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "19ec8d28-8c50-4bd7-9a6b-26feb2fc3257", 
+        "parent_file_sha256": null, 
+        "name": "fa27b7efb68c5a3d0472c27b405e5eaa0aaf442cd6f93349c8aaa50b6041af9f", 
+        "probes_total": 16, 
+        "scan_date": 1640423248, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "dc1232c33a1821f4ad7b8233d1cb742ac62e5e1c", 
+            "tags": [], 
+            "timestamp_first_scan": 1640423248.31, 
+            "timestamp_last_scan": 1640423257.18, 
+            "sha256": "fa27b7efb68c5a3d0472c27b405e5eaa0aaf442cd6f93349c8aaa50b6041af9f", 
+            "md5": "8256ee268013d39eb0f5d1f615ca9898", 
+            "size": 10196
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.08, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 3.01, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-15 12:09:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.28, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.16, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.04, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.7, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.77, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.65, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.53, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.13, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.98, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "ca157a7b-cd38-4949-bdcb-2d0b5054247a", 
+        "file_sha256": "fa27b7efb68c5a3d0472c27b405e5eaa0aaf442cd6f93349c8aaa50b6041af9f"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.105", 
+                "version": "TLS 1.2", 
+                "src_port": 43782, 
+                "dst_port": 443, 
+                "timestamp": "2021-12-25T11:03:11.761545+0200", 
+                "dst_ip": "91.189.92.38", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "3b00964ed769d695c7a3fd45c5de7d86f07fd30307ea1ec134147a11837f09f6", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "a97ac76359e33ffe06bf130fe40ab5d09ce0b86217d5c099cd694d02356b5f6c", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "xgamma", 
+                "pid": 2072, 
+                "summary": {}, 
+                "first_seen": 1640383644.671116, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "xgamma", 
+                "pid": 2073, 
+                "summary": {}, 
+                "first_seen": 1640383644.692921, 
+                "ppid": 2072
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.671116 xgamma@7f0913816c27[2072] execve(\"/tmp/xgamma\", [\"/tmp/xgamma\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/xgamma\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpAwAKAY\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913816c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/xgamma", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpAwAKAY"
+                            ], 
+                            "p0": "/tmp/xgamma", 
+                            "p1": [
+                                "/tmp/xgamma"
+                            ]
+                        }, 
+                        "time": 1640383644.671116
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.674023 xgamma@7f0913816c27[2072] brk(0x0) = 93969484845056\n", 
+                        "api": "brk", 
+                        "return_value": "93969484845056", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913816c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383644.674023
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.675153 xgamma@7f09138179d7[2072] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09138179d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383644.675153
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.676276 xgamma@7f0913817b0d[2072] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383644.676276
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.676317 xgamma@7f0913817943[2072] fstat(4, 0x7ffd1b5bddd0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bddd0"
+                        }, 
+                        "time": 1640383644.676317
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.676351 xgamma@7f0913817d03[2072] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f09137e5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09137e5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.676351
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.676388 xgamma@7f09138179f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09138179f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.676388
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.676434 xgamma@7f0913817b0d[2072] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383644.676434
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.676475 xgamma@7f0913817bd4[2072] read(4, 0x7ffd1b5bdf88, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bdf88"
+                        }, 
+                        "time": 1640383644.676475
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.676510 xgamma@7f0913817943[2072] fstat(4, 0x7ffd1b5bde20) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bde20"
+                        }, 
+                        "time": 1640383644.67651
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.676619 xgamma@7f0913817d03[2072] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f09137e3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09137e3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.676619
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.676662 xgamma@7f0913817d03[2072] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f09137dd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09137dd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.676662
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.676700 xgamma@7f0913817d03[2072] mmap2(0x7f09137de000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f09137de000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09137de000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f09137de000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383644.6767
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.676743 xgamma@7f0913817d03[2072] mmap2(0x7f09137e0000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f09137e0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09137e0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f09137e0000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383644.676743
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.676781 xgamma@7f0913817d03[2072] mmap2(0x7f09137e1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f09137e1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09137e1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f09137e1000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383644.676781
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.676829 xgamma@7f09138179f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09138179f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.676829
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.676873 xgamma@7f0913817b0d[2072] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383644.676873
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.676911 xgamma@7f0913817bd4[2072] read(4, 0x7ffd1b5bdf68, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bdf68"
+                        }, 
+                        "time": 1640383644.676911
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.676944 xgamma@7f0913817943[2072] fstat(4, 0x7ffd1b5bde00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bde00"
+                        }, 
+                        "time": 1640383644.676944
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.676976 xgamma@7f0913817d03[2072] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f09136bc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09136bc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.676976
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677014 xgamma@7f0913817db7[2072] mprotect(0x7f09136d7000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f09136d7000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383644.677014
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677054 xgamma@7f0913817d03[2072] mmap2(0x7f09136d7000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f09136d7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09136d7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f09136d7000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383644.677054
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677091 xgamma@7f0913817d03[2072] mmap2(0x7f0913757000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f0913757000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0913757000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0913757000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383644.677091
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677134 xgamma@7f0913817d03[2072] mmap2(0x7f09137da000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f09137da000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09137da000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f09137da000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383644.677134
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677176 xgamma@7f0913817d03[2072] mmap2(0x7f09137dc000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f09137dc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09137dc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f09137dc000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.677176
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677223 xgamma@7f09138179f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09138179f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.677223
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677272 xgamma@7f0913817b0d[2072] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383644.677272
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677309 xgamma@7f0913817bd4[2072] read(4, 0x7ffd1b5bdf48, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bdf48"
+                        }, 
+                        "time": 1640383644.677309
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677341 xgamma@7f0913817943[2072] fstat(4, 0x7ffd1b5bdde0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bdde0"
+                        }, 
+                        "time": 1640383644.677341
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677377 xgamma@7f0913817d03[2072] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f09136b1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09136b1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.677377
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677426 xgamma@7f0913817d03[2072] mmap2(0x7f09136b4000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f09136b4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09136b4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f09136b4000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383644.677426
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677469 xgamma@7f0913817d03[2072] mmap2(0x7f09136b8000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f09136b8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09136b8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f09136b8000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383644.677469
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677509 xgamma@7f0913817d03[2072] mmap2(0x7f09136ba000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f09136ba000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09136ba000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f09136ba000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383644.677509
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677558 xgamma@7f09138179f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09138179f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.677558
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677601 xgamma@7f0913817b0d[2072] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383644.677601
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677648 xgamma@7f0913817bd4[2072] read(4, 0x7ffd1b5bdf28, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bdf28"
+                        }, 
+                        "time": 1640383644.677648
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677680 xgamma@7f0913817943[2072] fstat(4, 0x7ffd1b5bddc0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bddc0"
+                        }, 
+                        "time": 1640383644.67768
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677715 xgamma@7f0913817d03[2072] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f09134cf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09134cf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.677715
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677750 xgamma@7f0913817db7[2072] mprotect(0x7f0913564000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f0913564000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383644.67775
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677788 xgamma@7f0913817d03[2072] mmap2(0x7f0913564000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7f0913564000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0913564000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0913564000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383644.677788
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677825 xgamma@7f0913817d03[2072] mmap2(0x7f0913656000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7f0913656000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0913656000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0913656000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383644.677825
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677860 xgamma@7f0913817d03[2072] mmap2(0x7f09136a0000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7f09136a0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09136a0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f09136a0000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383644.67786
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677901 xgamma@7f0913817d03[2072] mmap2(0x7f09136ae000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f09136ae000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09136ae000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f09136ae000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.677901
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677945 xgamma@7f09138179f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09138179f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.677945
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.677994 xgamma@7f0913817b0d[2072] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383644.677994
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678032 xgamma@7f0913817bd4[2072] read(4, 0x7ffd1b5bdf08, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bdf08"
+                        }, 
+                        "time": 1640383644.678032
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678064 xgamma@7f0913817943[2072] fstat(4, 0x7ffd1b5bdda0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bdda0"
+                        }, 
+                        "time": 1640383644.678064
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678095 xgamma@7f0913817d03[2072] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f0913381000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0913381000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.678095
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678131 xgamma@7f0913817d03[2072] mmap2(0x7f0913390000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f0913390000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0913390000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0913390000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383644.678131
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678170 xgamma@7f0913817d03[2072] mmap2(0x7f0913436000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f0913436000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0913436000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0913436000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383644.67817
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678207 xgamma@7f0913817d03[2072] mmap2(0x7f09134cd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f09134cd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09134cd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f09134cd000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383644.678207
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678255 xgamma@7f09138179f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09138179f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.678255
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678301 xgamma@7f0913817b0d[2072] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383644.678301
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678337 xgamma@7f0913817bd4[2072] read(4, 0x7ffd1b5bdee8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bdee8"
+                        }, 
+                        "time": 1640383644.678337
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678369 xgamma@7f0913817943[2072] fstat(4, 0x7ffd1b5bdd80) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bdd80"
+                        }, 
+                        "time": 1640383644.678369
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678440 xgamma@7f0913817d03[2072] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f0913367000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0913367000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.67844
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678481 xgamma@7f0913817d03[2072] mmap2(0x7f091336a000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f091336a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f091336a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f091336a000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383644.678481
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678522 xgamma@7f0913817d03[2072] mmap2(0x7f091337b000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f091337b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f091337b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f091337b000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383644.678522
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678565 xgamma@7f0913817d03[2072] mmap2(0x7f091337f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f091337f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f091337f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f091337f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383644.678565
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678612 xgamma@7f09138179f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09138179f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.678612
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678655 xgamma@7f0913817b0d[2072] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383644.678655
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678693 xgamma@7f0913817bd4[2072] read(4, 0x7ffd1b5bdec8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bdec8"
+                        }, 
+                        "time": 1640383644.678693
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678743 xgamma@7f0913817943[2072] fstat(4, 0x7ffd1b5bdd60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bdd60"
+                        }, 
+                        "time": 1640383644.678743
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678779 xgamma@7f0913817d03[2072] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0913365000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0913365000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.678779
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678820 xgamma@7f0913817d03[2072] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f0913344000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0913344000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.67882
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678857 xgamma@7f0913817d03[2072] mmap2(0x7f091334b000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f091334b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f091334b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f091334b000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383644.678857
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678899 xgamma@7f0913817d03[2072] mmap2(0x7f091335a000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f091335a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f091335a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f091335a000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383644.678899
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678939 xgamma@7f0913817d03[2072] mmap2(0x7f091335f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f091335f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f091335f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f091335f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383644.678939
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.678983 xgamma@7f0913817d03[2072] mmap2(0x7f0913361000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0913361000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0913361000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f0913361000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.678983
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679030 xgamma@7f09138179f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09138179f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.67903
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679077 xgamma@7f0913817b0d[2072] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383644.679077
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679117 xgamma@7f0913817bd4[2072] read(4, 0x7ffd1b5bdea8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bdea8"
+                        }, 
+                        "time": 1640383644.679117
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679151 xgamma@7f0913817943[2072] fstat(4, 0x7ffd1b5bdd40) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bdd40"
+                        }, 
+                        "time": 1640383644.679151
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679186 xgamma@7f0913817d03[2072] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f0913159000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0913159000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.679186
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679224 xgamma@7f0913817d03[2072] mmap2(0x7f091317e000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f091317e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f091317e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f091317e000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383644.679224
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679266 xgamma@7f0913817d03[2072] mmap2(0x7f09132f1000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f09132f1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09132f1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f09132f1000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383644.679266
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679306 xgamma@7f0913817d03[2072] mmap2(0x7f091333a000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f091333a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f091333a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f091333a000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383644.679306
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679358 xgamma@7f0913817d03[2072] mmap2(0x7f0913340000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0913340000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0913340000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f0913340000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.679358
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679405 xgamma@7f09138179f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09138179f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.679405
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679458 xgamma@7f0913817b0d[2072] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383644.679458
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679499 xgamma@7f0913817bd4[2072] read(4, 0x7ffd1b5bde88, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bde88"
+                        }, 
+                        "time": 1640383644.679499
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679534 xgamma@7f0913817943[2072] fstat(4, 0x7ffd1b5bdd20) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bdd20"
+                        }, 
+                        "time": 1640383644.679534
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679569 xgamma@7f0913817d03[2072] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f0913153000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0913153000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.679569
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679611 xgamma@7f0913817d03[2072] mmap2(0x7f0913154000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f0913154000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0913154000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0913154000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383644.679611
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679654 xgamma@7f0913817d03[2072] mmap2(0x7f0913156000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f0913156000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0913156000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0913156000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383644.679654
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679695 xgamma@7f0913817d03[2072] mmap2(0x7f0913157000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f0913157000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0913157000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0913157000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383644.679695
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679755 xgamma@7f09138179f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09138179f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.679755
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679802 xgamma@7f0913817b0d[2072] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383644.679802
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679843 xgamma@7f0913817bd4[2072] read(4, 0x7ffd1b5bde68, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bde68"
+                        }, 
+                        "time": 1640383644.679843
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679877 xgamma@7f0913817943[2072] fstat(4, 0x7ffd1b5bdd00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bdd00"
+                        }, 
+                        "time": 1640383644.679877
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679916 xgamma@7f0913817d03[2072] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f09130df000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09130df000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.679916
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679956 xgamma@7f0913817d03[2072] mmap2(0x7f09130e1000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f09130e1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09130e1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f09130e1000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383644.679956
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.679999 xgamma@7f0913817d03[2072] mmap2(0x7f0913133000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f0913133000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0913133000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0913133000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383644.679999
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.680040 xgamma@7f0913817d03[2072] mmap2(0x7f0913151000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f0913151000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0913151000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0913151000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383644.68004
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.680092 xgamma@7f09138179f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09138179f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.680092
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.681063 xgamma@7f0913817d03[2072] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f09130dd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09130dd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.681063
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.681136 xgamma@7f0913817d03[2072] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f09130da000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09130da000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.681136
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.681180 xgamma@7f09137fcf30[2072] arch_prctl(ARCH_SET_FS, 139676951095232) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09137fcf30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "139676951095232"
+                        }, 
+                        "time": 1640383644.68118
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.682153 xgamma@7f0913817db7[2072] mprotect(0x7f091333a000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f091333a000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383644.682153
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.682212 xgamma@7f0913817db7[2072] mprotect(0x7f091335f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f091335f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.682212
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.682280 xgamma@7f0913817db7[2072] mprotect(0x7f0913151000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f0913151000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.68228
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.682327 xgamma@7f0913817db7[2072] mprotect(0x7f0913157000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f0913157000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.682327
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.682392 xgamma@7f0913817db7[2072] mprotect(0x7f091337f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f091337f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.682392
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.682459 xgamma@7f0913817db7[2072] mprotect(0x7f09134cd000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f09134cd000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.682459
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.683366 xgamma@7f0913817db7[2072] mprotect(0x7f09136a0000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f09136a0000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383644.683366
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.683421 xgamma@7f0913817db7[2072] mprotect(0x7f09136ba000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f09136ba000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.683421
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.683606 xgamma@7f0913817db7[2072] mprotect(0x7f09137da000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f09137da000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.683606
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.683667 xgamma@7f0913817db7[2072] mprotect(0x7f09137e1000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f09137e1000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.683667
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.688239 xgamma@7f0913817db7[2072] mprotect(0x5576f5f40000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x5576f5f40000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383644.688239
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.688290 xgamma@7f0913817db7[2072] mprotect(0x7f0913825000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f0913825000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.68829
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.688334 xgamma@7f0913817d97[2072] munmap(0x7f09137e5000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913817d97", 
+                        "arguments": {
+                            "p0": "0x7f09137e5000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383644.688334
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.688393 xgamma@7f091334b8df[2072] set_tid_address(0x7f09130daa90) = 2072\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2072", 
+                        "category": "process", 
+                        "instruction_pointer": "7f091334b8df", 
+                        "arguments": {
+                            "p0": "0x7f09130daa90"
+                        }, 
+                        "time": 1640383644.688393
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.688425 xgamma@7f091334b94a[2072] set_robust_list(0x7f09130daaa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f091334b94a", 
+                        "arguments": {
+                            "p0": "0x7f09130daaa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383644.688425
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.688462 xgamma@7f0913358010[2072] rt_sigaction(0x20, {0x7f091334b6c0, SA_SIGINFO|SA_RESTORER, 0x7f0913357f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913358010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f091334b6c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f0913357f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383644.688462
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.688495 xgamma@7f0913358010[2072] rt_sigaction(0x21, {0x7f091334b760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f0913357f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913358010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f091334b760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f0913357f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383644.688495
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.688622 xgamma@7f091334ba19[2072] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f091334ba19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383644.688622
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.688672 xgamma@7f091326bdf0[2072] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffd1b5beb60) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f091326bdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffd1b5beb60", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383644.688672
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.688894 xgamma@7f091326c2f7[2072] brk(0x0) = 93969484845056\n", 
+                        "api": "brk", 
+                        "return_value": "93969484845056", 
+                        "category": "process", 
+                        "instruction_pointer": "7f091326c2f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383644.688894
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.688938 xgamma@7f091326c2f7[2072] brk(0x5576f9c5a000) = 93969484980224\n", 
+                        "api": "brk", 
+                        "return_value": "93969484980224", 
+                        "category": "process", 
+                        "instruction_pointer": "7f091326c2f7", 
+                        "arguments": {
+                            "p0": "0x5576f9c5a000"
+                        }, 
+                        "time": 1640383644.688938
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.690132 xgamma@7f0913354b86[2072] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffd1b5beab0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913354b86", 
+                        "arguments": {
+                            "p2": "0x7ffd1b5beab0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383644.690132
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.692492 xgamma@7f09132704c3[2072] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f09128d9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f09128d9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09132704c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.692492
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.692599 xgamma@7f0913270597[2072] mprotect(0x7f09128da000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913270597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f09128da000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383644.692599
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.692650 xgamma@7f0913276b11[2072] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f09130d8f30, 0x7f09130d99d0, 0x7f09130d99d0) = 2073\n", 
+                        "api": "clone", 
+                        "return_value": "2073", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913276b11", 
+                        "arguments": {
+                            "p2": "0x7f09130d99d0", 
+                            "p3": "0x7f09130d99d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f09130d8f30"
+                        }, 
+                        "time": 1640383644.69265
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.692792 xgamma@7f0913354b86[2072] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913354b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383644.692792
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.698179 xgamma@7f091326bdf0[2072] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffd1b5be610) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f091326bdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffd1b5be610", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383644.698179
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.698280 xgamma@7f091326b5c1[2072] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f091326b5c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383644.69828
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.699529 xgamma@7f091323a247[2072] uname(0x7ffd1b5be280) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f091323a247", 
+                        "arguments": {
+                            "p0": "0x7ffd1b5be280"
+                        }, 
+                        "time": 1640383644.699529
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.699606 xgamma@7f0913357337[2072] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913357337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383644.699606
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.699670 xgamma@7f0913356d94[2072] read(3, 0x7ffd1b5be570, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913356d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffd1b5be570"
+                        }, 
+                        "time": 1640383644.69967
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.699738 xgamma@7f0913357337[2072] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913357337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383644.699738
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.701213 xgamma@7f091326c2f7[2072] brk(0x5576f9c7b000) = 93969485115392\n", 
+                        "api": "brk", 
+                        "return_value": "93969485115392", 
+                        "category": "process", 
+                        "instruction_pointer": "7f091326c2f7", 
+                        "arguments": {
+                            "p0": "0x5576f9c7b000"
+                        }, 
+                        "time": 1640383644.701213
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.701493 xgamma@7f09132704c3[2072] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0912858000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0912858000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09132704c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.701493
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.702182 xgamma@7f0913270597[2072] mprotect(0x5576f5fc3000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913270597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x5576f5fc3000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383644.702182
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.702328 xgamma@7f0913270667[2072] madvise(0x5576f5fc3000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913270667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x5576f5fc3000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383644.702328
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.703293 xgamma@7f09132704c3[2072] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f088c000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f088c000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09132704c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.703293
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.703341 xgamma@7f0913265d59[2072] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913265d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383644.703341
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.703392 xgamma@7f0913265613[2072] fstat(4, 0x7ffd1b5bdc80) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913265613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd1b5bdc80"
+                        }, 
+                        "time": 1640383644.703392
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.703452 xgamma@7f0913265fb4[2072] read(4, 0x5576f9c584e0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913265fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x5576f9c584e0"
+                        }, 
+                        "time": 1640383644.703452
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.703516 xgamma@7f091326b3f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f091326b3f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383644.703516
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.703572 xgamma@7f0913284d9c[2072] futex(0x7f091333dc40, FUTEX_WAIT_PRIVATE, 2) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913284d9c", 
+                        "arguments": {
+                            "p2": "2", 
+                            "p0": "0x7f091333dc40", 
+                            "p1": "FUTEX_WAIT_PRIVATE"
+                        }, 
+                        "time": 1640383644.703572
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.703770 xgamma@7f0913284dc9[2072] futex(0x7f091333dc40, FUTEX_WAKE_PRIVATE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913284dc9", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f091333dc40", 
+                            "p1": "FUTEX_WAKE_PRIVATE"
+                        }, 
+                        "time": 1640383644.70377
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.703833 xgamma@7f09132702e9[2072] gettid() = 2072\n", 
+                        "api": "gettid", 
+                        "return_value": "2072", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09132702e9", 
+                        "arguments": {}, 
+                        "time": 1640383644.703833
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.703865 xgamma@7f0913265613[2072] fstat(3, 0x7ffd1b5be4f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913265613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffd1b5be4f0"
+                        }, 
+                        "time": 1640383644.703865
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.703898 xgamma@7f091323b717[2072] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f091323b717", 
+                        "arguments": {}, 
+                        "time": 1640383644.703898
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.703935 xgamma@7f091323b737[2072] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f091323b737", 
+                        "arguments": {}, 
+                        "time": 1640383644.703935
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.703965 xgamma@7f0913356d94[2072] read(3, 0x7ffd1b5be750, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913356d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffd1b5be750"
+                        }, 
+                        "time": 1640383644.703965
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.704016 xgamma@7f09132704c3[2072] mmap2(0x7f090bfed000, 77824, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f090bfed000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f090bfed000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09132704c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7f090bfed000", 
+                            "p1": "77824", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.704016
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.704079 xgamma@7f09132704c3[2072] mmap2(0x7f090bfed000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f090bfed000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f090bfed000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09132704c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f090bfed000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.704079
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.704128 xgamma@7f09132704c3[2072] mmap2(0x7f090bffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 4096) = 0x7f090bffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f090bffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09132704c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f090bffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383644.704128
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.704170 xgamma@7f0913356e27[2072] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913356e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383644.70417
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.704215 xgamma@7f09132704c3[2072] mmap2(0x7f090b7ec000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f090b7ec000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f090b7ec000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09132704c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f090b7ec000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.704215
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.704262 xgamma@7f091326c2f7[2072] brk(0x5576f9c9c000) = 93969485250560\n", 
+                        "api": "brk", 
+                        "return_value": "93969485250560", 
+                        "category": "process", 
+                        "instruction_pointer": "7f091326c2f7", 
+                        "arguments": {
+                            "p0": "0x5576f9c9c000"
+                        }, 
+                        "time": 1640383644.704262
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.704334 xgamma@7f0913270597[2072] mprotect(0x7f090b7ec000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913270597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f090b7ec000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383644.704334
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.704380 xgamma@7f091335755e[2072] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f091335755e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383644.70438
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.704445 xgamma@7f0913266057[2072] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913266057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383644.704445
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.704598 xgamma@7f091323a926[2072] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f091323a926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383644.704598
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2072, 
+                        "raw": "Fri Dec 24 22:07:24 2021.704630 xgamma@7f091323a926[2072] futex(0x7f09130daa90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f091323a926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f09130daa90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383644.70463
+                    }
+                ], 
+                "pid": 2072, 
+                "process_name": "xgamma", 
+                "command_line": "/tmp/xgamma", 
+                "first_seen": 1640383644.671116, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:24 2021.692921 xgamma@7f091334d117[2073] set_robust_list(0x7f09130d99e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f091334d117", 
+                        "arguments": {
+                            "p0": "0x7f09130d99e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383644.692921
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:24 2021.692982 xgamma@7f09132704c3[2073] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f090a8d9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f090a8d9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09132704c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383644.692982
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:24 2021.693039 xgamma@7f0913270567[2073] munmap(0x7f090a8d9000, 24276992) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913270567", 
+                        "arguments": {
+                            "p0": "0x7f090a8d9000", 
+                            "p1": "24276992"
+                        }, 
+                        "time": 1640383644.693039
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:24 2021.693098 xgamma@7f0913270567[2073] munmap(0x7f0910000000, 42831872) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913270567", 
+                        "arguments": {
+                            "p0": "0x7f0910000000", 
+                            "p1": "42831872"
+                        }, 
+                        "time": 1640383644.693098
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:24 2021.693148 xgamma@7f0913270597[2073] mprotect(0x7f090c000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913270597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f090c000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383644.693148
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:24 2021.693216 xgamma@7f0913357440[2073] nanosleep([0.010000000], 0x7f09130d8d80) = 0\n", 
+                        "api": "nanosleep", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913357440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f09130d8d80"
+                        }, 
+                        "time": 1640383644.693216
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:24 2021.703550 xgamma@7f0913270667[2073] madvise(0x5576f9c5a000, 8192, MADV_DONTNEED) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913270667", 
+                        "arguments": {
+                            "p2": "MADV_DONTNEED", 
+                            "p0": "0x5576f9c5a000", 
+                            "p1": "8192"
+                        }, 
+                        "time": 1640383644.70355
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:24 2021.703680 xgamma@7f0913284dc9[2073] futex(0x7f091333dc40, FUTEX_WAKE_PRIVATE, 1) = 1\n", 
+                        "api": "futex", 
+                        "return_value": "1", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0913284dc9", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f091333dc40", 
+                            "p1": "FUTEX_WAKE_PRIVATE"
+                        }, 
+                        "time": 1640383644.70368
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "xgamma", 
+                        "pid": 2073, 
+                        "raw": "Fri Dec 24 22:07:24 2021.703791 xgamma@7f09132702e9[2073] futex(0x5576f7fd6a48, FUTEX_WAIT, -1, NULL) = -512\n", 
+                        "api": "futex", 
+                        "return_value": "-512", 
+                        "category": "process", 
+                        "instruction_pointer": "7f09132702e9", 
+                        "arguments": {
+                            "p2": "-1", 
+                            "p3": "NULL", 
+                            "p0": "0x5576f7fd6a48", 
+                            "p1": "FUTEX_WAIT"
+                        }, 
+                        "time": 1640383644.703791
+                    }
+                ], 
+                "pid": 2073, 
+                "process_name": "xgamma", 
+                "command_line": "", 
+                "first_seen": 1640383644.692921, 
+                "ppid": 2072, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2072, 
+                "process_name": "xgamma", 
+                "command_line": "/tmp/xgamma", 
+                "first_seen": 1640383644.671116, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2073, 
+                        "process_name": "xgamma", 
+                        "command_line": "", 
+                        "first_seen": 1640383644.692921, 
+                        "ppid": 2072, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:07:17,004 [root] DEBUG: Starting analyzer from: /tmp/tmpAwAKAY\n", 
+            "2021-12-24 22:07:17,005 [root] DEBUG: Storing results at: /tmp/jnkirg\n", 
+            "2021-12-24 22:07:19,147 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:07:19,149 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:07:19,652 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:07:24,663 [lib.core.packages] INFO: Process startup took 5.01 seconds\n", 
+            "2021-12-24 22:07:24,665 [root] INFO: Added new process to list with pid: 2063\n", 
+            "2021-12-24 22:07:30,681 [root] INFO: Process with pid 2063 has terminated\n", 
+            "2021-12-24 22:07:30,682 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:33,695 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:33,696 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 10:54:41,342 [cuckoo.core.scheduler] DEBUG: Task #2549182: no machine available yet\n", 
+            "2021-12-25 10:55:11,365 [cuckoo.core.scheduler] DEBUG: Task #2549182: no machine available yet\n", 
+            "2021-12-25 10:55:41,415 [cuckoo.core.scheduler] DEBUG: Task #2549182: no machine available yet\n", 
+            "2021-12-25 10:56:11,440 [cuckoo.core.scheduler] DEBUG: Task #2549182: no machine available yet\n", 
+            "2021-12-25 10:56:41,465 [cuckoo.core.scheduler] DEBUG: Task #2549182: no machine available yet\n", 
+            "2021-12-25 10:57:11,507 [cuckoo.core.scheduler] DEBUG: Task #2549182: no machine available yet\n", 
+            "2021-12-25 10:57:41,599 [cuckoo.core.scheduler] DEBUG: Task #2549182: no machine available yet\n", 
+            "2021-12-25 10:58:11,648 [cuckoo.core.scheduler] DEBUG: Task #2549182: no machine available yet\n", 
+            "2021-12-25 10:58:41,692 [cuckoo.core.scheduler] DEBUG: Task #2549182: no machine available yet\n", 
+            "2021-12-25 10:59:11,741 [cuckoo.core.scheduler] DEBUG: Task #2549182: no machine available yet\n", 
+            "2021-12-25 10:59:41,784 [cuckoo.core.scheduler] DEBUG: Task #2549182: no machine available yet\n", 
+            "2021-12-25 11:00:11,819 [cuckoo.core.scheduler] DEBUG: Task #2549182: no machine available yet\n", 
+            "2021-12-25 11:00:41,864 [cuckoo.core.scheduler] DEBUG: Task #2549182: no machine available yet\n", 
+            "2021-12-25 11:01:11,905 [cuckoo.core.scheduler] DEBUG: Task #2549182: no machine available yet\n", 
+            "2021-12-25 11:01:41,964 [cuckoo.core.scheduler] DEBUG: Task #2549182: no machine available yet\n", 
+            "2021-12-25 11:02:12,006 [cuckoo.core.scheduler] DEBUG: Task #2549182: no machine available yet\n", 
+            "2021-12-25 11:02:42,058 [cuckoo.core.scheduler] INFO: Task #2549182: acquired machine Ubuntu1904x645 (label=Ubuntu1904x645)\n", 
+            "2021-12-25 11:02:42,059 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.105 for task #2549182\n", 
+            "2021-12-25 11:02:42,194 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3579451 (interface=vboxnet0, host=192.168.168.105)\n", 
+            "2021-12-25 11:02:42,357 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x645\n", 
+            "2021-12-25 11:02:42,749 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x645 to Snapshot\n", 
+            "2021-12-25 11:02:51,545 [cuckoo.core.guest] INFO: Starting analysis #2549182 on guest (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2021-12-25 11:02:52,549 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: not ready yet\n", 
+            "2021-12-25 11:02:57,566 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2021-12-25 11:02:57,581 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x645, ip=192.168.168.105, monitor=latest, size=72028)\n", 
+            "2021-12-25 11:02:58,752 [cuckoo.core.resultserver] DEBUG: Task #2549182: live log analysis.log initialized.\n", 
+            "2021-12-25 11:03:04,005 [cuckoo.core.resultserver] DEBUG: Task #2549182: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 11:03:04,035 [cuckoo.core.resultserver] DEBUG: Task #2549182 uploaded file length: 171578\n", 
+            "2021-12-25 11:03:12,710 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549182 still processing\n", 
+            "2021-12-25 11:03:15,460 [cuckoo.core.resultserver] DEBUG: Task #2549182: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 11:03:15,486 [cuckoo.core.resultserver] DEBUG: Task #2549182 uploaded file length: 20888\n", 
+            "2021-12-25 11:03:27,775 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549182 still processing\n", 
+            "2021-12-25 11:03:42,840 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549182 still processing\n", 
+            "2021-12-25 11:03:57,911 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549182 still processing\n", 
+            "2021-12-25 11:04:13,040 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549182 still processing\n", 
+            "2021-12-25 11:04:28,095 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549182 still processing\n", 
+            "2021-12-25 11:04:43,164 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549182 still processing\n", 
+            "2021-12-25 11:04:58,273 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549182 still processing\n", 
+            "2021-12-25 11:05:13,340 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549182 still processing\n", 
+            "2021-12-25 11:05:28,400 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549182 still processing\n", 
+            "2021-12-25 11:05:43,465 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549182 still processing\n", 
+            "2021-12-25 11:05:58,526 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549182 still processing\n", 
+            "2021-12-25 11:06:13,623 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549182 still processing\n", 
+            "2021-12-25 11:06:28,693 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549182 still processing\n", 
+            "2021-12-25 11:06:43,760 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2549182 still processing\n", 
+            "2021-12-25 11:06:58,812 [cuckoo.core.guest] INFO: Ubuntu1904x645: end of analysis reached!\n", 
+            "2021-12-25 11:06:58,821 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 11:06:58,913 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 11:07:15,167 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x645 to path /srv/cuckoo/cwd/storage/analyses/2549182/memory.dmp\n", 
+            "2021-12-25 11:07:15,169 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x645\n", 
+            "2021-12-25 11:07:27,091 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.105 for task #2549182\n", 
+            "2021-12-25 11:07:27,091 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2549182\n", 
+            "2021-12-25 11:07:27,207 [cuckoo.core.scheduler] DEBUG: Released database task #2549182\n", 
+            "2021-12-25 11:07:27,322 [cuckoo.core.scheduler] INFO: Task #2549182: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "stderr", 
+        "__fprintf_chk", 
+        "strcmp", 
+        "strlen", 
+        "strncmp", 
+        "__stack_chk_guard", 
+        "strtod", 
+        "strtol", 
+        "XOpenDisplay", 
+        "XF86VidModeQueryVersion", 
+        "fwrite", 
+        "XF86VidModeQueryExtension", 
+        "XF86VidModeGetGamma", 
+        "XF86VidModeSetGamma", 
+        "XCloseDisplay", 
+        "XDisplayName", 
+        "libX11.so.6", 
+        "libXxf86vm.so.1", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "ld.so.1", 
+        "_ftext", 
+        "_fdata", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.4", 
+        "GLIBC_2.3.4", 
+        "GLIBC_2.2", 
+        "GLIBC_2.0", 
+        "%s: %s", 
+        "usage:  %s [-options]", 
+        "where the available options are:", 
+        "    -display host:dpy       or -d", 
+        "    -quiet                  or -q", 
+        "    -screen                 or -s", 
+        "    -version                or -v", 
+        "    -gamma f.f              Gamma Value", 
+        "    -rgamma f.f             Red Gamma Value", 
+        "    -ggamma f.f             Green Gamma Value", 
+        "    -bgamma f.f             Blue Gamma Value", 
+        "If no gamma is specified, returns the current setting", 
+        "-display", 
+        "-display requires an argument", 
+        "-quiet", 
+        "-version", 
+        "xgamma 1.0.6", 
+        "-screen", 
+        "-screen requires an argument", 
+        "-gamma", 
+        "-gamma requires an argument", 
+        "-gamma cannot be used with -rgamma, -ggamma, or -bgamma", 
+        "Gamma values must be between %6.3f and %6.3f", 
+        "-rgamma", 
+        "-rgamma requires an argument", 
+        "cannot set both -gamma and -rgamma", 
+        "-ggamma", 
+        "-ggamma requires an argument", 
+        "cannot set both -gamma and -ggamma", 
+        "-bgamma requires an argument", 
+        "cannot set both -gamma and -bgamma", 
+        "%s: unrecognized argument %s", 
+        "%s:  unable to open display '%s'", 
+        "Unable to query video extension version", 
+        "Unable to query video extension information", 
+        "Xserver is running an old XFree86-VidModeExtension version (%d.%d)", 
+        "Minimum required version is %d.%d", 
+        "Unable to query gamma correction", 
+        "-> Red %6.3f, Green %6.3f, Blue %6.3f", 
+        "Unable to set gamma correction", 
+        "<- Red %6.3f, Green %6.3f, Blue %6.3f", 
+        "1da9d31b1c5479f9e1060d71341027ba80e62b.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "a97ac76359e33ffe06bf130fe40ab5d09ce0b86217d5c099cd694d02356b5f6c", 
+                "dirname": ""
+            }
+        }
+    }
+}
