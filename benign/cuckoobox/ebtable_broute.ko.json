@@ -1,0 +1,548 @@
+{
+    "info": {
+        "added": 1640383609.092212, 
+        "started": 1640394445.877242, 
+        "duration": 368, 
+        "ended": 1640394814.756552, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2548336, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x642", 
+            "label": "Ubuntu1904x642", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 01:08:56", 
+            "shutdown_on": "2021-12-25 01:13:34"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-object", 
+            "yara": [], 
+            "sha1": "fe95861c414fcc1f8c67a16f45750fe201394fee", 
+            "name": "ebtable_broute.ko", 
+            "type": "ELF 32-bit LSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), BuildID[sha1]=bad68334edc0b7c65a670b49907ad17b70feb5d5, not stripped", 
+            "sha256": "117bbaae146fcf5924d5cc9dad3076eb8d308404f8f5996b1cde2da43b20291c", 
+            "urls": [], 
+            "crc32": "006F205A", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/117bbaae146fcf5924d5cc9dad3076eb8d308404f8f5996b1cde2da43b20291c", 
+            "ssdeep": "96:sA9qUoxfefwvwvLCnUTccdSvrvofOSlIfboZfvX:n9qUCfefwoD/TfIjgfXlIj", 
+            "size": 5676, 
+            "sha512": "2e7700def1b17d060b70adb03fb437f07f7c041b763e5b384769baadf953e5ddd038d5642c09a70c7b65e7640450f53b6cb734b7a765fd9caa5064c0cdadb3b5", 
+            "md5": "c0b51b28bb11ddee7bc7c56b7a819161"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "50b5b729-b775-40fe-8e6e-e8343934a818", 
+        "parent_file_sha256": null, 
+        "name": "117bbaae146fcf5924d5cc9dad3076eb8d308404f8f5996b1cde2da43b20291c", 
+        "probes_total": 16, 
+        "scan_date": 1640387616, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "fe95861c414fcc1f8c67a16f45750fe201394fee", 
+            "tags": [], 
+            "timestamp_first_scan": 1640387615.52, 
+            "timestamp_last_scan": 1640387624.55, 
+            "sha256": "117bbaae146fcf5924d5cc9dad3076eb8d308404f8f5996b1cde2da43b20291c", 
+            "md5": "c0b51b28bb11ddee7bc7c56b7a819161", 
+            "size": 5676
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.6, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.08, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.65, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-15 12:09:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.26, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.17, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.73, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.87, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.51, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.24, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.11, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.06, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "7fff0d22-2a36-4387-9e41-be6541843199", 
+        "file_sha256": "117bbaae146fcf5924d5cc9dad3076eb8d308404f8f5996b1cde2da43b20291c"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "sh", 
+                "pid": 2096, 
+                "summary": {}, 
+                "first_seen": 1640383615.786306, 
+                "ppid": -1
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "ENOEXEC", 
+                        "process_name": "sh", 
+                        "pid": 2096, 
+                        "raw": "Fri Dec 24 22:06:55 2021.786306 sh@7f7cfca74957[2096] execve(\"/tmp/ebtable_broute.ko\", [\"/tmp/ebtable_broute.ko\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/ebtable_broute.ko\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/t) = -8 (ENOEXEC)\n", 
+                        "api": "execve", 
+                        "return_value": "-8", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7cfca74957", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/ebtable_broute.ko", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "\"PWD=/tmp/t"
+                            ], 
+                            "p0": "/tmp/ebtable_broute.ko", 
+                            "p1": [
+                                "/tmp/ebtable_broute.ko"
+                            ]
+                        }, 
+                        "time": 1640383615.786306
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2096, 
+                        "raw": "Fri Dec 24 22:06:55 2021.799627 sh@7f7cfca9fcce[2096] openat(AT_FDCWD, \"/tmp/ebtable_broute.ko\", O_RDONLY|O_NOCTTY) = 3\n", 
+                        "api": "openat", 
+                        "return_value": "3", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7cfca9fcce", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NOCTTY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/tmp/ebtable_broute.ko"
+                        }, 
+                        "time": 1640383615.799627
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2096, 
+                        "raw": "Fri Dec 24 22:06:55 2021.799687 sh@7f7cfca9ff81[2096] read(3, 0x7fff5394a450, 128) = 128\n", 
+                        "api": "read", 
+                        "return_value": "128", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7cfca9ff81", 
+                        "arguments": {
+                            "p2": "128", 
+                            "p0": "3", 
+                            "p1": "0x7fff5394a450"
+                        }, 
+                        "time": 1640383615.799687
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2096, 
+                        "raw": "Fri Dec 24 22:06:55 2021.799743 sh@7f7cfcaa0674[2096] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7cfcaa0674", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383615.799743
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2096, 
+                        "raw": "Fri Dec 24 22:06:55 2021.799862 sh@7f7cfcaa0024[2096] write(2, \"sh: 1: \", 7) = 7\n", 
+                        "api": "write", 
+                        "return_value": "7", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7cfcaa0024", 
+                        "arguments": {
+                            "p2": "7", 
+                            "p0": "2", 
+                            "p1": "sh: 1: "
+                        }, 
+                        "time": 1640383615.799862
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2096, 
+                        "raw": "Fri Dec 24 22:06:55 2021.799923 sh@7f7cfcaa0024[2096] write(2, \"/tmp/ebtable_broute.ko: Exec format error\", 41) = 41\n", 
+                        "api": "write", 
+                        "return_value": "41", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7cfcaa0024", 
+                        "arguments": {
+                            "p2": "41", 
+                            "p0": "2", 
+                            "p1": "/tmp/ebtable_broute.ko: Exec format error"
+                        }, 
+                        "time": 1640383615.799923
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2096, 
+                        "raw": "Fri Dec 24 22:06:55 2021.799971 sh@7f7cfcaa0024[2096] write(2, \"\\n\", 1) = 1\n", 
+                        "api": "write", 
+                        "return_value": "1", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7cfcaa0024", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "2", 
+                            "p1": "\n"
+                        }, 
+                        "time": 1640383615.799971
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2096, 
+                        "raw": "Fri Dec 24 22:06:55 2021.800022 sh@7f7cfca74926[2096] exit_group(2)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7cfca74926", 
+                        "arguments": {
+                            "p0": "2"
+                        }, 
+                        "time": 1640383615.800022
+                    }
+                ], 
+                "pid": 2096, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1640383615.786306, 
+                "ppid": -1, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2096, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1640383615.786306, 
+                "ppid": -1, 
+                "children": []
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:06:49,006 [root] DEBUG: Starting analyzer from: /tmp/tmpdqZEdO\n", 
+            "2021-12-24 22:06:49,006 [root] DEBUG: Storing results at: /tmp/rsOUij\n", 
+            "2021-12-24 22:06:50,653 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:06:50,655 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:06:50,656 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:06:55,780 [lib.core.packages] INFO: Process startup took 5.12 seconds\n", 
+            "2021-12-24 22:06:55,786 [root] INFO: Added new process to list with pid: 2086\n", 
+            "2021-12-24 22:07:01,795 [root] INFO: Process with pid 2086 has terminated\n", 
+            "2021-12-24 22:07:01,796 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:04,800 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:04,800 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 01:07:26,229 [cuckoo.core.scheduler] DEBUG: Task #2548336: no machine available yet\n", 
+            "2021-12-25 01:07:56,275 [cuckoo.core.scheduler] DEBUG: Task #2548336: no machine available yet\n", 
+            "2021-12-25 01:08:26,317 [cuckoo.core.scheduler] DEBUG: Task #2548336: no machine available yet\n", 
+            "2021-12-25 01:08:56,365 [cuckoo.core.scheduler] INFO: Task #2548336: acquired machine Ubuntu1904x642 (label=Ubuntu1904x642)\n", 
+            "2021-12-25 01:08:56,366 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.102 for task #2548336\n", 
+            "2021-12-25 01:08:56,491 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3024292 (interface=vboxnet0, host=192.168.168.102)\n", 
+            "2021-12-25 01:08:56,636 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x642\n", 
+            "2021-12-25 01:08:57,027 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x642 to Snapshot\n", 
+            "2021-12-25 01:09:05,829 [cuckoo.core.guest] INFO: Starting analysis #2548336 on guest (id=Ubuntu1904x642, ip=192.168.168.102)\n", 
+            "2021-12-25 01:09:06,833 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: not ready yet\n", 
+            "2021-12-25 01:09:11,852 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x642, ip=192.168.168.102)\n", 
+            "2021-12-25 01:09:11,868 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x642, ip=192.168.168.102, monitor=latest, size=72028)\n", 
+            "2021-12-25 01:09:13,020 [cuckoo.core.resultserver] DEBUG: Task #2548336: live log analysis.log initialized.\n", 
+            "2021-12-25 01:09:18,492 [cuckoo.core.resultserver] DEBUG: Task #2548336: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 01:09:18,522 [cuckoo.core.resultserver] DEBUG: Task #2548336 uploaded file length: 171563\n", 
+            "2021-12-25 01:09:26,997 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2548336 still processing\n", 
+            "2021-12-25 01:09:28,834 [cuckoo.core.resultserver] DEBUG: Task #2548336: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 01:09:28,843 [cuckoo.core.resultserver] DEBUG: Task #2548336 uploaded file length: 1207\n", 
+            "2021-12-25 01:09:42,059 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2548336 still processing\n", 
+            "2021-12-25 01:09:57,121 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2548336 still processing\n", 
+            "2021-12-25 01:10:12,192 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2548336 still processing\n", 
+            "2021-12-25 01:10:27,263 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2548336 still processing\n", 
+            "2021-12-25 01:10:42,320 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2548336 still processing\n", 
+            "2021-12-25 01:10:57,392 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2548336 still processing\n", 
+            "2021-12-25 01:11:12,502 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2548336 still processing\n", 
+            "2021-12-25 01:11:27,562 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2548336 still processing\n", 
+            "2021-12-25 01:11:42,618 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2548336 still processing\n", 
+            "2021-12-25 01:11:57,681 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2548336 still processing\n", 
+            "2021-12-25 01:12:12,754 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2548336 still processing\n", 
+            "2021-12-25 01:12:27,816 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2548336 still processing\n", 
+            "2021-12-25 01:12:42,870 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2548336 still processing\n", 
+            "2021-12-25 01:12:58,000 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2548336 still processing\n", 
+            "2021-12-25 01:13:13,052 [cuckoo.core.guest] INFO: Ubuntu1904x642: end of analysis reached!\n", 
+            "2021-12-25 01:13:13,064 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 01:13:13,137 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 01:13:30,274 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x642 to path /srv/cuckoo/cwd/storage/analyses/2548336/memory.dmp\n", 
+            "2021-12-25 01:13:30,276 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x642\n", 
+            "2021-12-25 01:13:34,393 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.102 for task #2548336\n", 
+            "2021-12-25 01:13:34,394 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2548336\n", 
+            "2021-12-25 01:13:34,544 [cuckoo.core.scheduler] DEBUG: Released database task #2548336\n", 
+            "2021-12-25 01:13:34,626 [cuckoo.core.scheduler] INFO: Task #2548336: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "license=GPL", 
+        "depends=bridge,ebtables", 
+        "intree=Y", 
+        "vermagic=4.9.0-13-4kc-malta mod_unload modversions MIPS32_R2 32BIT ", 
+        "broute", 
+        "4Fmodule_layout", 
+        "tunregister_pernet_subsys", 
+        "`synchronize_net", 
+        "br_should_route_hook", 
+        "#register_pernet_subsys", 
+        "ebt_register_table", 
+        "Webt_unregister_table", 
+        "__stack_chk_fail", 
+        "ebt_do_table", 
+        "__stack_chk_guard", 
+        "_mcount", 
+        "broute", 
+        "BROUTING", 
+        "ebtable_broute", 
+        "GCC: (Debian 6.3.0-18+deb9u1) 6.3.0 20170516", 
+        "GCC: (Debian 6.3.0-18+deb9u1) 6.3.0 20170516", 
+        "ebtable_broute.ko", 
+        "ebt_broute", 
+        "broute_net_exit", 
+        "broute_net_init", 
+        "broute_table", 
+        "ebtable_broute_init", 
+        "broute_net_ops", 
+        "ebtable_broute_fini", 
+        "__UNIQUE_ID_license147", 
+        "initial_table", 
+        "initial_chain", 
+        "__module_depends", 
+        "____versions", 
+        "__UNIQUE_ID_intree53", 
+        "__UNIQUE_ID_vermagic52", 
+        "__this_module", 
+        "__stack_chk_guard", 
+        "cleanup_module", 
+        "br_should_route_hook", 
+        "init_module", 
+        "__stack_chk_fail", 
+        "ebt_unregister_table", 
+        "ebt_register_table", 
+        "unregister_pernet_subsys", 
+        "ebt_do_table", 
+        "_mcount", 
+        "synchronize_net", 
+        ".symtab", 
+        ".strtab", 
+        ".shstrtab", 
+        ".note.gnu.build-id", 
+        ".rel.text", 
+        ".rel.init.text", 
+        ".rel.exit.text", 
+        ".reginfo", 
+        ".MIPS.abiflags", 
+        ".modinfo", 
+        ".rel.rodata", 
+        ".rel__mcount_loc", 
+        "__versions", 
+        ".rel.data", 
+        ".rel.gnu.linkonce.this_module", 
+        ".rel.pdr", 
+        ".mdebug.abi32", 
+        ".comment", 
+        ".gnu.attributes", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
