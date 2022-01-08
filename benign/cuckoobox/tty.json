@@ -1,0 +1,3302 @@
+{
+    "info": {
+        "added": 1640383635.790295, 
+        "started": 1640425753.624025, 
+        "duration": 1275, 
+        "ended": 1640427029.107039, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2549087, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x643", 
+            "label": "Ubuntu1904x643", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 10:05:55", 
+            "shutdown_on": "2021-12-25 10:10:28"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "ac1d6fe757ff10ae9f8b49466eb66bf187de5e81", 
+            "name": "tty", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=15d753d1d3a04b866bb096800d02aee86cb7c689, stripped", 
+            "sha256": "9e3bf801b986901cd87a50cfba4eb0b7b4a9281eb5e815e26042b6c594454d17", 
+            "urls": [
+                "http://gnu.org/licenses/gpl.html", 
+                "http://translationproject.org/team/"
+            ], 
+            "crc32": "E36E7EE1", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/9e3bf801b986901cd87a50cfba4eb0b7b4a9281eb5e815e26042b6c594454d17", 
+            "ssdeep": "768:j9mVwVl5Ad0OJo1DEuugFLShznBXB/qgyeTo0A4tmd6bWmvyqr4w:Vl5AdJJ4EuugFLShzBXIteT2Nd+H", 
+            "size": 33188, 
+            "sha512": "60086dfa4538305680a0330f19ed93d8750d80847cd6e96c8278d973550e46ef2724f5e02512ed62db34051679eb824c560a194654a398a395dd63fa472024de", 
+            "md5": "1b689d6fb1433d4b44e3955bbf1453fa"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "03301001-0dd5-4b04-a612-d5ca16a03a08", 
+        "parent_file_sha256": null, 
+        "name": "9e3bf801b986901cd87a50cfba4eb0b7b4a9281eb5e815e26042b6c594454d17", 
+        "probes_total": 16, 
+        "scan_date": 1640419830, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "ac1d6fe757ff10ae9f8b49466eb66bf187de5e81", 
+            "tags": [], 
+            "timestamp_first_scan": 1640419829.57, 
+            "timestamp_last_scan": 1640419838.42, 
+            "sha256": "9e3bf801b986901cd87a50cfba4eb0b7b4a9281eb5e815e26042b6c594454d17", 
+            "md5": "1b689d6fb1433d4b44e3955bbf1453fa", 
+            "size": 33188
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.06, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.1, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.67, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-16 07:23:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.29, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.17, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.04, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.78, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.83, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.63, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.63, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.12, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.0, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "3b991183-8c40-49c1-9796-3340dc4d63b3", 
+        "file_sha256": "9e3bf801b986901cd87a50cfba4eb0b7b4a9281eb5e815e26042b6c594454d17"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "tty", 
+                "pid": 2097, 
+                "summary": {}, 
+                "first_seen": 1640383647.158757, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "tty", 
+                "pid": 2098, 
+                "summary": {}, 
+                "first_seen": 1640383647.183111, 
+                "ppid": 2097
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.158757 tty@7f612e908c27[2097] execve(\"/tmp/tty\", [\"/tmp/tty\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/tty\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpuABmwv\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e908c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/tty", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpuABmwv"
+                            ], 
+                            "p0": "/tmp/tty", 
+                            "p1": [
+                                "/tmp/tty"
+                            ]
+                        }, 
+                        "time": 1640383647.158757
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.161675 tty@7f612e908c27[2097] brk(0x0) = 94318316539904\n", 
+                        "api": "brk", 
+                        "return_value": "94318316539904", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e908c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383647.161675
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.162730 tty@7f612e9099d7[2097] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e9099d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383647.16273
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.163840 tty@7f612e909b0d[2097] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383647.16384
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.163907 tty@7f612e909943[2097] fstat(4, 0x7ffe433246a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe433246a0"
+                        }, 
+                        "time": 1640383647.163907
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.163961 tty@7f612e909d03[2097] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f612e8d7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e8d7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.163961
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.164016 tty@7f612e9099f7[2097] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e9099f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383647.164016
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.164085 tty@7f612e909b0d[2097] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383647.164085
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.164143 tty@7f612e909bd4[2097] read(4, 0x7ffe43324858, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe43324858"
+                        }, 
+                        "time": 1640383647.164143
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.164206 tty@7f612e909943[2097] fstat(4, 0x7ffe433246f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe433246f0"
+                        }, 
+                        "time": 1640383647.164206
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.164249 tty@7f612e909d03[2097] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f612e8d5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e8d5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.164249
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.164303 tty@7f612e909d03[2097] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f612e8cf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e8cf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.164303
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.164351 tty@7f612e909d03[2097] mmap2(0x7f612e8d0000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f612e8d0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e8d0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e8d0000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383647.164351
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.164409 tty@7f612e909d03[2097] mmap2(0x7f612e8d2000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f612e8d2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e8d2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e8d2000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383647.164409
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.164460 tty@7f612e909d03[2097] mmap2(0x7f612e8d3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f612e8d3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e8d3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e8d3000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383647.16446
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.164523 tty@7f612e9099f7[2097] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e9099f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383647.164523
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.164581 tty@7f612e909b0d[2097] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383647.164581
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.164630 tty@7f612e909bd4[2097] read(4, 0x7ffe43324838, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe43324838"
+                        }, 
+                        "time": 1640383647.16463
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.164681 tty@7f612e909943[2097] fstat(4, 0x7ffe433246d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe433246d0"
+                        }, 
+                        "time": 1640383647.164681
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.164725 tty@7f612e909d03[2097] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f612e7ae000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e7ae000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.164725
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.164778 tty@7f612e909db7[2097] mprotect(0x7f612e7c9000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f612e7c9000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383647.164778
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.164908 tty@7f612e909d03[2097] mmap2(0x7f612e7c9000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f612e7c9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e7c9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e7c9000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383647.164908
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.164965 tty@7f612e909d03[2097] mmap2(0x7f612e849000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f612e849000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e849000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e849000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383647.164965
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.165014 tty@7f612e909d03[2097] mmap2(0x7f612e8cc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f612e8cc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e8cc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e8cc000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383647.165014
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.165069 tty@7f612e909d03[2097] mmap2(0x7f612e8ce000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f612e8ce000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e8ce000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f612e8ce000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.165069
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.165127 tty@7f612e9099f7[2097] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e9099f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383647.165127
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.165192 tty@7f612e909b0d[2097] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383647.165192
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.165242 tty@7f612e909bd4[2097] read(4, 0x7ffe43324818, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe43324818"
+                        }, 
+                        "time": 1640383647.165242
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.165287 tty@7f612e909943[2097] fstat(4, 0x7ffe433246b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe433246b0"
+                        }, 
+                        "time": 1640383647.165287
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.165330 tty@7f612e909d03[2097] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f612e7a3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e7a3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.16533
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.165383 tty@7f612e909d03[2097] mmap2(0x7f612e7a6000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f612e7a6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e7a6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e7a6000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383647.165383
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.165442 tty@7f612e909d03[2097] mmap2(0x7f612e7aa000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f612e7aa000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e7aa000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e7aa000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383647.165442
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.165495 tty@7f612e909d03[2097] mmap2(0x7f612e7ac000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f612e7ac000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e7ac000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e7ac000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383647.165495
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.165560 tty@7f612e9099f7[2097] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e9099f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383647.16556
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.165617 tty@7f612e909b0d[2097] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383647.165617
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.165665 tty@7f612e909bd4[2097] read(4, 0x7ffe433247f8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe433247f8"
+                        }, 
+                        "time": 1640383647.165665
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.165708 tty@7f612e909943[2097] fstat(4, 0x7ffe43324690) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe43324690"
+                        }, 
+                        "time": 1640383647.165708
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.165755 tty@7f612e909d03[2097] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f612e5c1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e5c1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.165755
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.165803 tty@7f612e909db7[2097] mprotect(0x7f612e656000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f612e656000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383647.165803
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.165853 tty@7f612e909d03[2097] mmap2(0x7f612e656000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7f612e656000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e656000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e656000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383647.165853
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.165901 tty@7f612e909d03[2097] mmap2(0x7f612e748000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7f612e748000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e748000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e748000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383647.165901
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.165950 tty@7f612e909d03[2097] mmap2(0x7f612e792000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7f612e792000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e792000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e792000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383647.16595
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.166005 tty@7f612e909d03[2097] mmap2(0x7f612e7a0000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f612e7a0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e7a0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f612e7a0000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.166005
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.166063 tty@7f612e9099f7[2097] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e9099f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383647.166063
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.166124 tty@7f612e909b0d[2097] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383647.166124
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.166172 tty@7f612e909bd4[2097] read(4, 0x7ffe433247d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe433247d8"
+                        }, 
+                        "time": 1640383647.166172
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.166215 tty@7f612e909943[2097] fstat(4, 0x7ffe43324670) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe43324670"
+                        }, 
+                        "time": 1640383647.166215
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.166257 tty@7f612e909d03[2097] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f612e473000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e473000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.166257
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.166305 tty@7f612e909d03[2097] mmap2(0x7f612e482000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f612e482000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e482000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e482000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383647.166305
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.166357 tty@7f612e909d03[2097] mmap2(0x7f612e528000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f612e528000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e528000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e528000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383647.166357
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.166406 tty@7f612e909d03[2097] mmap2(0x7f612e5bf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f612e5bf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e5bf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e5bf000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383647.166406
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.166468 tty@7f612e9099f7[2097] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e9099f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383647.166468
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.166527 tty@7f612e909b0d[2097] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383647.166527
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.166670 tty@7f612e909bd4[2097] read(4, 0x7ffe433247b8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe433247b8"
+                        }, 
+                        "time": 1640383647.16667
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.166715 tty@7f612e909943[2097] fstat(4, 0x7ffe43324650) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe43324650"
+                        }, 
+                        "time": 1640383647.166715
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.166758 tty@7f612e909d03[2097] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f612e459000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e459000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.166758
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.166808 tty@7f612e909d03[2097] mmap2(0x7f612e45c000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f612e45c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e45c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e45c000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383647.166808
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.166861 tty@7f612e909d03[2097] mmap2(0x7f612e46d000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f612e46d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e46d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e46d000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383647.166861
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.166909 tty@7f612e909d03[2097] mmap2(0x7f612e471000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f612e471000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e471000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e471000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383647.166909
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.166975 tty@7f612e9099f7[2097] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e9099f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383647.166975
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167034 tty@7f612e909b0d[2097] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383647.167034
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167093 tty@7f612e909bd4[2097] read(4, 0x7ffe43324798, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe43324798"
+                        }, 
+                        "time": 1640383647.167093
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167138 tty@7f612e909943[2097] fstat(4, 0x7ffe43324630) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe43324630"
+                        }, 
+                        "time": 1640383647.167138
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167182 tty@7f612e909d03[2097] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f612e457000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e457000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.167182
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167234 tty@7f612e909d03[2097] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f612e436000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e436000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.167234
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167283 tty@7f612e909d03[2097] mmap2(0x7f612e43d000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f612e43d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e43d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e43d000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383647.167283
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167335 tty@7f612e909d03[2097] mmap2(0x7f612e44c000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f612e44c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e44c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e44c000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383647.167335
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167386 tty@7f612e909d03[2097] mmap2(0x7f612e451000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f612e451000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e451000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e451000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383647.167386
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167442 tty@7f612e909d03[2097] mmap2(0x7f612e453000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f612e453000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e453000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f612e453000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.167442
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167498 tty@7f612e9099f7[2097] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e9099f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383647.167498
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167555 tty@7f612e909b0d[2097] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383647.167555
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167613 tty@7f612e909bd4[2097] read(4, 0x7ffe43324778, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe43324778"
+                        }, 
+                        "time": 1640383647.167613
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167669 tty@7f612e909943[2097] fstat(4, 0x7ffe43324610) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe43324610"
+                        }, 
+                        "time": 1640383647.167669
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167715 tty@7f612e909d03[2097] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f612e24b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e24b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.167715
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167763 tty@7f612e909d03[2097] mmap2(0x7f612e270000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f612e270000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e270000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e270000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383647.167763
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167763 tty@7f612e909d03[2097] mmap2(0x7f612e3e3000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f612e3e3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e3e3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e3e3000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383647.167763
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167764 tty@7f612e909d03[2097] mmap2(0x7f612e42c000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f612e42c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e42c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e42c000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383647.167764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167764 tty@7f612e909d03[2097] mmap2(0x7f612e432000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f612e432000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e432000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f612e432000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.167764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167764 tty@7f612e9099f7[2097] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e9099f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383647.167764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167764 tty@7f612e909b0d[2097] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383647.167764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167764 tty@7f612e909bd4[2097] read(4, 0x7ffe43324758, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe43324758"
+                        }, 
+                        "time": 1640383647.167764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167764 tty@7f612e909943[2097] fstat(4, 0x7ffe433245f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe433245f0"
+                        }, 
+                        "time": 1640383647.167764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167764 tty@7f612e909d03[2097] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f612e245000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e245000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.167764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167764 tty@7f612e909d03[2097] mmap2(0x7f612e246000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f612e246000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e246000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e246000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383647.167764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167764 tty@7f612e909d03[2097] mmap2(0x7f612e248000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f612e248000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e248000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e248000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383647.167764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167764 tty@7f612e909d03[2097] mmap2(0x7f612e249000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f612e249000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e249000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e249000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383647.167764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167764 tty@7f612e9099f7[2097] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e9099f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383647.167764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167764 tty@7f612e909b0d[2097] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383647.167764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167764 tty@7f612e909bd4[2097] read(4, 0x7ffe43324738, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe43324738"
+                        }, 
+                        "time": 1640383647.167764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167764 tty@7f612e909943[2097] fstat(4, 0x7ffe433245d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe433245d0"
+                        }, 
+                        "time": 1640383647.167764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167764 tty@7f612e909d03[2097] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f612e1d1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e1d1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.167764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167764 tty@7f612e909d03[2097] mmap2(0x7f612e1d3000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f612e1d3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e1d3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e1d3000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383647.167764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167764 tty@7f612e909d03[2097] mmap2(0x7f612e225000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f612e225000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e225000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e225000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383647.167764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.167764 tty@7f612e909d03[2097] mmap2(0x7f612e243000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f612e243000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e243000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f612e243000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383647.167764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.172046 tty@7f612e9099f7[2097] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e9099f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383647.172046
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.173136 tty@7f612e909d03[2097] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f612e1cf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e1cf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.173136
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.173218 tty@7f612e909d03[2097] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f612e1cc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612e1cc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.173218
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.173279 tty@7f612e8eef30[2097] arch_prctl(ARCH_SET_FS, 140055362193344) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e8eef30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140055362193344"
+                        }, 
+                        "time": 1640383647.173279
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.174198 tty@7f612e909db7[2097] mprotect(0x7f612e42c000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f612e42c000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383647.174198
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.174248 tty@7f612e909db7[2097] mprotect(0x7f612e451000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f612e451000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383647.174248
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.174316 tty@7f612e909db7[2097] mprotect(0x7f612e243000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f612e243000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383647.174316
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.174353 tty@7f612e909db7[2097] mprotect(0x7f612e249000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f612e249000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383647.174353
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.174387 tty@7f612e909db7[2097] mprotect(0x7f612e471000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f612e471000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383647.174387
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.174443 tty@7f612e909db7[2097] mprotect(0x7f612e5bf000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f612e5bf000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383647.174443
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.175387 tty@7f612e909db7[2097] mprotect(0x7f612e792000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f612e792000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383647.175387
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.175430 tty@7f612e909db7[2097] mprotect(0x7f612e7ac000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f612e7ac000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383647.17543
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.175614 tty@7f612e909db7[2097] mprotect(0x7f612e8cc000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f612e8cc000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383647.175614
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.175667 tty@7f612e909db7[2097] mprotect(0x7f612e8d3000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f612e8d3000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383647.175667
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.180155 tty@7f612e909db7[2097] mprotect(0x55c82ed2c000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55c82ed2c000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383647.180155
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.180210 tty@7f612e909db7[2097] mprotect(0x7f612e917000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f612e917000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383647.18021
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.180251 tty@7f612e909d97[2097] munmap(0x7f612e8d7000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e909d97", 
+                        "arguments": {
+                            "p0": "0x7f612e8d7000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383647.180251
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.180315 tty@7f612e43d8df[2097] set_tid_address(0x7f612e1cca90) = 2097\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2097", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e43d8df", 
+                        "arguments": {
+                            "p0": "0x7f612e1cca90"
+                        }, 
+                        "time": 1640383647.180315
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.180344 tty@7f612e43d94a[2097] set_robust_list(0x7f612e1ccaa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e43d94a", 
+                        "arguments": {
+                            "p0": "0x7f612e1ccaa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383647.180344
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.180380 tty@7f612e44a010[2097] rt_sigaction(0x20, {0x7f612e43d6c0, SA_SIGINFO|SA_RESTORER, 0x7f612e449f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e44a010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f612e43d6c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f612e449f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383647.18038
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.180409 tty@7f612e44a010[2097] rt_sigaction(0x21, {0x7f612e43d760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f612e449f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e44a010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f612e43d760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f612e449f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383647.180409
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.180517 tty@7f612e43da19[2097] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e43da19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383647.180517
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.180568 tty@7f612e35ddf0[2097] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe43325430) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e35ddf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe43325430", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383647.180568
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.180752 tty@7f612e35e2f7[2097] brk(0x0) = 94318316539904\n", 
+                        "api": "brk", 
+                        "return_value": "94318316539904", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e35e2f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383647.180752
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.180780 tty@7f612e35e2f7[2097] brk(0x55c831c2e000) = 94318316675072\n", 
+                        "api": "brk", 
+                        "return_value": "94318316675072", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e35e2f7", 
+                        "arguments": {
+                            "p0": "0x55c831c2e000"
+                        }, 
+                        "time": 1640383647.18078
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.181866 tty@7f612e446b86[2097] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffe43325380, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e446b86", 
+                        "arguments": {
+                            "p2": "0x7ffe43325380", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383647.181866
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.182783 tty@7f612e3624c3[2097] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f612d9cb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612d9cb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e3624c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.182783
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.182820 tty@7f612e362597[2097] mprotect(0x7f612d9cc000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e362597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f612d9cc000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383647.18282
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.182869 tty@7f612e368b11[2097] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f612e1caf30, 0x7f612e1cb9d0, 0x7f612e1cb9d0) = 2098\n", 
+                        "api": "clone", 
+                        "return_value": "2098", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e368b11", 
+                        "arguments": {
+                            "p2": "0x7f612e1cb9d0", 
+                            "p3": "0x7f612e1cb9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f612e1caf30"
+                        }, 
+                        "time": 1640383647.182869
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.182956 tty@7f612e446b86[2097] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e446b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383647.182956
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.186787 tty@7f612e35ddf0[2097] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe43324ee0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e35ddf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe43324ee0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383647.186787
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.186848 tty@7f612e35d5c1[2097] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e35d5c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383647.186848
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.187789 tty@7f612e32c247[2097] uname(0x7ffe43324b50) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e32c247", 
+                        "arguments": {
+                            "p0": "0x7ffe43324b50"
+                        }, 
+                        "time": 1640383647.187789
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.187855 tty@7f612e449337[2097] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e449337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383647.187855
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.187913 tty@7f612e448d94[2097] read(3, 0x7ffe43324e40, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e448d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffe43324e40"
+                        }, 
+                        "time": 1640383647.187913
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.187971 tty@7f612e449337[2097] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e449337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383647.187971
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.189322 tty@7f612e35e2f7[2097] brk(0x55c831c4f000) = 94318316810240\n", 
+                        "api": "brk", 
+                        "return_value": "94318316810240", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e35e2f7", 
+                        "arguments": {
+                            "p0": "0x55c831c4f000"
+                        }, 
+                        "time": 1640383647.189322
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.189506 tty@7f612e3624c3[2097] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f612d94a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f612d94a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e3624c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.189506
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.190012 tty@7f612e362597[2097] mprotect(0x55c82edaf000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e362597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55c82edaf000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383647.190012
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.190062 tty@7f612e362667[2097] madvise(0x55c82edaf000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e362667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55c82edaf000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383647.190062
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.190951 tty@7f612e3624c3[2097] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f60a8000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f60a8000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e3624c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.190951
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.191004 tty@7f612e357d59[2097] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e357d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383647.191004
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.191064 tty@7f612e357613[2097] fstat(4, 0x7ffe43324550) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e357613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe43324550"
+                        }, 
+                        "time": 1640383647.191064
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.191106 tty@7f612e357fb4[2097] read(4, 0x55c831c2c460, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e357fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x55c831c2c460"
+                        }, 
+                        "time": 1640383647.191106
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.191159 tty@7f612e35d3f7[2097] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e35d3f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383647.191159
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.191216 tty@7f612e3622e9[2097] gettid() = 2097\n", 
+                        "api": "gettid", 
+                        "return_value": "2097", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e3622e9", 
+                        "arguments": {}, 
+                        "time": 1640383647.191216
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.191252 tty@7f612e357613[2097] fstat(3, 0x7ffe43324dc0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e357613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffe43324dc0"
+                        }, 
+                        "time": 1640383647.191252
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.191287 tty@7f612e32d717[2097] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e32d717", 
+                        "arguments": {}, 
+                        "time": 1640383647.191287
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.191323 tty@7f612e32d737[2097] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e32d737", 
+                        "arguments": {}, 
+                        "time": 1640383647.191323
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.191357 tty@7f612e448d94[2097] read(3, 0x7ffe43325020, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e448d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffe43325020"
+                        }, 
+                        "time": 1640383647.191357
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.191413 tty@7f612e3624c3[2097] mmap2(0x7f6127fe8000, 98304, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f6127fe8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6127fe8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e3624c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7f6127fe8000", 
+                            "p1": "98304", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.191413
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.191488 tty@7f612e3624c3[2097] mmap2(0x7f6127fe8000, 28672, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f6127fe8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6127fe8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e3624c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f6127fe8000", 
+                            "p1": "28672", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.191488
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.191547 tty@7f612e3624c3[2097] mmap2(0x7f6127ffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 24576) = 0x7f6127ffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6127ffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e3624c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f6127ffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "24576"
+                        }, 
+                        "time": 1640383647.191547
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.191597 tty@7f612e448e27[2097] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e448e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383647.191597
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.191649 tty@7f612e3624c3[2097] mmap2(0x7f61277e7000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f61277e7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f61277e7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e3624c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f61277e7000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.191649
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.191703 tty@7f612e35e2f7[2097] brk(0x55c831c70000) = 94318316945408\n", 
+                        "api": "brk", 
+                        "return_value": "94318316945408", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e35e2f7", 
+                        "arguments": {
+                            "p0": "0x55c831c70000"
+                        }, 
+                        "time": 1640383647.191703
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.191788 tty@7f612e362597[2097] mprotect(0x7f61277e7000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e362597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f61277e7000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383647.191788
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.191836 tty@7f612e44955e[2097] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e44955e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383647.191836
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.191911 tty@7f612e358057[2097] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e358057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383647.191911
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.192011 tty@7f612e32c926[2097] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e32c926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383647.192011
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2097, 
+                        "raw": "Fri Dec 24 22:07:27 2021.192054 tty@7f612e32c926[2097] futex(0x7f612e1cca90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e32c926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f612e1cca90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383647.192054
+                    }
+                ], 
+                "pid": 2097, 
+                "process_name": "tty", 
+                "command_line": "/tmp/tty", 
+                "first_seen": 1640383647.158757, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2098, 
+                        "raw": "Fri Dec 24 22:07:27 2021.183111 tty@7f612e43f117[2098] set_robust_list(0x7f612e1cb9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e43f117", 
+                        "arguments": {
+                            "p0": "0x7f612e1cb9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383647.183111
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2098, 
+                        "raw": "Fri Dec 24 22:07:27 2021.183180 tty@7f612e3624c3[2098] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f61259cb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f61259cb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e3624c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383647.18318
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2098, 
+                        "raw": "Fri Dec 24 22:07:27 2021.183241 tty@7f612e362567[2098] munmap(0x7f61259cb000, 40062976) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e362567", 
+                        "arguments": {
+                            "p0": "0x7f61259cb000", 
+                            "p1": "40062976"
+                        }, 
+                        "time": 1640383647.183241
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2098, 
+                        "raw": "Fri Dec 24 22:07:27 2021.183304 tty@7f612e362567[2098] munmap(0x7f612c000000, 27045888) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e362567", 
+                        "arguments": {
+                            "p0": "0x7f612c000000", 
+                            "p1": "27045888"
+                        }, 
+                        "time": 1640383647.183304
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2098, 
+                        "raw": "Fri Dec 24 22:07:27 2021.183356 tty@7f612e362597[2098] mprotect(0x7f6128000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e362597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f6128000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383647.183356
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "tty", 
+                        "pid": 2098, 
+                        "raw": "Fri Dec 24 22:07:27 2021.183435 tty@7f612e449440[2098] nanosleep([0.010000000], 0x7f612e1cad80) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f612e449440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f612e1cad80"
+                        }, 
+                        "time": 1640383647.183435
+                    }
+                ], 
+                "pid": 2098, 
+                "process_name": "tty", 
+                "command_line": "", 
+                "first_seen": 1640383647.183111, 
+                "ppid": 2097, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2097, 
+                "process_name": "tty", 
+                "command_line": "/tmp/tty", 
+                "first_seen": 1640383647.158757, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2098, 
+                        "process_name": "tty", 
+                        "command_line": "", 
+                        "first_seen": 1640383647.183111, 
+                        "ppid": 2097, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:07:15,003 [root] DEBUG: Starting analyzer from: /tmp/tmpuABmwv\n", 
+            "2021-12-24 22:07:15,004 [root] DEBUG: Storing results at: /tmp/edynWK\n", 
+            "2021-12-24 22:07:17,134 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:07:17,136 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:07:17,138 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:07:27,150 [lib.core.packages] INFO: Process startup took 10.01 seconds\n", 
+            "2021-12-24 22:07:27,151 [root] INFO: Added new process to list with pid: 2085\n", 
+            "2021-12-24 22:07:39,168 [root] INFO: Process with pid 2085 has terminated\n", 
+            "2021-12-24 22:07:39,169 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:42,184 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:42,184 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 09:49:54,061 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 09:50:24,083 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 09:50:54,128 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 09:51:24,182 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 09:51:54,219 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 09:52:24,273 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 09:52:54,309 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 09:53:24,347 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 09:53:54,392 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 09:54:24,430 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 09:54:54,491 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 09:55:24,540 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 09:55:54,583 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 09:56:24,625 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 09:56:54,673 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 09:57:24,714 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 09:57:54,760 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 09:58:24,805 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 09:58:54,863 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 09:59:24,929 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 09:59:54,990 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 10:00:25,047 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 10:00:55,079 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 10:01:25,111 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 10:01:55,172 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 10:02:25,234 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 10:02:55,281 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 10:03:25,334 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 10:03:55,362 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 10:04:25,407 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 10:04:55,446 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 10:05:25,494 [cuckoo.core.scheduler] DEBUG: Task #2549087: no machine available yet\n", 
+            "2021-12-25 10:05:55,548 [cuckoo.core.scheduler] INFO: Task #2549087: acquired machine Ubuntu1904x643 (label=Ubuntu1904x643)\n", 
+            "2021-12-25 10:05:55,552 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.103 for task #2549087\n", 
+            "2021-12-25 10:05:55,696 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3536305 (interface=vboxnet0, host=192.168.168.103)\n", 
+            "2021-12-25 10:05:55,823 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x643\n", 
+            "2021-12-25 10:05:56,262 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x643 to Snapshot\n", 
+            "2021-12-25 10:06:05,134 [cuckoo.core.guest] INFO: Starting analysis #2549087 on guest (id=Ubuntu1904x643, ip=192.168.168.103)\n", 
+            "2021-12-25 10:06:06,138 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: not ready yet\n", 
+            "2021-12-25 10:06:11,157 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x643, ip=192.168.168.103)\n", 
+            "2021-12-25 10:06:11,168 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x643, ip=192.168.168.103, monitor=latest, size=72028)\n", 
+            "2021-12-25 10:06:12,499 [cuckoo.core.resultserver] DEBUG: Task #2549087: live log analysis.log initialized.\n", 
+            "2021-12-25 10:06:18,105 [cuckoo.core.resultserver] DEBUG: Task #2549087: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 10:06:18,175 [cuckoo.core.resultserver] DEBUG: Task #2549087 uploaded file length: 171578\n", 
+            "2021-12-25 10:06:26,283 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2549087 still processing\n", 
+            "2021-12-25 10:06:39,696 [cuckoo.core.resultserver] DEBUG: Task #2549087: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 10:06:39,719 [cuckoo.core.resultserver] DEBUG: Task #2549087 uploaded file length: 19864\n", 
+            "2021-12-25 10:06:41,362 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2549087 still processing\n", 
+            "2021-12-25 10:06:56,414 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2549087 still processing\n", 
+            "2021-12-25 10:07:11,533 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2549087 still processing\n", 
+            "2021-12-25 10:07:26,601 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2549087 still processing\n", 
+            "2021-12-25 10:07:41,667 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2549087 still processing\n", 
+            "2021-12-25 10:07:56,720 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2549087 still processing\n", 
+            "2021-12-25 10:08:11,781 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2549087 still processing\n", 
+            "2021-12-25 10:08:26,856 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2549087 still processing\n", 
+            "2021-12-25 10:08:41,912 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2549087 still processing\n", 
+            "2021-12-25 10:08:56,979 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2549087 still processing\n", 
+            "2021-12-25 10:09:12,035 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2549087 still processing\n", 
+            "2021-12-25 10:09:27,090 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2549087 still processing\n", 
+            "2021-12-25 10:09:42,147 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2549087 still processing\n", 
+            "2021-12-25 10:09:57,211 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2549087 still processing\n", 
+            "2021-12-25 10:10:12,280 [cuckoo.core.guest] INFO: Ubuntu1904x643: end of analysis reached!\n", 
+            "2021-12-25 10:10:12,288 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 10:10:12,345 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 10:10:24,804 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x643 to path /srv/cuckoo/cwd/storage/analyses/2549087/memory.dmp\n", 
+            "2021-12-25 10:10:24,805 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x643\n", 
+            "2021-12-25 10:10:28,806 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.103 for task #2549087\n", 
+            "2021-12-25 10:10:28,806 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2549087\n", 
+            "2021-12-25 10:10:28,918 [cuckoo.core.scheduler] DEBUG: Released database task #2549087\n", 
+            "2021-12-25 10:10:29,001 [cuckoo.core.scheduler] INFO: Task #2549087: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "__stack_chk_guard", 
+        "dcgettext", 
+        "stderr", 
+        "__fprintf_chk", 
+        "__printf_chk", 
+        "fputs_unlocked", 
+        "strcmp", 
+        "setlocale", 
+        "strncmp", 
+        "set_program_name", 
+        "bindtextdomain", 
+        "exit_failure", 
+        "close_stdout", 
+        "getopt_long", 
+        "Version", 
+        "version_etc", 
+        "optind", 
+        "ttyname", 
+        "isatty", 
+        "close_stream", 
+        "__errno_location", 
+        "quotearg_colon", 
+        "strrchr", 
+        "program_invocation_short_name", 
+        "program_invocation_name", 
+        "fwrite", 
+        "locale_charset", 
+        "__ctype_get_mb_cur_max", 
+        "memcmp", 
+        "__ctype_b_loc", 
+        "strlen", 
+        "mbsinit", 
+        "rpl_mbrtowc", 
+        "iswprint", 
+        "__stack_chk_fail", 
+        "xrealloc", 
+        "memset", 
+        "xmalloc", 
+        "xalloc_die", 
+        "xmemdup", 
+        "quotearg_alloc_mem", 
+        "quotearg_n_style", 
+        "quotearg_n_style_mem", 
+        "quotearg_char_mem", 
+        "quotearg_n_custom_mem", 
+        "quote_quoting_options", 
+        "version_etc_copyright", 
+        "version_etc_arn", 
+        "calloc", 
+        "memcpy", 
+        "hard_locale", 
+        "__fpending", 
+        "rpl_fclose", 
+        "nl_langinfo", 
+        "getenv", 
+        "open64", 
+        "fdopen", 
+        "ungetc", 
+        "__uflow", 
+        "fscanf", 
+        "fileno", 
+        "__freading", 
+        "rpl_fflush", 
+        "lseek64", 
+        "rpl_fseeko", 
+        "fseeko64", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "__progname", 
+        "__progname_full", 
+        "__cxa_atexit", 
+        "ld.so.1", 
+        "GLIBC_2.4", 
+        "GLIBC_2.3", 
+        "GLIBC_2.3.4", 
+        "GLIBC_2.0", 
+        "GLIBC_2.2", 
+        "'TkB$$", 
+        "Try '%s --help' for more information.", 
+        "Usage: %s [OPTION]...", 
+        "Print the file name of the terminal connected to standard input.", 
+        "  -s, --silent, --quiet   print nothing, only return an exit status", 
+        "      --help     display this help and exit", 
+        "      --version  output version information and exit", 
+        "%s online help: <%s>", 
+        "http://www.gnu.org/software/coreutils/", 
+        "GNU coreutils", 
+        "Report %s translation bugs to <http://translationproject.org/team/>", 
+        "Full documentation at: <%s%s>", 
+        "or available locally via: info '(coreutils) %s%s'", 
+        "test invocation", 
+        "Multi-call invocation", 
+        "sha224sum", 
+        "sha2 utilities", 
+        "sha256sum", 
+        "sha384sum", 
+        "sha512sum", 
+        "/usr/share/locale", 
+        "David MacKenzie", 
+        "extra operand %s", 
+        "not a tty", 
+        "silent", 
+        "version", 
+        "write error", 
+        "%s: %s", 
+        "A NULL argv[0] was passed through an exec system call.", 
+        "/.libs/", 
+        "literal", 
+        "shell-always", 
+        "shell-escape", 
+        "shell-escape-always", 
+        "c-maybe", 
+        "escape", 
+        "locale", 
+        "clocale", 
+        "%s (%s) %s", 
+        "License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.", 
+        "This is free software: you are free to change and redistribute it.", 
+        "There is NO WARRANTY, to the extent permitted by law.", 
+        "Written by %s.", 
+        "Written by %s and %s.", 
+        "Written by %s, %s, and %s.", 
+        "Written by %s, %s, %s,", 
+        "and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, %s, and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, %s, %s, and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, %s, %s, %s,", 
+        "and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, %s, %s, %s,", 
+        "%s, and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, %s, %s, %s,", 
+        "%s, %s, and others.", 
+        "Report bugs to: %s", 
+        "bug-coreutils@gnu.org", 
+        "%s home page: <%s>", 
+        "General help using GNU software: <http://www.gnu.org/gethelp/>", 
+        "Copyright %s %d Free Software Foundation, Inc.", 
+        "memory exhausted", 
+        "/usr/lib/mipsel-linux-gnu", 
+        "CHARSETALIASDIR", 
+        "charset.alias", 
+        "%50s %50s", 
+        "d753d1d3a04b866bb096800d02aee86cb7c689.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".data.rel.ro", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
