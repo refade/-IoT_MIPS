@@ -1,0 +1,3559 @@
+{
+    "info": {
+        "added": 1640383599.202235, 
+        "started": 1640383972.981338, 
+        "duration": 2292, 
+        "ended": 1640386265.218236, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2548070, 
+        "category": "file", 
+        "git": {
+            "head": "", 
+            "fetch_head": ""
+        }, 
+        "monitor": null, 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x643", 
+            "label": "Ubuntu1904x643", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-24 22:45:56", 
+            "shutdown_on": "2021-12-24 22:51:04"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "9361bde30d46d073ddcc1d20ca38c14ec19537a4", 
+            "name": "amixer", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=b059d536d1b9ec2bf45948476d3cf6ec77e57375, stripped", 
+            "sha256": "4690c700e714ac94dbb618608f638063e6190556fdcfa2d6bfd27132bc18a056", 
+            "urls": [], 
+            "crc32": "5E1E06DB", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/4690c700e714ac94dbb618608f638063e6190556fdcfa2d6bfd27132bc18a056", 
+            "ssdeep": null, 
+            "size": 53152, 
+            "sha512": "2d3d5508e2109516df601d7e22e95db3f9c81948af285f907434fdfb10d791f7d2e6e2e2a790856fb9895ad331b9cf70c1f6527165b22c526374c578807ae4da", 
+            "md5": "af1f551613f4e4ef5fcd54020a7fe26a"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "d562c94a-2940-46c4-ac39-33fe1bcc2011", 
+        "parent_file_sha256": null, 
+        "name": "4690c700e714ac94dbb618608f638063e6190556fdcfa2d6bfd27132bc18a056", 
+        "probes_total": 16, 
+        "scan_date": 1640379067, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "9361bde30d46d073ddcc1d20ca38c14ec19537a4", 
+            "tags": [], 
+            "timestamp_first_scan": 1640379066.51, 
+            "timestamp_last_scan": 1640379075.29, 
+            "sha256": "4690c700e714ac94dbb618608f638063e6190556fdcfa2d6bfd27132bc18a056", 
+            "md5": "af1f551613f4e4ef5fcd54020a7fe26a", 
+            "size": 53152
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.05, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.62, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-16 07:23:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.25, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.17, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.69, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.95, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.64, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.23, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.11, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.07, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "dc151380-e3c6-4b5a-9472-2f199e5afa71", 
+        "file_sha256": "4690c700e714ac94dbb618608f638063e6190556fdcfa2d6bfd27132bc18a056"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "amixer", 
+                "pid": 2092, 
+                "summary": {}, 
+                "first_seen": 1640383612.022809, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "amixer", 
+                "pid": 2093, 
+                "summary": {}, 
+                "first_seen": 1640383612.065179, 
+                "ppid": 2092
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.022809 amixer@7fc2f99a6c27[2092] execve(\"/tmp/amixer\", [\"/tmp/amixer\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/amixer\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpoEudkg\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a6c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/amixer", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpoEudkg"
+                            ], 
+                            "p0": "/tmp/amixer", 
+                            "p1": [
+                                "/tmp/amixer"
+                            ]
+                        }, 
+                        "time": 1640383612.022809
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.026482 amixer@7fc2f99a6c27[2092] brk(0x0) = 94715805409280\n", 
+                        "api": "brk", 
+                        "return_value": "94715805409280", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a6c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383612.026482
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.027956 amixer@7fc2f99a79d7[2092] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a79d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383612.027956
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.029264 amixer@7fc2f99a7b0d[2092] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383612.029264
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.029393 amixer@7fc2f99a7943[2092] fstat(4, 0x7fffb6302180) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffb6302180"
+                        }, 
+                        "time": 1640383612.029393
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.029552 amixer@7fc2f99a7d03[2092] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7fc2f9975000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f9975000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.029552
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.029709 amixer@7fc2f99a79f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383612.029709
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.029826 amixer@7fc2f99a7b0d[2092] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383612.029826
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.029943 amixer@7fc2f99a7bd4[2092] read(4, 0x7fffb6302338, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fffb6302338"
+                        }, 
+                        "time": 1640383612.029943
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.030064 amixer@7fc2f99a7943[2092] fstat(4, 0x7fffb63021d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffb63021d0"
+                        }, 
+                        "time": 1640383612.030064
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.030152 amixer@7fc2f99a7d03[2092] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc2f9973000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f9973000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.030152
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.030262 amixer@7fc2f99a7d03[2092] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc2f996d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f996d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.030262
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.030395 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f996e000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fc2f996e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f996e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f996e000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383612.030395
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.030518 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f9970000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fc2f9970000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f9970000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f9970000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383612.030518
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.030616 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f9971000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fc2f9971000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f9971000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f9971000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383612.030616
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.030745 amixer@7fc2f99a79f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383612.030745
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.030932 amixer@7fc2f99a7b0d[2092] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383612.030932
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.031056 amixer@7fc2f99a7bd4[2092] read(4, 0x7fffb6302318, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fffb6302318"
+                        }, 
+                        "time": 1640383612.031056
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.031152 amixer@7fc2f99a7943[2092] fstat(4, 0x7fffb63021b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffb63021b0"
+                        }, 
+                        "time": 1640383612.031152
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.031286 amixer@7fc2f99a7d03[2092] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc2f984c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f984c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.031286
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.031379 amixer@7fc2f99a7db7[2092] mprotect(0x7fc2f9867000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fc2f9867000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383612.031379
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.031600 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f9867000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7fc2f9867000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f9867000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f9867000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383612.0316
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.031686 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f98e7000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7fc2f98e7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f98e7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f98e7000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383612.031686
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.031772 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f996a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7fc2f996a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f996a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f996a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383612.031772
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.031871 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f996c000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc2f996c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f996c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fc2f996c000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.031871
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.031976 amixer@7fc2f99a79f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383612.031976
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.032055 amixer@7fc2f99a7b0d[2092] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383612.032055
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.032130 amixer@7fc2f99a7bd4[2092] read(4, 0x7fffb63022f8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fffb63022f8"
+                        }, 
+                        "time": 1640383612.03213
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.032223 amixer@7fc2f99a7943[2092] fstat(4, 0x7fffb6302190) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffb6302190"
+                        }, 
+                        "time": 1640383612.032223
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.032297 amixer@7fc2f99a7d03[2092] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc2f9841000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f9841000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.032297
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.032419 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f9844000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fc2f9844000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f9844000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f9844000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383612.032419
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.032485 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f9848000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fc2f9848000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f9848000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f9848000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383612.032485
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.032562 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f984a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7fc2f984a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f984a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f984a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383612.032562
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.032637 amixer@7fc2f99a79f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383612.032637
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.032707 amixer@7fc2f99a7b0d[2092] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383612.032707
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.032776 amixer@7fc2f99a7bd4[2092] read(4, 0x7fffb63022d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fffb63022d8"
+                        }, 
+                        "time": 1640383612.032776
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.032850 amixer@7fc2f99a7943[2092] fstat(4, 0x7fffb6302170) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffb6302170"
+                        }, 
+                        "time": 1640383612.03285
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.032928 amixer@7fc2f99a7d03[2092] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc2f965f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f965f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.032928
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.033000 amixer@7fc2f99a7db7[2092] mprotect(0x7fc2f96f4000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fc2f96f4000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383612.033
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.033222 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f96f4000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7fc2f96f4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f96f4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f96f4000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383612.033222
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.033298 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f97e6000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7fc2f97e6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f97e6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f97e6000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383612.033298
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.033378 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f9830000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7fc2f9830000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f9830000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f9830000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383612.033378
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.033451 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f983e000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc2f983e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f983e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fc2f983e000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.033451
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.033520 amixer@7fc2f99a79f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383612.03352
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.033605 amixer@7fc2f99a7b0d[2092] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383612.033605
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.033735 amixer@7fc2f99a7bd4[2092] read(4, 0x7fffb63022b8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fffb63022b8"
+                        }, 
+                        "time": 1640383612.033735
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.033827 amixer@7fc2f99a7943[2092] fstat(4, 0x7fffb6302150) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffb6302150"
+                        }, 
+                        "time": 1640383612.033827
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.033900 amixer@7fc2f99a7d03[2092] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc2f9511000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f9511000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.0339
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.033992 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f9520000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7fc2f9520000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f9520000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f9520000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383612.033992
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.034106 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f95c6000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7fc2f95c6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f95c6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f95c6000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383612.034106
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.034194 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f965d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7fc2f965d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f965d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f965d000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383612.034194
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.034273 amixer@7fc2f99a79f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383612.034273
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.034383 amixer@7fc2f99a7b0d[2092] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383612.034383
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.034485 amixer@7fc2f99a7bd4[2092] read(4, 0x7fffb6302298, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fffb6302298"
+                        }, 
+                        "time": 1640383612.034485
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.034629 amixer@7fc2f99a7943[2092] fstat(4, 0x7fffb6302130) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffb6302130"
+                        }, 
+                        "time": 1640383612.034629
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.034732 amixer@7fc2f99a7d03[2092] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc2f94f7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f94f7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.034732
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.034823 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f94fa000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fc2f94fa000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f94fa000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f94fa000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383612.034823
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.034926 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f950b000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7fc2f950b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f950b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f950b000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383612.034926
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.035024 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f950f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7fc2f950f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f950f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f950f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383612.035024
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.035180 amixer@7fc2f99a79f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383612.03518
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.035302 amixer@7fc2f99a7b0d[2092] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383612.035302
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.035396 amixer@7fc2f99a7bd4[2092] read(4, 0x7fffb6302278, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fffb6302278"
+                        }, 
+                        "time": 1640383612.035396
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.035541 amixer@7fc2f99a7943[2092] fstat(4, 0x7fffb6302110) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffb6302110"
+                        }, 
+                        "time": 1640383612.035541
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.035618 amixer@7fc2f99a7d03[2092] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc2f94f5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f94f5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.035618
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.035740 amixer@7fc2f99a7d03[2092] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc2f94d4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f94d4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.03574
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.035823 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f94db000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fc2f94db000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f94db000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f94db000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383612.035823
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.036147 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f94ea000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7fc2f94ea000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f94ea000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f94ea000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383612.036147
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.036250 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f94ef000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7fc2f94ef000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f94ef000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f94ef000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383612.03625
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.036471 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f94f1000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc2f94f1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f94f1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fc2f94f1000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.036471
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.036589 amixer@7fc2f99a79f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383612.036589
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.036669 amixer@7fc2f99a7b0d[2092] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383612.036669
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.036742 amixer@7fc2f99a7bd4[2092] read(4, 0x7fffb6302258, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fffb6302258"
+                        }, 
+                        "time": 1640383612.036742
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.036851 amixer@7fc2f99a7943[2092] fstat(4, 0x7fffb63020f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffb63020f0"
+                        }, 
+                        "time": 1640383612.036851
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.036921 amixer@7fc2f99a7d03[2092] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc2f92e9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f92e9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.036921
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.036993 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f930e000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7fc2f930e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f930e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f930e000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383612.036993
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.037108 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f9481000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7fc2f9481000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f9481000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f9481000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383612.037108
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.037290 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f94ca000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7fc2f94ca000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f94ca000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f94ca000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383612.03729
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.037385 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f94d0000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc2f94d0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f94d0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fc2f94d0000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.037385
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.037478 amixer@7fc2f99a79f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383612.037478
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.037576 amixer@7fc2f99a7b0d[2092] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383612.037576
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.037647 amixer@7fc2f99a7bd4[2092] read(4, 0x7fffb6302238, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fffb6302238"
+                        }, 
+                        "time": 1640383612.037647
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.037736 amixer@7fc2f99a7943[2092] fstat(4, 0x7fffb63020d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffb63020d0"
+                        }, 
+                        "time": 1640383612.037736
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.037819 amixer@7fc2f99a7d03[2092] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc2f92e3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f92e3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.037819
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.037929 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f92e4000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fc2f92e4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f92e4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f92e4000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383612.037929
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.038016 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f92e6000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fc2f92e6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f92e6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f92e6000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383612.038016
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.038097 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f92e7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fc2f92e7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f92e7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f92e7000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383612.038097
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.038225 amixer@7fc2f99a79f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383612.038225
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.038301 amixer@7fc2f99a7b0d[2092] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383612.038301
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.038380 amixer@7fc2f99a7bd4[2092] read(4, 0x7fffb6302218, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fffb6302218"
+                        }, 
+                        "time": 1640383612.03838
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.038486 amixer@7fc2f99a7943[2092] fstat(4, 0x7fffb63020b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffb63020b0"
+                        }, 
+                        "time": 1640383612.038486
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.038574 amixer@7fc2f99a7d03[2092] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc2f926f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f926f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.038574
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.038632 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f9271000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7fc2f9271000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f9271000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f9271000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383612.038632
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.038712 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f92c3000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7fc2f92c3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f92c3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f92c3000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383612.038712
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.038855 amixer@7fc2f99a7d03[2092] mmap2(0x7fc2f92e1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7fc2f92e1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f92e1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc2f92e1000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383612.038855
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.038943 amixer@7fc2f99a79f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383612.038943
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.040034 amixer@7fc2f99a7d03[2092] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc2f926d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f926d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.040034
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.040169 amixer@7fc2f99a7d03[2092] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc2f926a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f926a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.040169
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.040273 amixer@7fc2f998cf30[2092] arch_prctl(ARCH_SET_FS, 140475380443072) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f998cf30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140475380443072"
+                        }, 
+                        "time": 1640383612.040273
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.044572 amixer@7fc2f99a7db7[2092] mprotect(0x7fc2f94ca000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fc2f94ca000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383612.044572
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.044676 amixer@7fc2f99a7db7[2092] mprotect(0x7fc2f94ef000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fc2f94ef000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383612.044676
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.044781 amixer@7fc2f99a7db7[2092] mprotect(0x7fc2f92e1000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fc2f92e1000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383612.044781
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.044879 amixer@7fc2f99a7db7[2092] mprotect(0x7fc2f92e7000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fc2f92e7000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383612.044879
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.046143 amixer@7fc2f99a7db7[2092] mprotect(0x7fc2f950f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fc2f950f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383612.046143
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.046229 amixer@7fc2f99a7db7[2092] mprotect(0x7fc2f965d000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fc2f965d000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383612.046229
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.047013 amixer@7fc2f99a7db7[2092] mprotect(0x7fc2f9830000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fc2f9830000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383612.047013
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.047120 amixer@7fc2f99a7db7[2092] mprotect(0x7fc2f984a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fc2f984a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383612.04712
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.047327 amixer@7fc2f99a7db7[2092] mprotect(0x7fc2f996a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fc2f996a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383612.047327
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.047403 amixer@7fc2f99a7db7[2092] mprotect(0x7fc2f9971000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fc2f9971000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383612.047403
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.052909 amixer@7fc2f99a7db7[2092] mprotect(0x5624bbd4e000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x5624bbd4e000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383612.052909
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.053088 amixer@7fc2f99a7db7[2092] mprotect(0x7fc2f99b5000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fc2f99b5000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383612.053088
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.053273 amixer@7fc2f99a7d97[2092] munmap(0x7fc2f9975000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f99a7d97", 
+                        "arguments": {
+                            "p0": "0x7fc2f9975000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383612.053273
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.053396 amixer@7fc2f94db8df[2092] set_tid_address(0x7fc2f926aa90) = 2092\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2092", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94db8df", 
+                        "arguments": {
+                            "p0": "0x7fc2f926aa90"
+                        }, 
+                        "time": 1640383612.053396
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.053491 amixer@7fc2f94db94a[2092] set_robust_list(0x7fc2f926aaa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94db94a", 
+                        "arguments": {
+                            "p0": "0x7fc2f926aaa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383612.053491
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.053584 amixer@7fc2f94e8010[2092] rt_sigaction(0x20, {0x7fc2f94db6c0, SA_SIGINFO|SA_RESTORER, 0x7fc2f94e7f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94e8010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7fc2f94db6c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7fc2f94e7f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383612.053584
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.053704 amixer@7fc2f94e8010[2092] rt_sigaction(0x21, {0x7fc2f94db760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7fc2f94e7f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94e8010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7fc2f94db760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7fc2f94e7f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383612.053704
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.053804 amixer@7fc2f94dba19[2092] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94dba19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383612.053804
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.053938 amixer@7fc2f93fbdf0[2092] prlimit64(0, RLIMIT_STACK, NULL, 0x7fffb6302f10) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f93fbdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7fffb6302f10", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383612.053938
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.054290 amixer@7fc2f93fc2f7[2092] brk(0x0) = 94715805409280\n", 
+                        "api": "brk", 
+                        "return_value": "94715805409280", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f93fc2f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383612.05429
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.054360 amixer@7fc2f93fc2f7[2092] brk(0x5624bdf1b000) = 94715805544448\n", 
+                        "api": "brk", 
+                        "return_value": "94715805544448", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f93fc2f7", 
+                        "arguments": {
+                            "p0": "0x5624bdf1b000"
+                        }, 
+                        "time": 1640383612.05436
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.055640 amixer@7fc2f94e4b86[2092] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7fffb6302e60, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94e4b86", 
+                        "arguments": {
+                            "p2": "0x7fffb6302e60", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383612.05564
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.056804 amixer@7fc2f94004c3[2092] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fc2f8a69000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f8a69000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94004c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.056804
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.056905 amixer@7fc2f9400597[2092] mprotect(0x7fc2f8a6a000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f9400597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fc2f8a6a000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383612.056905
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.057381 amixer@7fc2f9406b11[2092] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7fc2f9268f30, 0x7fc2f92699d0, 0x7fc2f92699d0) = 2093\n", 
+                        "api": "clone", 
+                        "return_value": "2093", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f9406b11", 
+                        "arguments": {
+                            "p2": "0x7fc2f92699d0", 
+                            "p3": "0x7fc2f92699d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7fc2f9268f30"
+                        }, 
+                        "time": 1640383612.057381
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.064965 amixer@7fc2f94e4b86[2092] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94e4b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383612.064965
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.069341 amixer@7fc2f93fbdf0[2092] prlimit64(0, RLIMIT_STACK, NULL, 0x7fffb63029c0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f93fbdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7fffb63029c0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383612.069341
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.069410 amixer@7fc2f93fb5c1[2092] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f93fb5c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383612.06941
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.070359 amixer@7fc2f93ca247[2092] uname(0x7fffb6302630) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f93ca247", 
+                        "arguments": {
+                            "p0": "0x7fffb6302630"
+                        }, 
+                        "time": 1640383612.070359
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.070416 amixer@7fc2f94e7337[2092] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94e7337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383612.070416
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.070452 amixer@7fc2f94e6d94[2092] read(3, 0x7fffb6302920, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94e6d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7fffb6302920"
+                        }, 
+                        "time": 1640383612.070452
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.070488 amixer@7fc2f94e7337[2092] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94e7337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383612.070488
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.073848 amixer@7fc2f93fc2f7[2092] brk(0x5624bdf3c000) = 94715805679616\n", 
+                        "api": "brk", 
+                        "return_value": "94715805679616", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f93fc2f7", 
+                        "arguments": {
+                            "p0": "0x5624bdf3c000"
+                        }, 
+                        "time": 1640383612.073848
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.074060 amixer@7fc2f94004c3[2092] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc2f89e8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f89e8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94004c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.07406
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.074615 amixer@7fc2f9400597[2092] mprotect(0x5624bbdd1000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f9400597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x5624bbdd1000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383612.074615
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.074672 amixer@7fc2f9400667[2092] madvise(0x5624bbdd1000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f9400667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x5624bbdd1000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383612.074672
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.075810 amixer@7fc2f94004c3[2092] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fc274000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc274000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94004c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.07581
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.075910 amixer@7fc2f93f5d59[2092] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f93f5d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383612.07591
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.076017 amixer@7fc2f93f5613[2092] fstat(4, 0x7fffb6302030) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f93f5613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffb6302030"
+                        }, 
+                        "time": 1640383612.076017
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.076096 amixer@7fc2f93f5fb4[2092] read(4, 0x5624bdf194e0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f93f5fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x5624bdf194e0"
+                        }, 
+                        "time": 1640383612.076096
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.076190 amixer@7fc2f93fb3f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f93fb3f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383612.07619
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.076276 amixer@7fc2f94002e9[2092] gettid() = 2092\n", 
+                        "api": "gettid", 
+                        "return_value": "2092", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94002e9", 
+                        "arguments": {}, 
+                        "time": 1640383612.076276
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.076334 amixer@7fc2f93f5613[2092] fstat(3, 0x7fffb63028a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f93f5613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7fffb63028a0"
+                        }, 
+                        "time": 1640383612.076334
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.076483 amixer@7fc2f93cb717[2092] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f93cb717", 
+                        "arguments": {}, 
+                        "time": 1640383612.076483
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.076528 amixer@7fc2f93cb737[2092] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f93cb737", 
+                        "arguments": {}, 
+                        "time": 1640383612.076528
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.076579 amixer@7fc2f94e6d94[2092] read(3, 0x7fffb6302b00, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94e6d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7fffb6302b00"
+                        }, 
+                        "time": 1640383612.076579
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.076660 amixer@7fc2f94004c3[2092] mmap2(0x7fc2f3fe3000, 118784, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fc2f3fe3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f3fe3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94004c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7fc2f3fe3000", 
+                            "p1": "118784", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.07666
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.076762 amixer@7fc2f94004c3[2092] mmap2(0x7fc2f3fe3000, 49152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7fc2f3fe3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f3fe3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94004c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fc2f3fe3000", 
+                            "p1": "49152", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.076762
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.076820 amixer@7fc2f94004c3[2092] mmap2(0x7fc2f3ffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 45056) = 0x7fc2f3ffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f3ffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94004c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fc2f3ffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "45056"
+                        }, 
+                        "time": 1640383612.07682
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.076877 amixer@7fc2f94e6e27[2092] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94e6e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383612.076877
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.076930 amixer@7fc2f94004c3[2092] mmap2(0x7fc2f37e2000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc2f37e2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f37e2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94004c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fc2f37e2000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.07693
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.076990 amixer@7fc2f93fc2f7[2092] brk(0x5624bdf5d000) = 94715805814784\n", 
+                        "api": "brk", 
+                        "return_value": "94715805814784", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f93fc2f7", 
+                        "arguments": {
+                            "p0": "0x5624bdf5d000"
+                        }, 
+                        "time": 1640383612.07699
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.077077 amixer@7fc2f9400597[2092] mprotect(0x7fc2f37e2000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f9400597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fc2f37e2000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383612.077077
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.077134 amixer@7fc2f94e755e[2092] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94e755e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383612.077134
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.077230 amixer@7fc2f93f6057[2092] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f93f6057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383612.07723
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.077325 amixer@7fc2f93ca926[2092] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f93ca926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383612.077325
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2092, 
+                        "raw": "Fri Dec 24 22:06:52 2021.077367 amixer@7fc2f93ca926[2092] futex(0x7fc2f926aa90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f93ca926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7fc2f926aa90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383612.077367
+                    }
+                ], 
+                "pid": 2092, 
+                "process_name": "amixer", 
+                "command_line": "/tmp/amixer", 
+                "first_seen": 1640383612.022809, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2093, 
+                        "raw": "Fri Dec 24 22:06:52 2021.065179 amixer@7fc2f94dd117[2093] set_robust_list(0x7fc2f92699e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94dd117", 
+                        "arguments": {
+                            "p0": "0x7fc2f92699e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383612.065179
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2093, 
+                        "raw": "Fri Dec 24 22:06:52 2021.065293 amixer@7fc2f94004c3[2093] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fc2f0a69000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2f0a69000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94004c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383612.065293
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2093, 
+                        "raw": "Fri Dec 24 22:06:52 2021.065425 amixer@7fc2f9400567[2093] munmap(0x7fc2f0a69000, 56193024) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f9400567", 
+                        "arguments": {
+                            "p0": "0x7fc2f0a69000", 
+                            "p1": "56193024"
+                        }, 
+                        "time": 1640383612.065425
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2093, 
+                        "raw": "Fri Dec 24 22:06:52 2021.065532 amixer@7fc2f9400567[2093] munmap(0x7fc2f8000000, 10915840) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f9400567", 
+                        "arguments": {
+                            "p0": "0x7fc2f8000000", 
+                            "p1": "10915840"
+                        }, 
+                        "time": 1640383612.065532
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2093, 
+                        "raw": "Fri Dec 24 22:06:52 2021.065602 amixer@7fc2f9400597[2093] mprotect(0x7fc2f4000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f9400597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fc2f4000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383612.065602
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2093, 
+                        "raw": "Fri Dec 24 22:06:52 2021.065704 amixer@7fc2f94e7440[2093] nanosleep([0.010000000], 0x7fc2f9268d80) = 0\n", 
+                        "api": "nanosleep", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94e7440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7fc2f9268d80"
+                        }, 
+                        "time": 1640383612.065704
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2093, 
+                        "raw": "Fri Dec 24 22:06:52 2021.075939 amixer@7fc2f9400667[2093] madvise(0x5624bdf1b000, 8192, MADV_DONTNEED) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f9400667", 
+                        "arguments": {
+                            "p2": "MADV_DONTNEED", 
+                            "p0": "0x5624bdf1b000", 
+                            "p1": "8192"
+                        }, 
+                        "time": 1640383612.075939
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "amixer", 
+                        "pid": 2093, 
+                        "raw": "Fri Dec 24 22:06:52 2021.076121 amixer@7fc2f94002e9[2093] futex(0x5624bdde4a48, FUTEX_WAIT, -1, NULL) = -512\n", 
+                        "api": "futex", 
+                        "return_value": "-512", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc2f94002e9", 
+                        "arguments": {
+                            "p2": "-1", 
+                            "p3": "NULL", 
+                            "p0": "0x5624bdde4a48", 
+                            "p1": "FUTEX_WAIT"
+                        }, 
+                        "time": 1640383612.076121
+                    }
+                ], 
+                "pid": 2093, 
+                "process_name": "amixer", 
+                "command_line": "", 
+                "first_seen": 1640383612.065179, 
+                "ppid": 2092, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2092, 
+                "process_name": "amixer", 
+                "command_line": "/tmp/amixer", 
+                "first_seen": 1640383612.022809, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2093, 
+                        "process_name": "amixer", 
+                        "command_line": "", 
+                        "first_seen": 1640383612.065179, 
+                        "ppid": 2092, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:06:39,022 [root] DEBUG: Starting analyzer from: /tmp/tmpoEudkg\n", 
+            "2021-12-24 22:06:39,022 [root] DEBUG: Storing results at: /tmp/MyQxZpSYC\n", 
+            "2021-12-24 22:06:41,073 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:06:41,077 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:06:41,580 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:06:52,024 [lib.core.packages] INFO: Process startup took 10.44 seconds\n", 
+            "2021-12-24 22:06:52,033 [root] INFO: Added new process to list with pid: 2079\n", 
+            "2021-12-24 22:07:04,053 [root] INFO: Process with pid 2079 has terminated\n", 
+            "2021-12-24 22:07:04,055 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:07,056 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:07,058 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-24 22:12:53,377 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:13:23,422 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:13:53,474 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:14:23,517 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:14:53,566 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:15:23,615 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:15:53,660 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:16:23,703 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:16:53,765 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:17:23,813 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:17:53,859 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:18:23,905 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:18:53,951 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:19:23,994 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:19:54,019 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:20:24,062 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:20:54,107 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:21:24,149 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:21:54,198 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:22:24,243 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:22:54,277 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:23:24,323 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:23:54,370 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:24:24,415 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:24:54,467 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:25:24,511 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:25:54,556 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:26:24,598 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:26:54,644 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:27:24,689 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:27:54,734 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:28:24,778 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:28:54,824 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:29:24,863 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:29:54,894 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:30:24,936 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:30:54,982 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:31:25,019 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:31:55,061 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:32:25,104 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:32:55,144 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:33:25,160 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:33:55,203 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:34:25,244 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:34:55,290 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:35:25,332 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:35:55,372 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:36:25,418 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:36:55,438 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:37:25,482 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:37:55,524 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:38:25,566 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:38:55,609 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:39:25,652 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:39:55,705 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:40:25,733 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:40:55,772 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:41:25,819 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:41:55,945 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:42:26,005 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:42:56,100 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:43:26,177 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:43:56,263 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:44:26,347 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:44:56,424 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:45:26,577 [cuckoo.core.scheduler] DEBUG: Task #2548070: no machine available yet\n", 
+            "2021-12-24 22:45:56,661 [cuckoo.core.scheduler] INFO: Task #2548070: acquired machine Ubuntu1904x643 (label=Ubuntu1904x643)\n", 
+            "2021-12-24 22:45:56,668 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.103 for task #2548070\n", 
+            "2021-12-24 22:45:56,811 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 2883914 (interface=vboxnet0, host=192.168.168.103)\n", 
+            "2021-12-24 22:45:56,972 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x643\n", 
+            "2021-12-24 22:45:57,381 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x643 to Snapshot\n", 
+            "2021-12-24 22:46:39,305 [cuckoo.core.guest] INFO: Starting analysis #2548070 on guest (id=Ubuntu1904x643, ip=192.168.168.103)\n", 
+            "2021-12-24 22:46:40,310 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: not ready yet\n", 
+            "2021-12-24 22:46:45,336 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x643, ip=192.168.168.103)\n", 
+            "2021-12-24 22:46:45,351 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x643, ip=192.168.168.103, monitor=latest, size=72028)\n", 
+            "2021-12-24 22:46:45,496 [cuckoo.core.resultserver] DEBUG: Task #2548070: live log analysis.log initialized.\n", 
+            "2021-12-24 22:46:51,010 [cuckoo.core.resultserver] DEBUG: Task #2548070: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-24 22:46:51,043 [cuckoo.core.resultserver] DEBUG: Task #2548070 uploaded file length: 171563\n", 
+            "2021-12-24 22:47:00,476 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2548070 still processing\n", 
+            "2021-12-24 22:47:13,565 [cuckoo.core.resultserver] DEBUG: Task #2548070: File upload for 'logs/all.stap'\n", 
+            "2021-12-24 22:47:13,568 [cuckoo.core.resultserver] DEBUG: Task #2548070 uploaded file length: 20570\n", 
+            "2021-12-24 22:47:15,533 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2548070 still processing\n", 
+            "2021-12-24 22:47:30,592 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2548070 still processing\n", 
+            "2021-12-24 22:47:45,681 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2548070 still processing\n", 
+            "2021-12-24 22:48:00,774 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2548070 still processing\n", 
+            "2021-12-24 22:48:15,830 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2548070 still processing\n", 
+            "2021-12-24 22:48:30,900 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2548070 still processing\n", 
+            "2021-12-24 22:48:46,008 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2548070 still processing\n", 
+            "2021-12-24 22:49:01,223 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2548070 still processing\n", 
+            "2021-12-24 22:49:16,333 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2548070 still processing\n", 
+            "2021-12-24 22:49:31,426 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2548070 still processing\n", 
+            "2021-12-24 22:49:46,504 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2548070 still processing\n", 
+            "2021-12-24 22:50:01,693 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2548070 still processing\n", 
+            "2021-12-24 22:50:16,759 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2548070 still processing\n", 
+            "2021-12-24 22:50:31,899 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2548070 still processing\n", 
+            "2021-12-24 22:50:46,956 [cuckoo.core.guest] INFO: Ubuntu1904x643: end of analysis reached!\n", 
+            "2021-12-24 22:50:46,967 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-24 22:50:47,041 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-24 22:51:00,956 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x643 to path /srv/cuckoo/cwd/storage/analyses/2548070/memory.dmp\n", 
+            "2021-12-24 22:51:00,959 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x643\n", 
+            "2021-12-24 22:51:04,854 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.103 for task #2548070\n", 
+            "2021-12-24 22:51:04,854 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2548070\n", 
+            "2021-12-24 22:51:04,989 [cuckoo.core.scheduler] DEBUG: Released database task #2548070\n", 
+            "2021-12-24 22:51:05,095 [cuckoo.core.scheduler] INFO: Task #2548070: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "__printf_chk", 
+        "snd_ctl_ascii_elem_id_get", 
+        "snd_ctl_elem_id_sizeof", 
+        "__stack_chk_guard", 
+        "memset", 
+        "snd_hctl_elem_get_id", 
+        "putchar", 
+        "__stack_chk_fail", 
+        "snd_mixer_selem_id_sizeof", 
+        "snd_mixer_selem_get_id", 
+        "snd_mixer_selem_id_get_name", 
+        "snd_mixer_selem_id_get_index", 
+        "set_normalized_capture_volume", 
+        "get_normalized_capture_volume", 
+        "snd_mixer_selem_set_capture_dB", 
+        "snd_mixer_selem_set_capture_volume", 
+        "set_normalized_playback_volume", 
+        "get_normalized_playback_volume", 
+        "snd_mixer_selem_set_playback_dB", 
+        "snd_mixer_selem_set_playback_volume", 
+        "strlen", 
+        "strncasecmp", 
+        "__ctype_b_loc", 
+        "strtol", 
+        "__ctype_toupper_loc", 
+        "strchr", 
+        "strtod", 
+        "snd_hctl_elem_set_callback", 
+        "snd_mixer_elem_set_callback", 
+        "fwrite", 
+        "stderr", 
+        "__vfprintf_chk", 
+        "snd_ctl_card_info_sizeof", 
+        "snd_ctl_elem_list_sizeof", 
+        "snd_ctl_open", 
+        "snd_ctl_card_info", 
+        "snd_ctl_card_info_get_id", 
+        "snd_ctl_card_info_get_longname", 
+        "snd_ctl_card_info_get_mixername", 
+        "snd_ctl_card_info_get_components", 
+        "snd_ctl_elem_list", 
+        "snd_ctl_elem_list_get_count", 
+        "snd_ctl_close", 
+        "snd_mixer_open", 
+        "snd_mixer_attach", 
+        "snd_mixer_selem_register", 
+        "snd_mixer_load", 
+        "snd_mixer_get_count", 
+        "snd_mixer_close", 
+        "snd_strerror", 
+        "stdout", 
+        "_IO_putc", 
+        "snd_pcm_chmap_name", 
+        "snd_ctl_elem_info_sizeof", 
+        "snd_ctl_elem_value_sizeof", 
+        "snd_hctl_elem_info", 
+        "snd_ctl_elem_info_get_count", 
+        "snd_ctl_elem_info_get_type", 
+        "snd_ctl_elem_type_name", 
+        "snd_ctl_elem_info_is_readable", 
+        "snd_ctl_elem_info_is_writable", 
+        "snd_ctl_elem_info_is_inactive", 
+        "snd_ctl_elem_info_is_volatile", 
+        "snd_ctl_elem_info_is_locked", 
+        "snd_ctl_elem_info_is_tlv_readable", 
+        "snd_ctl_elem_info_is_tlv_writable", 
+        "snd_ctl_elem_info_is_tlv_commandable", 
+        "snd_hctl_elem_read", 
+        "snd_ctl_elem_info_get_min64", 
+        "snd_ctl_elem_info_get_max64", 
+        "snd_ctl_elem_info_get_step64", 
+        "malloc", 
+        "snd_hctl_elem_tlv_read", 
+        "snd_ctl_elem_info_get_min", 
+        "snd_ctl_elem_info_get_max", 
+        "snd_ctl_elem_info_get_step", 
+        "snd_ctl_elem_info_get_items", 
+        "snd_ctl_elem_info_get_item_name", 
+        "snd_ctl_elem_info_set_item", 
+        "snd_ctl_elem_value_get_integer64", 
+        "snd_ctl_elem_value_get_iec958", 
+        "snd_ctl_elem_value_get_byte", 
+        "snd_ctl_elem_value_get_enumerated", 
+        "snd_ctl_elem_value_get_integer", 
+        "snd_ctl_elem_value_get_boolean", 
+        "snd_ctl_ascii_elem_id_parse", 
+        "snd_ctl_elem_info_set_id", 
+        "snd_ctl_elem_info", 
+        "snd_ctl_elem_info_get_id", 
+        "snd_ctl_elem_value_set_id", 
+        "snd_ctl_elem_read", 
+        "snd_ctl_ascii_value_parse", 
+        "snd_ctl_elem_write", 
+        "snd_hctl_open", 
+        "snd_hctl_load", 
+        "snd_hctl_find_elem", 
+        "snd_hctl_close", 
+        "__fprintf_chk", 
+        "snd_hctl_first_elem", 
+        "snd_hctl_elem_next", 
+        "snd_mixer_find_selem", 
+        "snd_mixer_selem_has_common_volume", 
+        "snd_mixer_selem_has_playback_volume", 
+        "snd_mixer_selem_has_capture_volume", 
+        "snd_mixer_selem_has_common_switch", 
+        "snd_mixer_selem_has_playback_switch_joined", 
+        "snd_mixer_selem_is_enum_playback", 
+        "snd_mixer_selem_is_enumerated", 
+        "snd_mixer_selem_get_enum_items", 
+        "snd_mixer_selem_get_enum_item_name", 
+        "snd_mixer_selem_get_enum_item", 
+        "snd_mixer_selem_has_playback_volume_joined", 
+        "snd_mixer_selem_has_capture_switch_exclusive", 
+        "snd_mixer_selem_has_playback_switch", 
+        "snd_mixer_selem_is_playback_mono", 
+        "snd_mixer_selem_has_playback_channel", 
+        "snd_mixer_selem_has_capture_switch", 
+        "snd_mixer_selem_is_capture_mono", 
+        "snd_mixer_selem_has_capture_channel", 
+        "snd_mixer_selem_channel_name", 
+        "snd_mixer_selem_get_playback_volume_range", 
+        "snd_mixer_selem_get_capture_volume_range", 
+        "snd_mixer_selem_is_enum_capture", 
+        "snd_mixer_selem_has_capture_switch_joined", 
+        "snd_mixer_selem_get_capture_switch", 
+        "snd_mixer_selem_get_capture_group", 
+        "snd_mixer_selem_has_capture_volume_joined", 
+        "snd_mixer_selem_get_playback_switch", 
+        "snd_mixer_selem_id_set_index", 
+        "snd_mixer_selem_id_set_name", 
+        "strncmp", 
+        "snd_mixer_selem_set_enum_item", 
+        "snd_mixer_selem_set_capture_switch", 
+        "snd_mixer_selem_set_playback_switch", 
+        "strcmp", 
+        "snd_mixer_first_elem", 
+        "snd_mixer_selem_is_active", 
+        "snd_mixer_elem_next", 
+        "getopt_long", 
+        "optarg", 
+        "snd_card_get_index", 
+        "__sprintf_chk", 
+        "strncpy", 
+        "optind", 
+        "snd_hctl_set_callback", 
+        "snd_mixer_set_callback", 
+        "snd_hctl_wait", 
+        "snd_hctl_handle_events", 
+        "__assert_fail", 
+        "snd_mixer_wait", 
+        "snd_mixer_handle_events", 
+        "libm.so.6", 
+        "libasound.so.2", 
+        "snd_mixer_selem_get_playback_dB", 
+        "snd_mixer_selem_get_playback_dB_range", 
+        "snd_mixer_selem_get_playback_volume", 
+        "snd_mixer_selem_get_capture_volume", 
+        "snd_mixer_selem_get_capture_dB_range", 
+        "snd_mixer_selem_get_capture_dB", 
+        "libdl.so.2", 
+        "libpthread.so.0", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "ld.so.1", 
+        "GLIBC_2.4", 
+        "GLIBC_2.2", 
+        "GLIBC_2.0", 
+        "GLIBC_2.3", 
+        "GLIBC_2.3.4", 
+        "ALSA_0.9", 
+        "c4F%(`", 
+        "c4F%(`", 
+        "Usage: amixer <options> [command]", 
+        "Available options:", 
+        "  -h,--help       this help", 
+        "  -c,--card N     select the card", 
+        "  -D,--device N   select the device, default '%s'", 
+        "  -d,--debug      debug mode", 
+        "  -n,--nocheck    do not perform range checking", 
+        "  -v,--version    print version of this program", 
+        "  -q,--quiet      be quiet", 
+        "  -i,--inactive   show also inactive controls", 
+        "  -a,--abstract L select abstraction level (none or basic)", 
+        "  -s,--stdin      Read and execute commands from stdin sequentially", 
+        "  -R,--raw-volume Use the raw value (default)", 
+        "  -M,--mapped-volume Use the mapped volume", 
+        "Available commands:", 
+        "  scontrols       show all mixer simple controls", 
+        "  scontents", 
+        "  show contents of all mixer simple controls (default command)", 
+        "  sset sID P      set contents for one mixer simple control", 
+        "  sget sID        get contents for one mixer simple control", 
+        "  controls        show all controls for given card", 
+        "  contents        show contents of all controls for given card", 
+        "  cset cID P      set control contents for one control", 
+        "  cget cID        get control contents for one control", 
+        "event remove: ", 
+        "event info: ", 
+        "event value: ", 
+        "event remove: '%s',%i", 
+        "event info: '%s',%i", 
+        "event value: '%s',%i", 
+        "event add: ", 
+        "event add: '%s',%i", 
+        "amixer: ", 
+        "Control device %s open error: %s", 
+        "Control device %s hw info error: %s", 
+        "Card %s '%s'/'%s'", 
+        "  Mixer name", 
+        ": '%s'", 
+        "  Components", 
+        ": '%s'", 
+        "snd_ctl_elem_list failure: %s", 
+        "  Controls      : %i", 
+        "Mixer open error: %s", 
+        "Mixer attach %s error: %s", 
+        "Mixer register error: %s", 
+        "Mixer load %s error: %s", 
+        "  Simple ctrls  : %i", 
+        "-%li.%02lidB", 
+        "%li.%02lidB", 
+        "paired", 
+        "variable", 
+        "TLV size error!", 
+        "TLV size error (%i, %i, %i)!", 
+        "container", 
+        "TLV size error in compound!", 
+        "dBscale-", 
+        "0x%08x,", 
+        ",step=", 
+        ",mute=%i", 
+        "dBlinear-", 
+        "dBrange-", 
+        "rangemin=%i,", 
+        ",rangemax=%i", 
+        "dBminmaxmute-", 
+        "dBminmax-", 
+        "chmap-%s=", 
+        "unk-%i-", 
+        " %li [%li%%]", 
+        "Control %s snd_hctl_elem_info error: %s", 
+        "%s; type=%s,access=%s,values=%i", 
+        ",min=%li,max=%li,step=%li", 
+        ",min=%Li,max=%Li,step=%Li", 
+        ",items=%u", 
+        "Control %s element info error: %s", 
+        "%s; Item #%u '%s'", 
+        "Control %s element read error: %s", 
+        "%s: values=", 
+        "0x%02x", 
+        "[AES0=0x%02x AES1=0x%02x AES2=0x%02x AES3=0x%02x]", 
+        "%s; ASoC TLV Byte control, skipping bytes dump", 
+        "Control %s element TLV read error: %s", 
+        "Specify a full control identifier: [[iface=<iface>,][name='name',][index=<index>,][device=<device>,][subdevice=<subdevice>]]|[numid=<numid>]", 
+        "Wrong control identifier: %s", 
+        "VERIFY ID: ", 
+        "Control %s open error: %s", 
+        "Cannot find the given element from control %s", 
+        "Cannot read the given element from control %s", 
+        "Control %s parse error: %s", 
+        "Control %s element write error: %s", 
+        "Control %s load error: %s", 
+        "Could not find the specified element", 
+        "Control %s open error: %s", 
+        "Control %s local error: %s", 
+        "Mixer %s simple element not found", 
+        "%sCapabilities:", 
+        " volume", 
+        " volume-joined", 
+        " pvolume", 
+        " pvolume-joined", 
+        " cvolume", 
+        " cvolume-joined", 
+        " switch", 
+        " switch-joined", 
+        " pswitch", 
+        " pswitch-joined", 
+        " cswitch", 
+        " cswitch-joined", 
+        " cswitch-exclusive", 
+        " penum", 
+        " cenum", 
+        "  Items:", 
+        "  Item%d: '%s'", 
+        "%sCapture exclusive group: %i", 
+        "%sPlayback channels:", 
+        "%sCapture channels:", 
+        "%sLimits:", 
+        " Playback %li - %li", 
+        " Capture %li - %li", 
+        " Playback", 
+        " Capture", 
+        "frontleft", 
+        "Specify a scontrol identifier: 'name',index", 
+        "Specify what you want to set...", 
+        "Mixer %s open error: %s", 
+        "Mixer %s load error: %s", 
+        "Unable to find simple control '%s',%i", 
+        "playback", 
+        "capture", 
+        "unmute", 
+        "toggle", 
+        "Unknown playback setup '%s'..", 
+        "Unknown capture setup '%s'..", 
+        "Invalid command!", 
+        "Simple mixer control '%s',%i", 
+        "Wrong scontrol identifier: %s", 
+        "Mixer %s open error: %s", 
+        "hc:D:qidnva:sRM", 
+        "Invalid card number.", 
+        "amixer version 1.1.3", 
+        "Select correct abstraction level (none or basic)...", 
+        "Invalid switch or option needs an argument.", 
+        "contents", 
+        "scontrols", 
+        "simple", 
+        "scontents", 
+        "events", 
+        "Control %s hbuild error: %s", 
+        "Ready to listen...", 
+        "Poll ok: %i", 
+        "amixer.c", 
+        "res > 0", 
+        "sevents", 
+        "res >= 0", 
+        "amixer: Unknown command '%s'...", 
+        "device", 
+        "inactive", 
+        "nocheck", 
+        "version", 
+        "abstract", 
+        "raw-volume", 
+        "mapped-volume", 
+        "frontright", 
+        "frontcenter", 
+        "center", 
+        "rearleft", 
+        "rearright", 
+        "woofer", 
+        "sevents", 
+        "events", 
+        "default", 
+        "59d536d1b9ec2bf45948476d3cf6ec77e57375.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".data.rel.ro", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
