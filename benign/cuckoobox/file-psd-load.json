@@ -1,0 +1,3355 @@
+{
+    "info": {
+        "added": 1640383610.310332, 
+        "started": 1640397013.521067, 
+        "duration": 334, 
+        "ended": 1640397348.043458, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2548396, 
+        "category": "file", 
+        "git": {
+            "head": "", 
+            "fetch_head": ""
+        }, 
+        "monitor": null, 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x647", 
+            "label": "Ubuntu1904x647", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 01:51:14", 
+            "shutdown_on": "2021-12-25 01:55:47"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "8d8af593623a914b52940481987ce51de2ea918b", 
+            "name": "file-psd-load", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=934c5c7f93f3c47530e35ea1f53267898f46abd3, stripped", 
+            "sha256": "16f54241dda18b731dfe6312c28b363fdc19181f5cfa74083caa4459a713380f", 
+            "urls": [], 
+            "crc32": "42DBA75C", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/16f54241dda18b731dfe6312c28b363fdc19181f5cfa74083caa4459a713380f", 
+            "ssdeep": null, 
+            "size": 56488, 
+            "sha512": "f53232316deabc4bfd60f66730be09b124e900dd8fb3238172e32d8846546582a04aaa04258479c1b3b9e1c4dd7b33512bca6bad1f81d48e246935376944216b", 
+            "md5": "941bae358811dcb57202ffc75604941e"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "165a8fd2-10d2-4003-b8fe-054b2e5934a7", 
+        "parent_file_sha256": null, 
+        "name": "16f54241dda18b731dfe6312c28b363fdc19181f5cfa74083caa4459a713380f", 
+        "probes_total": 16, 
+        "scan_date": 1640390149, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "8d8af593623a914b52940481987ce51de2ea918b", 
+            "tags": [], 
+            "timestamp_first_scan": 1640390148.54, 
+            "timestamp_last_scan": 1640390157.31, 
+            "sha256": "16f54241dda18b731dfe6312c28b363fdc19181f5cfa74083caa4459a713380f", 
+            "md5": "941bae358811dcb57202ffc75604941e", 
+            "size": 56488
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.06, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.06, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.62, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-16 07:23:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.29, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.02, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.86, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.79, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.65, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.39, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.1, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.98, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "6b81758c-8dd3-4e26-8c81-7a54b5ae0c7d", 
+        "file_sha256": "16f54241dda18b731dfe6312c28b363fdc19181f5cfa74083caa4459a713380f"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "file-psd-load", 
+                "pid": 2080, 
+                "summary": {}, 
+                "first_seen": 1640383622.694616, 
+                "ppid": 2079
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "file-psd-load", 
+                "pid": 2079, 
+                "summary": {}, 
+                "first_seen": 1640383622.669023, 
+                "ppid": -1
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.669023 file-psd-load@7f9f025b7c27[2079] execve(\"/tmp/file-psd-load\", [\"/tmp/file-psd-load\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/file-psd-load\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpqdYNWS\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b7c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/file-psd-load", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpqdYNWS"
+                            ], 
+                            "p0": "/tmp/file-psd-load", 
+                            "p1": [
+                                "/tmp/file-psd-load"
+                            ]
+                        }, 
+                        "time": 1640383622.669023
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.672633 file-psd-load@7f9f025b7c27[2079] brk(0x0) = 94412578353152\n", 
+                        "api": "brk", 
+                        "return_value": "94412578353152", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b7c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383622.672633
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.673766 file-psd-load@7f9f025b89d7[2079] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b89d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383622.673766
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.673822 file-psd-load@7f9f025b8b0d[2079] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383622.673822
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.673822 file-psd-load@7f9f025b8943[2079] fstat(4, 0x7ffc92335ab0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc92335ab0"
+                        }, 
+                        "time": 1640383622.673822
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.673822 file-psd-load@7f9f025b8d03[2079] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f9f02586000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f02586000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.673822
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.673822 file-psd-load@7f9f025b89f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.673822
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.673822 file-psd-load@7f9f025b8b0d[2079] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383622.673822
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.673822 file-psd-load@7f9f025b8bd4[2079] read(4, 0x7ffc92335c68, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc92335c68"
+                        }, 
+                        "time": 1640383622.673822
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.673823 file-psd-load@7f9f025b8943[2079] fstat(4, 0x7ffc92335b00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc92335b00"
+                        }, 
+                        "time": 1640383622.673823
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.673823 file-psd-load@7f9f025b8d03[2079] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9f02584000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f02584000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.673823
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.673823 file-psd-load@7f9f025b8d03[2079] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9f0257e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f0257e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.673823
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.673823 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f0257f000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f9f0257f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f0257f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f0257f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383622.673823
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.673823 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f02581000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9f02581000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f02581000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f02581000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383622.673823
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.673823 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f02582000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9f02582000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f02582000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f02582000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383622.673823
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.673823 file-psd-load@7f9f025b89f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.673823
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.678719 file-psd-load@7f9f025b8b0d[2079] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383622.678719
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.678771 file-psd-load@7f9f025b8bd4[2079] read(4, 0x7ffc92335c48, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc92335c48"
+                        }, 
+                        "time": 1640383622.678771
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.678816 file-psd-load@7f9f025b8943[2079] fstat(4, 0x7ffc92335ae0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc92335ae0"
+                        }, 
+                        "time": 1640383622.678816
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.678865 file-psd-load@7f9f025b8d03[2079] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9f0245d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f0245d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.678865
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.678920 file-psd-load@7f9f025b8db7[2079] mprotect(0x7f9f02478000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f9f02478000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383622.67892
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.678971 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f02478000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f9f02478000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f02478000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f02478000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383622.678971
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679016 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f024f8000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f9f024f8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f024f8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f024f8000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383622.679016
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679058 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f0257b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f9f0257b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f0257b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f0257b000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383622.679058
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679109 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f0257d000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9f0257d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f0257d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f9f0257d000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.679109
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679158 file-psd-load@7f9f025b89f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.679158
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679216 file-psd-load@7f9f025b8b0d[2079] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383622.679216
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679261 file-psd-load@7f9f025b8bd4[2079] read(4, 0x7ffc92335c28, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc92335c28"
+                        }, 
+                        "time": 1640383622.679261
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679298 file-psd-load@7f9f025b8943[2079] fstat(4, 0x7ffc92335ac0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc92335ac0"
+                        }, 
+                        "time": 1640383622.679298
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679335 file-psd-load@7f9f025b8d03[2079] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9f02452000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f02452000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.679335
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679380 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f02455000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9f02455000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f02455000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f02455000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383622.67938
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679427 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f02459000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f9f02459000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f02459000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f02459000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383622.679427
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679472 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f0245b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f9f0245b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f0245b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f0245b000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383622.679472
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679528 file-psd-load@7f9f025b89f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.679528
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679579 file-psd-load@7f9f025b8b0d[2079] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383622.679579
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679620 file-psd-load@7f9f025b8bd4[2079] read(4, 0x7ffc92335c08, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc92335c08"
+                        }, 
+                        "time": 1640383622.67962
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679657 file-psd-load@7f9f025b8943[2079] fstat(4, 0x7ffc92335aa0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc92335aa0"
+                        }, 
+                        "time": 1640383622.679657
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679697 file-psd-load@7f9f025b8d03[2079] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9f02270000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f02270000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.679697
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679740 file-psd-load@7f9f025b8db7[2079] mprotect(0x7f9f02305000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f9f02305000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383622.67974
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679783 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f02305000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7f9f02305000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f02305000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f02305000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383622.679783
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679825 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f023f7000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7f9f023f7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f023f7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f023f7000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383622.679825
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679873 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f02441000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7f9f02441000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f02441000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f02441000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383622.679873
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679920 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f0244f000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9f0244f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f0244f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f9f0244f000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.67992
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.679970 file-psd-load@7f9f025b89f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.67997
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.680027 file-psd-load@7f9f025b8b0d[2079] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383622.680027
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.680068 file-psd-load@7f9f025b8bd4[2079] read(4, 0x7ffc92335be8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc92335be8"
+                        }, 
+                        "time": 1640383622.680068
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.680107 file-psd-load@7f9f025b8943[2079] fstat(4, 0x7ffc92335a80) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc92335a80"
+                        }, 
+                        "time": 1640383622.680107
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.680142 file-psd-load@7f9f025b8d03[2079] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9f02122000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f02122000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.680142
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.680185 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f02131000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f9f02131000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f02131000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f02131000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383622.680185
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.680232 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f021d7000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f9f021d7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f021d7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f021d7000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383622.680232
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.680275 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f0226e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f9f0226e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f0226e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f0226e000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383622.680275
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.680331 file-psd-load@7f9f025b89f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.680331
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.680383 file-psd-load@7f9f025b8b0d[2079] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383622.680383
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.680424 file-psd-load@7f9f025b8bd4[2079] read(4, 0x7ffc92335bc8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc92335bc8"
+                        }, 
+                        "time": 1640383622.680424
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.680460 file-psd-load@7f9f025b8943[2079] fstat(4, 0x7ffc92335a60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc92335a60"
+                        }, 
+                        "time": 1640383622.68046
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.680496 file-psd-load@7f9f025b8d03[2079] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9f02108000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f02108000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.680496
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.680537 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f0210b000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9f0210b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f0210b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f0210b000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383622.680537
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.680580 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f0211c000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f9f0211c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f0211c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f0211c000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383622.68058
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.680621 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f02120000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f9f02120000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f02120000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f02120000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383622.680621
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.680738 file-psd-load@7f9f025b89f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.680738
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.680794 file-psd-load@7f9f025b8b0d[2079] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383622.680794
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.680837 file-psd-load@7f9f025b8bd4[2079] read(4, 0x7ffc92335ba8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc92335ba8"
+                        }, 
+                        "time": 1640383622.680837
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.680876 file-psd-load@7f9f025b8943[2079] fstat(4, 0x7ffc92335a40) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc92335a40"
+                        }, 
+                        "time": 1640383622.680876
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.680923 file-psd-load@7f9f025b8d03[2079] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9f02106000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f02106000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.680923
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.680968 file-psd-load@7f9f025b8d03[2079] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9f020e5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f020e5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.680968
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.681009 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f020ec000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f9f020ec000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f020ec000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f020ec000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383622.681009
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.681057 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f020fb000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f9f020fb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f020fb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f020fb000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383622.681057
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.681099 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f02100000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f9f02100000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f02100000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f02100000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383622.681099
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.681148 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f02102000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9f02102000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f02102000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f9f02102000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.681148
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.681197 file-psd-load@7f9f025b89f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.681197
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.681245 file-psd-load@7f9f025b8b0d[2079] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383622.681245
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.681287 file-psd-load@7f9f025b8bd4[2079] read(4, 0x7ffc92335b88, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc92335b88"
+                        }, 
+                        "time": 1640383622.681287
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.681325 file-psd-load@7f9f025b8943[2079] fstat(4, 0x7ffc92335a20) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc92335a20"
+                        }, 
+                        "time": 1640383622.681325
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.681368 file-psd-load@7f9f025b8d03[2079] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9f01efa000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f01efa000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.681368
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.681415 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f01f1f000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f9f01f1f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f01f1f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f01f1f000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383622.681415
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.681464 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f02092000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f9f02092000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f02092000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f02092000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383622.681464
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.681506 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f020db000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f9f020db000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f020db000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f020db000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383622.681506
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.681562 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f020e1000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9f020e1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f020e1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f9f020e1000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.681562
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.681613 file-psd-load@7f9f025b89f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.681613
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.681673 file-psd-load@7f9f025b8b0d[2079] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383622.681673
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.681716 file-psd-load@7f9f025b8bd4[2079] read(4, 0x7ffc92335b68, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc92335b68"
+                        }, 
+                        "time": 1640383622.681716
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.681752 file-psd-load@7f9f025b8943[2079] fstat(4, 0x7ffc92335a00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc92335a00"
+                        }, 
+                        "time": 1640383622.681752
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.681789 file-psd-load@7f9f025b8d03[2079] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9f01ef4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f01ef4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.681789
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.681864 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f01ef5000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f9f01ef5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f01ef5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f01ef5000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383622.681864
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.681913 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f01ef7000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9f01ef7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f01ef7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f01ef7000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383622.681913
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.681962 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f01ef8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9f01ef8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f01ef8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f01ef8000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383622.681962
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.682017 file-psd-load@7f9f025b89f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.682017
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.682068 file-psd-load@7f9f025b8b0d[2079] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383622.682068
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.682111 file-psd-load@7f9f025b8bd4[2079] read(4, 0x7ffc92335b48, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc92335b48"
+                        }, 
+                        "time": 1640383622.682111
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.682149 file-psd-load@7f9f025b8943[2079] fstat(4, 0x7ffc923359e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc923359e0"
+                        }, 
+                        "time": 1640383622.682149
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.682189 file-psd-load@7f9f025b8d03[2079] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9f01e80000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f01e80000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.682189
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.682231 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f01e82000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f9f01e82000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f01e82000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f01e82000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383622.682231
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.682281 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f01ed4000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f9f01ed4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f01ed4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f01ed4000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383622.682281
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.682324 file-psd-load@7f9f025b8d03[2079] mmap2(0x7f9f01ef2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f9f01ef2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f01ef2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9f01ef2000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383622.682324
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.682378 file-psd-load@7f9f025b89f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b89f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.682378
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.683482 file-psd-load@7f9f025b8d03[2079] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9f01e7e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f01e7e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.683482
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.683541 file-psd-load@7f9f025b8d03[2079] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9f01e7b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f01e7b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.683541
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.683582 file-psd-load@7f9f0259df30[2079] arch_prctl(ARCH_SET_FS, 140320908490688) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f0259df30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140320908490688"
+                        }, 
+                        "time": 1640383622.683582
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.684461 file-psd-load@7f9f025b8db7[2079] mprotect(0x7f9f020db000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9f020db000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383622.684461
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.684518 file-psd-load@7f9f025b8db7[2079] mprotect(0x7f9f02100000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9f02100000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383622.684518
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.684587 file-psd-load@7f9f025b8db7[2079] mprotect(0x7f9f01ef2000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9f01ef2000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383622.684587
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.684631 file-psd-load@7f9f025b8db7[2079] mprotect(0x7f9f01ef8000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9f01ef8000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383622.684631
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.684670 file-psd-load@7f9f025b8db7[2079] mprotect(0x7f9f02120000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9f02120000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383622.68467
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.684813 file-psd-load@7f9f025b8db7[2079] mprotect(0x7f9f0226e000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9f0226e000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383622.684813
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.685866 file-psd-load@7f9f025b8db7[2079] mprotect(0x7f9f02441000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9f02441000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383622.685866
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.685918 file-psd-load@7f9f025b8db7[2079] mprotect(0x7f9f0245b000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9f0245b000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383622.685918
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.686133 file-psd-load@7f9f025b8db7[2079] mprotect(0x7f9f0257b000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9f0257b000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383622.686133
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.686191 file-psd-load@7f9f025b8db7[2079] mprotect(0x7f9f02582000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9f02582000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383622.686191
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.691546 file-psd-load@7f9f025b8db7[2079] mprotect(0x55de218b4000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55de218b4000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383622.691546
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.691606 file-psd-load@7f9f025b8db7[2079] mprotect(0x7f9f025c6000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9f025c6000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383622.691606
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.691655 file-psd-load@7f9f025b8d97[2079] munmap(0x7f9f02586000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f025b8d97", 
+                        "arguments": {
+                            "p0": "0x7f9f02586000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383622.691655
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.691728 file-psd-load@7f9f020ec8df[2079] set_tid_address(0x7f9f01e7ba90) = 2079\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2079", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020ec8df", 
+                        "arguments": {
+                            "p0": "0x7f9f01e7ba90"
+                        }, 
+                        "time": 1640383622.691728
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.691773 file-psd-load@7f9f020ec94a[2079] set_robust_list(0x7f9f01e7baa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020ec94a", 
+                        "arguments": {
+                            "p0": "0x7f9f01e7baa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383622.691773
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.691816 file-psd-load@7f9f020f9010[2079] rt_sigaction(0x20, {0x7f9f020ec6c0, SA_SIGINFO|SA_RESTORER, 0x7f9f020f8f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020f9010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f9f020ec6c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f9f020f8f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383622.691816
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.691852 file-psd-load@7f9f020f9010[2079] rt_sigaction(0x21, {0x7f9f020ec760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f9f020f8f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020f9010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f9f020ec760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f9f020f8f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383622.691852
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.691891 file-psd-load@7f9f020eca19[2079] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020eca19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383622.691891
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.691985 file-psd-load@7f9f0200cdf0[2079] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc92336840) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f0200cdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc92336840", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383622.691985
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.692197 file-psd-load@7f9f0200d2f7[2079] brk(0x0) = 94412578353152\n", 
+                        "api": "brk", 
+                        "return_value": "94412578353152", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f0200d2f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383622.692197
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.692241 file-psd-load@7f9f0200d2f7[2079] brk(0x55de24340000) = 94412578488320\n", 
+                        "api": "brk", 
+                        "return_value": "94412578488320", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f0200d2f7", 
+                        "arguments": {
+                            "p0": "0x55de24340000"
+                        }, 
+                        "time": 1640383622.692241
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.693267 file-psd-load@7f9f020f5b86[2079] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc92336790, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020f5b86", 
+                        "arguments": {
+                            "p2": "0x7ffc92336790", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383622.693267
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.694147 file-psd-load@7f9f020114c3[2079] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f9f0167a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f0167a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020114c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.694147
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.694189 file-psd-load@7f9f02011597[2079] mprotect(0x7f9f0167b000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f02011597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f9f0167b000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383622.694189
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.694243 file-psd-load@7f9f02017b11[2079] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f9f01e79f30, 0x7f9f01e7a9d0, 0x7f9f01e7a9d0) = 2080\n", 
+                        "api": "clone", 
+                        "return_value": "2080", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f02017b11", 
+                        "arguments": {
+                            "p2": "0x7f9f01e7a9d0", 
+                            "p3": "0x7f9f01e7a9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f9f01e79f30"
+                        }, 
+                        "time": 1640383622.694243
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.694498 file-psd-load@7f9f020f5b86[2079] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020f5b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383622.694498
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.699936 file-psd-load@7f9f0200cdf0[2079] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc923362f0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f0200cdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc923362f0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383622.699936
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.700005 file-psd-load@7f9f0200c5c1[2079] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f0200c5c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383622.700005
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.701147 file-psd-load@7f9f01fdb247[2079] uname(0x7ffc92335f60) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f01fdb247", 
+                        "arguments": {
+                            "p0": "0x7ffc92335f60"
+                        }, 
+                        "time": 1640383622.701147
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.701242 file-psd-load@7f9f020f8337[2079] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020f8337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383622.701242
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.701385 file-psd-load@7f9f020f7d94[2079] read(3, 0x7ffc92336250, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020f7d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffc92336250"
+                        }, 
+                        "time": 1640383622.701385
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.701448 file-psd-load@7f9f020f8337[2079] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020f8337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383622.701448
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.702748 file-psd-load@7f9f0200d2f7[2079] brk(0x55de24361000) = 94412578623488\n", 
+                        "api": "brk", 
+                        "return_value": "94412578623488", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f0200d2f7", 
+                        "arguments": {
+                            "p0": "0x55de24361000"
+                        }, 
+                        "time": 1640383622.702748
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.703105 file-psd-load@7f9f020114c3[2079] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9f015f9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9f015f9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020114c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.703105
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.703697 file-psd-load@7f9f02011597[2079] mprotect(0x55de21937000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f02011597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55de21937000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383622.703697
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.703770 file-psd-load@7f9f02011667[2079] madvise(0x55de21937000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f02011667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55de21937000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383622.70377
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.704665 file-psd-load@7f9f020114c3[2079] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f9e7c000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9e7c000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020114c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.704665
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.704816 file-psd-load@7f9f02006d59[2079] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f02006d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383622.704816
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.704885 file-psd-load@7f9f02006613[2079] fstat(4, 0x7ffc92335960) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f02006613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc92335960"
+                        }, 
+                        "time": 1640383622.704885
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.704928 file-psd-load@7f9f02006fb4[2079] read(4, 0x55de2433e4e0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f02006fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x55de2433e4e0"
+                        }, 
+                        "time": 1640383622.704928
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.704984 file-psd-load@7f9f0200c3f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f0200c3f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.704984
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.705048 file-psd-load@7f9f020112e9[2079] gettid() = 2079\n", 
+                        "api": "gettid", 
+                        "return_value": "2079", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020112e9", 
+                        "arguments": {}, 
+                        "time": 1640383622.705048
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.705116 file-psd-load@7f9f02006613[2079] fstat(3, 0x7ffc923361d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f02006613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffc923361d0"
+                        }, 
+                        "time": 1640383622.705116
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.705156 file-psd-load@7f9f01fdc717[2079] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f01fdc717", 
+                        "arguments": {}, 
+                        "time": 1640383622.705156
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.705193 file-psd-load@7f9f01fdc737[2079] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f01fdc737", 
+                        "arguments": {}, 
+                        "time": 1640383622.705193
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.705229 file-psd-load@7f9f020f7d94[2079] read(3, 0x7ffc92336430, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020f7d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffc92336430"
+                        }, 
+                        "time": 1640383622.705229
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.705289 file-psd-load@7f9f020114c3[2079] mmap2(0x7f9efbfe2000, 122880, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f9efbfe2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9efbfe2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020114c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7f9efbfe2000", 
+                            "p1": "122880", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.705289
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.705363 file-psd-load@7f9f020114c3[2079] mmap2(0x7f9efbfe2000, 49152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f9efbfe2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9efbfe2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020114c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f9efbfe2000", 
+                            "p1": "49152", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.705363
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.705409 file-psd-load@7f9f020114c3[2079] mmap2(0x7f9efbffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 49152) = 0x7f9efbffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9efbffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020114c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f9efbffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "49152"
+                        }, 
+                        "time": 1640383622.705409
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.705460 file-psd-load@7f9f020f7e27[2079] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020f7e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383622.70546
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.705513 file-psd-load@7f9f020114c3[2079] mmap2(0x7f9efb7e1000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9efb7e1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9efb7e1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020114c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f9efb7e1000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.705513
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.705569 file-psd-load@7f9f0200d2f7[2079] brk(0x55de24382000) = 94412578758656\n", 
+                        "api": "brk", 
+                        "return_value": "94412578758656", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f0200d2f7", 
+                        "arguments": {
+                            "p0": "0x55de24382000"
+                        }, 
+                        "time": 1640383622.705569
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.705655 file-psd-load@7f9f02011597[2079] mprotect(0x7f9efb7e1000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f02011597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f9efb7e1000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383622.705655
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.705708 file-psd-load@7f9f020f855e[2079] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020f855e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383622.705708
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.705792 file-psd-load@7f9f02007057[2079] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f02007057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383622.705792
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.705896 file-psd-load@7f9f01fdb926[2079] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f01fdb926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383622.705896
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2079, 
+                        "raw": "Fri Dec 24 22:07:02 2021.705916 file-psd-load@7f9f01fdb926[2079] futex(0x7f9f01e7ba90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f01fdb926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f9f01e7ba90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383622.705916
+                    }
+                ], 
+                "pid": 2079, 
+                "process_name": "file-psd-load", 
+                "command_line": "/tmp/file-psd-load", 
+                "first_seen": 1640383622.669023, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2080, 
+                        "raw": "Fri Dec 24 22:07:02 2021.694616 file-psd-load@7f9f020ee117[2080] set_robust_list(0x7f9f01e7a9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020ee117", 
+                        "arguments": {
+                            "p0": "0x7f9f01e7a9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383622.694616
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2080, 
+                        "raw": "Fri Dec 24 22:07:02 2021.694710 file-psd-load@7f9f020114c3[2080] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f9ef967a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9ef967a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020114c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.69471
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2080, 
+                        "raw": "Fri Dec 24 22:07:02 2021.694783 file-psd-load@7f9f02011567[2080] munmap(0x7f9ef967a000, 43540480) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f02011567", 
+                        "arguments": {
+                            "p0": "0x7f9ef967a000", 
+                            "p1": "43540480"
+                        }, 
+                        "time": 1640383622.694783
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2080, 
+                        "raw": "Fri Dec 24 22:07:02 2021.694846 file-psd-load@7f9f02011567[2080] munmap(0x7f9f00000000, 23568384) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f02011567", 
+                        "arguments": {
+                            "p0": "0x7f9f00000000", 
+                            "p1": "23568384"
+                        }, 
+                        "time": 1640383622.694846
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2080, 
+                        "raw": "Fri Dec 24 22:07:02 2021.694901 file-psd-load@7f9f02011597[2080] mprotect(0x7f9efc000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f02011597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f9efc000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383622.694901
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "file-psd-load", 
+                        "pid": 2080, 
+                        "raw": "Fri Dec 24 22:07:02 2021.694992 file-psd-load@7f9f020f8440[2080] nanosleep([0.010000000], 0x7f9f01e79d80) = 0\n", 
+                        "api": "nanosleep", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9f020f8440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f9f01e79d80"
+                        }, 
+                        "time": 1640383622.694992
+                    }
+                ], 
+                "pid": 2080, 
+                "process_name": "file-psd-load", 
+                "command_line": "", 
+                "first_seen": 1640383622.694616, 
+                "ppid": 2079, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2079, 
+                "process_name": "file-psd-load", 
+                "command_line": "/tmp/file-psd-load", 
+                "first_seen": 1640383622.669023, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2080, 
+                        "process_name": "file-psd-load", 
+                        "command_line": "", 
+                        "first_seen": 1640383622.694616, 
+                        "ppid": 2079, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:06:50,013 [root] DEBUG: Starting analyzer from: /tmp/tmpqdYNWS\n", 
+            "2021-12-24 22:06:50,013 [root] DEBUG: Storing results at: /tmp/SFVaGQ\n", 
+            "2021-12-24 22:06:52,346 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:06:52,848 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:06:52,849 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:07:02,662 [lib.core.packages] INFO: Process startup took 9.81 seconds\n", 
+            "2021-12-24 22:07:02,663 [root] INFO: Added new process to list with pid: 2066\n", 
+            "2021-12-24 22:07:14,679 [root] INFO: Process with pid 2066 has terminated\n", 
+            "2021-12-24 22:07:14,679 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:17,683 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:17,684 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 01:50:14,110 [cuckoo.core.scheduler] DEBUG: Task #2548396: no machine available yet\n", 
+            "2021-12-25 01:50:44,140 [cuckoo.core.scheduler] DEBUG: Task #2548396: no machine available yet\n", 
+            "2021-12-25 01:51:14,183 [cuckoo.core.scheduler] INFO: Task #2548396: acquired machine Ubuntu1904x647 (label=Ubuntu1904x647)\n", 
+            "2021-12-25 01:51:14,184 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.107 for task #2548396\n", 
+            "2021-12-25 01:51:14,320 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3067217 (interface=vboxnet0, host=192.168.168.107)\n", 
+            "2021-12-25 01:51:14,470 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x647\n", 
+            "2021-12-25 01:51:14,874 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x647 to Snapshot\n", 
+            "2021-12-25 01:51:24,387 [cuckoo.core.guest] INFO: Starting analysis #2548396 on guest (id=Ubuntu1904x647, ip=192.168.168.107)\n", 
+            "2021-12-25 01:51:25,391 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: not ready yet\n", 
+            "2021-12-25 01:51:30,407 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x647, ip=192.168.168.107)\n", 
+            "2021-12-25 01:51:30,422 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x647, ip=192.168.168.107, monitor=latest, size=72028)\n", 
+            "2021-12-25 01:51:31,608 [cuckoo.core.resultserver] DEBUG: Task #2548396: live log analysis.log initialized.\n", 
+            "2021-12-25 01:51:37,440 [cuckoo.core.resultserver] DEBUG: Task #2548396: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 01:51:37,448 [cuckoo.core.resultserver] DEBUG: Task #2548396 uploaded file length: 171563\n", 
+            "2021-12-25 01:51:45,541 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548396 still processing\n", 
+            "2021-12-25 01:51:59,306 [cuckoo.core.resultserver] DEBUG: Task #2548396: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 01:51:59,312 [cuckoo.core.resultserver] DEBUG: Task #2548396 uploaded file length: 21502\n", 
+            "2021-12-25 01:52:00,615 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548396 still processing\n", 
+            "2021-12-25 01:52:15,785 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548396 still processing\n", 
+            "2021-12-25 01:52:30,845 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548396 still processing\n", 
+            "2021-12-25 01:52:45,983 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548396 still processing\n", 
+            "2021-12-25 01:53:01,054 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548396 still processing\n", 
+            "2021-12-25 01:53:16,152 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548396 still processing\n", 
+            "2021-12-25 01:53:31,257 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548396 still processing\n", 
+            "2021-12-25 01:53:46,321 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548396 still processing\n", 
+            "2021-12-25 01:54:01,386 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548396 still processing\n", 
+            "2021-12-25 01:54:16,450 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548396 still processing\n", 
+            "2021-12-25 01:54:31,534 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548396 still processing\n", 
+            "2021-12-25 01:54:46,602 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548396 still processing\n", 
+            "2021-12-25 01:55:01,677 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548396 still processing\n", 
+            "2021-12-25 01:55:16,738 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548396 still processing\n", 
+            "2021-12-25 01:55:31,782 [cuckoo.core.guest] INFO: Ubuntu1904x647: end of analysis reached!\n", 
+            "2021-12-25 01:55:31,791 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 01:55:31,845 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 01:55:43,840 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x647 to path /srv/cuckoo/cwd/storage/analyses/2548396/memory.dmp\n", 
+            "2021-12-25 01:55:43,842 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x647\n", 
+            "2021-12-25 01:55:47,723 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.107 for task #2548396\n", 
+            "2021-12-25 01:55:47,723 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2548396\n", 
+            "2021-12-25 01:55:47,838 [cuckoo.core.scheduler] DEBUG: Released database task #2548396\n", 
+            "2021-12-25 01:55:47,926 [cuckoo.core.scheduler] INFO: Task #2548396: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "gimp_locale_directory", 
+        "__stack_chk_guard", 
+        "bindtextdomain", 
+        "bind_textdomain_codeset", 
+        "strcmp", 
+        "load_thumbnail_image", 
+        "load_image", 
+        "__stack_chk_fail", 
+        "gimp_install_procedure", 
+        "gimp_register_file_handler_mime", 
+        "gimp_register_magic_load_handler", 
+        "gimp_register_thumbnail_loader", 
+        "gimp_main", 
+        "PLUG_IN_INFO", 
+        "g_file_error_quark", 
+        "g_file_error_from_errno", 
+        "g_strerror", 
+        "g_set_error", 
+        "dcgettext", 
+        "g_malloc", 
+        "gimp_any_to_utf8", 
+        "__errno_location", 
+        "psd_set_error", 
+        "strlen", 
+        "g_locale_from_utf8", 
+        "g_strndup", 
+        "fwrite", 
+        "g_utf16_to_utf8", 
+        "g_utf8_to_utf16", 
+        "g_string_sized_new", 
+        "g_string_insert_c", 
+        "g_string_append_len", 
+        "g_string_free", 
+        "g_ascii_strncasecmp", 
+        "g_malloc_n", 
+        "memcmp", 
+        "fread_pascal_string", 
+        "get_layer_resource_header", 
+        "load_layer_resource", 
+        "memcpy", 
+        "decode_packbits", 
+        "__xstat64", 
+        "fopen64", 
+        "gimp_filename_to_utf8", 
+        "gimp_progress_init_printf", 
+        "gimp_progress_update", 
+        "__memcpy_chk", 
+        "gimp_image_new", 
+        "gimp_image_set_filename", 
+        "gimp_image_undo_disable", 
+        "gimp_image_set_colormap", 
+        "get_image_resource_header", 
+        "load_image_resource", 
+        "g_strdup", 
+        "gimp_rgba_set", 
+        "g_realloc", 
+        "gimp_channel_new", 
+        "gimp_image_insert_channel", 
+        "gimp_drawable_get", 
+        "gimp_item_set_visible", 
+        "gimp_pixel_rgn_init", 
+        "gimp_pixel_rgn_set_rect", 
+        "gimp_drawable_flush", 
+        "gimp_drawable_detach", 
+        "g_ptr_array_free", 
+        "fclose", 
+        "g_error_free", 
+        "gimp_image_delete", 
+        "g_array_new", 
+        "g_array_append_vals", 
+        "gimp_image_get_layers", 
+        "gimp_image_set_active_layer", 
+        "gimp_image_clean_all", 
+        "gimp_image_undo_enable", 
+        "g_array_free", 
+        "gimp_item_set_tattoo", 
+        "gimp_layer_new", 
+        "gimp_image_insert_layer", 
+        "gimp_parasite_new", 
+        "gimp_image_attach_parasite", 
+        "gimp_parasite_free", 
+        "g_array_remove_index", 
+        "gimp_layer_group_new", 
+        "psd_to_gimp_blend_mode", 
+        "gimp_layer_set_mode", 
+        "gimp_layer_set_opacity", 
+        "gimp_item_set_name", 
+        "gimp_layer_create_mask", 
+        "gimp_layer_add_mask", 
+        "gimp_layer_set_apply_mask", 
+        "gimp_drawable_fill", 
+        "gimp_layer_set_offsets", 
+        "gimp_layer_set_lock_alpha", 
+        "g_strdup_printf", 
+        "load_thumbnail_resource", 
+        "gimp_image_width", 
+        "gimp_image_height", 
+        "gimp_vectors_new", 
+        "gimp_image_insert_vectors", 
+        "gimp_vectors_stroke_new_from_points", 
+        "jpeg_std_error", 
+        "jpeg_CreateDecompress", 
+        "jpeg_stdio_src", 
+        "jpeg_read_header", 
+        "jpeg_start_decompress", 
+        "gimp_image_resize", 
+        "jpeg_read_scanlines", 
+        "jpeg_finish_decompress", 
+        "jpeg_destroy_decompress", 
+        "g_strlcpy", 
+        "exif_data_new_from_data", 
+        "exif_content_get_entry", 
+        "gimp_run_procedure", 
+        "gimp_destroy_params", 
+        "exif_content_remove_entry", 
+        "exif_data_save_data", 
+        "exif_data_unref", 
+        "gimp_image_add_vguide", 
+        "gimp_image_add_hguide", 
+        "gimp_image_get_colormap", 
+        "g_ptr_array_new", 
+        "g_ptr_array_add", 
+        "fread_unicode_string", 
+        "gimp_rgb_set", 
+        "gimp_rgb_set_alpha", 
+        "gimp_hsv_set", 
+        "gimp_hsv_to_rgb", 
+        "gimp_image_set_resolution", 
+        "gimp_image_set_unit", 
+        "gimp_cmyk_set", 
+        "gimp_cmyk_to_rgb", 
+        "libgimpui-2.0.so.0", 
+        "libgimpwidgets-2.0.so.0", 
+        "libgimpconfig-2.0.so.0", 
+        "libgimp-2.0.so.0", 
+        "libgimpcolor-2.0.so.0", 
+        "libgimpmath-2.0.so.0", 
+        "libgimpbase-2.0.so.0", 
+        "libjpeg.so.62", 
+        "libgtk-x11-2.0.so.0", 
+        "libgdk-x11-2.0.so.0", 
+        "libpangocairo-1.0.so.0", 
+        "libatk-1.0.so.0", 
+        "libcairo.so.2", 
+        "libgdk_pixbuf-2.0.so.0", 
+        "libgio-2.0.so.0", 
+        "libpangoft2-1.0.so.0", 
+        "libpango-1.0.so.0", 
+        "libgobject-2.0.so.0", 
+        "libfontconfig.so.1", 
+        "libfreetype.so.6", 
+        "libgthread-2.0.so.0", 
+        "libglib-2.0.so.0", 
+        "libexif.so.12", 
+        "libpthread.so.0", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "ld.so.1", 
+        "_ftext", 
+        "_fdata", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.0", 
+        "LIBJPEG_6.2", 
+        "GLIBC_2.4", 
+        "GLIBC_2.3.4", 
+        "GLIBC_2.2", 
+        "gimp20-std-plug-ins", 
+        "file-psd-load", 
+        "file-psd-load-thumb", 
+        "John Marshall", 
+        "This plug-in loads images in Adobe Photoshop (TM) native PSD format.", 
+        "Loads images from the Photoshop PSD file format", 
+        "Photoshop image", 
+        "image/x-psd", 
+        "0,string,8BPS", 
+        "This plug-in loads thumnail images from Adobe Photoshop (TM) native PSD format files.", 
+        "Loads thumbnails from the Photoshop PSD file format", 
+        "Thumbnail image", 
+        "image-width", 
+        "Width of full-sized image", 
+        "image-height", 
+        "Height of full-sized image", 
+        "The name of the file to load", 
+        "thumb-size", 
+        "Preferred thumbnail size", 
+        "Output image", 
+        "run-mode", 
+        "The run mode { RUN-INTERACTIVE (0), RUN-NONINTERACTIVE (1) }", 
+        "raw-filename", 
+        "Unexpected end of file", 
+        "Too many channels in layer: %d", 
+        "Unsupported or invalid layer height: %d", 
+        "Unsupported or invalid layer width: %d", 
+        "Unsupported or invalid layer size: %dx%d", 
+        "The file is corrupt!", 
+        "Unsupported or invalid layer mask height: %d", 
+        "Unsupported or invalid layer mask width: %d", 
+        "Unsupported or invalid layer mask size: %dx%d", 
+        "Unsupported or invalid channel size", 
+        "Could not open '%s' for reading: %s", 
+        "Opening '%s'", 
+        "Not a valid Photoshop document file", 
+        "Unsupported file format version: %d", 
+        "Too many channels in file: %d", 
+        "Unsupported or invalid image height: %d", 
+        "Unsupported or invalid image width: %d", 
+        "Unsupported or invalid image size: %dx%d", 
+        "Unsupported color mode: %s", 
+        "UNKNOWN (%d)", 
+        "Unsupported bit depth: %d", 
+        "Invalid color mode", 
+        "psd-duotone-data", 
+        "Unsupported compression mode: %d", 
+        "Background", 
+        "Error loading PSD file: %s", 
+        "Warning", 
+        "The layer mask is partly outside the layer boundary. The mask will be cropped which may result in data loss.", 
+        "BITMAP", 
+        "GRAYSCALE", 
+        "INDEXED", 
+        "UNKNOWN (5)", 
+        "UNKNOWN (6)", 
+        "MULTICHANNEL", 
+        "DUOTONE", 
+        "?333333", 
+        "?ffffff", 
+        "?333333", 
+        "?Opening thumbnail for '%s'", 
+        "psd-image-resource-%.4s-%.4x", 
+        "Working Path", 
+        "gimp-comment", 
+        "icc-profile", 
+        "plug-in-metadata-decode-xmp", 
+        "exif-data", 
+        "4c5c7f93f3c47530e35ea1f53267898f46abd3.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".data.rel.ro", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
