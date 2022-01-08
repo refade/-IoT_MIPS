@@ -181,7 +181,7 @@ Malwarebytes	0	99,8	0,2
 TotalDefense	0	85,49	14,51
 Cybereason	0	0,1	99,9
 
-###### Table 3 Miscellaneous classifications of commercial antiviruses:
+###### Table 2 Miscellaneous classifications of commercial antiviruses:
 
 Antivírus |	VirusShare_001627d61a1bde3478ca4965e738dc1e |	VirusShare_075efef8c9ca2f675be296d5f56406fa |	VirusShare_0dab86f850fd3dafc98d0f2b401377d5
 --------- | ------------------------------------------- | ------------------------------------------- | --------------------------------------------
