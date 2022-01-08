@@ -1,0 +1,3261 @@
+{
+    "info": {
+        "added": 1640383610.849986, 
+        "started": 1640398211.15863, 
+        "duration": 312, 
+        "ended": 1640398523.714816, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2548421, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x647", 
+            "label": "Ubuntu1904x647", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 02:10:21", 
+            "shutdown_on": "2021-12-25 02:15:23"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "695163783fec0301d8b60530e7b51cdaf016b1b4", 
+            "name": "from.mailutils", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=cf13856467d104ef63c5f13c750d78577bba3ebd, stripped", 
+            "sha256": "27d5a0aba8e6832c40e584a2c99c7c9b7245dd9b9161d75c4b25a5e0d999b417", 
+            "urls": [], 
+            "crc32": "74BC670D", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/27d5a0aba8e6832c40e584a2c99c7c9b7245dd9b9161d75c4b25a5e0d999b417", 
+            "ssdeep": "192:vIzpDHi5E8pTG0bcpqZf9s9qeU/FFlpO4zAUdRvcH5gxKeVPF03j:spDHi5p8EZfC9qeUtEU3o5g", 
+            "size": 23472, 
+            "sha512": "61d30798775d7f033730792ecccdfb884e53fe6d64c6ad978f791abd412bb53bdd62cb1552d54a67fa52abda4efa5251a07802619f8ffed0d99f3b1de28c4b82", 
+            "md5": "6fdbe2596079c4d9521d48f62a838b04"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "17e0850b-1371-450d-8830-555e0d8f9495", 
+        "parent_file_sha256": null, 
+        "name": "27d5a0aba8e6832c40e584a2c99c7c9b7245dd9b9161d75c4b25a5e0d999b417", 
+        "probes_total": 16, 
+        "scan_date": 1640391324, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "695163783fec0301d8b60530e7b51cdaf016b1b4", 
+            "tags": [], 
+            "timestamp_first_scan": 1640391324.46, 
+            "timestamp_last_scan": 1640391333.19, 
+            "sha256": "27d5a0aba8e6832c40e584a2c99c7c9b7245dd9b9161d75c4b25a5e0d999b417", 
+            "md5": "6fdbe2596079c4d9521d48f62a838b04", 
+            "size": 23472
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.07, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.65, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-16 07:23:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.28, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.17, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.04, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.78, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.81, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.64, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.34, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.11, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.97, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "eab36d97-6117-43d5-af95-b00b9ab0244e", 
+        "file_sha256": "27d5a0aba8e6832c40e584a2c99c7c9b7245dd9b9161d75c4b25a5e0d999b417"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "from.mailutils", 
+                "pid": 2081, 
+                "summary": {}, 
+                "first_seen": 1640383622.89381, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "from.mailutils", 
+                "pid": 2082, 
+                "summary": {}, 
+                "first_seen": 1640383622.920383, 
+                "ppid": 2081
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.893810 from.mailutils@7f3d4abdbc27[2081] execve(\"/tmp/from.mailutils\", [\"/tmp/from.mailutils\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/from.mailutils\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpNqo7Ha\")\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdbc27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/from.mailutils", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpNqo7Ha"
+                            ], 
+                            "p0": "/tmp/from.mailutils", 
+                            "p1": [
+                                "/tmp/from.mailutils"
+                            ]
+                        }, 
+                        "time": 1640383622.89381
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.896854 from.mailutils@7f3d4abdbc27[2081] brk(0x0) = 94705924898816\n", 
+                        "api": "brk", 
+                        "return_value": "94705924898816", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdbc27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383622.896854
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.898408 from.mailutils@7f3d4abdc9d7[2081] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383622.898408
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.899398 from.mailutils@7f3d4abdcb0d[2081] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383622.899398
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.899486 from.mailutils@7f3d4abdc943[2081] fstat(4, 0x7ffcb7ac9840) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac9840"
+                        }, 
+                        "time": 1640383622.899486
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.899544 from.mailutils@7f3d4abdcd03[2081] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f3d4abaa000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4abaa000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.899544
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.899661 from.mailutils@7f3d4abdc9f7[2081] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.899661
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.899748 from.mailutils@7f3d4abdcb0d[2081] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383622.899748
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.899816 from.mailutils@7f3d4abdcbd4[2081] read(4, 0x7ffcb7ac99f8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac99f8"
+                        }, 
+                        "time": 1640383622.899816
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.899861 from.mailutils@7f3d4abdc943[2081] fstat(4, 0x7ffcb7ac9890) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac9890"
+                        }, 
+                        "time": 1640383622.899861
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.899915 from.mailutils@7f3d4abdcd03[2081] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3d4aba8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4aba8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.899915
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.899960 from.mailutils@7f3d4abdcd03[2081] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3d4aba2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4aba2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.89996
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.900005 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4aba3000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f3d4aba3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4aba3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4aba3000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383622.900005
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.900073 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4aba5000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f3d4aba5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4aba5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4aba5000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383622.900073
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.900143 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4aba6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f3d4aba6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4aba6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4aba6000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383622.900143
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.900221 from.mailutils@7f3d4abdc9f7[2081] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.900221
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.900285 from.mailutils@7f3d4abdcb0d[2081] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383622.900285
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.900331 from.mailutils@7f3d4abdcbd4[2081] read(4, 0x7ffcb7ac99d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac99d8"
+                        }, 
+                        "time": 1640383622.900331
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.900368 from.mailutils@7f3d4abdc943[2081] fstat(4, 0x7ffcb7ac9870) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac9870"
+                        }, 
+                        "time": 1640383622.900368
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.900401 from.mailutils@7f3d4abdcd03[2081] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3d4aa81000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4aa81000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.900401
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.900446 from.mailutils@7f3d4abdcdb7[2081] mprotect(0x7f3d4aa9c000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f3d4aa9c000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383622.900446
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.900492 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4aa9c000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f3d4aa9c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4aa9c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4aa9c000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383622.900492
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.900535 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4ab1c000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f3d4ab1c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4ab1c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4ab1c000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383622.900535
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.900574 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4ab9f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f3d4ab9f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4ab9f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4ab9f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383622.900574
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.900618 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4aba1000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3d4aba1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4aba1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f3d4aba1000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.900618
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.900675 from.mailutils@7f3d4abdc9f7[2081] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.900675
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.900753 from.mailutils@7f3d4abdcb0d[2081] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383622.900753
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.900818 from.mailutils@7f3d4abdcbd4[2081] read(4, 0x7ffcb7ac99b8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac99b8"
+                        }, 
+                        "time": 1640383622.900818
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.900870 from.mailutils@7f3d4abdc943[2081] fstat(4, 0x7ffcb7ac9850) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac9850"
+                        }, 
+                        "time": 1640383622.90087
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.900919 from.mailutils@7f3d4abdcd03[2081] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3d4aa76000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4aa76000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.900919
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.900961 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4aa79000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f3d4aa79000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4aa79000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4aa79000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383622.900961
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.901004 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4aa7d000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f3d4aa7d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4aa7d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4aa7d000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383622.901004
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.901044 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4aa7f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f3d4aa7f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4aa7f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4aa7f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383622.901044
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.901097 from.mailutils@7f3d4abdc9f7[2081] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.901097
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.901143 from.mailutils@7f3d4abdcb0d[2081] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383622.901143
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.901184 from.mailutils@7f3d4abdcbd4[2081] read(4, 0x7ffcb7ac9998, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac9998"
+                        }, 
+                        "time": 1640383622.901184
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.901219 from.mailutils@7f3d4abdc943[2081] fstat(4, 0x7ffcb7ac9830) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac9830"
+                        }, 
+                        "time": 1640383622.901219
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.901257 from.mailutils@7f3d4abdcd03[2081] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3d4a894000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a894000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.901257
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.901296 from.mailutils@7f3d4abdcdb7[2081] mprotect(0x7f3d4a929000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f3d4a929000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383622.901296
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.901342 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4a929000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7f3d4a929000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a929000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4a929000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383622.901342
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.901394 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4aa1b000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7f3d4aa1b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4aa1b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4aa1b000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383622.901394
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.901450 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4aa65000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7f3d4aa65000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4aa65000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4aa65000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383622.90145
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.901518 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4aa73000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3d4aa73000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4aa73000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f3d4aa73000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.901518
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.901586 from.mailutils@7f3d4abdc9f7[2081] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.901586
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.901653 from.mailutils@7f3d4abdcb0d[2081] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383622.901653
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.901696 from.mailutils@7f3d4abdcbd4[2081] read(4, 0x7ffcb7ac9978, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac9978"
+                        }, 
+                        "time": 1640383622.901696
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.901730 from.mailutils@7f3d4abdc943[2081] fstat(4, 0x7ffcb7ac9810) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac9810"
+                        }, 
+                        "time": 1640383622.90173
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.901763 from.mailutils@7f3d4abdcd03[2081] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3d4a746000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a746000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.901763
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.901802 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4a755000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f3d4a755000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a755000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4a755000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383622.901802
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.901844 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4a7fb000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f3d4a7fb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a7fb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4a7fb000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383622.901844
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.901889 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4a892000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f3d4a892000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a892000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4a892000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383622.901889
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.902540 from.mailutils@7f3d4abdc9f7[2081] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.90254
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.902665 from.mailutils@7f3d4abdcb0d[2081] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383622.902665
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.902766 from.mailutils@7f3d4abdcbd4[2081] read(4, 0x7ffcb7ac9958, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac9958"
+                        }, 
+                        "time": 1640383622.902766
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.902837 from.mailutils@7f3d4abdc943[2081] fstat(4, 0x7ffcb7ac97f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac97f0"
+                        }, 
+                        "time": 1640383622.902837
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.902930 from.mailutils@7f3d4abdcd03[2081] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3d4a72c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a72c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.90293
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.903070 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4a72f000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f3d4a72f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a72f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4a72f000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383622.90307
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.903253 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4a740000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f3d4a740000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a740000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4a740000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383622.903253
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.903396 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4a744000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f3d4a744000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a744000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4a744000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383622.903396
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.903558 from.mailutils@7f3d4abdc9f7[2081] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.903558
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.903697 from.mailutils@7f3d4abdcb0d[2081] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383622.903697
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.903869 from.mailutils@7f3d4abdcbd4[2081] read(4, 0x7ffcb7ac9938, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac9938"
+                        }, 
+                        "time": 1640383622.903869
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.904007 from.mailutils@7f3d4abdc943[2081] fstat(4, 0x7ffcb7ac97d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac97d0"
+                        }, 
+                        "time": 1640383622.904007
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.904133 from.mailutils@7f3d4abdcd03[2081] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3d4a72a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a72a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.904133
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.904281 from.mailutils@7f3d4abdcd03[2081] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3d4a709000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a709000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.904281
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.904405 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4a710000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f3d4a710000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a710000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4a710000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383622.904405
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.904556 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4a71f000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f3d4a71f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a71f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4a71f000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383622.904556
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.904711 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4a724000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f3d4a724000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a724000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4a724000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383622.904711
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.904909 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4a726000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3d4a726000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a726000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f3d4a726000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.904909
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.905055 from.mailutils@7f3d4abdc9f7[2081] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.905055
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.905203 from.mailutils@7f3d4abdcb0d[2081] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383622.905203
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.905363 from.mailutils@7f3d4abdcbd4[2081] read(4, 0x7ffcb7ac9918, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac9918"
+                        }, 
+                        "time": 1640383622.905363
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.905503 from.mailutils@7f3d4abdc943[2081] fstat(4, 0x7ffcb7ac97b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac97b0"
+                        }, 
+                        "time": 1640383622.905503
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.905631 from.mailutils@7f3d4abdcd03[2081] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3d4a51e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a51e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.905631
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.905747 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4a543000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f3d4a543000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a543000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4a543000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383622.905747
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.905875 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4a6b6000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f3d4a6b6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a6b6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4a6b6000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383622.905875
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.906030 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4a6ff000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f3d4a6ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a6ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4a6ff000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383622.90603
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.906431 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4a705000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3d4a705000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a705000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f3d4a705000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.906431
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.906549 from.mailutils@7f3d4abdc9f7[2081] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.906549
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.906726 from.mailutils@7f3d4abdcb0d[2081] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383622.906726
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.906842 from.mailutils@7f3d4abdcbd4[2081] read(4, 0x7ffcb7ac98f8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac98f8"
+                        }, 
+                        "time": 1640383622.906842
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.906938 from.mailutils@7f3d4abdc943[2081] fstat(4, 0x7ffcb7ac9790) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac9790"
+                        }, 
+                        "time": 1640383622.906938
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.907035 from.mailutils@7f3d4abdcd03[2081] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3d4a518000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a518000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.907035
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.907139 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4a519000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f3d4a519000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a519000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4a519000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383622.907139
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.907234 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4a51b000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f3d4a51b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a51b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4a51b000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383622.907234
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.907309 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4a51c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f3d4a51c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a51c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4a51c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383622.907309
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.907495 from.mailutils@7f3d4abdc9f7[2081] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.907495
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.907576 from.mailutils@7f3d4abdcb0d[2081] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383622.907576
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.907703 from.mailutils@7f3d4abdcbd4[2081] read(4, 0x7ffcb7ac98d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac98d8"
+                        }, 
+                        "time": 1640383622.907703
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.907790 from.mailutils@7f3d4abdc943[2081] fstat(4, 0x7ffcb7ac9770) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac9770"
+                        }, 
+                        "time": 1640383622.90779
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.907904 from.mailutils@7f3d4abdcd03[2081] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3d4a4a4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a4a4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.907904
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.908004 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4a4a6000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f3d4a4a6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a4a6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4a4a6000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383622.908004
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.908081 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4a4f8000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f3d4a4f8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a4f8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4a4f8000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383622.908081
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.908137 from.mailutils@7f3d4abdcd03[2081] mmap2(0x7f3d4a516000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f3d4a516000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a516000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3d4a516000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383622.908137
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.908219 from.mailutils@7f3d4abdc9f7[2081] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.908219
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.909622 from.mailutils@7f3d4abdcd03[2081] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3d4a4a2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a4a2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.909622
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.909681 from.mailutils@7f3d4abdcd03[2081] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3d4a49f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d4a49f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.909681
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.909723 from.mailutils@7f3d4abc1f30[2081] arch_prctl(ARCH_SET_FS, 139901216094144) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abc1f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "139901216094144"
+                        }, 
+                        "time": 1640383622.909723
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.910714 from.mailutils@7f3d4abdcdb7[2081] mprotect(0x7f3d4a6ff000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3d4a6ff000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383622.910714
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.910788 from.mailutils@7f3d4abdcdb7[2081] mprotect(0x7f3d4a724000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3d4a724000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383622.910788
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.910925 from.mailutils@7f3d4abdcdb7[2081] mprotect(0x7f3d4a516000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3d4a516000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383622.910925
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.911053 from.mailutils@7f3d4abdcdb7[2081] mprotect(0x7f3d4a51c000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3d4a51c000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383622.911053
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.911136 from.mailutils@7f3d4abdcdb7[2081] mprotect(0x7f3d4a744000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3d4a744000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383622.911136
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.911225 from.mailutils@7f3d4abdcdb7[2081] mprotect(0x7f3d4a892000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3d4a892000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383622.911225
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.912103 from.mailutils@7f3d4abdcdb7[2081] mprotect(0x7f3d4aa65000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3d4aa65000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383622.912103
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.912160 from.mailutils@7f3d4abdcdb7[2081] mprotect(0x7f3d4aa7f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3d4aa7f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383622.91216
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.912372 from.mailutils@7f3d4abdcdb7[2081] mprotect(0x7f3d4ab9f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3d4ab9f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383622.912372
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.912483 from.mailutils@7f3d4abdcdb7[2081] mprotect(0x7f3d4aba6000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3d4aba6000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383622.912483
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.916932 from.mailutils@7f3d4abdcdb7[2081] mprotect(0x56226d482000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x56226d482000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383622.916932
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.917022 from.mailutils@7f3d4abdcdb7[2081] mprotect(0x7f3d4abea000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3d4abea000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383622.917022
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.917112 from.mailutils@7f3d4abdcd97[2081] munmap(0x7f3d4abaa000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4abdcd97", 
+                        "arguments": {
+                            "p0": "0x7f3d4abaa000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383622.917112
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.917219 from.mailutils@7f3d4a7108df[2081] set_tid_address(0x7f3d4a49fa90) = 2081\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2081", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a7108df", 
+                        "arguments": {
+                            "p0": "0x7f3d4a49fa90"
+                        }, 
+                        "time": 1640383622.917219
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.917350 from.mailutils@7f3d4a71094a[2081] set_robust_list(0x7f3d4a49faa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a71094a", 
+                        "arguments": {
+                            "p0": "0x7f3d4a49faa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383622.91735
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.917411 from.mailutils@7f3d4a71d010[2081] rt_sigaction(0x20, {0x7f3d4a7106c0, SA_SIGINFO|SA_RESTORER, 0x7f3d4a71cf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a71d010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f3d4a7106c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f3d4a71cf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383622.917411
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.917496 from.mailutils@7f3d4a71d010[2081] rt_sigaction(0x21, {0x7f3d4a710760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f3d4a71cf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a71d010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f3d4a710760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f3d4a71cf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383622.917496
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.917593 from.mailutils@7f3d4a710a19[2081] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a710a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383622.917593
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.917676 from.mailutils@7f3d4a630df0[2081] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffcb7aca5d0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a630df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffcb7aca5d0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383622.917676
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.917908 from.mailutils@7f3d4a6312f7[2081] brk(0x0) = 94705924898816\n", 
+                        "api": "brk", 
+                        "return_value": "94705924898816", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a6312f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383622.917908
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.917962 from.mailutils@7f3d4a6312f7[2081] brk(0x562271051000) = 94705925033984\n", 
+                        "api": "brk", 
+                        "return_value": "94705925033984", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a6312f7", 
+                        "arguments": {
+                            "p0": "0x562271051000"
+                        }, 
+                        "time": 1640383622.917962
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.919100 from.mailutils@7f3d4a719b86[2081] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffcb7aca520, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a719b86", 
+                        "arguments": {
+                            "p2": "0x7ffcb7aca520", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383622.9191
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.919938 from.mailutils@7f3d4a6354c3[2081] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f3d49c9e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d49c9e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a6354c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.919938
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.920015 from.mailutils@7f3d4a635597[2081] mprotect(0x7f3d49c9f000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a635597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f3d49c9f000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383622.920015
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.920100 from.mailutils@7f3d4a63bb11[2081] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f3d4a49df30, 0x7f3d4a49e9d0, 0x7f3d4a49e9d0) = 2082\n", 
+                        "api": "clone", 
+                        "return_value": "2082", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a63bb11", 
+                        "arguments": {
+                            "p2": "0x7f3d4a49e9d0", 
+                            "p3": "0x7f3d4a49e9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f3d4a49df30"
+                        }, 
+                        "time": 1640383622.9201
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.920259 from.mailutils@7f3d4a719b86[2081] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a719b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383622.920259
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.924960 from.mailutils@7f3d4a630df0[2081] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffcb7aca080) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a630df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffcb7aca080", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383622.92496
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.925028 from.mailutils@7f3d4a6305c1[2081] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a6305c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383622.925028
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.926013 from.mailutils@7f3d4a5ff247[2081] uname(0x7ffcb7ac9cf0) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a5ff247", 
+                        "arguments": {
+                            "p0": "0x7ffcb7ac9cf0"
+                        }, 
+                        "time": 1640383622.926013
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.926166 from.mailutils@7f3d4a71c337[2081] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a71c337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383622.926166
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.926233 from.mailutils@7f3d4a71bd94[2081] read(3, 0x7ffcb7ac9fe0, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a71bd94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffcb7ac9fe0"
+                        }, 
+                        "time": 1640383622.926233
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.926273 from.mailutils@7f3d4a71c337[2081] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a71c337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383622.926273
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.927425 from.mailutils@7f3d4a6312f7[2081] brk(0x562271072000) = 94705925169152\n", 
+                        "api": "brk", 
+                        "return_value": "94705925169152", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a6312f7", 
+                        "arguments": {
+                            "p0": "0x562271072000"
+                        }, 
+                        "time": 1640383622.927425
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.927619 from.mailutils@7f3d4a6354c3[2081] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3d49c1d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d49c1d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a6354c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.927619
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.928176 from.mailutils@7f3d4a635597[2081] mprotect(0x56226d505000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a635597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x56226d505000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383622.928176
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.928299 from.mailutils@7f3d4a635667[2081] madvise(0x56226d505000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a635667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x56226d505000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383622.928299
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.929224 from.mailutils@7f3d4a6354c3[2081] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f3cc4000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3cc4000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a6354c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.929224
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.929345 from.mailutils@7f3d4a62ad59[2081] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a62ad59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383622.929345
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.929441 from.mailutils@7f3d4a62a613[2081] fstat(4, 0x7ffcb7ac96f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a62a613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcb7ac96f0"
+                        }, 
+                        "time": 1640383622.929441
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.929521 from.mailutils@7f3d4a62afb4[2081] read(4, 0x56227104f4e0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a62afb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x56227104f4e0"
+                        }, 
+                        "time": 1640383622.929521
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.929596 from.mailutils@7f3d4a6303f7[2081] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a6303f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383622.929596
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.929677 from.mailutils@7f3d4a6352e9[2081] gettid() = 2081\n", 
+                        "api": "gettid", 
+                        "return_value": "2081", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a6352e9", 
+                        "arguments": {}, 
+                        "time": 1640383622.929677
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.929734 from.mailutils@7f3d4a62a613[2081] fstat(3, 0x7ffcb7ac9f60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a62a613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffcb7ac9f60"
+                        }, 
+                        "time": 1640383622.929734
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.929836 from.mailutils@7f3d4a600717[2081] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a600717", 
+                        "arguments": {}, 
+                        "time": 1640383622.929836
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.929914 from.mailutils@7f3d4a600737[2081] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a600737", 
+                        "arguments": {}, 
+                        "time": 1640383622.929914
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.929994 from.mailutils@7f3d4a71bd94[2081] read(3, 0x7ffcb7aca1c0, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a71bd94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffcb7aca1c0"
+                        }, 
+                        "time": 1640383622.929994
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.930180 from.mailutils@7f3d4a6354c3[2081] mmap2(0x7f3d43fea000, 90112, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f3d43fea000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d43fea000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a6354c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7f3d43fea000", 
+                            "p1": "90112", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.93018
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.930299 from.mailutils@7f3d4a6354c3[2081] mmap2(0x7f3d43fea000, 20480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f3d43fea000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d43fea000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a6354c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f3d43fea000", 
+                            "p1": "20480", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.930299
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.930370 from.mailutils@7f3d4a6354c3[2081] mmap2(0x7f3d43ffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 16384) = 0x7f3d43ffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d43ffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a6354c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f3d43ffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "16384"
+                        }, 
+                        "time": 1640383622.93037
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.930465 from.mailutils@7f3d4a71be27[2081] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a71be27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383622.930465
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.930560 from.mailutils@7f3d4a6354c3[2081] mmap2(0x7f3d437e9000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3d437e9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d437e9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a6354c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f3d437e9000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.93056
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.930651 from.mailutils@7f3d4a6312f7[2081] brk(0x562271093000) = 94705925304320\n", 
+                        "api": "brk", 
+                        "return_value": "94705925304320", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a6312f7", 
+                        "arguments": {
+                            "p0": "0x562271093000"
+                        }, 
+                        "time": 1640383622.930651
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.930763 from.mailutils@7f3d4a635597[2081] mprotect(0x7f3d437e9000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a635597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f3d437e9000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383622.930763
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.930839 from.mailutils@7f3d4a71c55e[2081] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a71c55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383622.930839
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.930945 from.mailutils@7f3d4a62b057[2081] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a62b057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383622.930945
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.931080 from.mailutils@7f3d4a5ff926[2081] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a5ff926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383622.93108
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2081, 
+                        "raw": "Fri Dec 24 22:07:02 2021.931108 from.mailutils@7f3d4a5ff926[2081] futex(0x7f3d4a49fa90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a5ff926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f3d4a49fa90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383622.931108
+                    }
+                ], 
+                "pid": 2081, 
+                "process_name": "from.mailutils", 
+                "command_line": "/tmp/from.mailutils", 
+                "first_seen": 1640383622.89381, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2082, 
+                        "raw": "Fri Dec 24 22:07:02 2021.920383 from.mailutils@7f3d4a712117[2082] set_robust_list(0x7f3d4a49e9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a712117", 
+                        "arguments": {
+                            "p0": "0x7f3d4a49e9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383622.920383
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2082, 
+                        "raw": "Fri Dec 24 22:07:02 2021.920457 from.mailutils@7f3d4a6354c3[2082] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f3d41c9e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3d41c9e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a6354c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383622.920457
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2082, 
+                        "raw": "Fri Dec 24 22:07:02 2021.920528 from.mailutils@7f3d4a635567[2082] munmap(0x7f3d41c9e000, 37101568) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a635567", 
+                        "arguments": {
+                            "p0": "0x7f3d41c9e000", 
+                            "p1": "37101568"
+                        }, 
+                        "time": 1640383622.920528
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2082, 
+                        "raw": "Fri Dec 24 22:07:02 2021.920595 from.mailutils@7f3d4a635567[2082] munmap(0x7f3d48000000, 30007296) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a635567", 
+                        "arguments": {
+                            "p0": "0x7f3d48000000", 
+                            "p1": "30007296"
+                        }, 
+                        "time": 1640383622.920595
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2082, 
+                        "raw": "Fri Dec 24 22:07:02 2021.920639 from.mailutils@7f3d4a635597[2082] mprotect(0x7f3d44000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a635597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f3d44000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383622.920639
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "from.mailutils", 
+                        "pid": 2082, 
+                        "raw": "Fri Dec 24 22:07:02 2021.920738 from.mailutils@7f3d4a71c440[2082] nanosleep([0.010000000], 0x7f3d4a49dd80) = 0\n", 
+                        "api": "nanosleep", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3d4a71c440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f3d4a49dd80"
+                        }, 
+                        "time": 1640383622.920738
+                    }
+                ], 
+                "pid": 2082, 
+                "process_name": "from.mailutils", 
+                "command_line": "", 
+                "first_seen": 1640383622.920383, 
+                "ppid": 2081, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2081, 
+                "process_name": "from.mailutils", 
+                "command_line": "/tmp/from.mailutils", 
+                "first_seen": 1640383622.89381, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2082, 
+                        "process_name": "from.mailutils", 
+                        "command_line": "", 
+                        "first_seen": 1640383622.920383, 
+                        "ppid": 2081, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:06:50,004 [root] DEBUG: Starting analyzer from: /tmp/tmpNqo7Ha\n", 
+            "2021-12-24 22:06:50,005 [root] DEBUG: Storing results at: /tmp/oiWFjM\n", 
+            "2021-12-24 22:06:52,119 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:06:52,123 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:06:52,125 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:07:02,892 [lib.core.packages] INFO: Process startup took 10.76 seconds\n", 
+            "2021-12-24 22:07:02,893 [root] INFO: Added new process to list with pid: 2068\n", 
+            "2021-12-24 22:07:14,912 [root] INFO: Process with pid 2068 has terminated\n", 
+            "2021-12-24 22:07:14,913 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:17,916 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:17,917 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 02:10:21,525 [cuckoo.core.scheduler] INFO: Task #2548421: acquired machine Ubuntu1904x647 (label=Ubuntu1904x647)\n", 
+            "2021-12-25 02:10:21,525 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.107 for task #2548421\n", 
+            "2021-12-25 02:10:21,695 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3085046 (interface=vboxnet0, host=192.168.168.107)\n", 
+            "2021-12-25 02:10:21,845 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x647\n", 
+            "2021-12-25 02:10:22,225 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x647 to Snapshot\n", 
+            "2021-12-25 02:10:58,530 [cuckoo.core.guest] INFO: Starting analysis #2548421 on guest (id=Ubuntu1904x647, ip=192.168.168.107)\n", 
+            "2021-12-25 02:10:59,536 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: not ready yet\n", 
+            "2021-12-25 02:11:04,551 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x647, ip=192.168.168.107)\n", 
+            "2021-12-25 02:11:04,566 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x647, ip=192.168.168.107, monitor=latest, size=72028)\n", 
+            "2021-12-25 02:11:05,774 [cuckoo.core.resultserver] DEBUG: Task #2548421: live log analysis.log initialized.\n", 
+            "2021-12-25 02:11:11,172 [cuckoo.core.resultserver] DEBUG: Task #2548421: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 02:11:11,182 [cuckoo.core.resultserver] DEBUG: Task #2548421 uploaded file length: 171563\n", 
+            "2021-12-25 02:11:19,716 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548421 still processing\n", 
+            "2021-12-25 02:11:33,704 [cuckoo.core.resultserver] DEBUG: Task #2548421: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 02:11:33,709 [cuckoo.core.resultserver] DEBUG: Task #2548421 uploaded file length: 21664\n", 
+            "2021-12-25 02:11:34,784 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548421 still processing\n", 
+            "2021-12-25 02:11:49,841 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548421 still processing\n", 
+            "2021-12-25 02:12:04,900 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548421 still processing\n", 
+            "2021-12-25 02:12:20,085 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548421 still processing\n", 
+            "2021-12-25 02:12:35,165 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548421 still processing\n", 
+            "2021-12-25 02:12:50,247 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548421 still processing\n", 
+            "2021-12-25 02:13:05,328 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548421 still processing\n", 
+            "2021-12-25 02:13:20,424 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548421 still processing\n", 
+            "2021-12-25 02:13:35,524 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548421 still processing\n", 
+            "2021-12-25 02:13:50,611 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548421 still processing\n", 
+            "2021-12-25 02:14:05,709 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548421 still processing\n", 
+            "2021-12-25 02:14:20,810 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548421 still processing\n", 
+            "2021-12-25 02:14:35,882 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548421 still processing\n", 
+            "2021-12-25 02:14:50,984 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2548421 still processing\n", 
+            "2021-12-25 02:15:06,032 [cuckoo.core.guest] INFO: Ubuntu1904x647: end of analysis reached!\n", 
+            "2021-12-25 02:15:06,042 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 02:15:06,141 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 02:15:19,249 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x647 to path /srv/cuckoo/cwd/storage/analyses/2548421/memory.dmp\n", 
+            "2021-12-25 02:15:19,251 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x647\n", 
+            "2021-12-25 02:15:23,360 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.107 for task #2548421\n", 
+            "2021-12-25 02:15:23,361 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2548421\n", 
+            "2021-12-25 02:15:23,495 [cuckoo.core.scheduler] DEBUG: Released database task #2548421\n", 
+            "2021-12-25 02:15:23,593 [cuckoo.core.scheduler] INFO: Task #2548421: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "__stack_chk_guard", 
+        "count_only", 
+        "sender_option", 
+        "mu_message_get_header", 
+        "mu_header_aget_value_unfold_n", 
+        "strstr", 
+        "__stack_chk_fail", 
+        "setlocale", 
+        "mu_init_nls", 
+        "mu_mbox_record", 
+        "mu_registrar_record", 
+        "mu_pop_record", 
+        "mu_pops_record", 
+        "mu_imap_record", 
+        "mu_imaps_record", 
+        "mu_mh_record", 
+        "mu_maildir_record", 
+        "mu_registrar_set_default_record", 
+        "mu_auth_tls_module", 
+        "mu_auth_register_module", 
+        "mu_cli", 
+        "dgettext", 
+        "mu_error", 
+        "mailbox_name", 
+        "strlen", 
+        "mu_alloc", 
+        "strcpy", 
+        "init_output", 
+        "frm_scan", 
+        "dngettext", 
+        "mu_printf", 
+        "open64", 
+        "getenv", 
+        "strtol", 
+        "mu_parse_lc_all", 
+        "mu_strdup", 
+        "logical_size", 
+        "outstring", 
+        "get_charset", 
+        "fribidi_parse_charset", 
+        "frm_debug", 
+        "fribidi_charset_to_unicode", 
+        "mu_realloc", 
+        "fribidi_log2vis", 
+        "wcwidth", 
+        "fribidi_unicode_to_charset", 
+        "puts_bidi", 
+        "mu_strout", 
+        "mu_stream_vprintf", 
+        "vsnprintf", 
+        "gnu_mbswidth", 
+        "format_field_simple", 
+        "format_field_align", 
+        "alloc_logical", 
+        "show_number", 
+        "show_to", 
+        "show_field", 
+        "util_getcols", 
+        "strcmp", 
+        "mu_rfc2047_decode", 
+        "mu_strerror", 
+        "mu_address_create", 
+        "mu_address_sget_personal", 
+        "mu_address_destroy", 
+        "mu_observer_get_owner", 
+        "mu_mailbox_get_message", 
+        "mu_message_get_attribute", 
+        "print_line", 
+        "mu_mailbox_close", 
+        "mu_mailbox_get_url", 
+        "mu_url_to_string", 
+        "mu_mailbox_destroy", 
+        "mu_mailbox_create_default", 
+        "mu_debug_set_category_level", 
+        "mu_mailbox_open", 
+        "mu_observer_create", 
+        "mu_observer_set_action", 
+        "mu_observer_set_action_data", 
+        "mu_mailbox_get_observable", 
+        "mu_observable_attach", 
+        "mu_mailbox_scan", 
+        "mu_observable_detach", 
+        "mu_observer_destroy", 
+        "libmuaux.so.5", 
+        "libmu_mbox.so.5", 
+        "libmu_imap.so.5", 
+        "libmu_pop.so.5", 
+        "libmu_mh.so.5", 
+        "libmu_maildir.so.5", 
+        "libmu_auth.so.5", 
+        "libgsasl.so.7", 
+        "libgnutls.so.30", 
+        "libldap_r-2.4.so.2", 
+        "libpam.so.0", 
+        "libdl.so.2", 
+        "libmailutils.so.5", 
+        "libfribidi.so.0", 
+        "libcrypt.so.1", 
+        "libresolv.so.2", 
+        "libpthread.so.0", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "ld.so.1", 
+        "_ftext", 
+        "_fdata", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.4", 
+        "GLIBC_2.2", 
+        "GLIBC_2.0", 
+        "PDE$% `", 
+        "EF$%(`", 
+        "EE$% `", 
+        "EE$% `", 
+        "EE$% `", 
+        "\\2E$% `", 
+        "just print a count of messages and exit", 
+        "sender", 
+        "ADDRESS", 
+        "print only mail from addresses containing the supplied string", 
+        "read mail from FILE", 
+        "enable debugging output", 
+        "GNU from -- display from and subject.", 
+        "[OPTIONS] [USER]", 
+        "mailbox", 
+        "locking", 
+        "too many arguments", 
+        "mailutils", 
+        "both --from option and user name are specified", 
+        "There are %lu messages in your incoming mailbox.", 
+        "There is %lu message in your incoming mailbox.", 
+        "/dev/tty", 
+        "COLUMNS", 
+        "LC_ALL", 
+        "fribidi failed to recognize charset `%s'", 
+        "mailutils", 
+        "cannot decode line `%s': %s", 
+        "(none)", 
+        "Subject", 
+        "could not close mailbox `%s': %s", 
+        "could not create mailbox `%s': %s", 
+        "could not create default mailbox: %s", 
+        "could not open mailbox `%s': %s", 
+        "could not scan mailbox `%s': %s", 
+        "13856467d104ef63c5f13c750d78577bba3ebd.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
