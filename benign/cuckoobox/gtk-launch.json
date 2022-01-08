@@ -1,0 +1,3313 @@
+{
+    "info": {
+        "added": 1640383612.169624, 
+        "started": 1640399893.731394, 
+        "duration": 654, 
+        "ended": 1640400548.525372, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2548467, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x641", 
+            "label": "Ubuntu1904x641", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 02:44:19", 
+            "shutdown_on": "2021-12-25 02:49:08"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "abb502f057f8de886ad48bf15ee16d61f6452cd9", 
+            "name": "gtk-launch", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=73c564dbacf11389e956a30df4e91a978368a3dd, stripped", 
+            "sha256": "6ca27ed3c8f6a7045447e12c8b39038672944fe8db3b54b3dbc68641ca64d0cf", 
+            "urls": [], 
+            "crc32": "DA9C9C7F", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/6ca27ed3c8f6a7045447e12c8b39038672944fe8db3b54b3dbc68641ca64d0cf", 
+            "ssdeep": "192:ok4eOv6pUE8pGk1WXRi/OMkCeYbPWTdRrWR6/ghDjgI4qjtco9w0VA44LjatqtjD:ETv6UAMWRAOMkCeYbPWTdRrWR6/ghDj6", 
+            "size": 10312, 
+            "sha512": "574a5580a2ed4b2b7c3a81c4facb53bf323b5e980d82ebb3b69a403194ea2810d95eacf7c2be1a5a462826b6748e2a4a2604f5c7f9dffdf62ae0ea9544e8795d", 
+            "md5": "f36614fef0e38da23d3f70c007a92258"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "09f21537-18f3-487f-a1fd-37a7639bd350", 
+        "parent_file_sha256": null, 
+        "name": "6ca27ed3c8f6a7045447e12c8b39038672944fe8db3b54b3dbc68641ca64d0cf", 
+        "probes_total": 16, 
+        "scan_date": 1640393349, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "abb502f057f8de886ad48bf15ee16d61f6452cd9", 
+            "tags": [], 
+            "timestamp_first_scan": 1640393349.1, 
+            "timestamp_last_scan": 1640393358.03, 
+            "sha256": "6ca27ed3c8f6a7045447e12c8b39038672944fe8db3b54b3dbc68641ca64d0cf", 
+            "md5": "f36614fef0e38da23d3f70c007a92258", 
+            "size": 10312
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.26, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.1, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.71, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-15 12:09:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.26, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 4.09, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.86, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.68, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.65, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.14, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.06, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "b89fb047-2c85-435d-939f-e66b54b4ecd5", 
+        "file_sha256": "6ca27ed3c8f6a7045447e12c8b39038672944fe8db3b54b3dbc68641ca64d0cf"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.101", 
+                "version": "TLS 1.2", 
+                "src_port": 51438, 
+                "dst_port": 443, 
+                "timestamp": "2021-12-25T02:45:02.019246+0200", 
+                "dst_ip": "91.189.92.40", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "3747da458fe4d8339cb32e70568bfa68bd45d47eecc2db39dfb34e77ba8faed4", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "fe2530788267710f213aa5b98b48e4f0520fbbd0932a2228b0cd1703094f20af", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "gtk-launch", 
+                "pid": 2076, 
+                "summary": {}, 
+                "first_seen": 1640383619.488212, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "gtk-launch", 
+                "pid": 2077, 
+                "summary": {}, 
+                "first_seen": 1640383619.509357, 
+                "ppid": 2076
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.488212 gtk-launch@7fe2d11e6c27[2076] execve(\"/tmp/gtk-launch\", [\"/tmp/gtk-launch\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/gtk-launch\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmphQDmPO\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e6c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/gtk-launch", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmphQDmPO"
+                            ], 
+                            "p0": "/tmp/gtk-launch", 
+                            "p1": [
+                                "/tmp/gtk-launch"
+                            ]
+                        }, 
+                        "time": 1640383619.488212
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.491595 gtk-launch@7fe2d11e6c27[2076] brk(0x0) = 94283714789376\n", 
+                        "api": "brk", 
+                        "return_value": "94283714789376", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e6c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383619.491595
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.492654 gtk-launch@7fe2d11e79d7[2076] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e79d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383619.492654
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.493698 gtk-launch@7fe2d11e7b0d[2076] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383619.493698
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.493732 gtk-launch@7fe2d11e7943[2076] fstat(4, 0x7ffc417924a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc417924a0"
+                        }, 
+                        "time": 1640383619.493732
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.493758 gtk-launch@7fe2d11e7d03[2076] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7fe2d11b5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d11b5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.493758
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.493790 gtk-launch@7fe2d11e79f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.49379
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.493825 gtk-launch@7fe2d11e7b0d[2076] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383619.493825
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.493857 gtk-launch@7fe2d11e7bd4[2076] read(4, 0x7ffc41792658, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc41792658"
+                        }, 
+                        "time": 1640383619.493857
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.493883 gtk-launch@7fe2d11e7943[2076] fstat(4, 0x7ffc417924f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc417924f0"
+                        }, 
+                        "time": 1640383619.493883
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.493908 gtk-launch@7fe2d11e7d03[2076] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe2d11b3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d11b3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.493908
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.493939 gtk-launch@7fe2d11e7d03[2076] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fe2d11ad000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d11ad000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.493939
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.493968 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d11ae000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fe2d11ae000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d11ae000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d11ae000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383619.493968
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494002 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d11b0000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fe2d11b0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d11b0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d11b0000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383619.494002
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494033 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d11b1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fe2d11b1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d11b1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d11b1000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383619.494033
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494069 gtk-launch@7fe2d11e79f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.494069
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494101 gtk-launch@7fe2d11e7b0d[2076] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383619.494101
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494130 gtk-launch@7fe2d11e7bd4[2076] read(4, 0x7ffc41792638, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc41792638"
+                        }, 
+                        "time": 1640383619.49413
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494155 gtk-launch@7fe2d11e7943[2076] fstat(4, 0x7ffc417924d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc417924d0"
+                        }, 
+                        "time": 1640383619.494155
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494181 gtk-launch@7fe2d11e7d03[2076] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fe2d108c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d108c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.494181
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494210 gtk-launch@7fe2d11e7db7[2076] mprotect(0x7fe2d10a7000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fe2d10a7000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383619.49421
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494241 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d10a7000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7fe2d10a7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d10a7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d10a7000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383619.494241
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494271 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d1127000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7fe2d1127000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d1127000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d1127000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383619.494271
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494303 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d11aa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7fe2d11aa000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d11aa000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d11aa000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383619.494303
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494336 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d11ac000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe2d11ac000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d11ac000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fe2d11ac000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.494336
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494368 gtk-launch@7fe2d11e79f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.494368
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494405 gtk-launch@7fe2d11e7b0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383619.494405
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494433 gtk-launch@7fe2d11e7bd4[2076] read(4, 0x7ffc41792618, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc41792618"
+                        }, 
+                        "time": 1640383619.494433
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494459 gtk-launch@7fe2d11e7943[2076] fstat(4, 0x7ffc417924b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc417924b0"
+                        }, 
+                        "time": 1640383619.494459
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494484 gtk-launch@7fe2d11e7d03[2076] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fe2d1081000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d1081000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.494484
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494513 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d1084000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fe2d1084000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d1084000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d1084000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383619.494513
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494545 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d1088000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fe2d1088000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d1088000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d1088000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383619.494545
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494576 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d108a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7fe2d108a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d108a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d108a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383619.494576
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494611 gtk-launch@7fe2d11e79f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.494611
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494643 gtk-launch@7fe2d11e7b0d[2076] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383619.494643
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494671 gtk-launch@7fe2d11e7bd4[2076] read(4, 0x7ffc417925f8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc417925f8"
+                        }, 
+                        "time": 1640383619.494671
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494695 gtk-launch@7fe2d11e7943[2076] fstat(4, 0x7ffc41792490) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc41792490"
+                        }, 
+                        "time": 1640383619.494695
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494723 gtk-launch@7fe2d11e7d03[2076] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fe2d0e9f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0e9f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.494723
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494750 gtk-launch@7fe2d11e7db7[2076] mprotect(0x7fe2d0f34000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fe2d0f34000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383619.49475
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494781 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d0f34000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7fe2d0f34000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0f34000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d0f34000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383619.494781
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494810 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d1026000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7fe2d1026000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d1026000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d1026000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383619.49481
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494837 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d1070000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7fe2d1070000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d1070000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d1070000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383619.494837
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494869 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d107e000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe2d107e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d107e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fe2d107e000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.494869
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494902 gtk-launch@7fe2d11e79f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.494902
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494938 gtk-launch@7fe2d11e7b0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383619.494938
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494968 gtk-launch@7fe2d11e7bd4[2076] read(4, 0x7ffc417925d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc417925d8"
+                        }, 
+                        "time": 1640383619.494968
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.494993 gtk-launch@7fe2d11e7943[2076] fstat(4, 0x7ffc41792470) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc41792470"
+                        }, 
+                        "time": 1640383619.494993
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495018 gtk-launch@7fe2d11e7d03[2076] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fe2d0d51000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0d51000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.495018
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495046 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d0d60000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7fe2d0d60000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0d60000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d0d60000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383619.495046
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495077 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d0e06000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7fe2d0e06000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0e06000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d0e06000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383619.495077
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495106 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d0e9d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7fe2d0e9d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0e9d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d0e9d000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383619.495106
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495143 gtk-launch@7fe2d11e79f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.495143
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495176 gtk-launch@7fe2d11e7b0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383619.495176
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495203 gtk-launch@7fe2d11e7bd4[2076] read(4, 0x7ffc417925b8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc417925b8"
+                        }, 
+                        "time": 1640383619.495203
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495228 gtk-launch@7fe2d11e7943[2076] fstat(4, 0x7ffc41792450) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc41792450"
+                        }, 
+                        "time": 1640383619.495228
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495253 gtk-launch@7fe2d11e7d03[2076] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fe2d0d37000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0d37000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.495253
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495282 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d0d3a000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fe2d0d3a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0d3a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d0d3a000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383619.495282
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495312 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d0d4b000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7fe2d0d4b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0d4b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d0d4b000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383619.495312
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495344 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d0d4f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7fe2d0d4f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0d4f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d0d4f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383619.495344
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495379 gtk-launch@7fe2d11e79f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.495379
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495409 gtk-launch@7fe2d11e7b0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383619.495409
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495437 gtk-launch@7fe2d11e7bd4[2076] read(4, 0x7ffc41792598, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc41792598"
+                        }, 
+                        "time": 1640383619.495437
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495461 gtk-launch@7fe2d11e7943[2076] fstat(4, 0x7ffc41792430) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc41792430"
+                        }, 
+                        "time": 1640383619.495461
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495487 gtk-launch@7fe2d11e7d03[2076] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe2d0d35000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0d35000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.495487
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495517 gtk-launch@7fe2d11e7d03[2076] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fe2d0d14000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0d14000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.495517
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495544 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d0d1b000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fe2d0d1b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0d1b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d0d1b000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383619.495544
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495576 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d0d2a000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7fe2d0d2a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0d2a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d0d2a000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383619.495576
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495605 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d0d2f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7fe2d0d2f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0d2f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d0d2f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383619.495605
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495639 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d0d31000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe2d0d31000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0d31000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fe2d0d31000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.495639
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495670 gtk-launch@7fe2d11e79f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.49567
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495700 gtk-launch@7fe2d11e7b0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383619.4957
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495727 gtk-launch@7fe2d11e7bd4[2076] read(4, 0x7ffc41792578, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc41792578"
+                        }, 
+                        "time": 1640383619.495727
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495751 gtk-launch@7fe2d11e7943[2076] fstat(4, 0x7ffc41792410) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc41792410"
+                        }, 
+                        "time": 1640383619.495751
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495776 gtk-launch@7fe2d11e7d03[2076] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fe2d0b29000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0b29000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.495776
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495805 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d0b4e000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7fe2d0b4e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0b4e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d0b4e000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383619.495805
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495836 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d0cc1000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7fe2d0cc1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0cc1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d0cc1000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383619.495836
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495864 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d0d0a000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7fe2d0d0a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0d0a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d0d0a000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383619.495864
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495895 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d0d10000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe2d0d10000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0d10000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fe2d0d10000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.495895
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495926 gtk-launch@7fe2d11e79f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.495926
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.495972 gtk-launch@7fe2d11e7b0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383619.495972
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.496002 gtk-launch@7fe2d11e7bd4[2076] read(4, 0x7ffc41792558, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc41792558"
+                        }, 
+                        "time": 1640383619.496002
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.496028 gtk-launch@7fe2d11e7943[2076] fstat(4, 0x7ffc417923f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc417923f0"
+                        }, 
+                        "time": 1640383619.496028
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.496053 gtk-launch@7fe2d11e7d03[2076] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fe2d0b23000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0b23000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.496053
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.496082 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d0b24000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fe2d0b24000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0b24000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d0b24000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383619.496082
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.496114 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d0b26000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fe2d0b26000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0b26000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d0b26000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383619.496114
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.496145 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d0b27000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fe2d0b27000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0b27000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d0b27000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383619.496145
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.496180 gtk-launch@7fe2d11e79f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.49618
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.496213 gtk-launch@7fe2d11e7b0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383619.496213
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.496291 gtk-launch@7fe2d11e7bd4[2076] read(4, 0x7ffc41792538, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc41792538"
+                        }, 
+                        "time": 1640383619.496291
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.496329 gtk-launch@7fe2d11e7943[2076] fstat(4, 0x7ffc417923d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc417923d0"
+                        }, 
+                        "time": 1640383619.496329
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.496363 gtk-launch@7fe2d11e7d03[2076] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fe2d0aaf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0aaf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.496363
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.496392 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d0ab1000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7fe2d0ab1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0ab1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d0ab1000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383619.496392
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.496425 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d0b03000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7fe2d0b03000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0b03000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d0b03000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383619.496425
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.496455 gtk-launch@7fe2d11e7d03[2076] mmap2(0x7fe2d0b21000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7fe2d0b21000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0b21000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe2d0b21000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383619.496455
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.496494 gtk-launch@7fe2d11e79f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.496494
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.497609 gtk-launch@7fe2d11e7d03[2076] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe2d0aad000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0aad000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.497609
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.497673 gtk-launch@7fe2d11e7d03[2076] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe2d0aaa000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0aaa000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.497673
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.497715 gtk-launch@7fe2d11ccf30[2076] arch_prctl(ARCH_SET_FS, 140612140181440) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11ccf30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140612140181440"
+                        }, 
+                        "time": 1640383619.497715
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.498489 gtk-launch@7fe2d11e7db7[2076] mprotect(0x7fe2d0d0a000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fe2d0d0a000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383619.498489
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.498532 gtk-launch@7fe2d11e7db7[2076] mprotect(0x7fe2d0d2f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fe2d0d2f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383619.498532
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.498576 gtk-launch@7fe2d11e7db7[2076] mprotect(0x7fe2d0b21000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fe2d0b21000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383619.498576
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.498608 gtk-launch@7fe2d11e7db7[2076] mprotect(0x7fe2d0b27000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fe2d0b27000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383619.498608
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.498637 gtk-launch@7fe2d11e7db7[2076] mprotect(0x7fe2d0d4f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fe2d0d4f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383619.498637
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.498683 gtk-launch@7fe2d11e7db7[2076] mprotect(0x7fe2d0e9d000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fe2d0e9d000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383619.498683
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.499254 gtk-launch@7fe2d11e7db7[2076] mprotect(0x7fe2d1070000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fe2d1070000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383619.499254
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.499291 gtk-launch@7fe2d11e7db7[2076] mprotect(0x7fe2d108a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fe2d108a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383619.499291
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.499420 gtk-launch@7fe2d11e7db7[2076] mprotect(0x7fe2d11aa000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fe2d11aa000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383619.49942
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.499460 gtk-launch@7fe2d11e7db7[2076] mprotect(0x7fe2d11b1000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fe2d11b1000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383619.49946
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.503809 gtk-launch@7fe2d11e7db7[2076] mprotect(0x55c01fc6f000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55c01fc6f000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383619.503809
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.503853 gtk-launch@7fe2d11e7db7[2076] mprotect(0x7fe2d11f5000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fe2d11f5000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383619.503853
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.503897 gtk-launch@7fe2d11e7d97[2076] munmap(0x7fe2d11b5000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d11e7d97", 
+                        "arguments": {
+                            "p0": "0x7fe2d11b5000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383619.503897
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.503949 gtk-launch@7fe2d0d1b8df[2076] set_tid_address(0x7fe2d0aaaa90) = 2076\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2076", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0d1b8df", 
+                        "arguments": {
+                            "p0": "0x7fe2d0aaaa90"
+                        }, 
+                        "time": 1640383619.503949
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.503977 gtk-launch@7fe2d0d1b94a[2076] set_robust_list(0x7fe2d0aaaaa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0d1b94a", 
+                        "arguments": {
+                            "p0": "0x7fe2d0aaaaa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383619.503977
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.504011 gtk-launch@7fe2d0d28010[2076] rt_sigaction(0x20, {0x7fe2d0d1b6c0, SA_SIGINFO|SA_RESTORER, 0x7fe2d0d27f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0d28010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7fe2d0d1b6c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7fe2d0d27f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383619.504011
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.504043 gtk-launch@7fe2d0d28010[2076] rt_sigaction(0x21, {0x7fe2d0d1b760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7fe2d0d27f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0d28010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7fe2d0d1b760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7fe2d0d27f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383619.504043
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.504072 gtk-launch@7fe2d0d1ba19[2076] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0d1ba19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383619.504072
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.504107 gtk-launch@7fe2d0c3bdf0[2076] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc41793230) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c3bdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc41793230", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383619.504107
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.504487 gtk-launch@7fe2d0c3c2f7[2076] brk(0x0) = 94283714789376\n", 
+                        "api": "brk", 
+                        "return_value": "94283714789376", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c3c2f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383619.504487
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.504564 gtk-launch@7fe2d0c3c2f7[2076] brk(0x55c023561000) = 94283714924544\n", 
+                        "api": "brk", 
+                        "return_value": "94283714924544", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c3c2f7", 
+                        "arguments": {
+                            "p0": "0x55c023561000"
+                        }, 
+                        "time": 1640383619.504564
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.505966 gtk-launch@7fe2d0d24b86[2076] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc41793180, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0d24b86", 
+                        "arguments": {
+                            "p2": "0x7ffc41793180", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383619.505966
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.509121 gtk-launch@7fe2d0c404c3[2076] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fe2d02a9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d02a9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c404c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.509121
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.509154 gtk-launch@7fe2d0c40597[2076] mprotect(0x7fe2d02aa000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c40597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fe2d02aa000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383619.509154
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.509195 gtk-launch@7fe2d0c46b11[2076] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7fe2d0aa8f30, 0x7fe2d0aa99d0, 0x7fe2d0aa99d0) = 2077\n", 
+                        "api": "clone", 
+                        "return_value": "2077", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c46b11", 
+                        "arguments": {
+                            "p2": "0x7fe2d0aa99d0", 
+                            "p3": "0x7fe2d0aa99d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7fe2d0aa8f30"
+                        }, 
+                        "time": 1640383619.509195
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.509272 gtk-launch@7fe2d0d24b86[2076] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0d24b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383619.509272
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.515586 gtk-launch@7fe2d0c3bdf0[2076] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc41792ce0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c3bdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc41792ce0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383619.515586
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.515656 gtk-launch@7fe2d0c3b5c1[2076] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c3b5c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383619.515656
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.516721 gtk-launch@7fe2d0c0a247[2076] uname(0x7ffc41792950) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c0a247", 
+                        "arguments": {
+                            "p0": "0x7ffc41792950"
+                        }, 
+                        "time": 1640383619.516721
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.516773 gtk-launch@7fe2d0d27337[2076] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0d27337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383619.516773
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.516821 gtk-launch@7fe2d0d26d94[2076] read(3, 0x7ffc41792c40, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0d26d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffc41792c40"
+                        }, 
+                        "time": 1640383619.516821
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.516870 gtk-launch@7fe2d0d27337[2076] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0d27337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383619.51687
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.518045 gtk-launch@7fe2d0c3c2f7[2076] brk(0x55c023582000) = 94283715059712\n", 
+                        "api": "brk", 
+                        "return_value": "94283715059712", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c3c2f7", 
+                        "arguments": {
+                            "p0": "0x55c023582000"
+                        }, 
+                        "time": 1640383619.518045
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.518243 gtk-launch@7fe2d0c404c3[2076] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe2d0228000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2d0228000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c404c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.518243
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.518753 gtk-launch@7fe2d0c40597[2076] mprotect(0x55c01fcf2000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c40597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55c01fcf2000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383619.518753
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.518807 gtk-launch@7fe2d0c40667[2076] madvise(0x55c01fcf2000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c40667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55c01fcf2000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383619.518807
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.519782 gtk-launch@7fe2d0c54d9c[2076] futex(0x7fe2d0d0dc40, FUTEX_WAIT_PRIVATE, 2) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c54d9c", 
+                        "arguments": {
+                            "p2": "2", 
+                            "p0": "0x7fe2d0d0dc40", 
+                            "p1": "FUTEX_WAIT_PRIVATE"
+                        }, 
+                        "time": 1640383619.519782
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.520010 gtk-launch@7fe2d0c54dc9[2076] futex(0x7fe2d0d0dc40, FUTEX_WAKE_PRIVATE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c54dc9", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7fe2d0d0dc40", 
+                            "p1": "FUTEX_WAKE_PRIVATE"
+                        }, 
+                        "time": 1640383619.52001
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.520061 gtk-launch@7fe2d0c404c3[2076] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fe24c000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe24c000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c404c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.520061
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.520118 gtk-launch@7fe2d0c35d59[2076] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c35d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383619.520118
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.520182 gtk-launch@7fe2d0c35613[2076] fstat(4, 0x7ffc41792350) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c35613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc41792350"
+                        }, 
+                        "time": 1640383619.520182
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.520236 gtk-launch@7fe2d0c35fb4[2076] read(4, 0x55c02355f4e0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c35fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x55c02355f4e0"
+                        }, 
+                        "time": 1640383619.520236
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.520357 gtk-launch@7fe2d0c3b3f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c3b3f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383619.520357
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.520420 gtk-launch@7fe2d0c402e9[2076] gettid() = 2076\n", 
+                        "api": "gettid", 
+                        "return_value": "2076", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c402e9", 
+                        "arguments": {}, 
+                        "time": 1640383619.52042
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.520458 gtk-launch@7fe2d0c35613[2076] fstat(3, 0x7ffc41792bc0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c35613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffc41792bc0"
+                        }, 
+                        "time": 1640383619.520458
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.520502 gtk-launch@7fe2d0c0b717[2076] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c0b717", 
+                        "arguments": {}, 
+                        "time": 1640383619.520502
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.520539 gtk-launch@7fe2d0c0b737[2076] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c0b737", 
+                        "arguments": {}, 
+                        "time": 1640383619.520539
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.520575 gtk-launch@7fe2d0d26d94[2076] read(3, 0x7ffc41792e20, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0d26d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffc41792e20"
+                        }, 
+                        "time": 1640383619.520575
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.520630 gtk-launch@7fe2d0c404c3[2076] mmap2(0x7fe2cbfed000, 77824, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fe2cbfed000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2cbfed000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c404c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7fe2cbfed000", 
+                            "p1": "77824", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.52063
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.520698 gtk-launch@7fe2d0c404c3[2076] mmap2(0x7fe2cbfed000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7fe2cbfed000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2cbfed000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c404c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fe2cbfed000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.520698
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.520750 gtk-launch@7fe2d0c404c3[2076] mmap2(0x7fe2cbffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 4096) = 0x7fe2cbffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2cbffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c404c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fe2cbffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383619.52075
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.520799 gtk-launch@7fe2d0d26e27[2076] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0d26e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383619.520799
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.520855 gtk-launch@7fe2d0c404c3[2076] mmap2(0x7fe2cb7ec000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe2cb7ec000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2cb7ec000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c404c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fe2cb7ec000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.520855
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.520911 gtk-launch@7fe2d0c3c2f7[2076] brk(0x55c0235a3000) = 94283715194880\n", 
+                        "api": "brk", 
+                        "return_value": "94283715194880", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c3c2f7", 
+                        "arguments": {
+                            "p0": "0x55c0235a3000"
+                        }, 
+                        "time": 1640383619.520911
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.521001 gtk-launch@7fe2d0c40597[2076] mprotect(0x7fe2cb7ec000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c40597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fe2cb7ec000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383619.521001
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.521055 gtk-launch@7fe2d0d2755e[2076] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0d2755e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383619.521055
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.521127 gtk-launch@7fe2d0c36057[2076] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c36057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383619.521127
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.521209 gtk-launch@7fe2d0c0a926[2076] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c0a926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383619.521209
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2076, 
+                        "raw": "Fri Dec 24 22:06:59 2021.521251 gtk-launch@7fe2d0c0a926[2076] futex(0x7fe2d0aaaa90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c0a926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7fe2d0aaaa90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383619.521251
+                    }
+                ], 
+                "pid": 2076, 
+                "process_name": "gtk-launch", 
+                "command_line": "/tmp/gtk-launch", 
+                "first_seen": 1640383619.488212, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:06:59 2021.509357 gtk-launch@7fe2d0d1d117[2077] set_robust_list(0x7fe2d0aa99e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0d1d117", 
+                        "arguments": {
+                            "p0": "0x7fe2d0aa99e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383619.509357
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:06:59 2021.509397 gtk-launch@7fe2d0c404c3[2077] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fe2c82a9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe2c82a9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c404c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383619.509397
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:06:59 2021.509434 gtk-launch@7fe2d0c40567[2077] munmap(0x7fe2c82a9000, 64319488) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c40567", 
+                        "arguments": {
+                            "p0": "0x7fe2c82a9000", 
+                            "p1": "64319488"
+                        }, 
+                        "time": 1640383619.509434
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:06:59 2021.509467 gtk-launch@7fe2d0c40567[2077] munmap(0x7fe2d0000000, 2789376) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c40567", 
+                        "arguments": {
+                            "p0": "0x7fe2d0000000", 
+                            "p1": "2789376"
+                        }, 
+                        "time": 1640383619.509467
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:06:59 2021.509499 gtk-launch@7fe2d0c40597[2077] mprotect(0x7fe2cc000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c40597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fe2cc000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383619.509499
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:06:59 2021.509547 gtk-launch@7fe2d0d27440[2077] nanosleep([0.010000000], 0x7fe2d0aa8d80) = 0\n", 
+                        "api": "nanosleep", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0d27440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7fe2d0aa8d80"
+                        }, 
+                        "time": 1640383619.509547
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:06:59 2021.519746 gtk-launch@7fe2d0c40667[2077] madvise(0x55c023561000, 8192, MADV_DONTNEED) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c40667", 
+                        "arguments": {
+                            "p2": "MADV_DONTNEED", 
+                            "p0": "0x55c023561000", 
+                            "p1": "8192"
+                        }, 
+                        "time": 1640383619.519746
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:06:59 2021.519899 gtk-launch@7fe2d0c54dc9[2077] futex(0x7fe2d0d0dc40, FUTEX_WAKE_PRIVATE, 1) = 1\n", 
+                        "api": "futex", 
+                        "return_value": "1", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c54dc9", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7fe2d0d0dc40", 
+                            "p1": "FUTEX_WAKE_PRIVATE"
+                        }, 
+                        "time": 1640383619.519899
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gtk-launch", 
+                        "pid": 2077, 
+                        "raw": "Fri Dec 24 22:06:59 2021.519965 gtk-launch@7fe2d0c402e9[2077] futex(0x55c021d05a48, FUTEX_WAIT, -1, NULL) = -512\n", 
+                        "api": "futex", 
+                        "return_value": "-512", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe2d0c402e9", 
+                        "arguments": {
+                            "p2": "-1", 
+                            "p3": "NULL", 
+                            "p0": "0x55c021d05a48", 
+                            "p1": "FUTEX_WAIT"
+                        }, 
+                        "time": 1640383619.519965
+                    }
+                ], 
+                "pid": 2077, 
+                "process_name": "gtk-launch", 
+                "command_line": "", 
+                "first_seen": 1640383619.509357, 
+                "ppid": 2076, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2076, 
+                "process_name": "gtk-launch", 
+                "command_line": "/tmp/gtk-launch", 
+                "first_seen": 1640383619.488212, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2077, 
+                        "process_name": "gtk-launch", 
+                        "command_line": "", 
+                        "first_seen": 1640383619.509357, 
+                        "ppid": 2076, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:06:52,004 [root] DEBUG: Starting analyzer from: /tmp/tmphQDmPO\n", 
+            "2021-12-24 22:06:52,004 [root] DEBUG: Storing results at: /tmp/OtmeDMh\n", 
+            "2021-12-24 22:06:54,478 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:06:54,481 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:06:54,484 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:06:59,486 [lib.core.packages] INFO: Process startup took 5.00 seconds\n", 
+            "2021-12-24 22:06:59,488 [root] INFO: Added new process to list with pid: 2067\n", 
+            "2021-12-24 22:07:05,496 [root] INFO: Process with pid 2067 has terminated\n", 
+            "2021-12-24 22:07:05,497 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:08,500 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:08,502 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 02:38:19,065 [cuckoo.core.scheduler] DEBUG: Task #2548467: no machine available yet\n", 
+            "2021-12-25 02:38:49,110 [cuckoo.core.scheduler] DEBUG: Task #2548467: no machine available yet\n", 
+            "2021-12-25 02:39:19,163 [cuckoo.core.scheduler] DEBUG: Task #2548467: no machine available yet\n", 
+            "2021-12-25 02:39:49,206 [cuckoo.core.scheduler] DEBUG: Task #2548467: no machine available yet\n", 
+            "2021-12-25 02:40:19,252 [cuckoo.core.scheduler] DEBUG: Task #2548467: no machine available yet\n", 
+            "2021-12-25 02:40:49,286 [cuckoo.core.scheduler] DEBUG: Task #2548467: no machine available yet\n", 
+            "2021-12-25 02:41:19,328 [cuckoo.core.scheduler] DEBUG: Task #2548467: no machine available yet\n", 
+            "2021-12-25 02:41:49,363 [cuckoo.core.scheduler] DEBUG: Task #2548467: no machine available yet\n", 
+            "2021-12-25 02:42:19,407 [cuckoo.core.scheduler] DEBUG: Task #2548467: no machine available yet\n", 
+            "2021-12-25 02:42:49,479 [cuckoo.core.scheduler] DEBUG: Task #2548467: no machine available yet\n", 
+            "2021-12-25 02:43:19,527 [cuckoo.core.scheduler] DEBUG: Task #2548467: no machine available yet\n", 
+            "2021-12-25 02:43:49,568 [cuckoo.core.scheduler] DEBUG: Task #2548467: no machine available yet\n", 
+            "2021-12-25 02:44:19,628 [cuckoo.core.scheduler] INFO: Task #2548467: acquired machine Ubuntu1904x641 (label=Ubuntu1904x641)\n", 
+            "2021-12-25 02:44:19,629 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.101 for task #2548467\n", 
+            "2021-12-25 02:44:19,786 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3112583 (interface=vboxnet0, host=192.168.168.101)\n", 
+            "2021-12-25 02:44:19,907 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x641\n", 
+            "2021-12-25 02:44:20,370 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x641 to Snapshot\n", 
+            "2021-12-25 02:44:38,773 [cuckoo.core.guest] INFO: Starting analysis #2548467 on guest (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2021-12-25 02:44:39,776 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: not ready yet\n", 
+            "2021-12-25 02:44:44,798 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2021-12-25 02:44:44,812 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x641, ip=192.168.168.101, monitor=latest, size=72028)\n", 
+            "2021-12-25 02:44:44,946 [cuckoo.core.resultserver] DEBUG: Task #2548467: live log analysis.log initialized.\n", 
+            "2021-12-25 02:44:50,483 [cuckoo.core.resultserver] DEBUG: Task #2548467: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 02:44:50,488 [cuckoo.core.resultserver] DEBUG: Task #2548467 uploaded file length: 171563\n", 
+            "2021-12-25 02:44:59,969 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548467 still processing\n", 
+            "2021-12-25 02:45:01,458 [cuckoo.core.resultserver] DEBUG: Task #2548467: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 02:45:01,460 [cuckoo.core.resultserver] DEBUG: Task #2548467 uploaded file length: 21563\n", 
+            "2021-12-25 02:45:15,039 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548467 still processing\n", 
+            "2021-12-25 02:45:30,119 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548467 still processing\n", 
+            "2021-12-25 02:45:45,195 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548467 still processing\n", 
+            "2021-12-25 02:46:00,259 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548467 still processing\n", 
+            "2021-12-25 02:46:15,397 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548467 still processing\n", 
+            "2021-12-25 02:46:30,487 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548467 still processing\n", 
+            "2021-12-25 02:46:45,583 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548467 still processing\n", 
+            "2021-12-25 02:47:00,644 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548467 still processing\n", 
+            "2021-12-25 02:47:15,704 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548467 still processing\n", 
+            "2021-12-25 02:47:30,836 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548467 still processing\n", 
+            "2021-12-25 02:47:45,933 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548467 still processing\n", 
+            "2021-12-25 02:48:01,103 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548467 still processing\n", 
+            "2021-12-25 02:48:16,254 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548467 still processing\n", 
+            "2021-12-25 02:48:31,349 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2548467 still processing\n", 
+            "2021-12-25 02:48:46,400 [cuckoo.core.guest] INFO: Ubuntu1904x641: end of analysis reached!\n", 
+            "2021-12-25 02:48:46,408 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 02:48:46,477 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 02:49:04,318 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x641 to path /srv/cuckoo/cwd/storage/analyses/2548467/memory.dmp\n", 
+            "2021-12-25 02:49:04,322 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x641\n", 
+            "2021-12-25 02:49:08,203 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.101 for task #2548467\n", 
+            "2021-12-25 02:49:08,204 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2548467\n", 
+            "2021-12-25 02:49:08,320 [cuckoo.core.scheduler] DEBUG: Released database task #2548467\n", 
+            "2021-12-25 02:49:08,406 [cuckoo.core.scheduler] INFO: Task #2548467: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "setlocale", 
+        "__stack_chk_guard", 
+        "bindtextdomain", 
+        "bind_textdomain_codeset", 
+        "dcgettext", 
+        "g_option_context_new", 
+        "g_option_context_set_summary", 
+        "g_option_context_add_main_entries", 
+        "gtk_get_option_group", 
+        "g_option_context_add_group", 
+        "g_option_context_parse", 
+        "g_option_context_free", 
+        "g_printerr", 
+        "g_get_prgname", 
+        "g_error_free", 
+        "gtk_get_major_version", 
+        "gtk_init", 
+        "g_strdup", 
+        "g_str_has_suffix", 
+        "g_strconcat", 
+        "g_dbus_is_name", 
+        "g_free", 
+        "g_desktop_app_info_new", 
+        "g_file_new_for_commandline_arg", 
+        "g_list_append", 
+        "gdk_display_get_default", 
+        "gdk_display_get_app_launch_context", 
+        "g_app_info_launch", 
+        "strlen", 
+        "gtk_get_minor_version", 
+        "gtk_get_micro_version", 
+        "g_print", 
+        "g_object_unref", 
+        "g_bus_get_sync", 
+        "g_strdup_printf", 
+        "g_dbus_connection_call_sync", 
+        "g_list_free_full", 
+        "__stack_chk_fail", 
+        "libgtk-3.so.0", 
+        "libgdk-3.so.0", 
+        "libpangocairo-1.0.so.0", 
+        "libX11.so.6", 
+        "libXi.so.6", 
+        "libXcomposite.so.1", 
+        "libXdamage.so.1", 
+        "libXfixes.so.3", 
+        "libcairo-gobject.so.2", 
+        "libcairo.so.2", 
+        "libgdk_pixbuf-2.0.so.0", 
+        "libatk-1.0.so.0", 
+        "libatk-bridge-2.0.so.0", 
+        "libxkbcommon.so.0", 
+        "libwayland-cursor.so.0", 
+        "libwayland-egl.so.1", 
+        "libwayland-client.so.0", 
+        "libepoxy.so.0", 
+        "libpangoft2-1.0.so.0", 
+        "libpango-1.0.so.0", 
+        "libfontconfig.so.1", 
+        "libfreetype.so.6", 
+        "libgio-2.0.so.0", 
+        "libgobject-2.0.so.0", 
+        "libglib-2.0.so.0", 
+        "libm.so.6", 
+        "libpthread.so.0", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "ld.so.1", 
+        "_ftext", 
+        "_fdata", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.4", 
+        "GLIBC_2.2", 
+        "GLIBC_2.0", 
+        "/usr/share/locale", 
+        "APPLICATION [URI...] ", 
+        " launch an APPLICATION", 
+        "Launch an application (specified by its desktop file name),", 
+        "optionally passing one or more URIs as arguments.", 
+        "Error parsing commandline options: %s", 
+        "Try \"%s --help\" for more information.", 
+        "%d.%d.%d", 
+        "%s: missing application name", 
+        ".desktop", 
+        "%s: no such application %s", 
+        "%s: error launching application: %s", 
+        "org.freedesktop.DBus.Peer", 
+        "version", 
+        "Show program version", 
+        "c564dbacf11389e956a30df4e91a978368a3dd.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "fe2530788267710f213aa5b98b48e4f0520fbbd0932a2228b0cd1703094f20af", 
+                "dirname": ""
+            }
+        }
+    }
+}
