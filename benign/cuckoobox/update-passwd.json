@@ -1,0 +1,3794 @@
+{
+    "info": {
+        "added": 1640383636.079256, 
+        "started": 1640426659.148192, 
+        "duration": 826, 
+        "ended": 1640427485.422858, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2549106, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x647", 
+            "label": "Ubuntu1904x647", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-12-25 10:13:30", 
+            "shutdown_on": "2021-12-25 10:18:05"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "a87c14512a118d7898e3cde31d67f35b4563c6db", 
+            "name": "update-passwd", 
+            "type": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld.so.1, for GNU/Linux 3.2.0, BuildID[sha1]=9bd1c7849083a42b9a11e9e940dc542c5f6417fc, stripped", 
+            "sha256": "b7c9f6acfd2a93724865077a29fe72e805af4818c8363eafc46839f72bfc09c0", 
+            "urls": [], 
+            "crc32": "CEB92B36", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/b7c9f6acfd2a93724865077a29fe72e805af4818c8363eafc46839f72bfc09c0", 
+            "ssdeep": "768:vuReBskpRqKxd3qqN1kIm9vYi+dMSua/YW2kGdEjftlqmfiiiwLYrcNmA:GRZAqKxd3qqN1kIQvYi+dMSua/YW2kGL", 
+            "size": 36676, 
+            "sha512": "0684a21adc60de4f1b76e08089c573767d91b228c9304a3c80afdb0fbc3ecd26bbc18f0ad2c00b8733091a02e18ca0f1db8b6f7ec9becbf5909d0caf3843c38d", 
+            "md5": "c0e181b0726e80d126660d349e6aaca0"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "9c03b66f-aaee-4030-862d-68e6540b286c", 
+        "parent_file_sha256": null, 
+        "name": "b7c9f6acfd2a93724865077a29fe72e805af4818c8363eafc46839f72bfc09c0", 
+        "probes_total": 16, 
+        "scan_date": 1640420287, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV)", 
+            "sha1": "a87c14512a118d7898e3cde31d67f35b4563c6db", 
+            "tags": [], 
+            "timestamp_first_scan": 1640420287.31, 
+            "timestamp_last_scan": 1640420296.05, 
+            "sha256": "b7c9f6acfd2a93724865077a29fe72e805af4818c8363eafc46839f72bfc09c0", 
+            "md5": "c0e181b0726e80d126660d349e6aaca0", 
+            "size": 36676
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-10-27_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.351.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.06, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.62, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-15 12:09:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.32, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.17, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.73, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.76, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.68, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.24, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.11, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.99, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "51bb9c7c-0737-42e4-9aa6-0457c5b2dc08", 
+        "file_sha256": "b7c9f6acfd2a93724865077a29fe72e805af4818c8363eafc46839f72bfc09c0"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "scans": {
+            "Bkav": {
+                "detected": false, 
+                "version": "1.3.0.9899", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Lionic": {
+                "detected": false, 
+                "version": "4.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "TotalDefense": {
+                "detected": false, 
+                "version": "37.1.62.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "MicroWorld-eScan": {
+                "detected": false, 
+                "version": "14.0.409.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "FireEye": {
+                "detected": false, 
+                "version": "29.7.0.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200305"
+            }, 
+            "CAT-QuickHeal": {
+                "detected": false, 
+                "version": "14.00", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "McAfee": {
+                "detected": false, 
+                "version": "6.0.6.653", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200304"
+            }, 
+            "Malwarebytes": {
+                "detected": false, 
+                "version": "3.6.4.335", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Zillya": {
+                "detected": false, 
+                "version": "2.0.0.4044", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Sangfor": {
+                "detected": false, 
+                "version": "1.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200306"
+            }, 
+            "K7AntiVirus": {
+                "detected": false, 
+                "version": "11.96.33471", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "K7GW": {
+                "detected": false, 
+                "version": "11.97.33484", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Arcabit": {
+                "detected": false, 
+                "version": "1.0.0.870", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "BitDefenderTheta": {
+                "detected": false, 
+                "version": "7.2.37796.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200305"
+            }, 
+            "F-Prot": {
+                "detected": false, 
+                "version": "4.7.1.166", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "ESET-NOD32": {
+                "detected": false, 
+                "version": "20969", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Baidu": {
+                "detected": false, 
+                "version": "1.0.0.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20190318"
+            }, 
+            "TrendMicro-HouseCall": {
+                "detected": false, 
+                "version": "10.0.0.1040", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Avast": {
+                "detected": false, 
+                "version": "18.4.3895.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "ClamAV": {
+                "detected": false, 
+                "version": "0.102.2.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Kaspersky": {
+                "detected": false, 
+                "version": "15.0.1.13", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "BitDefender": {
+                "detected": false, 
+                "version": "7.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "NANO-Antivirus": {
+                "detected": false, 
+                "version": "1.0.134.25032", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "SUPERAntiSpyware": {
+                "detected": false, 
+                "version": "5.6.0.1032", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200306"
+            }, 
+            "Tencent": {
+                "detected": false, 
+                "version": "1.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Ad-Aware": {
+                "detected": false, 
+                "version": "3.0.5.370", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Sophos": {
+                "detected": false, 
+                "version": "4.98.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Comodo": {
+                "detected": false, 
+                "version": "32181", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "F-Secure": {
+                "detected": false, 
+                "version": "12.0.86.52", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "DrWeb": {
+                "detected": false, 
+                "version": "7.0.44.12030", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "VIPRE": {
+                "detected": false, 
+                "version": "82110", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "TrendMicro": {
+                "detected": false, 
+                "version": "11.0.0.1006", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "McAfee-GW-Edition": {
+                "detected": false, 
+                "version": "v2017.3010", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "CMC": {
+                "detected": false, 
+                "version": "1.1.0.977", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20190321"
+            }, 
+            "Emsisoft": {
+                "detected": false, 
+                "version": "2018.12.0.1641", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Ikarus": {
+                "detected": false, 
+                "version": "0.1.5.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Cyren": {
+                "detected": false, 
+                "version": "6.2.2.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Jiangmin": {
+                "detected": false, 
+                "version": "16.0.100", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Avira": {
+                "detected": false, 
+                "version": "8.3.3.8", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Antiy-AVL": {
+                "detected": false, 
+                "version": "3.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Kingsoft": {
+                "detected": false, 
+                "version": "2013.8.14.323", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Microsoft": {
+                "detected": false, 
+                "version": "1.1.16800.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "ViRobot": {
+                "detected": false, 
+                "version": "2014.3.20.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "ZoneAlarm": {
+                "detected": false, 
+                "version": "1.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Avast-Mobile": {
+                "detected": false, 
+                "version": "200309-00", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "GData": {
+                "detected": false, 
+                "version": "A:25.25107B:26.17954", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "AhnLab-V3": {
+                "detected": false, 
+                "version": "3.17.3.26870", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "VBA32": {
+                "detected": false, 
+                "version": "4.3.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "ALYac": {
+                "detected": false, 
+                "version": "1.1.1.5", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "TACHYON": {
+                "detected": false, 
+                "version": "2020-03-09.02", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Zoner": {
+                "detected": false, 
+                "version": "1.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Rising": {
+                "detected": false, 
+                "version": "25.0.0.24", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Yandex": {
+                "detected": false, 
+                "version": "5.5.2.24", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200306"
+            }, 
+            "MAX": {
+                "detected": false, 
+                "version": "2019.9.16.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "MaxSecure": {
+                "detected": false, 
+                "version": "1.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Fortinet": {
+                "detected": false, 
+                "version": "6.2.142.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "AVG": {
+                "detected": false, 
+                "version": "18.4.3895.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Panda": {
+                "detected": false, 
+                "version": "4.6.4.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }, 
+            "Qihoo-360": {
+                "detected": false, 
+                "version": "1.0.0.1120", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20200309"
+            }
+        }, 
+        "scan_id": "b7c9f6acfd2a93724865077a29fe72e805af4818c8363eafc46839f72bfc09c0-1583785272", 
+        "sha1": "a87c14512a118d7898e3cde31d67f35b4563c6db", 
+        "resource": "c0e181b0726e80d126660d349e6aaca0", 
+        "response_code": 1, 
+        "scan_date": "2020-03-09 20:21:12", 
+        "permalink": "https://www.virustotal.com/gui/file/b7c9f6acfd2a93724865077a29fe72e805af4818c8363eafc46839f72bfc09c0/detection/f-b7c9f6acfd2a93724865077a29fe72e805af4818c8363eafc46839f72bfc09c0-1583785272", 
+        "summary": {
+            "positives": 0, 
+            "permalink": "https://www.virustotal.com/gui/file/b7c9f6acfd2a93724865077a29fe72e805af4818c8363eafc46839f72bfc09c0/detection/f-b7c9f6acfd2a93724865077a29fe72e805af4818c8363eafc46839f72bfc09c0-1583785272", 
+            "scan_date": "2020-03-09 20:21:12"
+        }, 
+        "sha256": "b7c9f6acfd2a93724865077a29fe72e805af4818c8363eafc46839f72bfc09c0", 
+        "normalized": [], 
+        "total": 59, 
+        "positives": 0, 
+        "verbose_msg": "Scan finished, information embedded", 
+        "md5": "c0e181b0726e80d126660d349e6aaca0"
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "update-passwd", 
+                "pid": 2085, 
+                "summary": {}, 
+                "first_seen": 1640383648.139394, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "update-passwd", 
+                "pid": 2086, 
+                "summary": {}, 
+                "first_seen": 1640383648.163695, 
+                "ppid": 2085
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.139394 update-passwd@7fb0d010ac27[2085] execve(\"/tmp/update-passwd\", [\"/tmp/update-passwd\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/update-passwd\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpChJ4X2\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010ac27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/update-passwd", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpChJ4X2"
+                            ], 
+                            "p0": "/tmp/update-passwd", 
+                            "p1": [
+                                "/tmp/update-passwd"
+                            ]
+                        }, 
+                        "time": 1640383648.139394
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.142764 update-passwd@7fb0d010ac27[2085] brk(0x0) = 94732230017024\n", 
+                        "api": "brk", 
+                        "return_value": "94732230017024", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010ac27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383648.142764
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.143874 update-passwd@7fb0d010b9d7[2085] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1640383648.143874
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.145049 update-passwd@7fb0d010bb0d[2085] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1640383648.145049
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.145110 update-passwd@7fb0d010b943[2085] fstat(4, 0x7ffc8dec7e20) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7e20"
+                        }, 
+                        "time": 1640383648.14511
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.145192 update-passwd@7fb0d010bd03[2085] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7fb0d00d9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0d00d9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.145192
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.145261 update-passwd@7fb0d010b9f7[2085] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383648.145261
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.145322 update-passwd@7fb0d010bb0d[2085] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1640383648.145322
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.145382 update-passwd@7fb0d010bbd4[2085] read(4, 0x7ffc8dec7fd8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7fd8"
+                        }, 
+                        "time": 1640383648.145382
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.145437 update-passwd@7fb0d010b943[2085] fstat(4, 0x7ffc8dec7e70) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7e70"
+                        }, 
+                        "time": 1640383648.145437
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.145501 update-passwd@7fb0d010bd03[2085] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb0d00d7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0d00d7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.145501
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.145579 update-passwd@7fb0d010bd03[2085] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fb0d00d1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0d00d1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.145579
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.145661 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0d00d2000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fb0d00d2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0d00d2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0d00d2000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383648.145661
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.145724 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0d00d4000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fb0d00d4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0d00d4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0d00d4000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383648.145724
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.145807 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0d00d5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fb0d00d5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0d00d5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0d00d5000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383648.145807
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.145877 update-passwd@7fb0d010b9f7[2085] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383648.145877
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.145931 update-passwd@7fb0d010bb0d[2085] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1640383648.145931
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.145992 update-passwd@7fb0d010bbd4[2085] read(4, 0x7ffc8dec7fb8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7fb8"
+                        }, 
+                        "time": 1640383648.145992
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.146036 update-passwd@7fb0d010b943[2085] fstat(4, 0x7ffc8dec7e50) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7e50"
+                        }, 
+                        "time": 1640383648.146036
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.146122 update-passwd@7fb0d010bd03[2085] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fb0cffb0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cffb0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.146122
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.146181 update-passwd@7fb0d010bdb7[2085] mprotect(0x7fb0cffcb000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fb0cffcb000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1640383648.146181
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.146242 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cffcb000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7fb0cffcb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cffcb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cffcb000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1640383648.146242
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.146300 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0d004b000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7fb0d004b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0d004b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0d004b000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1640383648.1463
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.146387 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0d00ce000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7fb0d00ce000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0d00ce000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0d00ce000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1640383648.146387
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.146465 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0d00d0000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fb0d00d0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0d00d0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fb0d00d0000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.146465
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.146527 update-passwd@7fb0d010b9f7[2085] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383648.146527
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.146593 update-passwd@7fb0d010bb0d[2085] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1640383648.146593
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.146648 update-passwd@7fb0d010bbd4[2085] read(4, 0x7ffc8dec7f98, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7f98"
+                        }, 
+                        "time": 1640383648.146648
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.146700 update-passwd@7fb0d010b943[2085] fstat(4, 0x7ffc8dec7e30) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7e30"
+                        }, 
+                        "time": 1640383648.1467
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.146734 update-passwd@7fb0d010bd03[2085] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fb0cffa5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cffa5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.146734
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.146796 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cffa8000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fb0cffa8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cffa8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cffa8000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383648.146796
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.146997 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cffac000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fb0cffac000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cffac000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cffac000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383648.146997
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.147070 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cffae000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7fb0cffae000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cffae000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cffae000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1640383648.14707
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.147161 update-passwd@7fb0d010b9f7[2085] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383648.147161
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.147220 update-passwd@7fb0d010bb0d[2085] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1640383648.14722
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.147301 update-passwd@7fb0d010bbd4[2085] read(4, 0x7ffc8dec7f78, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7f78"
+                        }, 
+                        "time": 1640383648.147301
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.147362 update-passwd@7fb0d010b943[2085] fstat(4, 0x7ffc8dec7e10) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7e10"
+                        }, 
+                        "time": 1640383648.147362
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.147421 update-passwd@7fb0d010bd03[2085] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fb0cfdc3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfdc3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.147421
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.147494 update-passwd@7fb0d010bdb7[2085] mprotect(0x7fb0cfe58000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fb0cfe58000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1640383648.147494
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.147547 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cfe58000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7fb0cfe58000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfe58000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cfe58000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1640383648.147547
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.147601 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cff4a000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7fb0cff4a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cff4a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cff4a000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1640383648.147601
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.147654 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cff94000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7fb0cff94000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cff94000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cff94000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1640383648.147654
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.147710 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cffa2000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fb0cffa2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cffa2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fb0cffa2000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.14771
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.147771 update-passwd@7fb0d010b9f7[2085] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383648.147771
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.147842 update-passwd@7fb0d010bb0d[2085] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1640383648.147842
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.147908 update-passwd@7fb0d010bbd4[2085] read(4, 0x7ffc8dec7f58, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7f58"
+                        }, 
+                        "time": 1640383648.147908
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.147962 update-passwd@7fb0d010b943[2085] fstat(4, 0x7ffc8dec7df0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7df0"
+                        }, 
+                        "time": 1640383648.147962
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.148016 update-passwd@7fb0d010bd03[2085] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fb0cfc75000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfc75000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.148016
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.148073 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cfc84000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7fb0cfc84000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfc84000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cfc84000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1640383648.148073
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.148147 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cfd2a000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7fb0cfd2a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfd2a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cfd2a000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1640383648.148147
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.148201 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cfdc1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7fb0cfdc1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfdc1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cfdc1000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1640383648.148201
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.148283 update-passwd@7fb0d010b9f7[2085] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383648.148283
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.148349 update-passwd@7fb0d010bb0d[2085] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1640383648.148349
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.148403 update-passwd@7fb0d010bbd4[2085] read(4, 0x7ffc8dec7f38, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7f38"
+                        }, 
+                        "time": 1640383648.148403
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.148450 update-passwd@7fb0d010b943[2085] fstat(4, 0x7ffc8dec7dd0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7dd0"
+                        }, 
+                        "time": 1640383648.14845
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.148530 update-passwd@7fb0d010bd03[2085] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fb0cfc5b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfc5b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.14853
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.148602 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cfc5e000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fb0cfc5e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfc5e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cfc5e000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383648.148602
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.148676 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cfc6f000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7fb0cfc6f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfc6f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cfc6f000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1640383648.148676
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.148753 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cfc73000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7fb0cfc73000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfc73000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cfc73000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1640383648.148753
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.148823 update-passwd@7fb0d010b9f7[2085] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383648.148823
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.148890 update-passwd@7fb0d010bb0d[2085] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1640383648.14889
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.148948 update-passwd@7fb0d010bbd4[2085] read(4, 0x7ffc8dec7f18, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7f18"
+                        }, 
+                        "time": 1640383648.148948
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.149002 update-passwd@7fb0d010b943[2085] fstat(4, 0x7ffc8dec7db0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7db0"
+                        }, 
+                        "time": 1640383648.149002
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.149053 update-passwd@7fb0d010bd03[2085] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb0cfc59000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfc59000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.149053
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.149114 update-passwd@7fb0d010bd03[2085] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fb0cfc38000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfc38000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.149114
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.149168 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cfc3f000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fb0cfc3f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfc3f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cfc3f000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383648.149168
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.149251 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cfc4e000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7fb0cfc4e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfc4e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cfc4e000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1640383648.149251
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.149323 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cfc53000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7fb0cfc53000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfc53000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cfc53000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1640383648.149323
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.149393 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cfc55000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fb0cfc55000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfc55000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fb0cfc55000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.149393
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.149454 update-passwd@7fb0d010b9f7[2085] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383648.149454
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.149515 update-passwd@7fb0d010bb0d[2085] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1640383648.149515
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.149580 update-passwd@7fb0d010bbd4[2085] read(4, 0x7ffc8dec7ef8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7ef8"
+                        }, 
+                        "time": 1640383648.14958
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.149635 update-passwd@7fb0d010b943[2085] fstat(4, 0x7ffc8dec7d90) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7d90"
+                        }, 
+                        "time": 1640383648.149635
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.149697 update-passwd@7fb0d010bd03[2085] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fb0cfa4d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfa4d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.149697
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.149768 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cfa72000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7fb0cfa72000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfa72000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cfa72000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1640383648.149768
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.149828 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cfbe5000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7fb0cfbe5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfbe5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cfbe5000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1640383648.149828
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.149878 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cfc2e000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7fb0cfc2e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfc2e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cfc2e000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1640383648.149878
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.149950 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cfc34000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fb0cfc34000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfc34000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fb0cfc34000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.14995
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.150028 update-passwd@7fb0d010b9f7[2085] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383648.150028
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.150097 update-passwd@7fb0d010bb0d[2085] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1640383648.150097
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.150153 update-passwd@7fb0d010bbd4[2085] read(4, 0x7ffc8dec7ed8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7ed8"
+                        }, 
+                        "time": 1640383648.150153
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.150199 update-passwd@7fb0d010b943[2085] fstat(4, 0x7ffc8dec7d70) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7d70"
+                        }, 
+                        "time": 1640383648.150199
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.150264 update-passwd@7fb0d010bd03[2085] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fb0cfa47000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfa47000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.150264
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.150337 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cfa48000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fb0cfa48000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfa48000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cfa48000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1640383648.150337
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.150396 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cfa4a000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fb0cfa4a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfa4a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cfa4a000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383648.150396
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.150449 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cfa4b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fb0cfa4b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfa4b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cfa4b000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1640383648.150449
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.150527 update-passwd@7fb0d010b9f7[2085] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383648.150527
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.150589 update-passwd@7fb0d010bb0d[2085] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1640383648.150589
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.150671 update-passwd@7fb0d010bbd4[2085] read(4, 0x7ffc8dec7eb8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7eb8"
+                        }, 
+                        "time": 1640383648.150671
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.150724 update-passwd@7fb0d010b943[2085] fstat(4, 0x7ffc8dec7d50) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7d50"
+                        }, 
+                        "time": 1640383648.150724
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.150776 update-passwd@7fb0d010bd03[2085] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fb0cf9d3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cf9d3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.150776
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.150897 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cf9d5000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7fb0cf9d5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cf9d5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cf9d5000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1640383648.150897
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.150984 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cfa27000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7fb0cfa27000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfa27000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cfa27000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1640383648.150984
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.151061 update-passwd@7fb0d010bd03[2085] mmap2(0x7fb0cfa45000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7fb0cfa45000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cfa45000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fb0cfa45000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1640383648.151061
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.151152 update-passwd@7fb0d010b9f7[2085] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383648.151152
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.152223 update-passwd@7fb0d010bd03[2085] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb0cf9d1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cf9d1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.152223
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.152313 update-passwd@7fb0d010bd03[2085] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb0cf9ce000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cf9ce000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.152313
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.152389 update-passwd@7fb0d00f0f30[2085] arch_prctl(ARCH_SET_FS, 140397374138304) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d00f0f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140397374138304"
+                        }, 
+                        "time": 1640383648.152389
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.153353 update-passwd@7fb0d010bdb7[2085] mprotect(0x7fb0cfc2e000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fb0cfc2e000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1640383648.153353
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.153437 update-passwd@7fb0d010bdb7[2085] mprotect(0x7fb0cfc53000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fb0cfc53000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383648.153437
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.153543 update-passwd@7fb0d010bdb7[2085] mprotect(0x7fb0cfa45000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fb0cfa45000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383648.153543
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.153614 update-passwd@7fb0d010bdb7[2085] mprotect(0x7fb0cfa4b000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fb0cfa4b000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383648.153614
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.153687 update-passwd@7fb0d010bdb7[2085] mprotect(0x7fb0cfc73000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fb0cfc73000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383648.153687
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.153767 update-passwd@7fb0d010bdb7[2085] mprotect(0x7fb0cfdc1000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fb0cfdc1000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383648.153767
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.154667 update-passwd@7fb0d010bdb7[2085] mprotect(0x7fb0cff94000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fb0cff94000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1640383648.154667
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.154736 update-passwd@7fb0d010bdb7[2085] mprotect(0x7fb0cffae000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fb0cffae000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383648.154736
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.155000 update-passwd@7fb0d010bdb7[2085] mprotect(0x7fb0d00ce000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fb0d00ce000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383648.155
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.155080 update-passwd@7fb0d010bdb7[2085] mprotect(0x7fb0d00d5000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fb0d00d5000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383648.15508
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.160361 update-passwd@7fb0d010bdb7[2085] mprotect(0x56288d503000, 327680, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x56288d503000", 
+                            "p1": "327680"
+                        }, 
+                        "time": 1640383648.160361
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.160433 update-passwd@7fb0d010bdb7[2085] mprotect(0x7fb0d0119000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fb0d0119000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383648.160433
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.160483 update-passwd@7fb0d010bd97[2085] munmap(0x7fb0d00d9000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0d010bd97", 
+                        "arguments": {
+                            "p0": "0x7fb0d00d9000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1640383648.160483
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.160552 update-passwd@7fb0cfc3f8df[2085] set_tid_address(0x7fb0cf9cea90) = 2085\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2085", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfc3f8df", 
+                        "arguments": {
+                            "p0": "0x7fb0cf9cea90"
+                        }, 
+                        "time": 1640383648.160552
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.160607 update-passwd@7fb0cfc3f94a[2085] set_robust_list(0x7fb0cf9ceaa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfc3f94a", 
+                        "arguments": {
+                            "p0": "0x7fb0cf9ceaa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383648.160607
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.160671 update-passwd@7fb0cfc4c010[2085] rt_sigaction(0x20, {0x7fb0cfc3f6c0, SA_SIGINFO|SA_RESTORER, 0x7fb0cfc4bf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfc4c010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7fb0cfc3f6c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7fb0cfc4bf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383648.160671
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.160719 update-passwd@7fb0cfc4c010[2085] rt_sigaction(0x21, {0x7fb0cfc3f760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7fb0cfc4bf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfc4c010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7fb0cfc3f760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7fb0cfc4bf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1640383648.160719
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.160773 update-passwd@7fb0cfc3fa19[2085] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfc3fa19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383648.160773
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.160924 update-passwd@7fb0cfb5fdf0[2085] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc8dec8bb0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb5fdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc8dec8bb0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383648.160924
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.161131 update-passwd@7fb0cfb602f7[2085] brk(0x0) = 94732230017024\n", 
+                        "api": "brk", 
+                        "return_value": "94732230017024", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb602f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1640383648.161131
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.161165 update-passwd@7fb0cfb602f7[2085] brk(0x562890ed5000) = 94732230152192\n", 
+                        "api": "brk", 
+                        "return_value": "94732230152192", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb602f7", 
+                        "arguments": {
+                            "p0": "0x562890ed5000"
+                        }, 
+                        "time": 1640383648.161165
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.162348 update-passwd@7fb0cfc48b86[2085] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc8dec8b00, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfc48b86", 
+                        "arguments": {
+                            "p2": "0x7ffc8dec8b00", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1640383648.162348
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.163367 update-passwd@7fb0cfb644c3[2085] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fb0cf1cd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cf1cd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb644c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.163367
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.163412 update-passwd@7fb0cfb64597[2085] mprotect(0x7fb0cf1ce000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb64597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fb0cf1ce000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1640383648.163412
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.163472 update-passwd@7fb0cfb6ab11[2085] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7fb0cf9ccf30, 0x7fb0cf9cd9d0, 0x7fb0cf9cd9d0) = 2086\n", 
+                        "api": "clone", 
+                        "return_value": "2086", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb6ab11", 
+                        "arguments": {
+                            "p2": "0x7fb0cf9cd9d0", 
+                            "p3": "0x7fb0cf9cd9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7fb0cf9ccf30"
+                        }, 
+                        "time": 1640383648.163472
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.163584 update-passwd@7fb0cfc48b86[2085] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfc48b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1640383648.163584
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.167946 update-passwd@7fb0cfb5fdf0[2085] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc8dec8660) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb5fdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc8dec8660", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1640383648.167946
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.168020 update-passwd@7fb0cfb5f5c1[2085] openat(AT_FDCWD, \"/etc/qemu-binfmt/mipsel\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb5f5c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/mipsel"
+                        }, 
+                        "time": 1640383648.16802
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.169267 update-passwd@7fb0cfb2e247[2085] uname(0x7ffc8dec82d0) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb2e247", 
+                        "arguments": {
+                            "p0": "0x7ffc8dec82d0"
+                        }, 
+                        "time": 1640383648.169267
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.169339 update-passwd@7fb0cfc4b337[2085] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfc4b337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383648.169339
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.169394 update-passwd@7fb0cfc4ad94[2085] read(3, 0x7ffc8dec85c0, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfc4ad94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffc8dec85c0"
+                        }, 
+                        "time": 1640383648.169394
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.169451 update-passwd@7fb0cfc4b337[2085] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfc4b337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1640383648.169451
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.170799 update-passwd@7fb0cfb602f7[2085] brk(0x562890ef6000) = 94732230287360\n", 
+                        "api": "brk", 
+                        "return_value": "94732230287360", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb602f7", 
+                        "arguments": {
+                            "p0": "0x562890ef6000"
+                        }, 
+                        "time": 1640383648.170799
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.171337 update-passwd@7fb0cfb644c3[2085] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb0cf14c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0cf14c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb644c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.171337
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.171910 update-passwd@7fb0cfb64597[2085] mprotect(0x56288d586000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb64597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x56288d586000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383648.17191
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.171976 update-passwd@7fb0cfb64667[2085] madvise(0x56288d586000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb64667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x56288d586000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1640383648.171976
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.173044 update-passwd@7fb0cfb644c3[2085] mmap2(0x0, 2147483648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fb048000000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb048000000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb644c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "2147483648", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.173044
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.173098 update-passwd@7fb0cfb59d59[2085] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb59d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1640383648.173098
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.173160 update-passwd@7fb0cfb59613[2085] fstat(4, 0x7ffc8dec7cd0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb59613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc8dec7cd0"
+                        }, 
+                        "time": 1640383648.17316
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.173198 update-passwd@7fb0cfb59fb4[2085] read(4, 0x562890ed34e0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb59fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x562890ed34e0"
+                        }, 
+                        "time": 1640383648.173198
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.173246 update-passwd@7fb0cfb5f3f7[2085] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb5f3f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1640383648.173246
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.173306 update-passwd@7fb0cfb642e9[2085] gettid() = 2085\n", 
+                        "api": "gettid", 
+                        "return_value": "2085", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb642e9", 
+                        "arguments": {}, 
+                        "time": 1640383648.173306
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.173341 update-passwd@7fb0cfb59613[2085] fstat(3, 0x7ffc8dec8540) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb59613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffc8dec8540"
+                        }, 
+                        "time": 1640383648.173341
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.173377 update-passwd@7fb0cfb2f717[2085] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb2f717", 
+                        "arguments": {}, 
+                        "time": 1640383648.173377
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.173413 update-passwd@7fb0cfb2f737[2085] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb2f737", 
+                        "arguments": {}, 
+                        "time": 1640383648.173413
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.173449 update-passwd@7fb0cfc4ad94[2085] read(3, 0x7ffc8dec87a0, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfc4ad94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffc8dec87a0"
+                        }, 
+                        "time": 1640383648.173449
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.173531 update-passwd@7fb0cfb644c3[2085] mmap2(0x7fb0c7fe7000, 102400, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fb0c7fe7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0c7fe7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb644c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7fb0c7fe7000", 
+                            "p1": "102400", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.173531
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.173618 update-passwd@7fb0cfb644c3[2085] mmap2(0x7fb0c7fe7000, 32768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7fb0c7fe7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0c7fe7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb644c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fb0c7fe7000", 
+                            "p1": "32768", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.173618
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.173666 update-passwd@7fb0cfb644c3[2085] mmap2(0x7fb0c7ffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 28672) = 0x7fb0c7ffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0c7ffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb644c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fb0c7ffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1640383648.173666
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.173716 update-passwd@7fb0cfc4ae27[2085] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfc4ae27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1640383648.173716
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.173767 update-passwd@7fb0cfb644c3[2085] mmap2(0x7fb0c77e6000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fb0c77e6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0c77e6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb644c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fb0c77e6000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.173767
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.173821 update-passwd@7fb0cfb602f7[2085] brk(0x562890f17000) = 94732230422528\n", 
+                        "api": "brk", 
+                        "return_value": "94732230422528", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb602f7", 
+                        "arguments": {
+                            "p0": "0x562890f17000"
+                        }, 
+                        "time": 1640383648.173821
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.173902 update-passwd@7fb0cfb64597[2085] mprotect(0x7fb0c77e6000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb64597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fb0c77e6000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1640383648.173902
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.173953 update-passwd@7fb0cfc4b55e[2085] openat(AT_FDCWD, \"/lib/ld.so.1\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfc4b55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld.so.1"
+                        }, 
+                        "time": 1640383648.173953
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.174027 update-passwd@7fb0cfb5a057[2085] write(2, \"/lib/ld.so.1: No such file or directory\\n\", 40) = 40\n", 
+                        "api": "write", 
+                        "return_value": "40", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb5a057", 
+                        "arguments": {
+                            "p2": "40", 
+                            "p0": "2", 
+                            "p1": "/lib/ld.so.1: No such file or directory\n"
+                        }, 
+                        "time": 1640383648.174027
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.174115 update-passwd@7fb0cfb2e926[2085] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb2e926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1640383648.174115
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2085, 
+                        "raw": "Fri Dec 24 22:07:28 2021.174157 update-passwd@7fb0cfb2e926[2085] futex(0x7fb0cf9cea90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb2e926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7fb0cf9cea90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1640383648.174157
+                    }
+                ], 
+                "pid": 2085, 
+                "process_name": "update-passwd", 
+                "command_line": "/tmp/update-passwd", 
+                "first_seen": 1640383648.139394, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:28 2021.163695 update-passwd@7fb0cfc41117[2086] set_robust_list(0x7fb0cf9cd9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfc41117", 
+                        "arguments": {
+                            "p0": "0x7fb0cf9cd9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1640383648.163695
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:28 2021.163793 update-passwd@7fb0cfb644c3[2086] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fb0c71cd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb0c71cd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb644c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1640383648.163793
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:28 2021.163870 update-passwd@7fb0cfb64567[2086] munmap(0x7fb0c71cd000, 14888960) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb64567", 
+                        "arguments": {
+                            "p0": "0x7fb0c71cd000", 
+                            "p1": "14888960"
+                        }, 
+                        "time": 1640383648.16387
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:28 2021.163935 update-passwd@7fb0cfb64567[2086] munmap(0x7fb0cc000000, 52219904) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb64567", 
+                        "arguments": {
+                            "p0": "0x7fb0cc000000", 
+                            "p1": "52219904"
+                        }, 
+                        "time": 1640383648.163935
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:28 2021.163994 update-passwd@7fb0cfb64597[2086] mprotect(0x7fb0c8000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfb64597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fb0c8000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1640383648.163994
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "update-passwd", 
+                        "pid": 2086, 
+                        "raw": "Fri Dec 24 22:07:28 2021.164080 update-passwd@7fb0cfc4b440[2086] nanosleep([0.010000000], 0x7fb0cf9ccd80) = 0\n", 
+                        "api": "nanosleep", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fb0cfc4b440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7fb0cf9ccd80"
+                        }, 
+                        "time": 1640383648.16408
+                    }
+                ], 
+                "pid": 2086, 
+                "process_name": "update-passwd", 
+                "command_line": "", 
+                "first_seen": 1640383648.163695, 
+                "ppid": 2085, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2085, 
+                "process_name": "update-passwd", 
+                "command_line": "/tmp/update-passwd", 
+                "first_seen": 1640383648.139394, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2086, 
+                        "process_name": "update-passwd", 
+                        "command_line": "", 
+                        "first_seen": 1640383648.163695, 
+                        "ppid": 2085, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-12-24 22:07:16,002 [root] DEBUG: Starting analyzer from: /tmp/tmpChJ4X2\n", 
+            "2021-12-24 22:07:16,002 [root] DEBUG: Storing results at: /tmp/yoJlggqHoW\n", 
+            "2021-12-24 22:07:18,245 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-12-24 22:07:18,247 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-12-24 22:07:18,749 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-12-24 22:07:28,132 [lib.core.packages] INFO: Process startup took 9.38 seconds\n", 
+            "2021-12-24 22:07:28,133 [root] INFO: Added new process to list with pid: 2072\n", 
+            "2021-12-24 22:07:40,151 [root] INFO: Process with pid 2072 has terminated\n", 
+            "2021-12-24 22:07:40,152 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-12-24 22:07:43,155 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-12-24 22:07:43,156 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-12-25 10:04:29,713 [cuckoo.core.scheduler] DEBUG: Task #2549106: no machine available yet\n", 
+            "2021-12-25 10:04:59,756 [cuckoo.core.scheduler] DEBUG: Task #2549106: no machine available yet\n", 
+            "2021-12-25 10:05:29,839 [cuckoo.core.scheduler] DEBUG: Task #2549106: no machine available yet\n", 
+            "2021-12-25 10:05:59,883 [cuckoo.core.scheduler] DEBUG: Task #2549106: no machine available yet\n", 
+            "2021-12-25 10:06:29,930 [cuckoo.core.scheduler] DEBUG: Task #2549106: no machine available yet\n", 
+            "2021-12-25 10:06:59,977 [cuckoo.core.scheduler] DEBUG: Task #2549106: no machine available yet\n", 
+            "2021-12-25 10:07:30,018 [cuckoo.core.scheduler] DEBUG: Task #2549106: no machine available yet\n", 
+            "2021-12-25 10:08:00,063 [cuckoo.core.scheduler] DEBUG: Task #2549106: no machine available yet\n", 
+            "2021-12-25 10:08:30,095 [cuckoo.core.scheduler] DEBUG: Task #2549106: no machine available yet\n", 
+            "2021-12-25 10:09:00,135 [cuckoo.core.scheduler] DEBUG: Task #2549106: no machine available yet\n", 
+            "2021-12-25 10:09:30,180 [cuckoo.core.scheduler] DEBUG: Task #2549106: no machine available yet\n", 
+            "2021-12-25 10:10:00,231 [cuckoo.core.scheduler] DEBUG: Task #2549106: no machine available yet\n", 
+            "2021-12-25 10:10:30,276 [cuckoo.core.scheduler] DEBUG: Task #2549106: no machine available yet\n", 
+            "2021-12-25 10:11:00,318 [cuckoo.core.scheduler] DEBUG: Task #2549106: no machine available yet\n", 
+            "2021-12-25 10:11:30,362 [cuckoo.core.scheduler] DEBUG: Task #2549106: no machine available yet\n", 
+            "2021-12-25 10:12:00,404 [cuckoo.core.scheduler] DEBUG: Task #2549106: no machine available yet\n", 
+            "2021-12-25 10:12:30,464 [cuckoo.core.scheduler] DEBUG: Task #2549106: no machine available yet\n", 
+            "2021-12-25 10:13:00,511 [cuckoo.core.scheduler] DEBUG: Task #2549106: no machine available yet\n", 
+            "2021-12-25 10:13:30,583 [cuckoo.core.scheduler] INFO: Task #2549106: acquired machine Ubuntu1904x647 (label=Ubuntu1904x647)\n", 
+            "2021-12-25 10:13:30,587 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.107 for task #2549106\n", 
+            "2021-12-25 10:13:30,745 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3541035 (interface=vboxnet0, host=192.168.168.107)\n", 
+            "2021-12-25 10:13:30,880 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x647\n", 
+            "2021-12-25 10:13:31,273 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x647 to Snapshot\n", 
+            "2021-12-25 10:13:40,269 [cuckoo.core.guest] INFO: Starting analysis #2549106 on guest (id=Ubuntu1904x647, ip=192.168.168.107)\n", 
+            "2021-12-25 10:13:41,273 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: not ready yet\n", 
+            "2021-12-25 10:13:46,292 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x647, ip=192.168.168.107)\n", 
+            "2021-12-25 10:13:46,312 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x647, ip=192.168.168.107, monitor=latest, size=72028)\n", 
+            "2021-12-25 10:13:47,468 [cuckoo.core.resultserver] DEBUG: Task #2549106: live log analysis.log initialized.\n", 
+            "2021-12-25 10:13:52,827 [cuckoo.core.resultserver] DEBUG: Task #2549106: File upload for 'shots/0001.jpg'\n", 
+            "2021-12-25 10:13:52,834 [cuckoo.core.resultserver] DEBUG: Task #2549106 uploaded file length: 171578\n", 
+            "2021-12-25 10:14:01,445 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549106 still processing\n", 
+            "2021-12-25 10:14:14,639 [cuckoo.core.resultserver] DEBUG: Task #2549106: File upload for 'logs/all.stap'\n", 
+            "2021-12-25 10:14:14,660 [cuckoo.core.resultserver] DEBUG: Task #2549106 uploaded file length: 21502\n", 
+            "2021-12-25 10:14:16,505 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549106 still processing\n", 
+            "2021-12-25 10:14:31,572 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549106 still processing\n", 
+            "2021-12-25 10:14:46,644 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549106 still processing\n", 
+            "2021-12-25 10:15:01,716 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549106 still processing\n", 
+            "2021-12-25 10:15:16,903 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549106 still processing\n", 
+            "2021-12-25 10:15:31,976 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549106 still processing\n", 
+            "2021-12-25 10:15:47,064 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549106 still processing\n", 
+            "2021-12-25 10:16:02,136 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549106 still processing\n", 
+            "2021-12-25 10:16:17,198 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549106 still processing\n", 
+            "2021-12-25 10:16:32,357 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549106 still processing\n", 
+            "2021-12-25 10:16:47,451 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549106 still processing\n", 
+            "2021-12-25 10:17:02,601 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549106 still processing\n", 
+            "2021-12-25 10:17:17,703 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549106 still processing\n", 
+            "2021-12-25 10:17:32,771 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2549106 still processing\n", 
+            "2021-12-25 10:17:47,824 [cuckoo.core.guest] INFO: Ubuntu1904x647: end of analysis reached!\n", 
+            "2021-12-25 10:17:47,841 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-12-25 10:17:47,945 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-12-25 10:18:01,237 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x647 to path /srv/cuckoo/cwd/storage/analyses/2549106/memory.dmp\n", 
+            "2021-12-25 10:18:01,239 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x647\n", 
+            "2021-12-25 10:18:05,133 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.107 for task #2549106\n", 
+            "2021-12-25 10:18:05,134 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2549106\n", 
+            "2021-12-25 10:18:05,243 [cuckoo.core.scheduler] DEBUG: Released database task #2549106\n", 
+            "2021-12-25 10:18:05,325 [cuckoo.core.scheduler] INFO: Task #2549106: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld.so.1", 
+        "_DYNAMIC_LINKING", 
+        "__RLD_MAP", 
+        "__libc_csu_init", 
+        "__libc_csu_fini", 
+        "__libc_start_main", 
+        "__gmon_start__", 
+        "_ITM_deregisterTMCloneTable", 
+        "_ITM_registerTMCloneTable", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "stderr", 
+        "__errno_location", 
+        "strerror", 
+        "__fprintf_chk", 
+        "fwrite", 
+        "strlen", 
+        "xmalloc", 
+        "strcpy", 
+        "__vasprintf_chk", 
+        "__stack_chk_guard", 
+        "__stack_chk_fail", 
+        "xstrdup", 
+        "copy_group", 
+        "copy_passwd", 
+        "copy_shadow", 
+        "strcmp", 
+        "opt_verbose", 
+        "fopen64", 
+        "fgetpwent", 
+        "fclose", 
+        "__printf_chk", 
+        "fgetgrent", 
+        "fgetspent", 
+        "__assert_fail", 
+        "master_group", 
+        "master_passwd", 
+        "sys_group", 
+        "sys_shadow", 
+        "sys_passwd", 
+        "__ctype_b_loc", 
+        "flag_debconf", 
+        "user_domain", 
+        "group_domain", 
+        "xasprintf", 
+        "ask_debconf", 
+        "remove_node", 
+        "add_node", 
+        "flag_dirty", 
+        "copy_node", 
+        "specialusers", 
+        "escape_debconf", 
+        "fputpwent", 
+        "putspent", 
+        "putgrent", 
+        "unlink", 
+        "rename", 
+        "__lxstat64", 
+        "lchown", 
+        "copy_filemodes", 
+        "replace_file", 
+        "opt_dryrun", 
+        "system_accounts", 
+        "write_passwd", 
+        "put_file_in_place", 
+        "system_shadow", 
+        "write_shadow", 
+        "system_groups", 
+        "write_group", 
+        "ulckpwdf", 
+        "opt_nolock", 
+        "getopt_long", 
+        "opt_sanity", 
+        "optarg", 
+        "getenv", 
+        "debconfclient_new", 
+        "read_passwd", 
+        "master_accounts", 
+        "read_group", 
+        "master_groups", 
+        "read_shadow", 
+        "process_moved_entries", 
+        "specialgroups", 
+        "process_new_entries", 
+        "process_old_entries", 
+        "process_changed_groups", 
+        "process_changed_accounts", 
+        "commit_files", 
+        "debconfclient_delete", 
+        "unlock_files", 
+        "libdebconfclient.so.0", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "ld.so.1", 
+        "_ftext", 
+        "_fdata", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.4", 
+        "GLIBC_2.3", 
+        "GLIBC_2.3.4", 
+        "GLIBC_2.8", 
+        "GLIBC_2.2", 
+        "GLIBC_2.0", 
+        "Error locking files: %s", 
+        "Error unlocking files: %s", 
+        "Out of memory!", 
+        "Formatting string failed: %s", 
+        "Internal error: unexpected entrytype %d", 
+        "Reading passwd from %s", 
+        "Error opening passwd file %s: %s", 
+        "Error reading passwd file %s: %s", 
+        "Reading group from %s", 
+        "Error opening group file %s: %s", 
+        "Error reading group file %s: %s", 
+        "Reading shadow from %s", 
+        "Error opening shadow file %s: %s", 
+        "Error reading shadow file %s: %s", 
+        "update-passwd.c", 
+        "passwd!=NULL", 
+        "f!=NULL", 
+        "%s:%s:::%s:%s:%s", 
+        "%s:%s:%u:%u:%s:%s:%s", 
+        "Usage: update-passwd [OPTION]...", 
+        "  -p, --passwd-master=file  Use file as the master account list", 
+        "  -g, --group-master=file   Use file as the master group list", 
+        "  -P, --passwd=file         Use file as the system passwd file", 
+        "  -S, --shadow=file         Use file as the system shadow file", 
+        "  -G, --group=file          Use file as the system group file", 
+        "  -s, --sanity-check        Only perform sanity-checks", 
+        "  -v, --verbose             Show details about what we are doing (recommended)", 
+        "  -n, --dry-run             Just say what we would do but do nothing", 
+        "  -L, --no-locking          Don't try to lock files", 
+        "  -h, --help                Display this information and exit", 
+        "  -V, --version             Show version number and exit", 
+        " File locations used:", 
+        "   master passwd: %s", 
+        "   master group : %s", 
+        "   system passwd: %s", 
+        "   system shadow: %s", 
+        "   system group : %s", 
+        "Report bugs to the Debian bug tracking system, package \"base-passwd\".", 
+        "3.5.43", 
+        "update-passwd %s", 
+        "INPUT %s %s", 
+        "Debconf interaction failed", 
+        "GET %s", 
+        "base-passwd/%s/%s/%s/move", 
+        "base-passwd/%s-move", 
+        "REGISTER %s %s", 
+        "SUBST %s %s %s", 
+        "Moving %s \"%s\" (%u) to before \"+\" entry", 
+        "base-passwd/%s/%s/%s/add", 
+        "base-passwd/%s-add", 
+        "medium", 
+        "Adding %s \"%s\" (%u)", 
+        "base-passwd/%s/%s/%s/remove", 
+        "base-passwd/%s-remove", 
+        "Removing %s \"%s\" (%u)", 
+        "ABSENT", 
+        "(none)", 
+        "base-passwd/%s/user/%s/uid/%u/%u", 
+        "base-passwd/user-change-uid", 
+        "old_uid", 
+        "new_uid", 
+        "Changing uid of %s from %u to %u", 
+        "base-passwd/%s/user/%s/gid/%u/%u", 
+        "base-passwd/user-change-gid", 
+        "old_gid", 
+        "old_group", 
+        "new_gid", 
+        "new_group", 
+        "Changing gid of %s from %u (%s) to %u (%s)", 
+        "base-passwd/%s/user/%s/gecos", 
+        "base-passwd/user-change-gecos", 
+        "old_gecos", 
+        "new_gecos", 
+        "Changing GECOS of %s from \"%s\" to \"%s\".", 
+        "base-passwd/%s/user/%s/home/%s/%s", 
+        "base-passwd/user-change-home", 
+        "old_home", 
+        "new_home", 
+        "Changing home-directory of %s from %s to %s", 
+        "base-passwd/%s/user/%s/shell/%s/%s", 
+        "base-passwd/user-change-shell", 
+        "old_shell", 
+        "new_shell", 
+        "Changing shell of %s from %s to %s", 
+        "base-passwd/%s/group/%s/gid/%u/%u", 
+        "base-passwd/group-change-gid", 
+        "Changing gid of %s from %u to %u", 
+        "Writing passwd-file to %s", 
+        "passwd->t==t_passwd", 
+        "Failed to open passwd-file %s for writing: %s", 
+        "Error writing passwd-entry: %s", 
+        "Error closing passwd-file: %s", 
+        "Writing shadow-file to %s", 
+        "shadow->t==t_shadow", 
+        "Failed to open shadow-file %s for writing: %s", 
+        "Error writing shadow-entry: %s", 
+        "Error closing shadow-file: %s", 
+        "Writing group-file to %s", 
+        "group->t==t_group", 
+        "Failed to open group-file %s for writing: %s", 
+        "Error writing group-entry: %s", 
+        "Error closing group-file: %s", 
+        "Error unlinking %s: %s", 
+        "Error renaming %s to %s: %s", 
+        "Error lstating %s: %s", 
+        "Error chmoding %s: %s", 
+        "Error lchowning %s: %s", 
+        "Error unlinking old backupfile %s: %s", 
+        "Error making backupfile %s: %s", 
+        "Error: failed to replace %s with %s: %s", 
+        "Replacing \"%s\" with \"%s\"", 
+        "No changes needed", 
+        "Would commit %d changes", 
+        "%d changes have been made, rewriting files", 
+        ".upwd-write", 
+        "Internal error: getopt_long returned unexpected value '%c'", 
+        "g:p:G:P:S:snvLhV", 
+        "DEBIAN_HAS_FRONTEND", 
+        "Cannot initialize debconf", 
+        "passwd-master", 
+        "group-master", 
+        "passwd", 
+        "shadow", 
+        "sanity-check", 
+        "verbose", 
+        "dry-run", 
+        "version", 
+        "system", 
+        "/etc/group", 
+        "/etc/shadow", 
+        "/etc/passwd", 
+        "/usr/share/base-passwd/group.master", 
+        "/usr/share/base-passwd/passwd.master", 
+        "write_group", 
+        "write_shadow", 
+        "write_passwd", 
+        "fputpwent", 
+        "d1c7849083a42b9a11e9e940dc542c5f6417fc.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".MIPS.abiflags", 
+        ".reginfo", 
+        ".note.gnu.build-id", 
+        ".dynamic", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".MIPS.stubs", 
+        ".rodata", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".rld_map", 
+        ".sdata", 
+        ".gnu.attributes", 
+        ".mdebug.abi32", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
